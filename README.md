@@ -1,3 +1,4 @@
+<img src="[https://img.freepik.com/fotos-premium/electrocardiograma-linea-latidos-pulso-traza-pulso-ecg-o-ekg-simbolo-grafico-cardio-salud-medicina_941429-23.jpg]" alt="img principal" width="300"/>
 <<<<<<< HEAD
 # ISBIO_2024_G1
 #Integrantes
