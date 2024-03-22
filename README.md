@@ -4,3 +4,6 @@ Repositorio del curso Integrantes:
 - Jennyfer Arantxa Arismendiz Millones(colaborador)- jennyfer.arismendiz@upch.pe
 - Gloria Elvira Atencio Inga (colaborador) - gloria.atencio@upch.pe
 - Raul Ricardo Gonzales Rodriguez (colaborador) - raul.gonzales@upch.pe
+- Jhoana Olenka Rodriguez Diaz (colaborador)-jhoana.rodriguez@upch.pe
+ 	
+
