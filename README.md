@@ -34,6 +34,9 @@ Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi á
 # **Jennyfer Arantxa Arismendiz Millones**
 Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis principales enfoques son las ramas de biomateriales e ingeniería clínica. Asimismo, muestro gran interés en el proceso de creación junto con desarrollo de proyectos innovadores que apoyan el campo médico.
 
+<p align="center">
+  <img src="jennyfer.jfif" alt="fotoj" width="220" height="300"/>
+</p>
 # **Jhoana Olenka Rodriguez Diaz**
 
 
