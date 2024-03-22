@@ -44,3 +44,6 @@ Estudiante de la carrera de Ingeniería Biomédica que cursa su octavo ciclo y d
 
 # **Raul Ricardo Gonzales Rodriguez**
 Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se centra en aplicar los principios de la ingeniería , sobretodo en mi área de interés en Ingeniería Clinica; particularmente en investigación en gestión tecnológica y  metrología biomédica. Considero tener habilidades analíticas y críticas al momento de trabajar en equipo. Correo personal: raul.gonzales@upch.pe
+<p align="center">
+  <img src="Fotos/raul.jpg" alt="fotog" width="220" height="300"/>
+</p>
