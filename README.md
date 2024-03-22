@@ -22,8 +22,11 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 - [Participantes](#encabezado-5)
 - [Docentes del curso](#encabezado-4)
   
-![Imagen de un señal](https://img.freepik.com/fotos-premium/electrocardiograma-linea-latidos-pulso-traza-pulso-ecg-o-ekg-simbolo-grafico-cardio-salud-medicina_941429-23.jpg)
 
 # Acerca de nosotros:
 # **Gloria Elvira Atencio Inga**
 Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi área de interes es la ingenieria clínica y la ingeniería de tejidos.  Mi pasión por este campo se centra en la creación y ejecución de soluciones innovadoras que puedan mejorar la atención médica y contribuir al avance tecnológico en el sector de la salud. Correo personal: gloria .atencio@upch.pe
+
+# **Jennyfer Arantxa Arismendiz Millones**
+Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis principales enfoques son las ramas de biomateriales e ingeniería clínica. Asimismo, muestro gran interés en el proceso de creación junto con desarrollo de proyectos innovadores que apoyan el campo médico.
+
