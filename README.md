@@ -1,7 +1,7 @@
 <img src="https://img.freepik.com/fotos-premium/electrocardiograma-linea-latidos-pulso-traza-pulso-ecg-o-ekg-simbolo-grafico-cardio-salud-medicina_941429-23.jpg" alt="img principal" width="900" height="150"/>
 
 #**ISBIO_2024_G1**
-#**Integrantes**
+##**Integrantes**
 =======
 # Introducción a Señales Biomédicas Grupo 1
 **Repositorio del curso Integrantes:**
