@@ -23,3 +23,5 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 - [Docentes del curso](#encabezado-4)
   
 >>>>>>> 88a96f8f062007a7d1ce34a8552916d14a9b99e3
+
+![Imagen de un señal](https://www.bing.com/images/create/ekg-signal/1-65fdf6ab02f440eba825f7be5984fed2?id=RXD7Dthc4AjvdHaMYqrfQw%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.N4MgKyjeavgLAYgzhRLI&FORM=GCRIDP&mode=overlay)https://www.bing.com/images/create/ekg-signal/1-65fdf6ab02f440eba825f7be5984fed2?id=RXD7Dthc4AjvdHaMYqrfQw%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.N4MgKyjeavgLAYgzhRLI&FORM=GCRIDP&mode=overlay)
