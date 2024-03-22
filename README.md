@@ -25,7 +25,7 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 
 # Acerca de nosotros:
 # **Gloria Elvira Atencio Inga**
-Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi área de interes es la ingenieria clínica y la ingeniería de tejidos.  Mi pasión por este campo se centra en la creación y ejecución de soluciones innovadoras que puedan mejorar la atención médica y contribuir al avance tecnológico en el sector de la salud. Correo personal: gloria .atencio@upch.pe
+Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi área de interes es la ingenieria clínica y la ingeniería de tejidos.  Mi pasión por este campo se centra en la creación y ejecución de soluciones innovadoras que puedan mejorar la atención médica y contribuir al avance tecnológico en el sector de la salud. Correo personal: gloria.atencio@upch.pe
 ![fotog](Descargas/gloria.jpg)
 
 # **Jennyfer Arantxa Arismendiz Millones**
