@@ -1,9 +1,8 @@
 <img src="https://img.freepik.com/fotos-premium/electrocardiograma-linea-latidos-pulso-traza-pulso-ecg-o-ekg-simbolo-grafico-cardio-salud-medicina_941429-23.jpg" alt="img principal" width="900" height="150"/>
 
-#ISBIO_2024_G1
-##Integrantes
+
 =======
-# Introducción a Señales Biomédicas Grupo 1
+# Introducción a Señales Biomédicas Grupo 1 (2024-1)
 **Repositorio del curso Integrantes:**
 
 - Jennyfer Arantxa Arismendiz Millones(colaborador)- jennyfer.arismendiz@upch.pe
@@ -23,6 +22,4 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 - [Participantes](#encabezado-5)
 - [Docentes del curso](#encabezado-4)
   
->>>>>>> 88a96f8f062007a7d1ce34a8552916d14a9b99e3
-
 ![Imagen de un señal](https://img.freepik.com/fotos-premium/electrocardiograma-linea-latidos-pulso-traza-pulso-ecg-o-ekg-simbolo-grafico-cardio-salud-medicina_941429-23.jpg)
