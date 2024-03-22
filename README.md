@@ -25,5 +25,5 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 ![Imagen de un señal](https://img.freepik.com/fotos-premium/electrocardiograma-linea-latidos-pulso-traza-pulso-ecg-o-ekg-simbolo-grafico-cardio-salud-medicina_941429-23.jpg)
 
 # Acerca de nosotros:
-# **Gloria Elvira Atencio Inga **
+# **Gloria Elvira Atencio Inga**
 Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi área de interes es la ingenieria clínica y la ingeniería de tejidos.  Mi pasión por este campo se centra en la creación y ejecución de soluciones innovadoras que puedan mejorar la atención médica y contribuir al avance tecnológico en el sector de la salud. Correo personal: gloria .atencio@upch.pe
