@@ -17,7 +17,7 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 - [¿Qué es una bioseñal?](#encabezado-1)
 - [Materiales](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Materiales)
 - [Metodología](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5ef8e18c9a211c9320726f0674edbedbfe208614/Tabla%20de%20Contenidos/Metodolog%C3%ADa)
-- [Temática del proyecto](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Tema%C3%ADtica%20del%20proyecto)
+- [Temática del proyecto](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9a58e6762a9c63dfe3a61f5c6325aef80b887556/Tabla%20de%20Contenidos/Tem%C3%A1tica%20del%20proyecto)
 - [Contenido del curso](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Contenido%20del%20curso)
 - [Participantes](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Participantes)
 - [Docentes del curso](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Docente%20del%20curso)
