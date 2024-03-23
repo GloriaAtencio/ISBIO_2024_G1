@@ -3,7 +3,8 @@
 
 =======
 # Introducción a Señales Biomédicas Grupo 1 (2024-1)
-**Repositorio del curso Integrantes:**
+**Repositorio del curso**
+**Integrantes:**
 
 - Jennyfer Arantxa Arismendiz Millones(colaborador)- jennyfer.arismendiz@upch.pe
 - Gloria Elvira Atencio Inga (colaborador) - gloria.atencio@upch.pe
