@@ -15,7 +15,7 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 # **Tabla de Contenidos**
 
 - [¿Qué es una bioseñal?](#encabezado-1)
-- [Materiales](#encabezado-2)
+- [Materiales](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Materiales)
 - [Metodología](#encabezado-3)
 - [Temática del proyecto](#encabezado-4)
 - [Contenido del curso](#encabezado-3)
