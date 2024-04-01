@@ -9,7 +9,7 @@
 - Jennyfer Arantxa Arismendiz Millones(colaborador)- jennyfer.arismendiz@upch.pe
 - Gloria Elvira Atencio Inga (colaborador) - gloria.atencio@upch.pe
 - Raul Ricardo Gonzales Rodriguez (colaborador) - raul.gonzales@upch.pe
-- Jhoana Olenka Rodriguez Diaz (colaborador)-jhoana.rodriguez@upch.pe
+- Jhoana Olenka Rodriguez Diaz (colaborador)- jhoana.rodriguez@upch.pe
 
 ¡Bienvenidos! Somos el Grupo 1 del curso de Introducción a Señales Biomédicas. Nos apasiona el estudio de las señales EKG y estamos emocionados de compartir nuestro proyecto, 
 donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este viaje hacia el corazón de la investigación biomédica! 
@@ -33,7 +33,7 @@ Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi á
 </p>
 
 # **Jennyfer Arantxa Arismendiz Millones**
-Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis principales enfoques son las ramas de biomateriales e ingeniería clínica. Asimismo, muestro gran interés en el proceso de creación junto con desarrollo de proyectos innovadores que apoyan el campo médico.
+Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis principales enfoques son las ramas de biomateriales e ingeniería clínica. Asimismo, muestro gran interés en el proceso de creación junto con desarrollo de proyectos innovadores que apoyan el campo médico.Correo personal: jennyfer.arismendiz@upch.pe
 
 <p align="center">
   <img src="Fotos/jennyfer.jfif" alt="fotoj" width="220" height="300"/>
