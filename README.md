@@ -54,8 +54,8 @@ Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se c
   <img src="Fotos/raul.jpg" alt="fotog" width="220" height="300"/>
 </p>
 
-Referencia de la imagen:
-- [1]starline, Medical science and healthcare background with heartbeat line. Accessed: Apr. 03, 2024. [Online]. Available: https://img.freepik.com/free-vector/medical-science-healthcare-background-with-heartbeat-line_1017-26361.jpg?w=1060&t=st=1712145478~exp=1712146078~hmac=18057428fc7c94b25f3669be26afe4de9e927771881bbda487511c12e3dec01d
+**Referencia de la imagen:**
+- [1]starline, Medical science and healthcare background with heartbeat line. Accessed: Apr. 03, 2024. [Online]. Disponible en: https://img.freepik.com/free-vector/medical-science-healthcare-background-with-heartbeat-line_1017-26361.jpg?w=1060&t=st=1712145478~exp=1712146078~hmac=18057428fc7c94b25f3669be26afe4de9e927771881bbda487511c12e3dec01d
 
   
 
