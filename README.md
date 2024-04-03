@@ -94,33 +94,17 @@ Mayor acceso a la atención médica: La telemedicina permite que los pacientes e
 
 **Referencias bibliográficas:**
 
-**[1]“EsSalud advierte que varones mayores de 40 años son los que más padecen de arritmias**
+**[1]“EsSalud advierte que varones mayores de 40 años son los que más padecen de arritmias cardíacas,” Essalud, Nov. 30, 2022. http://noticias.essalud.gob.pe/?inno-noticia=essalud-advierte-que-varones-mayores-de-40-anos-son-los-que-mas-padecen-de-arritmias-cardiacas#:~:text=Por%20su%20parte%2C%20el%20doctor (accessed Apr. 01, 2024).**
 
-**cardíacas,” Essalud, Nov. 30, 2022. http://noticias.essalud.gob.pe/?inno-noticia=essalud-advierte-**
+**[2]Y. Ansari, O. Mourad, K. Qaraqe y E. Serpedin, “Deep learning for ECG Arrhythmia detection and classification: 
+**an overview of progress for period 2017–2023”, Frontiers Physiol., vol. 14, septiembre de 2023. doi: 10.3389/fphys.2023.1246746.**
 
-**que-varones-mayores-de-40-anos-son-los-que-mas-padecen-de-arritmias-**
+**[3] F. Vega L., A.G. Cadena H., S. Larraza R., "Algoritmo para identificar y cuantificar cuadros arrítmicos utilizando Matlab,"** 
+**en Actas de la Conferencia de Ingeniería Biomédica, Universidad de Monterrey, Nuevo León, México, 2024. dx.doi.org/10.24254/CNIB.17.60**
 
-**cardiacas#:~:text=Por%20su%20parte%2C%20el%20doctor (accessed Apr. 01, 2024).**
-
-**[2]Y. Ansari, O. Mourad, K. Qaraqe y E. Serpedin, “Deep learning for ECG Arrhythmia detection and**
-
-**classification: an overview of progress for period 2017–2023”, Frontiers Physiol., vol. 14, septiembre**
-
-**de 2023. doi: 10.3389/fphys.2023.1246746.**
-
-**[3] F. Vega L., A.G. Cadena H., S. Larraza R., "Algoritmo para identificar y cuantificar cuadros**
-
-**arrítmicos utilizando Matlab," en Actas de la Conferencia de Ingeniería Biomédica, Universidad de**
-
-**Monterrey, Nuevo León, México, 2024. dx.doi.org/10.24254/CNIB.17.60**
-
-**[4]O. I. Coronado Reyes, A. D. C. Téllez Anguiano, J. A. Gutiérrez Gnecchi and M. E. Olvera Cortes,**
-
-**"Discrete wavelet transform-based ECG features detection and extraction using low-cost**
-
-**ADS1293EVM," 2023 IEEE International Autumn Meeting on Power, Electronics and Computing**
-
-**(ROPEC), Ixtapa, Mexico, 2023, pp. 1-6, doi: 10.1109/ROPEC58757.2023.10409404.**
+**[4]O. I. Coronado Reyes, A. D. C. Téllez Anguiano, J. A. Gutiérrez Gnecchi and M. E. Olvera Cortes,"Discrete wavelet transform-based**
+**ECG features detection and extraction using low-cost ADS1293EVM," 2023 IEEE International Autumn Meeting on Power,**
+**Electronics and Computing (ROPEC), Ixtapa, Mexico, 2023, pp. 1-6, doi: 10.1109/ROPEC58757.2023.10409404.**
 
 **PPT**
 
