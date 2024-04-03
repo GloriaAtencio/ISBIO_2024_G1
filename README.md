@@ -99,15 +99,8 @@ Mayor acceso a la atención médica: La telemedicina permite que los pacientes e
 [3] F. Vega L., A.G. Cadena H., S. Larraza R., "Algoritmo para identificar y cuantificar cuadros arrítmicos utilizando Matlab," en Actas de la Conferencia de Ingeniería Biomédica, Universidad de Monterrey, Nuevo León, México, 2024. dx.doi.org/10.24254/CNIB.17.60
 
 **PPT**
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGBUOTVuPE&#x2F;Qk2MVuU3_7_si0GifD074g&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGBUOTVuPE&#x2F;Qk2MVuU3_7_si0GifD074g&#x2F;view?utm_content=DAGBUOTVuPE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Problematica</a> de JHOANA OLENKA RODRIGUEZ DIAZ
 
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGBUOTVuPE&#x2F;Qk2MVuU3_7_si0GifD074g&#x2F;view?utm_content=DAGBUOTVuPE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Entregable 2:Planteamiento de Problemática y propuesta de solución</a> de GRUPO 1
 
   
 
