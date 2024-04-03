@@ -52,3 +52,8 @@ Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se c
 <p align="center">
   <img src="Fotos/raul.jpg" alt="fotog" width="220" height="300"/>
 </p>
+
+# Planteamiento del problema y solución
+# Contexto:
+
+
