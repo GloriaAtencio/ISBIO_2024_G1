@@ -32,9 +32,9 @@ Desarrollar un sistema integral para el diagnóstico de enfermedades cardíacas 
 
 **Beneficios:**
 
-**-Mejora en la precisión del diagnóstico:** El análisis automático del ECG puede mejorar la precisión del diagnóstico al reducir la variabilidad interobservadora.
-**-Detección temprana de arritmias:** La monitorización continua del ECG permite la detección temprana de arritmias esporádicas que podrían pasar desapercibidas con los métodos tradicionales.
-**-Mayor acceso a la atención médica:** La telemedicina permite que los pacientes en áreas remotas tengan acceso a especialistas en cardiología.
+-Mejora en la precisión del diagnóstico: El análisis automático del ECG puede mejorar la precisión del diagnóstico al reducir la variabilidad interobservadora.
+-Detección temprana de arritmias:La monitorización continua del ECG permite la detección temprana de arritmias esporádicas que podrían pasar desapercibidas con los métodos tradicionales.
+-Mayor acceso a la atención médica: La telemedicina permite que los pacientes en áreas remotas tengan acceso a especialistas en cardiología.
 
 **Referencias bibliográficas:**
 
