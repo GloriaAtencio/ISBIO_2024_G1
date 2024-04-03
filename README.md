@@ -55,6 +55,7 @@ Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se c
 
 # Planteamiento del problema y solución
 **Contexto:**
+
 Las enfermedades cardíacas son la principal causa de muerte a nivel mundial, con millones de personas afectadas cada año. 
 Las enfermedades cardíacas son un problema de salud pública importante en Perú. Según el Ministerio de Salud, las enfermedades cardiovasculares son la principal causa de muerte en el país, con una tasa de mortalidad de 148 por cada 100.000 habitantes.
 
@@ -67,8 +68,8 @@ El doctor Ángel Cueva Parra, especialista en electrofisiología cardíaca, señ
 
 **Estado del Arte:**
 1. Algoritmo para identificar y cuantificar cuadros arrítmicos utilizando Matlab.
+   
   Se propone un algoritmo simple para identificar arritmias cardíacas a partir de la localización de los picos de las ondas P, Q, R y S de un electrocardiograma (ECG). El estudio se basa   en la importancia del ECG como herramienta para detectar arritmias, utilizando la derivación V5 del ECG debido a su característica de tener una onda P con amplitud positiva.
-
   La metodología del proyecto se basa en dos fases principales: la localización de los puntos máximos de las ondas P, Q, R y S del ECG, y la identificación de arritmias de acuerdo a los    criterios y  características de las ondas . Se utilizan señales de ECG obtenidas de la Arrhythmia DataBase del MIT-BIH, con la derivación V5 y una velocidad de muestreo de 360 Hz. [3]
 
 
