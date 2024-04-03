@@ -1,4 +1,5 @@
 # Planteamiento del problema y solución
+## Planteamiento del problema
 **Contexto:**
 
 Las enfermedades cardíacas son la principal causa de muerte a nivel mundial, con millones de personas afectadas cada año. 
@@ -23,7 +24,7 @@ El doctor Ángel Cueva Parra, especialista en electrofisiología cardíaca, señ
   La plataforma utilizada para adquirir las señales de ECG es la tarjeta de adquisición ADS1293EVM y se utiliza el software MATLAB para calcular estas señales. El programa desarrollado     se evalúa con 30 registros de ECG de 6 segundos de duración, obteniendo resultados en la detección de características de interés superiores al 90%.
   Los resultados obtenidos muestran una alta precisión en la detección de características relevantes en las señales de ECG, lo que sugiere la viabilidad y efectividad de esta metodología   para aplicaciones clínicas y de diagnóstico.[4]
 
-**Propuesta de Solución:**
+###**Propuesta de Solución:**
 
 Desarrollar un sistema integral para el diagnóstico de enfermedades cardíacas que combine las siguientes tecnologías:
  - Dispositivo portátil de monitorización de ECG: Un dispositivo portátil que captura continuamente la señal de ECG del paciente y la transmite a un sistema de análisis remoto.
