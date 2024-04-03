@@ -96,7 +96,7 @@ Mayor acceso a la atención médica: La telemedicina permite que los pacientes e
 
 **[1]“EsSalud advierte que varones mayores de 40 años son los que más padecen de arritmias cardíacas,” Essalud, Nov. 30, 2022. http://noticias.essalud.gob.pe/?inno-noticia=essalud-advierte-que-varones-mayores-de-40-anos-son-los-que-mas-padecen-de-arritmias-cardiacas#:~:text=Por%20su%20parte%2C%20el%20doctor (accessed Apr. 01, 2024).**
 
-**[2]Y. Ansari, O. Mourad, K. Qaraqe y E. Serpedin, “Deep learning for ECG Arrhythmia detection and classification: 
+**[2]Y. Ansari, O. Mourad, K. Qaraqe y E. Serpedin, “Deep learning for ECG Arrhythmia detection and classification:** 
 **an overview of progress for period 2017–2023”, Frontiers Physiol., vol. 14, septiembre de 2023. doi: 10.3389/fphys.2023.1246746.**
 
 **[3] F. Vega L., A.G. Cadena H., S. Larraza R., "Algoritmo para identificar y cuantificar cuadros arrítmicos utilizando Matlab,"** 
