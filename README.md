@@ -22,7 +22,7 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 - [Contenido del curso](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Contenido%20del%20curso)
 - [Participantes](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Participantes)
 - [Docentes del curso](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Docente%20del%20curso)
-- [Docentes del curso](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/Entregable%202)
+- [Entregable 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/Entregable%202)
   
 
 # Acerca de nosotros:
