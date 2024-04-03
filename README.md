@@ -1,5 +1,4 @@
-<img src="https://img.freepik.com/fotos-premium/electrocardiograma-linea-latidos-pulso-traza-pulso-ecg-o-ekg-simbolo-grafico-cardio-salud-medicina_941429-23.jpg" alt="img principal" width="900" height="150"/>
-
+<img src="https://img.freepik.com/free-vector/medical-science-healthcare-background-with-heartbeat-line_1017-26361.jpg?w=1060" alt="img principal" width="900" height="150"/>
 
 ========================================================================
 # Introducción a Señales Biomédicas Grupo 1 (2024-1)
