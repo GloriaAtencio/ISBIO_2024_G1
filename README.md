@@ -54,6 +54,24 @@ Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se c
 </p>
 
 # Planteamiento del problema y solución
-# Contexto:
+**Contexto:**
+Las enfermedades cardíacas son la principal causa de muerte a nivel mundial, con millones de personas afectadas cada año. 
+Las enfermedades cardíacas son un problema de salud pública importante en Perú. Según el Ministerio de Salud, las enfermedades cardiovasculares son la principal causa de muerte en el país, con una tasa de mortalidad de 148 por cada 100.000 habitantes.
+
+El doctor Ángel Cueva Parra, especialista en electrofisiología cardíaca, señaló que alrededor de 1 millón de personas en Perú sufren de arritmia, con una incidencia más alta en hombres mayores de 40 años. Durante la pandemia, estos pacientes han sido tratados en el servicio de Cardiología del Hospital Almenara, que es el principal centro de referencia para el tratamiento de esta condición.[1]
+
+**Problemática:**
+- Análisis manual del ECG: El análisis tradicional del electrocardiograma (ECG) requiere de personal médico altamente calificado y puede ser susceptible a errores humanos.
+- Falta de detección de arritmias esporádicas: Los equipos de ECG estándar no siempre capturan arritmias que ocurren fuera del período de registro.
+- Acceso limitado a la atención médica: En muchas regiones, el acceso a especialistas en cardiología es limitado, lo que dificulta el diagnóstico oportuno de enfermedades cardíacas. [2]
+
+**Estado del Arte:**
+1. Algoritmo para identificar y cuantificar cuadros arrítmicos utilizando Matlab.
+  Se propone un algoritmo simple para identificar arritmias cardíacas a partir de la localización de los picos de las ondas P, Q, R y S de un electrocardiograma (ECG). El estudio se basa   en la importancia del ECG como herramienta para detectar arritmias, utilizando la derivación V5 del ECG debido a su característica de tener una onda P con amplitud positiva.
+
+  La metodología del proyecto se basa en dos fases principales: la localización de los puntos máximos de las ondas P, Q, R y S del ECG, y la identificación de arritmias de acuerdo a los    criterios y  características de las ondas . Se utilizan señales de ECG obtenidas de la Arrhythmia DataBase del MIT-BIH, con la derivación V5 y una velocidad de muestreo de 360 Hz. [3]
+
+
+
 
 
