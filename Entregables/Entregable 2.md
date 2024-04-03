@@ -16,6 +16,7 @@ El doctor Ángel Cueva Parra, especialista en electrofisiología cardíaca, señ
 1. Algoritmo para identificar y cuantificar cuadros arrítmicos utilizando Matlab.
    
   Se propone un algoritmo simple para identificar arritmias cardíacas a partir de la localización de los picos de las ondas P, Q, R y S de un electrocardiograma (ECG). El estudio se basa   en la importancia del ECG como herramienta para detectar arritmias, utilizando la derivación V5 del ECG debido a su característica de tener una onda P con amplitud positiva.
+  
   La metodología del proyecto se basa en dos fases principales: la localización de los puntos máximos de las ondas P, Q, R y S del ECG, y la identificación de arritmias de acuerdo a los    criterios y  características de las ondas . Se utilizan señales de ECG obtenidas de la Arrhythmia DataBase del MIT-BIH, con la derivación V5 y una velocidad de muestreo de 360 Hz. [3]
 
 2. Discrete wavelet transform-based ECG features detection and extraction using low-cost ADS1293EVM
@@ -50,6 +51,9 @@ Desarrollar un sistema integral para el diagnóstico de enfermedades cardíacas 
 **[4]O. I. Coronado Reyes, A. D. C. Téllez Anguiano, J. A. Gutiérrez Gnecchi and M. E. Olvera Cortes,"Discrete wavelet transform-based**
 **ECG features detection and extraction using low-cost ADS1293EVM," 2023 IEEE International Autumn Meeting on Power,**
 **Electronics and Computing (ROPEC), Ixtapa, Mexico, 2023, pp. 1-6, doi: 10.1109/ROPEC58757.2023.10409404.**
+
+**[5] “Arritmia - Tipos | NHLBI, NIH,” www.nhlbi.nih.gov, Mar. 24, 2022. https://www.nhlbi.nih.gov/es/salud/arritmias/tipos**
+
 
 **PPT**
 
