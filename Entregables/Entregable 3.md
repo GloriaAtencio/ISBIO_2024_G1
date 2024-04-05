@@ -24,9 +24,9 @@
 ## Código empleado 
 ```
 unsigned long lastMsg = 0;
-float F=1;                      // 1 hz
-double Fs = 50*F;               // 10 hz
-double Ts_ms = (1/Fs)*1000;     //  100 ms  
+float F=1;                      // 1 Hz
+double Fs = 50*F;               // 50 Hz
+double Ts_ms = (1/Fs)*1000;     //  20 ms  
 
 void setup() {
   Serial.begin(9600);
