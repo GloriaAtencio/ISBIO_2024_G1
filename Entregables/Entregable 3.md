@@ -22,7 +22,7 @@
 
 
 ## Código empleado 
-
+```
 unsigned long lastMsg = 0;
 float F=1;                      // 1 hz
 double Fs = 50*F;               // 10 hz
@@ -43,15 +43,13 @@ void loop() {
     lastMsg = now;
 
     int r1 = analogRead(A0);
-    
 
     Serial.print("Señal1:");
     Serial.println(r1);
     Serial.print(",");
     
   }
-
 }
-
+```
 
 
