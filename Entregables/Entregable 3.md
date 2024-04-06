@@ -90,8 +90,12 @@ void loop() {
 }
 ```
 ## 3. Ploteo de la señal
-#### Con el osciloscopio
+
 ### 3.1. Señal Sinusoidal
+#### Con el osciloscopio
+<p align="center">
+  <img src="/Fotos/senoidal.jpeg" alt="fotog" width="520" height="300"/>
+</p>
 
 #### Con el condensador 
 <p align="center">
@@ -106,6 +110,9 @@ void loop() {
 
 ### 3.2. Señal Cuadrada
 #### Con el osciloscopio
+<p align="center">
+  <img src="/Fotos/cuadrado.jpeg" alt="fotog" width="520" height="300"/>
+</p>
 
 #### Con el condensador 
 
@@ -120,7 +127,9 @@ void loop() {
 
 ### 3.3. Señal Rampa
 #### Con el osciloscopio
- 
+ <p align="center">
+  <img src="/Fotos/triangulo.jpeg" alt="fotog" width="520" height="300"/>
+</p>
 
 #### Con el condensador 
 <p align="center">
