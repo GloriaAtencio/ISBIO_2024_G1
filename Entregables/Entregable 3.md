@@ -95,8 +95,9 @@ void loop() {
 
 #### Con el condensador 
 <p align="center">
-  <img src="Fotos/senoidal1.jpg" alt="fotog" width="220" height="300"/>
+  <img src="Fotos/senoidal1.jpeg" alt="fotog" width="220" height="300"/>
 </p>
+
 #### Sin el condensador
 
 ### 3.2. Señal Cuadrada
