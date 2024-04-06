@@ -148,5 +148,6 @@ Sin embargo, se observa un fenomeno  al conectar el generador de señales direct
 
 Cuando un capacitor se integra en un circuito, su reactancia capacitiva varía en función de la frecuencia de la señal. A frecuencias más bajas, la reactancia capacitiva del capacitor es alta, lo que significa que ofrece una mayor resistencia al paso de la corriente, en teoría, debería filtrar eficazmente el ruido de baja frecuencia [1]. Sin embargo, la presencia del capacitor puede estar interactuando  con la impedancia de entrada del Arduino Nano, el capacitor podría estar introduciendo variaciones en la impedancia que afectan la forma en que el Arduino Nano mide y procesa la señal. Esto podría resultar en una mayor susceptibilidad al ruido en ciertas condiciones, incluso a frecuencias muy bajas.
 
+## 5. Referencias
 [1] E. S. Olivas, J. D. M. Guerrero, and L. G. Chova, Teoría de circuitos. 2004. [Online]. Available: http://books.google.com/books?id=O7fZAAAACAAJ&dq=TEOR%C3%8DA+DE+CIRCUITOS+emilio&hl=&source=gbs_api
 
