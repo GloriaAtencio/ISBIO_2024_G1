@@ -81,7 +81,8 @@ Los parámetros para las señales son las siguientes:
 
 #### 2. Visualización de la señal utilizando el Arduino 33 loT:
 
-|           Características del Arduino Nano 33 IoT                        |
+Características del Arduino Nano 33 IoT  
+
 | :-----------------------:|:---------------------------------------------:|
 | Procesador               | SAMD21 Cortex®-M0 32bit low power ARM MCU     | 
 | Memoria Flash            | 256 Kb                                        | 
