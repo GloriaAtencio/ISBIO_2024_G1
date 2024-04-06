@@ -33,7 +33,6 @@ sinusoidal.
 ### Visualización de señal en el plotter en Arduino ino
 Para ello, utilizamos el código en el cual especificamos nuestra frecuencia F que en este caso fue de 1 Hz.Asimismo, usamos analogRead() para poder leer la señal que correspondía al pin A0 del arduino. Finalmente, para que la señal pueda ser ploteada agregamos la función Serial.println(). Luego, de todos estos pasos pudimos obtener el ploteo de la señal y así poder realizar el ingreso de distintal señales a fin de compararlas.
 
-
 ## Código empleado 
 ```
 unsigned long lastMsg = 0;
@@ -64,5 +63,22 @@ void loop() {
   }
 }
 ```
+
+
+#### 1.Señal configurada en el generador de señales (canal 2):
+
+Los parámetros para las señales son las siguientes:
+- Frecuencia: 1Hz
+- Amplitud: 3V
+- Offset: 0V
+
+##### 1.1 Señal sinusoidal: 
+
+##### 1.2 Señal cuadrada:
+
+##### 1.3 Señal Rampa:
+
+
+
 
 
