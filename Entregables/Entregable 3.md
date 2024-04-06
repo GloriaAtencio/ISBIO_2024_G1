@@ -95,22 +95,33 @@ void loop() {
 
 #### Con el condensador 
 <p align="center">
-  <img src="Fotos/senoidal1.jpeg" alt="fotog" width="220" height="300"/>
+  <img src="/Fotos/senoidal1.jpeg" alt="fotog" width="520" height="300"/>
 </p>
 
 #### Sin el condensador
+<p align="center">
+  <img src="/Fotos/senoidal 2.jpeg" alt="fotog" width="520" height="300"/>
+</p>
 
 ### 3.2. Señal Cuadrada
 
 #### Con el condensador 
-
+<p align="center">
+  <img src="/Fotos/cuadrado1.jpeg" alt="fotog" width="520" height="300"/>
+</p>
 #### Sin el condensador
-
+<p align="center">
+  <img src="/Fotos/cuadrado2.jpeg" alt="fotog" width="520" height="300"/>
+</p>
 ### 3.3. Señal Rampa
 #### Con el condensador 
-
+<p align="center">
+  <img src="/Fotos/triangula1.jpeg" alt="fotog" width="520" height="300"/>
+</p>
 #### Sin el condensador
-
+<p align="center">
+  <img src="/Fotos/triangular2.jpeg" alt="fotog" width="520" height="300"/>
+</p>
 ## 4. Discusión
 
 - 
