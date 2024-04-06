@@ -19,6 +19,19 @@
 
 ## Procedimiento
 
+### Adquisición de señales
+- Primero, encendimos el Generador de Señales y el Osciloscopio
+- Configuramos el Generador de Señales para proporcionar una señal sinusoidal de 1 kHz de frecuencia, 
+3 V de High Level y 0V de offset, por el canal 1.
+- Mediante los controles de Posición Vertical, Horizontal y Disparo ajustamos la visualización de la señal 
+sinusoidal.
+- Configuramos el Generador de Señales para proporcionar una señal sinusoidal de 1 Hz de frecuencia, 
+1.5V de High Level y 0V de offset, por el canal 2.
+- Se buscaron las medidas de la amplitud de ambas señales usando measure.
+- Conectamos la Punta de osciloscopio con conector BNC en el canal 2 del generador de señales y la unimos al puerto A0 del arduino.
+  
+### Visualización de señal en el monitor serial en Arduino ino
+- 
 
 
 ## Código empleado 
