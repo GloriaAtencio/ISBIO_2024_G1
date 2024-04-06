@@ -82,7 +82,7 @@ Los parámetros para las señales son las siguientes:
 #### 2. Visualización de la señal utilizando el Arduino 33 loT:
 
 ##### Características del Arduino Nano 33 IoT  
-
+##### <div align="center">Características del Arduino Nano 33 IoT  </div>
 
 | Característica             | Valor                                     |
 |----------------------------|-------------------------------------------|
