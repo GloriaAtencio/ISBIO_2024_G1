@@ -93,20 +93,20 @@ void loop() {
 
 ### 3.1. Señal Sinusoidal
 
-### Con el condensador 
+#### Con el condensador 
 
-### Sin el condensador
+#### Sin el condensador
 
 ### 3.2. Señal Cuadrada
 
-### Con el condensador 
+#### Con el condensador 
 
-### Sin el condensador
+#### Sin el condensador
 
 ### 3.3. Señal Rampa
-### Con el condensador 
+#### Con el condensador 
 
-### Sin el condensador
+#### Sin el condensador
 
 ## 4. Discusión
 
