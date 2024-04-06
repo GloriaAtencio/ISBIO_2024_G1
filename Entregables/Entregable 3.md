@@ -30,8 +30,8 @@ sinusoidal.
 - Se buscaron las medidas de la amplitud de ambas señales usando measure.
 - Conectamos la Punta de osciloscopio con conector BNC en el canal 2 del generador de señales y la unimos al puerto A0 del arduino.
   
-### Visualización de señal en el monitor serial en Arduino ino
-- 
+### Visualización de señal en el plotter en Arduino ino
+Para ello, utilizamos el código en el cual especificamos nuestra frecuencia F que en este caso fue de 1 Hz.Asimismo, usamos analogRead() para poder leer la señal que correspondía al pin A0 del arduino. Finalmente, para que la señal pueda ser ploteada agregamos la función Serial.println(). Luego, de todos estos pasos pudimos obtener el ploteo de la señal y así poder realizar el ingreso de distintal señales a fin de compararlas.
 
 
 ## Código empleado 
