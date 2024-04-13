@@ -1,8 +1,10 @@
 # **INTRODUCCIÓN A SEÑALES BIOMÉDICAS**
-
+<p align="justify">
 ¡Bienvenidos al emocionante mundo de las Señales Biomédicas! Somos el Grupo 1 del curso de Introducción a Señales Biomédicas, donde exploraremos el fascinante universo de las señales provenientes de dispositivos médicos.
-
+</p>
+<p align="justify">
 Durante este curso, nos sumergiremos en el estudio de los sensores, la tecnología de adquisición y los procesos clínicos asociados con estas señales vitales. Exploraremos protocolos utilizados para compartir información entre equipos médicos, vital para el tratamiento y diagnóstico de diversas condiciones de salud.
+</p>
 ***
 # **Tabla de contenidos**
 1. [¿Qué es una señal biomédica?](#id1)
