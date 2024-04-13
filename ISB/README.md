@@ -48,7 +48,7 @@ Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi á
 Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis principales enfoques son las ramas de biomateriales e ingeniería clínica. Asimismo, muestro gran interés en el proceso de creación junto con desarrollo de proyectos innovadores que apoyan el campo médico.Correo personal: jennyfer.arismendiz@upch.pe
 
 <p align="center">
-  <img src="ISB/Laboratorios/Imágenes/jennyfer.jfif"  width="220" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/c75a93dcae04ca98859a32ce6607a687367f8f1c/ISB/Laboratorios/Im%C3%A1genes/jennyfer.jfif" alt="fotoj" width="220" height="300"/>
 </p>
 
 
