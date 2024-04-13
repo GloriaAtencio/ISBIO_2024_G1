@@ -1,1 +1,1 @@
-Características,etc
+Características del software
