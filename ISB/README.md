@@ -66,9 +66,9 @@ Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se c
 
 # Docentes del curso<a name="id4"></a>
 ## Profesores
-- Umbert Lewis De La Cruz Rodriguez [umbert.de.la.cruz@upch.pe]
-- Moisés Stevend Meza Rodriguez [moises.meza@upch.pe]
+- Umbert Lewis De La Cruz Rodriguez (umbert.de.la.cruz@upch.pe)
+- Moisés Stevend Meza Rodriguez (moises.meza@upch.pe)
   
 ## Jefes de Prácticas
-- Julissa Elvira Venancio Huerta [julissa.venancio@upch.pe]
-- Jose Alonso Cáceres del Aguila [jose.caceres.d@upch.pe]
+- Julissa Elvira Venancio Huerta (julissa.venancio@upch.pe)
+- Jose Alonso Cáceres del Aguila (jose.caceres.d@upch.pe)
