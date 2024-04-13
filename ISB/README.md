@@ -55,13 +55,13 @@ Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis p
 # **Jhoana Olenka Rodriguez Diaz**
 Estudiante de la carrera de Ingeniería Biomédica que cursa su octavo ciclo y desea especializarse en las ramas de Ingeniería clínica e Imagenes.Me gusta la planificación de proyectos relacionados a los temas mencionados y también he sido partícipe sobre la creación de plantillas para pacientes de pie Diabetico Correo personal: rodriguezjhoana2802@gmail.com
 <p align="center">
-  <img src="ISB/Laboratorios/Imágenes/jhoana.jpg"  width="220" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7c46f4abf9e440b3e63399c05ce4b10e6d902a62/ISB/Laboratorios/Im%C3%A1genes/jhoana.jpg" alt="fotog" width="220" height="300"/>
 </p>
 
 # **Raul Ricardo Gonzales Rodriguez**
 Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se centra en aplicar los principios de la ingeniería , sobretodo en mi área de interés en Ingeniería Clinica; particularmente en investigación en gestión tecnológica y  metrología biomédica. Considero tener habilidades analíticas y críticas al momento de trabajar en equipo. Correo personal: raul.gonzales@upch.pe
 <p align="center">
-  <img src="ISB/Laboratorios/Imágenes/raul.jpg"  width="220" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7c46f4abf9e440b3e63399c05ce4b10e6d902a62/ISB/Laboratorios/Im%C3%A1genes/raul.jpg" alt="fotog" width="220" height="300"/>
 </p>
 
 # Docentes del curso<a name="id4"></a>
