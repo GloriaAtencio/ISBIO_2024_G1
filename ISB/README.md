@@ -41,27 +41,27 @@ El curso de Introducción a Señales Biomédicas proporciona una sólida compren
 Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi área de interes es la ingenieria clínica y la ingeniería de tejidos.  Mi pasión por este campo se centra en la creación y ejecución de soluciones innovadoras que puedan mejorar la atención médica y contribuir al avance tecnológico en el sector de la salud. Correo personal: gloria.atencio@upch.pe
 
 <p align="center">
-  <img src="ISB/Laboratorios/Imágenes/gloria.jpeg" alt="fotog" width="220" height="300"/>
+  <img src="ISB/Laboratorios/Imágenes/gloria.jpeg" width="220" height="300"/>
 </p>
 
 # **Jennyfer Arantxa Arismendiz Millones**
 Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis principales enfoques son las ramas de biomateriales e ingeniería clínica. Asimismo, muestro gran interés en el proceso de creación junto con desarrollo de proyectos innovadores que apoyan el campo médico.Correo personal: jennyfer.arismendiz@upch.pe
 
 <p align="center">
-  <img src="ISB/Laboratorios/Imágenes/jennyfer.jfif" alt="fotoj" width="220" height="300"/>
+  <img src="ISB/Laboratorios/Imágenes/jennyfer.jfif"  width="220" height="300"/>
 </p>
 
 
 # **Jhoana Olenka Rodriguez Diaz**
 Estudiante de la carrera de Ingeniería Biomédica que cursa su octavo ciclo y desea especializarse en las ramas de Ingeniería clínica e Imagenes.Me gusta la planificación de proyectos relacionados a los temas mencionados y también he sido partícipe sobre la creación de plantillas para pacientes de pie Diabetico Correo personal: rodriguezjhoana2802@gmail.com
 <p align="center">
-  <img src="ISB/Laboratorios/Imágenes/jhoana.jpg" alt="fotog" width="220" height="300"/>
+  <img src="ISB/Laboratorios/Imágenes/jhoana.jpg"  width="220" height="300"/>
 </p>
 
 # **Raul Ricardo Gonzales Rodriguez**
 Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se centra en aplicar los principios de la ingeniería , sobretodo en mi área de interés en Ingeniería Clinica; particularmente en investigación en gestión tecnológica y  metrología biomédica. Considero tener habilidades analíticas y críticas al momento de trabajar en equipo. Correo personal: raul.gonzales@upch.pe
 <p align="center">
-  <img src="ISB/Laboratorios/Imágenes/raul.jpg" alt="fotog" width="220" height="300"/>
+  <img src="ISB/Laboratorios/Imágenes/raul.jpg"  width="220" height="300"/>
 </p>
 
 # Docentes del curso<a name="id4"></a>
