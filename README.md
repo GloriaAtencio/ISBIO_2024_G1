@@ -25,14 +25,14 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi área de interes es la ingenieria clínica y la ingeniería de tejidos.  Mi pasión por este campo se centra en la creación y ejecución de soluciones innovadoras que puedan mejorar la atención médica y contribuir al avance tecnológico en el sector de la salud. Correo personal: gloria.atencio@upch.pe
 
 <p align="center">
-  <img src="Fotos/gloria.jpeg" alt="fotog" width="220" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7695003f7c5745627517a70e5f102b08bc000a73/ISB/Laboratorios/Im%C3%A1genes/gloria.jpeg" alt="fotog" width="220" height="300"/>
 </p>
 
 # **Jennyfer Arantxa Arismendiz Millones**
 Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis principales enfoques son las ramas de biomateriales e ingeniería clínica. Asimismo, muestro gran interés en el proceso de creación junto con desarrollo de proyectos innovadores que apoyan el campo médico.Correo personal: jennyfer.arismendiz@upch.pe
 
 <p align="center">
-  <img src="Fotos/jennyfer.jfif" alt="fotoj" width="220" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/c75a93dcae04ca98859a32ce6607a687367f8f1c/ISB/Laboratorios/Im%C3%A1genes/jennyfer.jfif" alt="fotoj" width="220" height="300"/>
 </p>
 
 
@@ -40,13 +40,14 @@ Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis p
 # **Jhoana Olenka Rodriguez Diaz**
 Estudiante de la carrera de Ingeniería Biomédica que cursa su octavo ciclo y desea especializarse en las ramas de Ingeniería clínica e Imagenes.Me gusta la planificación de proyectos relacionados a los temas mencionados y también he sido partícipe sobre la creación de plantillas para pacientes de pie Diabetico Correo personal: rodriguezjhoana2802@gmail.com
 <p align="center">
-  <img src="Fotos/jhoana.jpg" alt="fotog" width="220" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7c46f4abf9e440b3e63399c05ce4b10e6d902a62/ISB/Laboratorios/Im%C3%A1genes/jhoana.jpg" alt="fotog" width="220" height="300"/>
 </p>
+
 
 # **Raul Ricardo Gonzales Rodriguez**
 Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se centra en aplicar los principios de la ingeniería , sobretodo en mi área de interés en Ingeniería Clinica; particularmente en investigación en gestión tecnológica y  metrología biomédica. Considero tener habilidades analíticas y críticas al momento de trabajar en equipo. Correo personal: raul.gonzales@upch.pe
 <p align="center">
-  <img src="Fotos/raul.jpg" alt="fotog" width="220" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7c46f4abf9e440b3e63399c05ce4b10e6d902a62/ISB/Laboratorios/Im%C3%A1genes/raul.jpg" alt="fotog" width="220" height="300"/>
 </p>
 
 **Referencia de la imagen:**
