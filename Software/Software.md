@@ -1,1 +1,0 @@
-Características del software
