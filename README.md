@@ -14,7 +14,7 @@
 donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este viaje hacia el corazón de la investigación biomédica! 
 # **Tabla de Contenidos**
 
-- [Software](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Participantes)
+- [Software](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/8648c8217b862687ecfdd8d083075062cc4215eb/Software/Software.md)
 - [Hardware](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/578d3e4870fdf292068b64dc123e4c206030affb/Tabla%20de%20Contenidos/Participantes)
 - [Laboratorios](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/Tabla%20de%20Contenidos/Tabla.md)
 
