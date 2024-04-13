@@ -16,7 +16,7 @@ donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este 
 
 - [Software](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/3468bb7de931ad5452c2d849ad1b59235bf833e9/Software/README.md)
 - [Hardware](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/88ea285f55a6b83c64fac522f264f6dcfba4500a/Hardware/README.md)
-- [Laboratorios](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/Tabla%20de%20Contenidos/Tabla.md)
+- [Laboratorios](https://github.com/GloriaAtencio/ISBIO_2024_G1/tree/bf1ef591b1ab1d49a0ed4f80f3f9707edaf06006/ISB/Laboratorios)
 
   
 
