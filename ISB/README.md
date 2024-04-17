@@ -5,7 +5,9 @@
 <p align="justify">
 Durante este curso, nos sumergiremos en el estudio de los sensores, la tecnología de adquisición y los procesos clínicos asociados con estas señales vitales. Exploraremos protocolos utilizados para compartir información entre equipos médicos, vital para el tratamiento y diagnóstico de diversas condiciones de salud.
 </p>
+
 ***
+
 # **Tabla de contenidos**
 1. [¿Qué es una señal biomédica?](#id1)
 2. [Contenido del curso](#id2)
