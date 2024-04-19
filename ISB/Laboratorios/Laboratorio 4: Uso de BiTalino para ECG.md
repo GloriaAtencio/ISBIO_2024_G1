@@ -27,10 +27,16 @@ Para el laboratorio N°4 se nos pidió adquirir la señal ECG usando la tarjeta 
 | (R)EVOLUTION     | Kit BITalino                                  | 1             |
 | -                | Laptop                                        | 1             |
 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9bf8572faf15a2d9865f73eedbf19251324cb4bf/ISB/Laboratorios/Im%C3%A1genes/ECG/mat_bitalino_emg.jpeg" alt="fotog" width="260" height="300"/>
+</p>
+
 
 <p align="justify">
 Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch de off a on. Después de ello , se tuvo que emparejar mediante bluetooth la tarjeta (BiTalino 4F-CD) y la laptop. Ya una vez hecha la conexión se abrió el programa Open Signals, se ubicó la tarjeta dentro del programa.
 </p>
+
+
 
 # Videos<a name="id3"></a>
 
