@@ -44,7 +44,7 @@ Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch 
 </p>
 
 <p align="justify">
-Ya dentro del Open Signals, se nos dió el ProSum 4. con el cual obtuvimos el ejemplo una señal ecg en distintas fases de una parada cardíaca. Se grabó la variación de la señal durante las 5 etapas y se obtuvo lo siguiente:
+Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ejemplo una señal ecg en distintas fases de una parada cardíaca. Se grabó la variación de la señal durante las 5 etapas y se obtuvo lo siguiente:
 </p>
 
 ### Videos e imágenes de señales obtenidas con el ProSim 4
@@ -60,6 +60,20 @@ Ya dentro del Open Signals, se nos dió el ProSum 4. con el cual obtuvimos el ej
 #### Etapa 5
 
 # Videos<a name="id3"></a>
+
+## Caso 1: Reposo
+
+<p align="justify">
+Se colocaron los electrodos respectivamente y se pidió al usuario mantener su cuerpo en estado de reposo para así poder adquirir la señal y hacer la grabación de dicho momento. Asimismo, nos aseguramos que el usuario no portara ningún tipo de objeto que fuera de metal.
+</p>
+
+
+
+## Caso 2: Ejercicio
+
+
+## Caso 3: Atenuación de ejercicio a reposo
+
 
 
 # Ploteos y análisis<a name="id2"></a>
