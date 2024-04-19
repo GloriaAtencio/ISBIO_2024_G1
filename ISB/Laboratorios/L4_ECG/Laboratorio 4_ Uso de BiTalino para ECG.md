@@ -27,6 +27,7 @@ Para el laboratorio N°4 se nos pidió adquirir la señal ECG usando la tarjeta 
 |  :-------------: |:--------------------------------------------: |:-------------:|
 | (R)EVOLUTION     | Kit BITalino                                  | 1             |
 | -                | Laptop                                        | 1             |
+| Fluke            | Prosim 4                                      | 1             |
 
 
 <p align="center">
@@ -42,7 +43,13 @@ Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch 
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/bb6939e27b9e45e52518d6533b8f40dae2f0351a/ISB/Laboratorios/Im%C3%A1genes/ECG/ops_emg_bt.jpeg" alt="fotog" width="500" height="300"/>
 </p>
 
+<p align="justify">
+Ya dentro del Open Signals, se nos dió el -.... con el cual obtuvimos ejemplos de distintas señales ecg cuando una persona posee (patología cardíaca). Y gracias a ello obtuvimos las siguientes señales:
+</p>
 
+### Imágenes de señales obtenidas con el ProSim 4
+
+####+-
 # Videos<a name="id3"></a>
 
 
