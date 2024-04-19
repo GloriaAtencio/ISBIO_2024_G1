@@ -22,10 +22,13 @@ Para el laboratorio N°4 se nos pidió adquirir la señal ECG usando la tarjeta 
 
 ### Materiales y equipos 
 
+<p align="center">
+
 |     Modelo       |                  Descripción                  |   Cantidad    |
 |  :-------------: |:--------------------------------------------: |:-------------:|
 | (R)EVOLUTION     | Kit BITalino                                  | 1             |
 | -                | Laptop                                        | 1             |
+</p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9bf8572faf15a2d9865f73eedbf19251324cb4bf/ISB/Laboratorios/Im%C3%A1genes/ECG/mat_bitalino_emg.jpeg" alt="fotog" width="500" height="300"/>
