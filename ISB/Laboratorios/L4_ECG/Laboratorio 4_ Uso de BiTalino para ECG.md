@@ -49,7 +49,15 @@ Ya dentro del Open Signals, se nos dió el ProSum 4. con el cual obtuvimos el ej
 
 ### Videos e imágenes de señales obtenidas con el ProSim 4
 
+#### Etapa 1 
 
+#### Etapa 2
+
+#### Etapa 3
+
+#### Etapa 4
+
+#### Etapa 5
 
 # Videos<a name="id3"></a>
 
