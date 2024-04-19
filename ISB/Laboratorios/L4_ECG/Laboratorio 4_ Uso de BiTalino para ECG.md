@@ -10,13 +10,13 @@
 
 ***
 
-# Contexto<a name="id1"></a>
+# 1.Contexto<a name="id1"></a>
 
 <p align="justify">
 Para el laboratorio N°4 se nos pidió adquirir la señal ECG usando la tarjeta BiTalino, es por eso que el objetivo principal para este laboratorio es realizzar mediciones de la señal haciendo de dos a tres tipos de pruebas que nos permitan conocer más acerca de la variación de la señal y así poder plantear la respectiva discusión al final.
 </p>
 
-# Procedimiento<a name="id2"></a>
+# 2.Procedimiento<a name="id2"></a>
 
 ## Conexión del BiTalino 
 
@@ -66,10 +66,10 @@ Con respecto el posicionamiento de los electrodos, nos guiamos del protocolo de 
 </p>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5884e90568d787a64e4d173875539c3cefb68913/ISB/Laboratorios/Im%C3%A1genes/ECG/bita_ecg_pos.jpeg" alt="fotog" width="500" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5884e90568d787a64e4d173875539c3cefb68913/ISB/Laboratorios/Im%C3%A1genes/ECG/bita_ecg_pos.jpeg" alt="fotog" width="300" height="300"/>
 </p>
 
-# Videos<a name="id3"></a>
+# 3.Videos<a name="id3"></a>
 
 ## Caso 1: Reposo
 
@@ -89,6 +89,6 @@ Se colocaron los electrodos respectivamente y se pidió al usuario mantener su c
 
 
 
-# Ploteos y análisis<a name="id2"></a>
+# 4.Ploteos y análisis<a name="id2"></a>
 
 # Referencias bibliográficas
