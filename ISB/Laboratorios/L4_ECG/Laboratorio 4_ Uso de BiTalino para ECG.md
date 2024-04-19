@@ -44,12 +44,13 @@ Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch 
 </p>
 
 <p align="justify">
-Ya dentro del Open Signals, se nos dió el -.... con el cual obtuvimos ejemplos de distintas señales ecg cuando una persona posee (patología cardíaca). Y gracias a ello obtuvimos las siguientes señales:
+Ya dentro del Open Signals, se nos dió el ProSum 4. con el cual obtuvimos el ejemplo una señal ecg en distintas fases de una parada cardíaca. Se grabó la variación de la señal durante las 5 etapas y se obtuvo lo siguiente:
 </p>
 
-### Imágenes de señales obtenidas con el ProSim 4
+### Videos e imágenes de señales obtenidas con el ProSim 4
 
-####+-
+
+
 # Videos<a name="id3"></a>
 
 
