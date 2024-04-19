@@ -22,13 +22,12 @@ Para el laboratorio N°4 se nos pidió adquirir la señal ECG usando la tarjeta 
 
 ### Materiales y equipos 
 
-<p align="center">
 
 |     Modelo       |                  Descripción                  |   Cantidad    |
 |  :-------------: |:--------------------------------------------: |:-------------:|
 | (R)EVOLUTION     | Kit BITalino                                  | 1             |
 | -                | Laptop                                        | 1             |
-</p>
+
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9bf8572faf15a2d9865f73eedbf19251324cb4bf/ISB/Laboratorios/Im%C3%A1genes/ECG/mat_bitalino_emg.jpeg" alt="fotog" width="500" height="300"/>
@@ -42,8 +41,6 @@ Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/bb6939e27b9e45e52518d6533b8f40dae2f0351a/ISB/Laboratorios/Im%C3%A1genes/ECG/ops_emg_bt.jpeg" alt="fotog" width="500" height="300"/>
 </p>
-
-
 
 
 # Videos<a name="id3"></a>
