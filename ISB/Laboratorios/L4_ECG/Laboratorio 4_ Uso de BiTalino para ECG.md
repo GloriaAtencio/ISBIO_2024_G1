@@ -33,7 +33,7 @@ Para el laboratorio N°4 se nos pidió adquirir la señal ECG usando la tarjeta 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9a7420da071748b34dc40f665ea7b1db2cfc3242/ISB/Laboratorios/Im%C3%A1genes/ECG/mat_bitalino_ecg.jpeg" alt="fotog" width="500" height="300"/>
 </p>
-<p align="center"><i>Figura 1</i></p>
+<p align="center"><i>Figura 1. Tarjeta BiTalino</i></p>
 
 <p align="justify">
 Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch de off a on. Después de ello , se tuvo que emparejar mediante bluetooth la tarjeta (BiTalino 4F-CD) y la laptop. Ya una vez hecha la conexión se abrió el programa Open Signals, se ubicó la tarjeta dentro del programa.
@@ -42,6 +42,7 @@ Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9a7420da071748b34dc40f665ea7b1db2cfc3242/ISB/Laboratorios/Im%C3%A1genes/ECG/ops_sg_ecg.jpeg" alt="fotog" width="500" height="300"/>
 </p>
+<p align="center"><i>Figura 2. Conexión de la tarjeta con el programa Open Signals</i></p>
 
 <p align="justify">
 Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ejemplo una señal ecg en distintas fases de una parada cardíaca. Se grabó la variación de la señal durante las 5 etapas y se obtuvo lo siguiente:
@@ -68,6 +69,7 @@ Con respecto el posicionamiento de los electrodos, nos guiamos del protocolo de 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5884e90568d787a64e4d173875539c3cefb68913/ISB/Laboratorios/Im%C3%A1genes/ECG/bita_ecg_pos.jpeg" alt="fotog" width="300" height="300"/>
 </p>
+<p align="center"><i>Figura 3. Posicionamiento de los electrodos en el usuario</i></p>
 
 # 3.Videos<a name="id3"></a>
 
