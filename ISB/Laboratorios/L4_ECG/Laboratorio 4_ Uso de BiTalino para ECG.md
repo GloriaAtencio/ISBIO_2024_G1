@@ -77,13 +77,24 @@ Con respecto el posicionamiento de los electrodos, nos guiamos del protocolo de 
 Se colocaron los electrodos respectivamente y se pidió al usuario mantener su cuerpo en estado de reposo para así poder adquirir la señal y hacer la grabación de dicho momento. Asimismo, nos aseguramos que el usuario no portara ningún tipo de objeto que fuera de metal.
 </p>
 
+<div align="center">
+  <video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>
+</div>
+
+
 ## Caso 2: Ejercicio
+
+
 ## Caso 3: Sentadillas rápidas 
+
+<div align="center">
+  <video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/de98dfbb-ffa4-4979-869f-52692feec2f9" alt="video/mp4" width="300" height="300"></video>
+</div>
+
 ## Caso 4: Hiperventilación
 
 <div align="center">
   <video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/03ea0920-e83d-4704-b5d9-c194ae37dadb" width="300" height="300"></video>
-
 </div>
 
 
