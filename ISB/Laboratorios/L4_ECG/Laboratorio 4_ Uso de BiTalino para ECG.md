@@ -86,6 +86,10 @@ Se colocaron los electrodos respectivamente y se pidió al usuario mantener su c
 
 
 ## Caso 2: Ejercicio
+<p align="justify">
+Para este caso, se le pidió al usuario que realizara ejercicio por unos 5 minutos para así adquirir data cuando la frecuencia cardíaca aumenta. Una vez que el usuario terminó la actividad física se le volvió a colocar los electrodos y se inició la medición de la señal en el programa Open Signals.
+</p>
+
 <div align="center">
   <video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/45419d9b-965e-47d3-9d13-16ecac872f61" width="300" height="300"></video>
 </div>
