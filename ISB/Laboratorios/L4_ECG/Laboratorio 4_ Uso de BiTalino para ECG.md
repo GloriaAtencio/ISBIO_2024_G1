@@ -81,11 +81,21 @@ Se colocaron los electrodos respectivamente y se pidió al usuario mantener su c
 ## Caso 3: Sentadillas rápidas 
 ## Caso 4: Hiperventilación
 
+<div align="center">
+
+<video width="300" height="200" controls><source src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f9d686b1-c1ab-4db4-84b7-a531c4eb5510" type="video/mp4"></video> 
+
+</div>
+
 <div style="text-align:center;">
   <video width="100" height="300" controls>
     <source src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/12f82a6d-bc15-4cef-a619-0fe5cf7a0423" type="video/mp4">
   </video>
 </div>
+
+
+
+
 
 
 
