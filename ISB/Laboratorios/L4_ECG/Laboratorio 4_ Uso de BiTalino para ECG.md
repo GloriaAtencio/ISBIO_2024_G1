@@ -83,6 +83,9 @@ Se colocaron los electrodos respectivamente y se pidió al usuario mantener su c
 
 
 ## Caso 2: Ejercicio
+<div align="center">
+  <video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/45419d9b-965e-47d3-9d13-16ecac872f61" width="300" height="300"></video>
+</div>
 
 
 ## Caso 3: Sentadillas rápidas 
