@@ -66,7 +66,7 @@ Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ej
 Con respecto el posicionamiento de los electrodos, nos guiamos del protocolo de la guía del BiTalino.
 </p>
 Protocolos: 
-Para realizar las pruebas del sensor ECG BITalino hemos usado la configuración de la derivación I de Einthoven, posicionando los electrodos en las muñecas y la cresta ilíaca. El electrodo positivo (rojo) se ubicó en la muñeca izquierda (LA) y el electrodo negativo (negro) en la muñeca derecha (RA). La referencia (REF) en blanco se situó en la cresta ilíaca. Por otro lado, para la toma de la data planteamos 3 casos, en estado basal, en actividad física e hiperventilación.
+Para realizar las pruebas del sensor ECG BITalino hemos usado la configuración de la derivación I de Einthoven, posicionando los electrodos en las muñecas y la cresta ilíaca. El electrodo positivo (rojo) se ubicó en la muñeca izquierda (LA) y el electrodo negativo (negro) en la muñeca derecha (RA). La referencia (REF) en blanco se situó en la cresta ilíaca.[1] Por otro lado, para la toma de la data planteamos 3 casos, en estado basal, en actividad física e hiperventilación.
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5884e90568d787a64e4d173875539c3cefb68913/ISB/Laboratorios/Im%C3%A1genes/ECG/bita_ecg_pos.jpeg" alt="fotog" width="300" height="300"/>
@@ -168,3 +168,5 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 <p align="center"><i>Figura 11. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
 
 # Referencias bibliográficas
+[1] L. Y. Biosignals, “BITalino (r)evolution Lab Guide,” Pluxbiosignals.com. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf. [Accessed: Apr. 19, 2024].
+
