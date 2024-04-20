@@ -83,7 +83,7 @@ Se colocaron los electrodos respectivamente y se pidió al usuario mantener su c
 
 <div align="center">
 
-<video width="300" height="200" controls><source src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f9d686b1-c1ab-4db4-84b7-a531c4eb5510" type="video/mp4"></video> 
+<video width="300" height="200" controls><source src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f9d686b1-c1ab-4db4-84b7-a531c4eb5510"></video> 
 
 </div>
 
