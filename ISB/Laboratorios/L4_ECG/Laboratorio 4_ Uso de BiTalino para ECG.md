@@ -112,7 +112,7 @@ Se colocaron los electrodos respectivamente y se pidió al usuario mantener su c
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_reposo.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 4. Señal ECG obtenida durante el reposo a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 4. Reconstrucción de la señal ECG obtenida durante el reposo a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_reposo.PNG" alt="fotog" width="560" height="300"/>
@@ -124,30 +124,37 @@ Se colocaron los electrodos respectivamente y se pidió al usuario mantener su c
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_despues_de_actividad.PNG" alt="fotog" width="560" height="300"/>
 </p>
+<p align="center"><i>Figura 6. Reconstrucción de la señal ECG obtenida después de que el usuario realizó ejercicio a partir de los datos txt adquiridos en Open Signals</i></p>
+
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Actividad.PNG" alt="fotog" width="560" height="300"/>
 </p>
+<p align="center"><i>Figura 7. Ploteo de la Señal ECG obtenida después de que el usuario realizó ejercicio en python</i></p>
+
 
 ## Caso 3: Sentadillas rápidas 
+
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_sentadillas.PNG" alt="fotog" width="560" height="300"/>
 </p>
+<p align="center"><i>Figura 8. Reconstrucción de la señal ECG obtenida cuando el usuario realizó sentallidas cortas a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Sentadillas.PNG" alt="fotog" width="560" height="300"/>
 </p>
+<p align="center"><i>Figura 9. Ploteo de la Señal ECG obtenida cuando el usuario realizó sentallidas cortas en python</i></p>
 
 ## Caso 4: Hiperventilación
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_hiperventilaci%C3%B3n.PNG" alt="fotog" width="560" height="300"/>
 </p>
-
+<p align="center"><i>Figura 10. Reconstrucción de la señal ECG obtenida durante el periodo de hiperventilación forzada del usuario a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Hiperventilaci%C3%B3n.PNG" alt="fotog" width="560" height="300"/>
 </p>
 
-
+<p align="center"><i>Figura 11. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
 
 # Referencias bibliográficas
