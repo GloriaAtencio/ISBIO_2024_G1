@@ -1,4 +1,4 @@
-HEAD
 # Características del hardware
+#Caracteristicas 1
 
 
