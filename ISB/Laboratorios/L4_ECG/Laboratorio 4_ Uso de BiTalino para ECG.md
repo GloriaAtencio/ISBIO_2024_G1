@@ -96,13 +96,17 @@ Para este caso, se le pidió al usuario que realizara ejercicio por unos 5 minut
 
 
 ## Caso 3: Sentadillas rápidas 
-
+<p align="justify">
+En realidad, este caso lo utilizamos como una forma de medición que no permitió ver cómo es que la señal variaba dependiendo el esfuerzo físico del usuario. Si bien se le pisió al usuario hacer sentadillas en periodos cortos de tiempo , la data obtenida no se tomó en cuenta finalmente porque esta presentó mucho ruido en el programa Open Signals.
+</p>
 <div align="center">
   <video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/de98dfbb-ffa4-4979-869f-52692feec2f9" alt="video/mp4" width="300" height="300"></video>
 </div>
 
 ## Caso 4: Hiperventilación
-
+<p align="justify">
+Por último, se le pidió al usuario intentar imitar una hiperventilación para poder ver el impacto de la respiración en la señal ECG. Es por ello, que se propusimos esta actividad como tercer caso de prueba y tomamos los datos respectivos de la señal adquirida en el Open Signals.
+</p>
 <div align="center">
   <video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/03ea0920-e83d-4704-b5d9-c194ae37dadb" width="300" height="300"></video>
 </div>
