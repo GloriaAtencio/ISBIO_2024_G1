@@ -7,7 +7,7 @@
 2. [Procedimiento](#id2)
 3. [Videos](#id3)
 4. [Ploteos y análisis](#id4)
-5. [Referencias bibliográficas](#id4) 
+5. [Referencias bibliográficas](#id5) 
 
 ***
 
@@ -156,7 +156,7 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 
 
 
-# 4.Ploteos y análisis<a name="id2"></a>
+# 4.Ploteos y análisis<a name="id4"></a>
 
 ## Caso 1: Reposo
 
@@ -170,7 +170,10 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 </p>
 <p align="center"><i>Figura 10. Ploteo de la Señal ECG obtenida durante el reposo en python</i></p>
 
+<p align="justify">
 Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la onda P representa la despolarización auricular, siendo generalmente positiva y de duración aproximada de 0.08 a 0.10 segundos. El intervalo PR, que va desde el inicio de la onda P hasta el inicio del complejo QRS, normalmente oscila entre 0.12 y 0.20 segundos. El complejo QRS, reflejando la despolarización ventricular, exhibe una morfología positiva inicial seguida de una onda negativa, con una duración de alrededor de 0.06 a 0.10 segundos. La onda T, representativa de la repolarización ventricular, es positiva y simétrica, con una duración similar a la onda P. El segmento ST, que precede a la onda T, generalmente se mantiene isoeléctrico en condiciones normales.[2]   
+</p>
+  
 ## Caso 2: Ejercicio
 
 <p align="center">
@@ -183,7 +186,9 @@ Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la
 </p>
 <p align="center"><i>Figura 12. Ploteo de la Señal ECG obtenida después de que el usuario realizó ejercicio en python</i></p>
 
+<p align="justify">
 Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia cardíaca más rápida, un aumento en la amplitud y la frecuencia de las ondas P, posiblemente por un acortamiento del intervalo PR, un complejo QRS ligeramente más amplio y cambios en el segmento ST, con elevación reducida debido a los cambios en repolarización ventricular.[2] 
+</p>
 
 
 ## Caso 3: Sentadillas rápidas 
@@ -211,9 +216,11 @@ Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia car
 
 <p align="center"><i>Figura 16. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
 
+<p align="justify">
 Análisis: La hiperventilación puede provocar cambios transitorios en el electrocardiograma (ECG), se ve un aumento en la frecuencia cardíaca debido a la estimulación del sistema nervioso autónomo, así como posibles alteraciones en el acortamiento de QT. Además, pueden observarse cambios en el segmento ST y la onda T, como ligeras elevaciones, reflejando la influencia de la hiperventilación en la repolarización ventricular. Estos cambios pueden variar en intensidad y duración, extrapolando a un caso real de hiperventilación según la gravedad y la duración de la hiperventilación, la alcalosis respiratoria derivaría en signos mas evidentes de los mencionados.[2][3]
+</p>
 
-# Referencias bibliográficas
+# 5.Referencias bibliográficas<a name="id5"></a>
 [1] L. Y. Biosignals, “BITalino (r)evolution Lab Guide,” Pluxbiosignals.com. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf. [Accessed: Apr. 19, 2024].
 
 [2] A. L. Goldberger, Z. D. Goldberger, and A. Shvilkin, _Goldberger’s Clinical Electrocardiography: A Simplified Approach_, 8th ed., Philadelphia, PA: Elsevier Saunders, 2013.
