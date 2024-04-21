@@ -93,14 +93,10 @@ Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ej
 </p>
 <p align="center"><i>Figura 8. Señal obtenida en la quinta etapa simulada en el ProSim en el programa Open Signals</i></p>
 
-<div style="display: flex; justify-content: center;">
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot1_op_prosim.jpeg" alt="Imagen 1" style="max-width: 100%; max-height: 100%;">
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot2_py_prosim.jpeg" alt="Imagen 2" style="max-width: 100%; max-height: 100%;">
-  </div>
-</div>
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot1_op_prosim.jpeg) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot2_py_prosim.jpeg) |
+|:-------------------------:|:-------------------------:|
+|        Descripción 1      |        Descripción 2      |
+
 
 <div style="display: flex; justify-content: center;">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot1_op_prosim.jpeg" alt="Imagen 1" style="width: auto; height: 50%">
