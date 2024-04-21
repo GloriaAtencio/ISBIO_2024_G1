@@ -221,9 +221,10 @@ Análisis: La hiperventilación puede provocar cambios transitorios en el electr
 </p>
 
 # 5.Referencias bibliográficas<a name="id5"></a>
+<p align="justify">
 [1] L. Y. Biosignals, “BITalino (r)evolution Lab Guide,” Pluxbiosignals.com. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf. [Accessed: Apr. 19, 2024].
 
 [2] A. L. Goldberger, Z. D. Goldberger, and A. Shvilkin, _Goldberger’s Clinical Electrocardiography: A Simplified Approach_, 8th ed., Philadelphia, PA: Elsevier Saunders, 2013.
 
 [3] S. Dash y A. Kumar, “Hyperventilation Leading to Transient T-wave Inversion Mimicking Unstable Angina,” Cureus, vol. 13, no. 1, e12980, enero 29, 2021. DOI: 10.7759/cureus.12980
-
+</p>
