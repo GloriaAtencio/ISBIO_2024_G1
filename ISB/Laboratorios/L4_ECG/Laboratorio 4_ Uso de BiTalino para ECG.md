@@ -7,6 +7,7 @@
 2. [Procedimiento](#id2)
 3. [Videos](#id3)
 4. [Ploteos y análisis](#id4)
+5. [Referencias bibliográficas](#id4) 
 
 ***
 
@@ -91,8 +92,10 @@ Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ej
 Con respecto el posicionamiento de los electrodos, nos guiamos del protocolo de la guía del BiTalino.
 </p>
 
-### Protocolos: 
+### Protocolo: 
+<p align="justify">
 Para realizar las pruebas del sensor ECG BITalino hemos usado la configuración de la derivación I de Einthoven, posicionando los electrodos en las muñecas y la cresta ilíaca. El electrodo positivo (rojo) se ubicó en la muñeca izquierda (LA) y el electrodo negativo (negro) en la muñeca derecha (RA). La referencia (REF) en blanco se situó en la cresta ilíaca.[1] Por otro lado, para la toma de la data planteamos 3 casos, en estado basal, en actividad física e hiperventilación.
+</p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5884e90568d787a64e4d173875539c3cefb68913/ISB/Laboratorios/Im%C3%A1genes/ECG/bita_ecg_pos.jpeg" alt="fotog" width="300" height="300"/>
