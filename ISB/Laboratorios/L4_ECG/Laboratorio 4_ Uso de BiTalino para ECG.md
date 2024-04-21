@@ -15,9 +15,10 @@
 
 <p align="justify">
 En el Laboratorio N°4, se ha encomendado la tarea de adquirir la señal ECG utilizando la tarjeta BiTalino. El objetivo principal de esta actividad es realizar mediciones de la señal ECG a través de dos a tres tipos de pruebas específicas. Estas pruebas están diseñadas para proporcionar un mayor entendimiento sobre la variación de la señal, permitiendo así plantear una discusión fundamentada al concluir el laboratorio.
+</p>
 
+<p align="justify">
 Al finalizar las pruebas y recopilar los datos necesarios, se podrá realizar una discusión fundamentada y detallada sobre los resultados obtenidos. Esta discusión no solo implicará la interpretación de los datos medidos, sino también la comparación con teorías previas, la identificación de posibles patrones o anomalías en la señal, y la formulación de conclusiones relevantes.
-
 </p>
 
 # 2.Procedimiento<a name="id2"></a>
