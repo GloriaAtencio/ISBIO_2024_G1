@@ -53,35 +53,35 @@ Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ej
 #### Etapa 1 
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa1_prosim.jpeg" alt="fotog" width="500" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa1_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 3. Señal obtenida en la primera etapa del ProSim en el programa Open Signals</i></p>
+<p align="center"><i>Figura 3. Señal obtenida en la primera etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 #### Etapa 2
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa2_prosim.jpeg" alt="fotog" width="500" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa2_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
 <p align="center"><i>Figura 4. Señal obtenida en la segunda etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 #### Etapa 3
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa3_prosim.jpeg" alt="fotog" width="500" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa3_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
 <p align="center"><i>Figura 5. Señal obtenida en la tercera etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 #### Etapa 4
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa4_prosim.jpeg" alt="fotog" width="500" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa4_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
 <p align="center"><i>Figura 6. Señal obtenida en la cuarta etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 #### Etapa 5
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa5_prosim.jpeg" alt="fotog" width="500" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa5_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
 <p align="center"><i>Figura 7. Señal obtenida en la quinta etapa simulada en el ProSim en el programa Open Signals</i></p>
 
