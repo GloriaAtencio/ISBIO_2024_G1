@@ -111,6 +111,7 @@ Se colocaron los electrodos respectivamente y se pidió al usuario mantener su c
 </p>
 
 <div align="center">
+  
 |  **Señal en OpenSignals**  | **Video** |
 |:------------:|:---------------:|
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>|
@@ -123,6 +124,7 @@ Para este caso, se le pidió al usuario que realizara ejercicio por unos 5 minut
 </p>
 
 <div align="center">
+  
 |  **Señal en OpenSignals**  | **Video** |
 |:------------:|:---------------:|
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/ejercicio_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/45419d9b-965e-47d3-9d13-16ecac872f61" width="300" height="300"></video>|
@@ -145,6 +147,7 @@ En realidad, este caso lo utilizamos como una forma de medición que no permiti�
 Por último, se le pidió al usuario intentar imitar una hiperventilación para poder ver el impacto de la respiración en la señal ECG. Es por ello, que se propusimos esta actividad como tercer caso de prueba y tomamos los datos respectivos de la señal adquirida en el Open Signals.
 </p>
 <div align="center">
+  
 |  **Señal en OpenSignals**  | **Video** |
 |:------------:|:---------------:|
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/hiperventilaci%C3%B3n_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/03ea0920-e83d-4704-b5d9-c194ae37dadb" width="300" height="300"></video>|
