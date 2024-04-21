@@ -361,7 +361,9 @@ plt.show()
 
 # 5.Discusión<a name="id5"></a>
 En el laboratorio, se utilizaron el kit BiTalino y el simulador Prosim4  para obtener señales ECG. El análisis de las señales en diferentes condiciones proporciona información importante sobre el funcionamiento del sistema cardiovascular y la variabilidad de la actividad eléctrica del corazón.
+
 La interpretación del electrocardiograma es fundamental para los profesionales de la salud, especialmente aquellos que trabajan en cuidados intensivos y emergencias. La habilidad para identificar patrones, detectar anomalías y diagnosticar condiciones cardíacas es esencial para proporcionar atención oportuna y efectiva. Sin embargo, existe una brecha en los programas de formación estándar y las estrategias de evaluación para medir la competencia en la interpretación de ECG. Se requieren esfuerzos continuos para mejorar el entrenamiento y la educación en esta área.[5]
+
 En el desarrollo del laboratorio,a pesar de tomar medidas para reducir la interferencia, las señales obtenidas presentaron algunos artefactos. Estos artefactos pueden ser causados por el entorno del usuario, el cual  estaba lleno de dispositivos móviles como celulares y laptops, los cuales pudieron haber interferido en la toma de data, debido a que estos dispositivos son una  fuente potencial de interferencia electromagnética (EMI) que puede afectar la confiabilidad de los datos.[6]
 
 
