@@ -14,7 +14,7 @@
 # 1.Contexto<a name="id1"></a>
 
 <p align="justify">
-Para el laboratorio N°4 se nos pidió adquirir la señal ECG usando la tarjeta BiTalino, es por eso que el objetivo principal para este laboratorio es realizzar mediciones de la señal haciendo de dos a tres tipos de pruebas que nos permitan conocer más acerca de la variación de la señal y así poder plantear la respectiva discusión al final.
+En el Laboratorio N°4, se ha encomendado la tarea de adquirir la señal ECG utilizando la tarjeta BiTalino. El objetivo principal de esta actividad es realizar mediciones de la señal ECG a través de dos a tres tipos de pruebas específicas. Estas pruebas están diseñadas para proporcionar un mayor entendimiento sobre la variación de la señal, permitiendo así plantear una discusión fundamentada al concluir el laboratorio.
 </p>
 
 # 2.Procedimiento<a name="id2"></a>
@@ -174,7 +174,7 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la onda P representa la despolarización auricular, siendo generalmente positiva y de duración aproximada de 0.08 a 0.10 segundos. El intervalo PR, que va desde el inicio de la onda P hasta el inicio del complejo QRS, normalmente oscila entre 0.12 y 0.20 segundos. El complejo QRS, reflejando la despolarización ventricular, exhibe una morfología positiva inicial seguida de una onda negativa, con una duración de alrededor de 0.06 a 0.10 segundos. La onda T, representativa de la repolarización ventricular, es positiva y simétrica, con una duración similar a la onda P. El segmento ST, que precede a la onda T, generalmente se mantiene isoeléctrico en condiciones normales.[2]   
 </p>
   
-## Caso 2: Ejercicio
+## Caso 2: Actividad física
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_despues_de_actividad.PNG" alt="fotog" width="560" height="300"/>
