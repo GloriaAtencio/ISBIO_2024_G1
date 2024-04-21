@@ -49,46 +49,49 @@ Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch 
 </p>
 <p align="center"><i>Figura 2. Conexión de la tarjeta con el programa Open Signals</i></p>
 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/b41ba03a0c28263c082ba419738f025b52fae340/ISB/Laboratorios/Im%C3%A1genes/ECG/prosim.jpeg" alt="fotog" width="300" height="380"/>
+</p>
+<p align="center"><i>Figura 3. Secuencia de parada cardiaca en el ProSim 4</i></p>
+
 <p align="justify">
 Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ejemplo una señal ecg en distintas fases de una parada cardíaca. Se grabó la variación de la señal durante las 5 etapas y se obtuvo lo siguiente:
 </p>
 
 ### Imágenes de las señales obtenidas con el ProSim 4
 
-
-
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa1_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 3. Señal obtenida en la primera etapa simulada en el ProSim en el programa Open Signals</i></p>
+<p align="center"><i>Figura 4. Señal obtenida en la primera etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa2_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 4. Señal obtenida en la segunda etapa simulada en el ProSim en el programa Open Signals</i></p>
+<p align="center"><i>Figura 5. Señal obtenida en la segunda etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa3_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 5. Señal obtenida en la tercera etapa simulada en el ProSim en el programa Open Signals</i></p>
+<p align="center"><i>Figura 6. Señal obtenida en la tercera etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa4_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 6. Señal obtenida en la cuarta etapa simulada en el ProSim en el programa Open Signals</i></p>
+<p align="center"><i>Figura 7. Señal obtenida en la cuarta etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa5_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 7. Señal obtenida en la quinta etapa simulada en el ProSim en el programa Open Signals</i></p>
+<p align="center"><i>Figura 8. Señal obtenida en la quinta etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 ### Posicionamiento de electrodos
 
@@ -104,7 +107,7 @@ Para realizar las pruebas del sensor ECG BITalino hemos usado la configuración 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5884e90568d787a64e4d173875539c3cefb68913/ISB/Laboratorios/Im%C3%A1genes/ECG/bita_ecg_pos.jpeg" alt="fotog" width="300" height="300"/>
 </p>
-<p align="center"><i>Figura 8. Posicionamiento de los electrodos en el usuario</i></p>
+<p align="center"><i>Figura 9. Posicionamiento de los electrodos en el usuario</i></p>
 
 # 3.Videos<a name="id3"></a>
 
@@ -167,12 +170,12 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_reposo.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 9. Reconstrucción de la señal ECG obtenida durante el reposo a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 10. Reconstrucción de la señal ECG obtenida durante el reposo a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_reposo.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 10. Ploteo de la Señal ECG obtenida durante el reposo en python</i></p>
+<p align="center"><i>Figura 11. Ploteo de la Señal ECG obtenida durante el reposo en python</i></p>
 
 <p align="justify">
 Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la onda P representa la despolarización auricular, siendo generalmente positiva y de duración aproximada de 0.08 a 0.10 segundos. El intervalo PR, que va desde el inicio de la onda P hasta el inicio del complejo QRS, normalmente oscila entre 0.12 y 0.20 segundos. El complejo QRS, reflejando la despolarización ventricular, exhibe una morfología positiva inicial seguida de una onda negativa, con una duración de alrededor de 0.06 a 0.10 segundos. La onda T, representativa de la repolarización ventricular, es positiva y simétrica, con una duración similar a la onda P. El segmento ST, que precede a la onda T, generalmente se mantiene isoeléctrico en condiciones normales.[2]   
@@ -183,12 +186,12 @@ Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_despues_de_actividad.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 11. Reconstrucción de la señal ECG obtenida después de que el usuario realizó ejercicio a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 12. Reconstrucción de la señal ECG obtenida después de que el usuario realizó ejercicio a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Actividad.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 12. Ploteo de la Señal ECG obtenida después de que el usuario realizó ejercicio en python</i></p>
+<p align="center"><i>Figura 13. Ploteo de la Señal ECG obtenida después de que el usuario realizó ejercicio en python</i></p>
 
 <p align="justify">
 Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia cardíaca más rápida, un aumento en la amplitud y la frecuencia de las ondas P, posiblemente por un acortamiento del intervalo PR, un complejo QRS ligeramente más amplio y cambios en el segmento ST, con elevación reducida debido a los cambios en repolarización ventricular.[2] 
@@ -200,25 +203,25 @@ Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia car
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_sentadillas.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 13. Reconstrucción de la señal ECG obtenida cuando el usuario realizó sentallidas cortas a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 14. Reconstrucción de la señal ECG obtenida cuando el usuario realizó sentallidas cortas a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Sentadillas.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 14. Ploteo de la Señal ECG obtenida cuando el usuario realizó sentallidas cortas en python</i></p>
+<p align="center"><i>Figura 15. Ploteo de la Señal ECG obtenida cuando el usuario realizó sentallidas cortas en python</i></p>
 
 ## Caso 4: Hiperventilación
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_hiperventilaci%C3%B3n.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 15. Reconstrucción de la señal ECG obtenida durante el periodo de hiperventilación forzada del usuario a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 16. Reconstrucción de la señal ECG obtenida durante el periodo de hiperventilación forzada del usuario a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Hiperventilaci%C3%B3n.PNG" alt="fotog" width="560" height="300"/>
 </p>
 
-<p align="center"><i>Figura 16. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
+<p align="center"><i>Figura 17. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
 
 <p align="justify">
 Análisis: La hiperventilación puede provocar cambios transitorios en el electrocardiograma (ECG), se ve un aumento en la frecuencia cardíaca debido a la estimulación del sistema nervioso autónomo, así como posibles alteraciones en el acortamiento de QT. Además, pueden observarse cambios en el segmento ST y la onda T, como ligeras elevaciones, reflejando la influencia de la hiperventilación en la repolarización ventricular. Estos cambios pueden variar en intensidad y duración, extrapolando a un caso real de hiperventilación según la gravedad y la duración de la hiperventilación, la alcalosis respiratoria derivaría en signos mas evidentes de los mencionados.[2][3]
