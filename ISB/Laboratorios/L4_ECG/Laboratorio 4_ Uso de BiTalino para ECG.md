@@ -360,6 +360,9 @@ plt.show()
 ```
 
 # 5.Discusión<a name="id5"></a>
+En el laboratorio, se utilizaron el kit BiTalino y el simulador Prosim4  para obtener señales ECG. El análisis de las señales en diferentes condiciones proporciona información importante sobre el funcionamiento del sistema cardiovascular y la variabilidad de la actividad eléctrica del corazón.
+La interpretación del electrocardiograma es fundamental para los profesionales de la salud, especialmente aquellos que trabajan en cuidados intensivos y emergencias. La habilidad para identificar patrones, detectar anomalías y diagnosticar condiciones cardíacas es esencial para proporcionar atención oportuna y efectiva. Sin embargo, existe una brecha en los programas de formación estándar y las estrategias de evaluación para medir la competencia en la interpretación de ECG. Se requieren esfuerzos continuos para mejorar el entrenamiento y la educación en esta área.[5]
+En el desarrollo del laboratorio,a pesar de tomar medidas para reducir la interferencia, las señales obtenidas presentaron algunos artefactos. Estos artefactos pueden ser causados por el entorno del usuario, el cual  estaba lleno de dispositivos móviles como celulares y laptops, los cuales pudieron haber interferido en la toma de data, debido a que estos dispositivos son una  fuente potencial de interferencia electromagnética (EMI) que puede afectar la confiabilidad de los datos.[6]
 
 
 # 6.Referencias bibliográficas<a name="id6"></a>
@@ -372,4 +375,8 @@ plt.show()
 [3] A. L. Goldberger, Z. D. Goldberger, and A. Shvilkin, _Goldberger’s Clinical Electrocardiography: A Simplified Approach_, 8th ed., Philadelphia, PA: Elsevier Saunders, 2013.
 
 [4] S. Dash y A. Kumar, “Hyperventilation Leading to Transient T-wave Inversion Mimicking Unstable Angina,” Cureus, vol. 13, no. 1, e12980, enero 29, 2021. DOI: 10.7759/cureus.12980
+
+[5]L. Penalo, M. Pusic, J. L. Friedman, B. P. Rosenzweig, and J. D. Lorin, "Importance Ranking of Electrocardiogram Rhythms: A Primer for Curriculum Development," Journal of Emergency Nursing, vol. 47, no. 2, pp. 313-320, 2021. [Online]. Available: https://doi.org/10.1016/j.jen.2020.11.005. Accessed on: [Accessed: Apr. 20, 2024]
+
+[6]T. Buczkowski, D. Janusek, H. Zavala-Fernandez, M. Skrok, M. Kania, and A. Liebert, "Influence of Mobile Phones on the Quality of ECG Signal Acquired by Medical Devices," Measurement Science Review, vol. 13, no. 5, pp. 231-236, 2013.
 </p>
