@@ -95,8 +95,8 @@ Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ej
 
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot1_op_prosim.jpeg" alt="Imagen 1" style="width: auto; height: 50%; margin-right: 10px;">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot2_py_prosim.jpeg" alt="Imagen 2" style="width: auto; height: 50%; margin-left: 10px;">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot1_op_prosim.jpeg" alt="Imagen 1" style="width: auto; height: 50%">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot2_py_prosim.jpeg" alt="Imagen 2" style="width: auto; height: 50%">
 </div>
 
 ### Posicionamiento de electrodos
