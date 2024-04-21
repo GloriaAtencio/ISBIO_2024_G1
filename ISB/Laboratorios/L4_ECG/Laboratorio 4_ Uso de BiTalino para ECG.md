@@ -7,7 +7,8 @@
 2. [Procedimiento](#id2)
 3. [Videos](#id3)
 4. [Ploteos y análisis](#id4)
-5. [Referencias bibliográficas](#id5) 
+5. [Discusión](#id5)
+6. [Referencias bibliográficas](#id6) 
 
 ***
 
@@ -234,7 +235,7 @@ Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia car
 Análisis: La hiperventilación puede provocar cambios transitorios en el electrocardiograma (ECG), se ve un aumento en la frecuencia cardíaca debido a la estimulación del sistema nervioso autónomo, así como posibles alteraciones en el acortamiento de QT. Además, pueden observarse cambios en el segmento ST y la onda T, como ligeras elevaciones, reflejando la influencia de la hiperventilación en la repolarización ventricular. Estos cambios pueden variar en intensidad y duración, extrapolando a un caso real de hiperventilación según la gravedad y la duración de la hiperventilación, la alcalosis respiratoria derivaría en signos mas evidentes de los mencionados.[3][4]
 </p>
 
-## Código empleado
+## Código empleado - Python
 
 ```
 
@@ -355,7 +356,10 @@ plt.show()
 
 ```
 
-# 5.Referencias bibliográficas<a name="id5"></a>
+# 5.Discusión<a name="id5"></a>
+
+
+# 6.Referencias bibliográficas<a name="id6"></a>
 <p align="justify">
 
 [1] P. E. Nodal Leyva, J. G. López Héctor, and G. de La Llera Domínguez, "Paro cardiorrespiratorio (PCR): Etiología. Diagnóstico. Tratamiento," Revista Cubana de Cirugía, vol. 45, no. 3-4, Dec. 2006. [Online]. Available: http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0034-74932006000300019&lng=es. [Accessed: Apr. 20, 2024]
