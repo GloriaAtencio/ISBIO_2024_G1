@@ -158,6 +158,7 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 </p>
 <p align="center"><i>Figura 10. Ploteo de la Señal ECG obtenida durante el reposo en python</i></p>
 
+Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la onda P representa la despolarización auricular, siendo generalmente positiva y de duración aproximada de 0.08 a 0.10 segundos. El intervalo PR, que va desde el inicio de la onda P hasta el inicio del complejo QRS, normalmente oscila entre 0.12 y 0.20 segundos. El complejo QRS, reflejando la despolarización ventricular, exhibe una morfología positiva inicial seguida de una onda negativa, con una duración de alrededor de 0.06 a 0.10 segundos. La onda T, representativa de la repolarización ventricular, es positiva y simétrica, con una duración similar a la onda P. El segmento ST, que precede a la onda T, generalmente se mantiene isoeléctrico en condiciones normales.[2]   
 ## Caso 2: Ejercicio
 
 <p align="center">
@@ -169,6 +170,8 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Actividad.PNG" alt="fotog" width="560" height="300"/>
 </p>
 <p align="center"><i>Figura 12. Ploteo de la Señal ECG obtenida después de que el usuario realizó ejercicio en python</i></p>
+
+Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia cardíaca más rápida, un aumento en la amplitud y la frecuencia de las ondas P, posiblemente por un acortamiento del intervalo PR, un complejo QRS ligeramente más amplio y cambios en el segmento ST, con elevación reducida debido a los cambios en repolarización ventricular.[2] 
 
 
 ## Caso 3: Sentadillas rápidas 
@@ -198,4 +201,5 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 
 # Referencias bibliográficas
 [1] L. Y. Biosignals, “BITalino (r)evolution Lab Guide,” Pluxbiosignals.com. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf. [Accessed: Apr. 19, 2024].
+[2] A. L. Goldberger, Z. D. Goldberger, and A. Shvilkin, _Goldberger’s Clinical Electrocardiography: A Simplified Approach_, 8th ed., Philadelphia, PA: Elsevier Saunders, 2013.
 
