@@ -97,6 +97,7 @@ Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ej
 |:-------------------------:|:-------------------------:|
 |        **Señal construida a partir del archivo txt obtenido del OpenSignals**      |        **Ploteo de la señal obtenida del OpenSignals usando python**      |
 
+Análisis: En la primera etapa, se puede visualizar un ritmo cardíaco normal, con una actividad eléctrica cardíaca regular y un patrón típico de ondas P, QRS y T en el ECG. Seguido se observa como la morfología entre Py T empieza a demostrar cambios notorios, muy propios de una taquicardia por lo aberrante de su morfología. Asimismo la desorganización de la señal a posterior indicaría una fibrilación ventricular oscilante; por lo general se puede observar una desaceleración gradual del ritmo cardíaco y la aparición de ritmos irregulares. Por lo ultimo se reconoce asistolia, se reconoce una línea isoeléctrica, sin la presencia de complejos QRS ni de ondas P o T, indicando asi la ausencia total de actividad eléctrica en el corazón.[1]
 
 
 ### Posicionamiento de electrodos
@@ -107,7 +108,7 @@ Con respecto el posicionamiento de los electrodos, nos guiamos del protocolo de 
 
 ### Protocolo: 
 <p align="justify">
-Para realizar las pruebas del sensor ECG BITalino hemos usado la configuración de la derivación I de Einthoven, posicionando los electrodos en las muñecas y la cresta ilíaca. El electrodo positivo (rojo) se ubicó en la muñeca izquierda (LA) y el electrodo negativo (negro) en la muñeca derecha (RA). La referencia (REF) en blanco se situó en la cresta ilíaca.[1] Por otro lado, para la toma de la data planteamos 3 casos, en estado basal, en actividad física e hiperventilación.
+Para realizar las pruebas del sensor ECG BITalino hemos usado la configuración de la derivación I de Einthoven, posicionando los electrodos en las muñecas y la cresta ilíaca. El electrodo positivo (rojo) se ubicó en la muñeca izquierda (LA) y el electrodo negativo (negro) en la muñeca derecha (RA). La referencia (REF) en blanco se situó en la cresta ilíaca.[2] Por otro lado, para la toma de la data planteamos 3 casos, en estado basal, en actividad física e hiperventilación.
 </p>
 
 <p align="center">
@@ -184,7 +185,7 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 <p align="center"><i>Figura 11. Ploteo de la Señal ECG obtenida durante el reposo en python</i></p>
 
 <p align="justify">
-Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la onda P representa la despolarización auricular, siendo generalmente positiva y de duración aproximada de 0.08 a 0.10 segundos. El intervalo PR, que va desde el inicio de la onda P hasta el inicio del complejo QRS, normalmente oscila entre 0.12 y 0.20 segundos. El complejo QRS, reflejando la despolarización ventricular, exhibe una morfología positiva inicial seguida de una onda negativa, con una duración de alrededor de 0.06 a 0.10 segundos. La onda T, representativa de la repolarización ventricular, es positiva y simétrica, con una duración similar a la onda P. El segmento ST, que precede a la onda T, generalmente se mantiene isoeléctrico en condiciones normales.[2]   
+Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la onda P representa la despolarización auricular, siendo generalmente positiva y de duración aproximada de 0.08 a 0.10 segundos. El intervalo PR, que va desde el inicio de la onda P hasta el inicio del complejo QRS, normalmente oscila entre 0.12 y 0.20 segundos. El complejo QRS, reflejando la despolarización ventricular, exhibe una morfología positiva inicial seguida de una onda negativa, con una duración de alrededor de 0.06 a 0.10 segundos. La onda T, representativa de la repolarización ventricular, es positiva y simétrica, con una duración similar a la onda P. El segmento ST, que precede a la onda T, generalmente se mantiene isoeléctrico en condiciones normales.[3]   
 </p>
   
 ## Caso 2: Actividad física
@@ -200,7 +201,7 @@ Análisis: En estado basal, en la derivación I del electrocardiograma (ECG), la
 <p align="center"><i>Figura 13. Ploteo de la Señal ECG obtenida después de que el usuario realizó ejercicio en python</i></p>
 
 <p align="justify">
-Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia cardíaca más rápida, un aumento en la amplitud y la frecuencia de las ondas P, posiblemente por un acortamiento del intervalo PR, un complejo QRS ligeramente más amplio y cambios en el segmento ST, con elevación reducida debido a los cambios en repolarización ventricular.[2] 
+Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia cardíaca más rápida, un aumento en la amplitud y la frecuencia de las ondas P, posiblemente por un acortamiento del intervalo PR, un complejo QRS ligeramente más amplio y cambios en el segmento ST, con elevación reducida debido a los cambios en repolarización ventricular.[3] 
 </p>
 
 
@@ -230,14 +231,17 @@ Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia car
 <p align="center"><i>Figura 17. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
 
 <p align="justify">
-Análisis: La hiperventilación puede provocar cambios transitorios en el electrocardiograma (ECG), se ve un aumento en la frecuencia cardíaca debido a la estimulación del sistema nervioso autónomo, así como posibles alteraciones en el acortamiento de QT. Además, pueden observarse cambios en el segmento ST y la onda T, como ligeras elevaciones, reflejando la influencia de la hiperventilación en la repolarización ventricular. Estos cambios pueden variar en intensidad y duración, extrapolando a un caso real de hiperventilación según la gravedad y la duración de la hiperventilación, la alcalosis respiratoria derivaría en signos mas evidentes de los mencionados.[2][3]
+Análisis: La hiperventilación puede provocar cambios transitorios en el electrocardiograma (ECG), se ve un aumento en la frecuencia cardíaca debido a la estimulación del sistema nervioso autónomo, así como posibles alteraciones en el acortamiento de QT. Además, pueden observarse cambios en el segmento ST y la onda T, como ligeras elevaciones, reflejando la influencia de la hiperventilación en la repolarización ventricular. Estos cambios pueden variar en intensidad y duración, extrapolando a un caso real de hiperventilación según la gravedad y la duración de la hiperventilación, la alcalosis respiratoria derivaría en signos mas evidentes de los mencionados.[3][4]
 </p>
 
 # 5.Referencias bibliográficas<a name="id5"></a>
 <p align="justify">
-[1] L. Y. Biosignals, “BITalino (r)evolution Lab Guide,” Pluxbiosignals.com. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf. [Accessed: Apr. 19, 2024].
 
-[2] A. L. Goldberger, Z. D. Goldberger, and A. Shvilkin, _Goldberger’s Clinical Electrocardiography: A Simplified Approach_, 8th ed., Philadelphia, PA: Elsevier Saunders, 2013.
+[1] P. E. Nodal Leyva, J. G. López Héctor, and G. de La Llera Domínguez, "Paro cardiorrespiratorio (PCR): Etiología. Diagnóstico. Tratamiento," Revista Cubana de Cirugía, vol. 45, no. 3-4, Dec. 2006. [Online]. Available: http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0034-74932006000300019&lng=es. [Accessed: Apr. 20, 2024]
 
-[3] S. Dash y A. Kumar, “Hyperventilation Leading to Transient T-wave Inversion Mimicking Unstable Angina,” Cureus, vol. 13, no. 1, e12980, enero 29, 2021. DOI: 10.7759/cureus.12980
+[2] L. Y. Biosignals, “BITalino (r)evolution Lab Guide,” Pluxbiosignals.com. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf. [Accessed: Apr. 19, 2024].
+
+[3] A. L. Goldberger, Z. D. Goldberger, and A. Shvilkin, _Goldberger’s Clinical Electrocardiography: A Simplified Approach_, 8th ed., Philadelphia, PA: Elsevier Saunders, 2013.
+
+[4] S. Dash y A. Kumar, “Hyperventilation Leading to Transient T-wave Inversion Mimicking Unstable Angina,” Cureus, vol. 13, no. 1, e12980, enero 29, 2021. DOI: 10.7759/cureus.12980
 </p>
