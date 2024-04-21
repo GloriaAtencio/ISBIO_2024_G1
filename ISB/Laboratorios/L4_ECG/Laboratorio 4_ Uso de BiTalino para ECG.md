@@ -130,6 +130,9 @@ Para este caso, se le pidió al usuario que realizara ejercicio por unos 5 minut
 En realidad, este caso lo utilizamos como una forma de medición que no permitió ver cómo es que la señal variaba dependiendo el esfuerzo físico del usuario. Si bien se le pisió al usuario hacer sentadillas en periodos cortos de tiempo , la data obtenida no se tomó en cuenta finalmente porque esta presentó mucho ruido en el programa Open Signals.
 </p>
 <div align="center">
+
+|  **Señal en OpenSignals**  | **Video** |
+|:------------:|:---------------:|
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/4c45903a2bed9d5834583624d6b6f98c12b42dc4/ISB/Laboratorios/Im%C3%A1genes/ECG/sentadilla_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/de98dfbb-ffa4-4979-869f-52692feec2f9" alt="video/mp4" width="300" height="300"></video>|
 </div>
 
