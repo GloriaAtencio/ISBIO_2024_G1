@@ -48,32 +48,56 @@ Como primer paso, hay que conectar la batería a la tarjeta y cambiar el switch 
 Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ejemplo una señal ecg en distintas fases de una parada cardíaca. Se grabó la variación de la señal durante las 5 etapas y se obtuvo lo siguiente:
 </p>
 
-### Videos e imágenes de señales obtenidas con el ProSim 4
+### Imágenes de las señales obtenidas con el ProSim 4
 
 #### Etapa 1 
 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa1_prosim.jpeg" alt="fotog" width="300" height="300"/>
+</p>
+<p align="center"><i>Figura 3. Señal obtenida en la primera etapa del ProSim en el programa Open Signals</i></p>
+
 #### Etapa 2
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa2_prosim.jpeg" alt="fotog" width="300" height="300"/>
+</p>
+<p align="center"><i>Figura 4. Señal obtenida en la segunda etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 #### Etapa 3
 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa3_prosim.jpeg" alt="fotog" width="300" height="300"/>
+</p>
+<p align="center"><i>Figura 5. Señal obtenida en la tercera etapa simulada en el ProSim en el programa Open Signals</i></p>
+
 #### Etapa 4
 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa4_prosim.jpeg" alt="fotog" width="300" height="300"/>
+</p>
+<p align="center"><i>Figura 6. Señal obtenida en la cuarta etapa simulada en el ProSim en el programa Open Signals</i></p>
+
 #### Etapa 5
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa5_prosim.jpeg" alt="fotog" width="300" height="300"/>
+</p>
+<p align="center"><i>Figura 7. Señal obtenida en la quinta etapa simulada en el ProSim en el programa Open Signals</i></p>
 
 ### Posicionamiento de electrodos
 
 <p align="justify">
 Con respecto el posicionamiento de los electrodos, nos guiamos del protocolo de la guía del BiTalino.
 </p>
-Protocolos: 
+
+### Protocolos: 
 Para realizar las pruebas del sensor ECG BITalino hemos usado la configuración de la derivación I de Einthoven, posicionando los electrodos en las muñecas y la cresta ilíaca. El electrodo positivo (rojo) se ubicó en la muñeca izquierda (LA) y el electrodo negativo (negro) en la muñeca derecha (RA). La referencia (REF) en blanco se situó en la cresta ilíaca.[1] Por otro lado, para la toma de la data planteamos 3 casos, en estado basal, en actividad física e hiperventilación.
-
-
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5884e90568d787a64e4d173875539c3cefb68913/ISB/Laboratorios/Im%C3%A1genes/ECG/bita_ecg_pos.jpeg" alt="fotog" width="300" height="300"/>
 </p>
-<p align="center"><i>Figura 3. Posicionamiento de los electrodos en el usuario</i></p>
+<p align="center"><i>Figura 8. Posicionamiento de los electrodos en el usuario</i></p>
 
 # 3.Videos<a name="id3"></a>
 
@@ -124,24 +148,24 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_reposo.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 4. Reconstrucción de la señal ECG obtenida durante el reposo a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 9. Reconstrucción de la señal ECG obtenida durante el reposo a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_reposo.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 5. Ploteo de la Señal ECG obtenida durante el reposo en python</i></p>
+<p align="center"><i>Figura 10. Ploteo de la Señal ECG obtenida durante el reposo en python</i></p>
 
 ## Caso 2: Ejercicio
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_despues_de_actividad.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 6. Reconstrucción de la señal ECG obtenida después de que el usuario realizó ejercicio a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 11. Reconstrucción de la señal ECG obtenida después de que el usuario realizó ejercicio a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Actividad.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 7. Ploteo de la Señal ECG obtenida después de que el usuario realizó ejercicio en python</i></p>
+<p align="center"><i>Figura 12. Ploteo de la Señal ECG obtenida después de que el usuario realizó ejercicio en python</i></p>
 
 
 ## Caso 3: Sentadillas rápidas 
@@ -149,25 +173,25 @@ Por último, se le pidió al usuario intentar imitar una hiperventilación para 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_sentadillas.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 8. Reconstrucción de la señal ECG obtenida cuando el usuario realizó sentallidas cortas a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 13. Reconstrucción de la señal ECG obtenida cuando el usuario realizó sentallidas cortas a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Sentadillas.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 9. Ploteo de la Señal ECG obtenida cuando el usuario realizó sentallidas cortas en python</i></p>
+<p align="center"><i>Figura 14. Ploteo de la Señal ECG obtenida cuando el usuario realizó sentallidas cortas en python</i></p>
 
 ## Caso 4: Hiperventilación
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/ECG_hiperventilaci%C3%B3n.PNG" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 10. Reconstrucción de la señal ECG obtenida durante el periodo de hiperventilación forzada del usuario a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 15. Reconstrucción de la señal ECG obtenida durante el periodo de hiperventilación forzada del usuario a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/ECG/plot_ecg/FFT_Hiperventilaci%C3%B3n.PNG" alt="fotog" width="560" height="300"/>
 </p>
 
-<p align="center"><i>Figura 11. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
+<p align="center"><i>Figura 16. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
 
 # Referencias bibliográficas
 [1] L. Y. Biosignals, “BITalino (r)evolution Lab Guide,” Pluxbiosignals.com. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf. [Accessed: Apr. 19, 2024].
