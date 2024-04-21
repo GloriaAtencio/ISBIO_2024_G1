@@ -95,7 +95,7 @@ Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ej
 
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot1_op_prosim.jpeg) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot2_py_prosim.jpeg) |
 |:-------------------------:|:-------------------------:|
-|        Señal construida a partir del archivo txt obtenido del OpenSignals      |        Ploteo de la señal obtenida del OpenSignals usando python      |
+|        **Señal construida a partir del archivo txt obtenido del OpenSignals**      |        **Ploteo de la señal obtenida del OpenSignals usando python**      |
 
 
 
