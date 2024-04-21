@@ -93,8 +93,11 @@ Ya dentro del Open Signals, se nos dió el ProSim 4. con el cual obtuvimos el ej
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/941e688e122232804b8e87dc74393373679f659a/ISB/Laboratorios/Im%C3%A1genes/ECG/etapa5_prosim.jpeg" alt="fotog" width="560" height="300"/>
 </p>
 <p align="center"><i>Figura 8. Señal obtenida en la quinta etapa simulada en el ProSim en el programa Open Signals</i></p>
-Análisis: En la primera etapa, se puede visualizar un ritmo cardíaco normal, con una actividad eléctrica cardíaca regular y un patrón típico de ondas P, QRS y T en el ECG. Seguido se observa como la morfología entre Py T empieza a demostrar cambios notorios, muy propios de una taquicardia por lo aberrante de su morfología. Asimismo la desorganización de la señal a posterior indicaría una fibrilación ventricular oscilante; por lo general se puede observar una desaceleración gradual del ritmo cardíaco y la aparición de ritmos irregulares. Por lo ultimo se reconoce asistolia, se reconoce una línea isoeléctrica, sin la presencia de complejos QRS ni de ondas P o T, indicando asi la ausencia total de actividad eléctrica en el corazón.[1]
 
+<p align="justify">
+En la primera etapa, se puede visualizar un ritmo cardíaco normal, con una actividad eléctrica cardíaca regular y un patrón típico de ondas P, QRS y T en el ECG. Seguido se observa como la morfología entre Py T empieza a demostrar cambios notorios, muy propios de una taquicardia por lo aberrante de su morfología. Asimismo la desorganización de la señal a posterior indicaría una fibrilación ventricular oscilante; por lo general se puede observar una desaceleración gradual del ritmo cardíaco y la aparición de ritmos irregulares. Por lo ultimo se reconoce asistolia, se reconoce una línea isoeléctrica, sin la presencia de complejos QRS ni de ondas P o T, indicando asi la ausencia total de actividad eléctrica en el corazón.[1]
+  
+</p>
 
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot1_op_prosim.jpeg) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7305731af22fcf05c313b37e133810dc5eb14936/ISB/Laboratorios/Im%C3%A1genes/ECG/plot2_py_prosim.jpeg) |
 |:-------------------------:|:-------------------------:|
