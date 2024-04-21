@@ -199,9 +199,12 @@ Análisis: Después de hacer ejercicio moderado, se logra ver una frecuencia car
 
 <p align="center"><i>Figura 16. Ploteo de la Señal ECG obtenida durante el periodo de hiperventilación forzada del usuario en python</i></p>
 
+Análisis: La hiperventilación puede provocar cambios transitorios en el electrocardiograma (ECG), se ve un aumento en la frecuencia cardíaca debido a la estimulación del sistema nervioso autónomo, así como posibles alteraciones en el acortamiento de QT. Además, pueden observarse cambios en el segmento ST y la onda T, como ligeras elevaciones, reflejando la influencia de la hiperventilación en la repolarización ventricular. Estos cambios pueden variar en intensidad y duración, extrapolando a un caso real de hiperventilación según la gravedad y la duración de la hiperventilación, la alcalosis respiratoria derivaría en signos mas evidentes de los mencionados.[2][3]
+
 # Referencias bibliográficas
 [1] L. Y. Biosignals, “BITalino (r)evolution Lab Guide,” Pluxbiosignals.com. [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf. [Accessed: Apr. 19, 2024].
 
 [2] A. L. Goldberger, Z. D. Goldberger, and A. Shvilkin, _Goldberger’s Clinical Electrocardiography: A Simplified Approach_, 8th ed., Philadelphia, PA: Elsevier Saunders, 2013.
 
-[3] 
+[3] S. Dash y A. Kumar, “Hyperventilation Leading to Transient T-wave Inversion Mimicking Unstable Angina,” Cureus, vol. 13, no. 1, e12980, enero 29, 2021. DOI: 10.7759/cureus.12980
+
