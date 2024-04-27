@@ -3,7 +3,7 @@
 ***
 
 # **Tabla de contenidos**
-1. [Contexto](#id1)
+1. [Introducción](#id1)
 2. [Procedimiento](#id2)
 3. [Videos](#id3)
 4. [Ploteos y análisis](#id4)
@@ -12,9 +12,18 @@
 
 ***
 
-# 1.Contexto<a name="id1"></a>
+# 1.Introducción<a name="id1"></a>
 
 <p align="justify">
+
+Objetivo:
+
+El objetivo de este laboratorio es registrar y analizar la señal electroencefalográfica (EEG) de un sujeto durante diferentes estados de actividad cerebral.  específicamente, se busca:
+
+- Registrar una línea base de señal con poco ruido y sin movimientos durante 30 segundos.
+- Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.
+- Registrar otra fase de referencia de 30 segundos.
+- Registrar la señal mientras el sujeto realiza ejercicios matemáticos mentales.
 
 </p>
 
