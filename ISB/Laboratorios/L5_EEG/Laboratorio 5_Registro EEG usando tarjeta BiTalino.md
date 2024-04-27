@@ -48,9 +48,11 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 
 ## Conexión del BiTalino 
 
-### Materiales y equipos 
+
 
 <div align="center">
+
+### Materiales y equipos 
 
 |     Modelo       |                  Descripción                  |   Cantidad    |
 |  :-------------: |:--------------------------------------------: |:-------------:|
