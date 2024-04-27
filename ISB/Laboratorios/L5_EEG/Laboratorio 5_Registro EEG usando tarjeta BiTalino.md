@@ -53,8 +53,9 @@
   
 |  **Señal en OpenSignals**  | **Video** |
 |:------------:|:---------------:|
-|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3a96023b-0b57-4392-9a56-2c838ebdad0f" width="300" height="300"></video>|
 </div>
+
 
 ## Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces
 
@@ -66,8 +67,9 @@
   
 |  **Señal en OpenSignals**  | **Video** |
 |:------------:|:---------------:|
-|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/dfcd0bb7-95a5-4aaa-b080-cdadaefcc273" width="300" height="300"></video>|
 </div>
+
 
 ## Caso 3: Fase de referencia de 30 segundos
 
@@ -79,8 +81,10 @@
   
 |  **Señal en OpenSignals**  | **Video** |
 |:------------:|:---------------:|
-|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/4f032e7f-0600-4a20-a24c-c89d2e37f389" width="300" height="300"></video>|
 </div>
+
+
 
 ## Caso 4: Solución de acertijos
 
@@ -92,8 +96,10 @@
   
 |  **Señal en OpenSignals**  | **Video** |
 |:------------:|:---------------:|
-|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/7ffcb595-1aad-423c-bacc-27f90f1a04fb" width="300" height="300"></video>|
 </div>
+
+
 
 ## Caso 5: Solución de preguntas de 100 peruanos dicen
 
@@ -105,8 +111,10 @@
   
 |  **Señal en OpenSignals**  | **Video** |
 |:------------:|:---------------:|
-|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/950e223c-d6b6-46f5-9407-4257fd673218" width="300" height="300"></video>|
 </div>
+
+
 
 # 4.Ploteos y análisis<a name="id4"></a>
 
