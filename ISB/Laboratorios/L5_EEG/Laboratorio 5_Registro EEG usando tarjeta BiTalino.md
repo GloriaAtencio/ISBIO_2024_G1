@@ -66,6 +66,12 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 
 </p>
 
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/c7c651d3689e8628b29ea806629639e14f2c6c82/ISB/Laboratorios/Im%C3%A1genes/EEG/electrodos_1.jpeg) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/c7c651d3689e8628b29ea806629639e14f2c6c82/ISB/Laboratorios/Im%C3%A1genes/EEG/electrodos_2.jpeg) |
+|:-------------------------:|:-------------------------:|
+|        **Vista frontal**      |        **Vista lateral**      |
+
+
+
 # 3.Videos<a name="id3"></a>
 
 ## Caso 1: Respiración normal, sin movimientos oculares/ojos cerrados durante 30 segundos
