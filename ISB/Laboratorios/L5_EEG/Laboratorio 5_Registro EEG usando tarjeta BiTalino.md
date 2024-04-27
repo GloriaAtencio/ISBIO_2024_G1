@@ -50,10 +50,14 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 
 ### Materiales y equipos 
 
+<div align="center">
+
 |     Modelo       |                  Descripción                  |   Cantidad    |
 |  :-------------: |:--------------------------------------------: |:-------------:|
 | (R)EVOLUTION     | Kit BITalino                                  | 1             |
 | -                | Laptop                                        | 1             |
+| -                | Electrodos                                    | 3             |
+</div>
 
 <p align="justify">
 
