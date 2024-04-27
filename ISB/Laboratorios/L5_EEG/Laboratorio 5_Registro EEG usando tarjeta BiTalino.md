@@ -182,7 +182,7 @@ Bajo la premisa de obtener una mayor variación en la señal EEG, se planteó el
 ## Caso 5: Solución de preguntas de 100 peruanos dicen
 
 <p align="justify">
-
+En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución de preguntas al estilo del programa "100 Peruanos Dicen". Este programa implica que cinco miembros en cada grupo intenten adivinar las respuestas proporcionadas por 100 personas en una encuesta previa, acumulando puntos según la popularidad de las respuestas. Se procuró que las preguntas fueran cortas y generales para facilitar las respuestas del usuario. Este cambio se realizó con la intención de generar una mayor variación en la señal EEG y obtener picos más notorios que permitieran un análisis más claro de la actividad cerebral.
 </p>
 
 <div align="center">
