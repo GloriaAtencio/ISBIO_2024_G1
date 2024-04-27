@@ -80,7 +80,7 @@ Tras leer el manual de usuario de la tarjeta, confirmamos que para este laborato
 <p align="center">
  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/8a6d4f4c3a2a639e7e6bb67bd623d400adca8478/ISB/Laboratorios/Im%C3%A1genes/EEG/electrodos_bitalino.png" alt="fotog" width="600" height="200"/>
 </p>
-<p align="center"><i>Figura 2. Cantidad de electrodos necesarios según el tipo de señal[2]</i></p>
+<p align="center"><i>Figura 2. Cantidad de electrodos necesarios según el tipo de señal [2]</i></p>
 
 ## Protocolo
 <p align="justify">
