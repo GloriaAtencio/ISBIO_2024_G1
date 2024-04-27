@@ -82,7 +82,7 @@
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>|
 </div>
 
-## Caso 4: Solución de serie de ejercicios matemáticos
+## Caso 4: Solución de acertijos
 
 <p align="justify">
 
@@ -95,7 +95,7 @@
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/10c003765b5e66b1e052993c466b867c704fb94a/ISB/Laboratorios/Im%C3%A1genes/ECG/reposo_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/33cc886b-a9b8-4a4b-af11-691bb0b28b30" width="300" height="300"></video>|
 </div>
 
-## Caso 5: Solución de acertijos
+## Caso 5: Solución de preguntas de 100 peruanos dicen
 
 <p align="justify">
 
