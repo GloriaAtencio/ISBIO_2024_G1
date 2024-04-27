@@ -144,11 +144,15 @@ Volver a registrar otra fase de referencia, en este caso "caso 3", es fundamenta
 </p>
 
 <p align="justify">
-1. Verificación de la consistencia: Obtener una segunda fase de referencia permite verificar la estabilidad y consistencia de la señal EEG registrada. Al repetir el proceso, se puede confirmar si los resultados obtenidos son reproducibles y confiables.
+1. Verificación de la consistencia: Obtener una segunda fase de referencia permite verificar la estabilidad y consistencia de la señal EEG registrada. Al repetir el proceso, se puede confirmar si los resultados obtenidos son reproducibles y confiables.[3]
+</p>
 
-1. Control de posibles interferencias: Al realizar múltiples fases de referencia, se puede identificar y controlar posibles interferencias o artefactos que puedan afectar la calidad de la señal EEG. Esto ayuda a garantizar que la señal capturada sea lo más pura y precisa posible.
+<p align="justify">
+2. Control de posibles interferencias: Al realizar múltiples fases de referencia, se puede identificar y controlar posibles interferencias o artefactos que puedan afectar la calidad de la señal EEG. Esto ayuda a garantizar que la señal capturada sea lo más pura y precisa posible.
+</p>
 
-1. Comparación y análisis: Contar con múltiples fases de referencia facilita la comparación entre diferentes momentos de actividad cerebral en reposo, lo que puede revelar patrones o cambios significativos en la actividad cerebral que de otra manera podrían pasar desapercibidos.
+<p align="justify">
+3. Comparación y análisis: Contar con múltiples fases de referencia facilita la comparación entre diferentes momentos de actividad cerebral en reposo, lo que puede revelar patrones o cambios significativos en la actividad cerebral que de otra manera podrían pasar desapercibidos.[3]
    
 </p>
   
@@ -286,5 +290,5 @@ Volver a registrar otra fase de referencia, en este caso "caso 3", es fundamenta
 <p align="justify">
 1. A. Rayi y N. Murr, «Electroencephalogram», en StatPearls, Treasure Island (FL): StatPearls Publishing, 2024. Accedido: 27 de abril de 2024. [En línea]. Disponible en: http://www.ncbi.nlm.nih.gov/books/NBK563295/
 2. M. S. R. Campos, J. P. H. Corvacho, L. D. S. Andrade, y J. M. L. López, «ANÁLISIS DE LAS CARACTERÍSTICAS DE EEG EN UN CONTEXTO DE EMOCIONES INDUCIDAS», EIEI ACOFI, sep. 2021, doi: 10.26507/ponencia.1765.
-
+3. «Líneas base, anotaciones enfocadas al diseño experimental fNIRS y EEG», BuscaEU. Accedido: 27 de abril de 2024. [En línea]. Disponible en: https://brainlatam.com/blog/lineas-base-anotaciones-enfocadas-al-diseno-experimental-fnirs-y-eeg-1836
 </p>
