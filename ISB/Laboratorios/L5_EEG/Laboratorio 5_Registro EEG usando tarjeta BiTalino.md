@@ -24,9 +24,11 @@ El objetivo de este laboratorio es registrar y analizar la señal electroencefal
 - Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos.
 - Registrar otra fase de referencia de 30 segundos.
 - Registrar la señal mientras el sujeto realiza ejercicios matemáticos mentales.
+</p>
 
+<p align="justify">
+  
 ## Marco teórico:
-
 
 El electroencefalograma (EEG) es una técnica neurofisiológica que registra la actividad eléctrica del cerebro.  La señal EEG se genera por la despolarización e hiperpolarización de las neuronas corticales.  La actividad EEG se puede analizar en términos de frecuencia, amplitud y forma de onda.
 
