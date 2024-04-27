@@ -94,6 +94,9 @@ Para determinar la colocación adecuada de los electrodos, seguimos las instrucc
 <p align="justify">
 Se procedió a registrar una línea base de señal con mínima interferencia y ausencia de movimientos (respiración en su ritmo normal, sin movimiento ocular ni ojos abiertos) durante un período de 30 segundos. Esta condición, denominada como "caso 1", fue utilizada para capturar la señal EEG en el software Open Signals. Para verificar que el tiempo fuera el correcto se utilizó un cronómetro.
 </p>
+>[!¿Por qué se considera una línea base en EEG y su importancia?]
+>
+>Una línea base en EEG se refiere a la actividad cerebral registrada en condiciones de reposo y calma, sin interferencias externas ni movimientos fisiológicos significativos. Esta condición es crucial en la investigación y análisis de señales cerebrales, ya que proporciona un punto de referencia estable y consistente para comparar con otras actividades cerebrales o intervenciones.[2]
 
 >[!¿Por qué se considera una línea base en EEG y su importancia?]
    >
