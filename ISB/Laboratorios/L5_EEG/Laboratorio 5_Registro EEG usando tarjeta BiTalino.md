@@ -141,7 +141,9 @@ Se procedió a registrar otra fase de referencia de 30 segundos, manteniendo las
 
 <p align="justify">
 Volver a registrar otra fase de referencia, en este caso "caso 3", es fundamental en el proceso de adquisición de señales EEG por varias razones:
-  
+</p>
+
+<p align="justify">
 1. Verificación de la consistencia: Obtener una segunda fase de referencia permite verificar la estabilidad y consistencia de la señal EEG registrada. Al repetir el proceso, se puede confirmar si los resultados obtenidos son reproducibles y confiables.
 
 1. Control de posibles interferencias: Al realizar múltiples fases de referencia, se puede identificar y controlar posibles interferencias o artefactos que puedan afectar la calidad de la señal EEG. Esto ayuda a garantizar que la señal capturada sea lo más pura y precisa posible.
