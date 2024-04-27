@@ -55,6 +55,11 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 | (R)EVOLUTION     | Kit BITalino                                  | 1             |
 | -                | Laptop                                        | 1             |
 
+<p align="justify">
+
+El procedimiento inicial consistió en conectar la batería a la tarjeta y activar el interruptor de apagado a encendido. Luego, se procedió a emparejar la tarjeta BiTalino con la laptop a través de Bluetooth. Una vez establecida la conexión, se inició el programa Open Signals y se localizó la tarjeta dentro de la interfaz del programa.
+</p>
+
 <p align="center">
  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9a7420da071748b34dc40f665ea7b1db2cfc3242/ISB/Laboratorios/Im%C3%A1genes/ECG/mat_bitalino_ecg.jpeg" alt="fotog" width="500" height="300"/>
 </p>
@@ -63,13 +68,17 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 ## Posicionamiento de electrodos
 
 <p align="justify">
+Para determinar la colocación adecuada de los electrodos, seguimos las instrucciones detalladas en el manual tipo guía proporcionado por BiTalino.
+</p>
+
+## Protocolo
+<p align="justify">
 
 </p>
 
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/c7c651d3689e8628b29ea806629639e14f2c6c82/ISB/Laboratorios/Im%C3%A1genes/EEG/electrodos_1.jpeg) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/c7c651d3689e8628b29ea806629639e14f2c6c82/ISB/Laboratorios/Im%C3%A1genes/EEG/electrodos_2.jpeg) |
 |:-------------------------:|:-------------------------:|
 |        **Vista frontal**      |        **Vista lateral**      |
-
 
 
 # 3.Videos<a name="id3"></a>
