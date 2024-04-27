@@ -166,7 +166,8 @@ Volver a registrar otra fase de referencia, en este caso "caso 3", es fundamenta
 ## Caso 4: Solución de acertijos
 
 <p align="justify">
-
+Bajo la premisa de obtener una mayor variación en la señal EEG, se planteó el "caso 4". En este escenario, se solicitó a uno de nuestros compañeros que leyera en voz alta una serie de ejercicios matemáticos, mientras el usuario resolvía cada uno de ellos mentalmente. Se instruyó al usuario a enfocar su mirada en un punto específico para minimizar la generación de artefactos. Sin embargo, los resultados no fueron los esperados, ya que el tiempo de respuesta del usuario oscilaba entre 5 y 6 segundos, y al observar la señal en Open Signals, no se evidenciaba una variación significativa en comparación con la línea base. Ante esta situación, se optó por realizar una lectura de acertijos con la esperanza de generar picos más notorios en la señal.
+  
 </p>
 
 <div align="center">
