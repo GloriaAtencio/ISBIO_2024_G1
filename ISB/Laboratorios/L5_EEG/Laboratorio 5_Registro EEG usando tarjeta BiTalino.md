@@ -102,7 +102,8 @@ Se procedió a registrar una línea base de señal con mínima interferencia y a
 
 <p align="justify">
 Una línea base en EEG se refiere a la actividad cerebral registrada en condiciones de reposo y calma, sin interferencias externas ni movimientos fisiológicos significativos. Esta condición es crucial en la investigación y análisis de señales cerebrales, ya que proporciona un punto de referencia estable y consistente para comparar con otras actividades cerebrales o intervenciones.[2]
-
+</p>
+<p align="justify">
 La importancia de establecer una línea base radica en que permite identificar patrones normales de actividad cerebral de un individuo en un estado de reposo, lo que facilita la detección de cambios significativos que puedan indicar alteraciones o respuestas a estímulos específicos. Además, la línea base sirve como punto de partida para evaluar la eficacia de tratamientos, intervenciones o tareas cognitivas al compararlas con la actividad cerebral en reposo.[2]
 </p>
 
