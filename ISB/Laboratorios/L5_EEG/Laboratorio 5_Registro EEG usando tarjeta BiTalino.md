@@ -118,7 +118,7 @@ La importancia de establecer una línea base radica en que permite identificar p
 ## Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces
 
 <p align="justify">
-
+Se llevó a cabo la repetición de un ciclo consistente en alternar entre los estados de ojos abiertos y ojos cerrados, cada uno mantenido durante cinco segundos, y se repitió este ciclo en cinco ocasiones. Adquirir la señal EEG en situaciones específicas, como en el caso mencionado de alternar entre ojos abiertos y cerrados, sirve para estudiar y entender cómo el cerebro responde a diferentes estímulos y condiciones. Este tipo de adquisición de señal proporciona información valiosa sobre la actividad eléctrica cerebral y puede utilizarse en diversas aplicaciones, como en la investigación de trastornos neurológicos, la evaluación de la atención y la concentración, el monitoreo del estado de alerta, entre otros. 
 </p>
 
 <div align="center">
