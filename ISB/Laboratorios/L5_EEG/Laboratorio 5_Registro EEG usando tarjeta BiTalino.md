@@ -74,8 +74,13 @@ El procedimiento inicial consistió en conectar la batería a la tarjeta y activ
 ## Posicionamiento de electrodos
 
 <p align="justify">
-Para determinar la colocación adecuada de los electrodos, seguimos las instrucciones detalladas en el manual tipo guía proporcionado por BiTalino.
+Tras leer el manual de usuario de la tarjeta, confirmamos que para este laboratorio era necesario el uso de 3 electrodos para obtener la señal EEEG. Para determinar la colocación adecuada de los electrodos, seguimos las instrucciones detalladas en el manual tipo guía proporcionado por BiTalino.
 </p>
+
+<p align="center">
+ <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/8a6d4f4c3a2a639e7e6bb67bd623d400adca8478/ISB/Laboratorios/Im%C3%A1genes/EEG/electrodos_bitalino.png" alt="fotog" width="500" height="300"/>
+</p>
+<p align="center"><i>Figura 2. Cantidad de electrodos necesarios según el tipo de señal</i></p>
 
 ## Protocolo
 <p align="justify">
@@ -89,8 +94,13 @@ Para determinar la colocación adecuada de los electrodos, seguimos las instrucc
 
 # 3.Videos<a name="id3"></a>
 <p align="justify">
-
+Cabe resaltar que todos los registros de las señales fueron realizados a una frecuencia de 100 Hz, esto se debe a que la tarjeta BiTalino solo utiliza las siguientes frecuencias: 100, 10 y 10 Hz e incluso hasta 1000 Hz (según su manual de usuario en Especificaciones técnicas).
 </p>
+<p align="center">
+ <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/8a6d4f4c3a2a639e7e6bb67bd623d400adca8478/ISB/Laboratorios/Im%C3%A1genes/EEG/especificaciones_tecnicas_bitalino.png" alt="fotog" width="500" height="300"/>
+</p>
+<p align="center"><i>Figura 3. Especificaciones técnicas de la tarjeta BiTalino</i></p>
+
 ## Caso 1: Respiración normal, sin movimientos oculares/ojos cerrados durante 30 segundos
 
 <p align="justify">
@@ -203,12 +213,12 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/reposo_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 2. Reconstrucción de la señal EEG (línea base) obtenida a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 4. Reconstrucción de la señal EEG (línea base) obtenida a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/reposo_fft_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 3. Ploteo de la Señal EEG (línea base) obtenida en python</i></p>
+<p align="center"><i>Figura 5. Ploteo de la Señal EEG (línea base) obtenida en python</i></p>
 
 <p align="justify">
 
@@ -219,12 +229,12 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/c_a_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 4. Reconstrucción de la señal EEG obtenida durante los 5 ciclos de ojos abiertos-cerrados a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 6. Reconstrucción de la señal EEG obtenida durante los 5 ciclos de ojos abiertos-cerrados a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/c_a_fft_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 5. Ploteo de la Señal EEG obtenida durante los 5 ciclos de ojos abiertos-cerrados en python</i></p>
+<p align="center"><i>Figura 7. Ploteo de la Señal EEG obtenida durante los 5 ciclos de ojos abiertos-cerrados en python</i></p>
 
 <p align="justify">
 
@@ -235,12 +245,12 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/reposo2_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 6. Reconstrucción de la señal EEG obtenida durante el registro de la segunda línea base a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 8. Reconstrucción de la señal EEG obtenida durante el registro de la segunda línea base a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/reposo2_fft_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 7. Ploteo de la Señal EEG obtenida durante el registro de la segunda línea base en python</i></p>
+<p align="center"><i>Figura 9. Ploteo de la Señal EEG obtenida durante el registro de la segunda línea base en python</i></p>
 
 <p align="justify">
 
@@ -251,12 +261,12 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/acertijo_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 8. Reconstrucción de la señal EEG obtenida durante la solución de acertijos a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 10. Reconstrucción de la señal EEG obtenida durante la solución de acertijos a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/acertijos_fft_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 9. Ploteo de la Señal EEG obtenida durante la solución de acertijos en python</i></p>
+<p align="center"><i>Figura 11. Ploteo de la Señal EEG obtenida durante la solución de acertijos en python</i></p>
 
 <p align="justify">
 
@@ -268,12 +278,12 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/100preruanosdicen_plot.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 10. Reconstrucción de la señal EEG obtenida durante la solución de las preguntas (100 peruanos dicen) a partir de los datos txt adquiridos en Open Signals</i></p>
+<p align="center"><i>Figura 12. Reconstrucción de la señal EEG obtenida durante la solución de las preguntas (100 peruanos dicen) a partir de los datos txt adquiridos en Open Signals</i></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/0ca257ca920d49329a3f88ed40c87eec76aa313f/ISB/Laboratorios/Im%C3%A1genes/EEG/plot_eeg/100peruanosdicen_fft.jpeg" alt="fotog" width="560" height="300"/>
 </p>
-<p align="center"><i>Figura 11. Ploteo de la Señal EEG obtenida durante la solución de las preguntas (100 peruanos dicen) en python</i></p>
+<p align="center"><i>Figura 13. Ploteo de la Señal EEG obtenida durante la solución de las preguntas (100 peruanos dicen) en python</i></p>
 
 <p align="justify">
 
