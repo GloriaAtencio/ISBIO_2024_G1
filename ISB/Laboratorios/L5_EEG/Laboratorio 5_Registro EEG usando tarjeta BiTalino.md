@@ -61,15 +61,15 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 | -                | Electrodos                                    | 3             |
 </div>
 
-<p align="justify">
-
-El procedimiento inicial consistió en conectar la batería a la tarjeta y activar el interruptor de apagado a encendido. Luego, se procedió a emparejar la tarjeta BiTalino con la laptop a través de Bluetooth. Una vez establecida la conexión, se inició el programa Open Signals y se localizó la tarjeta dentro de la interfaz del programa.
-</p>
-
 <p align="center">
  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9a7420da071748b34dc40f665ea7b1db2cfc3242/ISB/Laboratorios/Im%C3%A1genes/ECG/mat_bitalino_ecg.jpeg" alt="fotog" width="500" height="300"/>
 </p>
 <p align="center"><i>Figura 1. Tarjeta BiTalino</i></p>
+
+<p align="justify">
+
+El procedimiento inicial consistió en conectar la batería a la tarjeta y activar el interruptor de apagado a encendido. Luego, se procedió a emparejar la tarjeta BiTalino con la laptop a través de Bluetooth. Una vez establecida la conexión, se inició el programa Open Signals y se localizó la tarjeta dentro de la interfaz del programa.
+</p>
 
 ## Posicionamiento de electrodos
 
@@ -92,7 +92,7 @@ Para determinar la colocación adecuada de los electrodos, seguimos las instrucc
 ## Caso 1: Respiración normal, sin movimientos oculares/ojos cerrados durante 30 segundos
 
 <p align="justify">
-
+Se procedió a registrar una línea base de señal con mínima interferencia y ausencia de movimientos (respiración en su ritmo normal, sin movimiento ocular ni ojos abiertos) durante un período de 30 segundos. Esta condición, denominada como "caso 1", fue utilizada para capturar la señal EEG en el software Open Signals. Para verificar que el tiempo fuera el correcto se utilizó un cronómetro.
 </p>
 
 <div align="center">
