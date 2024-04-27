@@ -220,8 +220,6 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 </p>
 <p align="center"><i>Figura 5. Ploteo de la Señal EEG (línea base) obtenida en python</i></p>
 
-<details>
-<summary>Texto que se muestra antes de desplegar</summary>
 [Uplo# OpenSignals Text File Format. Version 1
 # {"98:D3:61:FD:78:31": {"position": 0, "device": "bitalino_rev", "device name": "98:D3:61:FD:78:31", "device connection": "BTH98:D3:61:FD:78:31", "sampling rate": 1000, "resolution": [4, 1, 1, 1, 1, 10, 10, 10, 10, 6, 6], "firmware version": 1282, "comments": "", "keywords": "", "mode": 0, "sync interval": 2, "date": "2024-4-26", "time": "9:37:20.697", "channels": [1, 2, 3, 4, 5, 6], "sensor": ["RAW", "RAW", "RAW", "EEGBITREV", "RAW", "RAW"], "label": ["A1", "A2", "A3", "A4", "A5", "A6"], "column": ["nSeq", "I1", "I2", "O1", "O2", "A1", "A2", "A3", "A4", "A5", "A6"], "special": [{}, {}, {}, {}, {}, {}], "digital IO": [0, 0, 1, 1], "convertedValues": 0}}
 # EndOfHeader
@@ -29028,7 +29026,6 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 ading EEG30sreposo.txt…]()
 
 
-</details>
 
 
 
