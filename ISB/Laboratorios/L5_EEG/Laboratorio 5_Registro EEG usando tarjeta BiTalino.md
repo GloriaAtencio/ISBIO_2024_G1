@@ -62,7 +62,7 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 </div>
 
 <p align="center">
- <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/9a7420da071748b34dc40f665ea7b1db2cfc3242/ISB/Laboratorios/Im%C3%A1genes/ECG/mat_bitalino_ecg.jpeg" alt="fotog" width="500" height="300"/>
+ <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/f2a73e9eb7b9cc528b56bf9261b093b2c905f8e3/ISB/Laboratorios/Im%C3%A1genes/EEG/bitalino_eeg.png" alt="fotog" width="500" height="300"/>
 </p>
 <p align="center"><i>Figura 1. Tarjeta BiTalino</i></p>
 
@@ -88,7 +88,9 @@ Para determinar la colocación adecuada de los electrodos, seguimos las instrucc
 
 
 # 3.Videos<a name="id3"></a>
+<p align="justify">
 
+</p>
 ## Caso 1: Respiración normal, sin movimientos oculares/ojos cerrados durante 30 segundos
 
 <p align="justify">
