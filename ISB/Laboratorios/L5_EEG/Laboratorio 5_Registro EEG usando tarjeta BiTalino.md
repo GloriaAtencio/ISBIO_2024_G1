@@ -60,7 +60,7 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 </p>
 <p align="center"><i>Figura 1. Tarjeta BiTalino</i></p>
 
-### Posicionamiento de electrodos
+## Posicionamiento de electrodos
 
 <p align="justify">
 
@@ -242,5 +242,5 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 # 6.Referencias bibliográficas<a name="id6"></a>
 
 <p align="justify">
-
+1. 
 </p>
