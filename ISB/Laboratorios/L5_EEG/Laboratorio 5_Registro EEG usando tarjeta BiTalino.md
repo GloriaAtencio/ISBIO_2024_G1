@@ -141,7 +141,8 @@ La importancia de establecer una línea base radica en que permite identificar p
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/3f7e35cf2eb9920438122a8e60794ad830b08fe0/ISB/Laboratorios/Im%C3%A1genes/EEG/reposo_eeg_1_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3a96023b-0b57-4392-9a56-2c838ebdad0f" width="300" height="300"></video>|
 </div>
 
-
+Análisis:
+Se observa un patrón característico conocido como ritmo alfa. El ritmo alfa es una actividad eléctrica cerebral de baja amplitud que se produce principalmente en la región occipital del cerebro[6]. Durante el estado de reposo con los ojos cerrados, el ritmo alfa se manifiesta a partir de ondas sinusoidales de alrededor de 8 a 13 Hz en la banda de frecuencia. Estas ondas deberían ser regulares y simétricas[7], rasgo que se mantiene a pesar del pronunciado ruido. Además se denota una amplitud relativamente baja en comparación con los otros tipos de actividad cerebral.
 
 ## Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces
 
@@ -257,6 +258,8 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 <p align="justify">
 
 </p>
+Ánalisis:
+Para este caso habría una alternancia en función del estado en el que se encuentra la persona. Cuando la persona tiene los ojos abiertos y está atenta a un punto fijo, se observa una disminución de la amplitud de las ondas alfa y una mayor presencia de ondas beta . Las ondas beta, asociadas con la actividad cerebral despierta y activa, pueden aumentar en amplitud durante este período. Por lo contrario, las ondas alfa son más prominentes durante el estado de relajación[3]. Esta secuencia se repetirá cada vez que la persona alterne entre abrir y cerrar los ojos. Las ondas beta suelen tener una amplitud relativamente baja y una frecuencia rápida en comparación con otras oscilaciones cerebrales, aproximadamente de 13 a 30 Hz. Las regiones frontales del cerebro suelen exhibir ondas beta durante la realización de tareas cognitivas y estímulos visuales[8].
 
 ## Caso 3: Fase de referencia de 30 segundos
 
@@ -413,4 +416,13 @@ plt.show()
 </p>
 <p align="justify">
 [5] «Líneas base, anotaciones enfocadas al diseño experimental fNIRS y EEG», BuscaEU. Accedido: 27 de abril de 2024. [En línea]. Disponible en: https://brainlatam.com/blog/lineas-base-anotaciones-enfocadas-al-diseno-experimental-fnirs-y-eeg-1836
+</p>
+<p align="justify">
+[6]"Fisiología de la actividad eléctrica del cerebro: electroencefalografía," Universidad Nacional Autónoma de México, [Online]. Available: https://fisiologia.facmed.unam.mx/index.php/fisiologia-de-la-actividad-electrica-del-cerebro-electroencefalografia/.  [Accessed: Apr. 27, 2024].
+</p>
+<p align="justify">
+[7]A. A. Studenova, A. Villringer, y V. V. Nikulin, “Non-zero mean alpha oscillations revealed with computational model and empirical data”, PLoS Comput. Biol., vol. 18, núm. 7, p. e1010272, 2022, doi:  10.1371/journal.pcbi.1010272. 
+</p>
+<p align="justify">
+[8]C. S. Nayak y A. C. Anilkumar, EEG Normal Waveforms. StatPearls Publishing, 2023. 
 </p>
