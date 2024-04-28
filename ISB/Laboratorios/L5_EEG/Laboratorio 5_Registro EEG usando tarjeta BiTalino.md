@@ -83,6 +83,20 @@ Tras leer el manual de usuario de la tarjeta, confirmamos que para este laborato
 <p align="center"><i>Figura 2. Cantidad de electrodos necesarios según el tipo de señal [2]</i></p>
 
 ## Protocolo
+Para medir la actividad cerebral desde el cuero cabelludo, son posibles dos técnicas de medición con electrodos. Uno es monopolar (un electrodo por área del cerebro y un electrodo de referencia) y el otro es la configuración bipolar [3]. En este caso utilizaremos la configuración bipolar, el cual consta de dos electrodos de medicion (IN+ e IN-) y un electrodo de referencia.
+
+Configuración de los electrodos en la frente: 
+- Se coloca el electrodo rojo positivo (IN+), sobre el ojo izquierdo
+- Se coloca el electrodo negro negativo  (IN-), sobre el ojo derecho.
+- Se coloca el electrodo blanco de referencia detrás de la oreja
+
+Consideraciones importantes:
+- La piel se preparó adecuadamente antes de pegarle los electrodos.
+- Se estableció un entorno adecuado para garantizar el rendimiento óptimo a la hora de tomar la data.
+- El sujeto de prueba suprimió cualquier activación muscular mientras se realizaba la adquisición, especialmente en el área facial 
+  (movimientos oculares y parpadeo), así como movimientos del cuello y la mandíbula (apretar/masticar).
+- Se eligió un punto fijo para que el sujeto de prueba pueda concentrar su mirada.[3]
+
 <p align="justify">
 
 </p>
