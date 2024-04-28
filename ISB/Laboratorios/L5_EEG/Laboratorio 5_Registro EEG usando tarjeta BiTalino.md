@@ -1,4 +1,4 @@
-[EEG30sreposo.txt](https://github.com/GloriaAtencio/ISBIO_2024_G1/files/15140294/EEG30sreposo.txt)# **Laboratorio N°5: Uso de BiTalino para EEG**
+# **Laboratorio N°5: Uso de BiTalino para EEG**
 
 ***
 
