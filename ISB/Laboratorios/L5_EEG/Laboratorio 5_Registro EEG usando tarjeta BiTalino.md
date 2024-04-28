@@ -141,7 +141,7 @@ Se llevó a cabo la repetición de un ciclo consistente en alternar entre los es
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/3f7e35cf2eb9920438122a8e60794ad830b08fe0/ISB/Laboratorios/Im%C3%A1genes/EEG/parpadeo_eeg_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/dfcd0bb7-95a5-4aaa-b080-cdadaefcc273" width="300" height="300"></video>|
 </div>
 
-[EEG_ojo_cerrado_abierto.txt](https://github.com/GloriaAtencio/ISBIO_2024_G1/files/15140359/EEG_ojo_cerrado_abierto.txt)
+
 
 ## Caso 3: Fase de referencia de 30 segundos
 
