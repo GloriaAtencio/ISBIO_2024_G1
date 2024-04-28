@@ -97,6 +97,7 @@ Consideraciones importantes:
   (movimientos oculares y parpadeo), así como movimientos del cuello y la mandíbula (apretar/masticar).
 - Se eligió un punto fijo para que el sujeto de prueba pueda concentrar su mirada.[3]
 
+Se muestra en las imágenes (vista frontal y lateral) la posición de los electrodos en el sujeto de prueba.  
 <p align="justify">
 
 </p>
