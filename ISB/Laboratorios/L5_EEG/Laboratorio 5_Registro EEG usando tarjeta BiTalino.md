@@ -109,7 +109,7 @@ Se muestra en las imágenes (vista frontal y lateral) la posición de los electr
 
 # 3.Videos<a name="id3"></a>
 <p align="justify">
-Cabe resaltar que todos los registros de las señales fueron realizados a una frecuencia de 100 Hz, esto se debe a que la tarjeta BiTalino solo utiliza las siguientes frecuencias: 100, 10 y 10 Hz e incluso hasta 1000 Hz (según su manual de usuario en Especificaciones técnicas).[2]
+Cabe resaltar que todos los registros de las señales fueron realizados a una frecuencia de 100 Hz, esto se debe a que la tarjeta BiTalino solo utiliza las siguientes frecuencias: 100, 1 y 10 Hz e incluso hasta 1000 Hz (según su manual de usuario en Especificaciones técnicas).[2]
 </p>
 <p align="center">
  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/8a6d4f4c3a2a639e7e6bb67bd623d400adca8478/ISB/Laboratorios/Im%C3%A1genes/EEG/especificaciones_tecnicas_bitalino.png" alt="fotog" width="500" height="300"/>
