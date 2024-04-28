@@ -141,9 +141,6 @@ La importancia de establecer una línea base radica en que permite identificar p
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/3f7e35cf2eb9920438122a8e60794ad830b08fe0/ISB/Laboratorios/Im%C3%A1genes/EEG/reposo_eeg_1_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3a96023b-0b57-4392-9a56-2c838ebdad0f" width="300" height="300"></video>|
 </div>
 
-Análisis:
-Se observa un patrón característico conocido como ritmo alfa. El ritmo alfa es una actividad eléctrica cerebral de baja amplitud que se produce principalmente en la región occipital del cerebro[6]. Durante el estado de reposo con los ojos cerrados, el ritmo alfa se manifiesta a partir de ondas sinusoidales de alrededor de 8 a 13 Hz en la banda de frecuencia. Estas ondas deberían ser regulares y simétricas[7], rasgo que se mantiene a pesar del pronunciado ruido. Además se denota una amplitud relativamente baja en comparación con los otros tipos de actividad cerebral.
-
 ## Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces
 
 <p align="justify">
@@ -242,6 +239,9 @@ En el "caso 5", se decidió cambiar el enfoque de los acertijos a la resolución
 <p align="justify">
 
 </p>
+
+Análisis:
+Se observa un patrón característico conocido como ritmo alfa. El ritmo alfa es una actividad eléctrica cerebral de baja amplitud que se produce principalmente en la región occipital del cerebro[6]. Durante el estado de reposo con los ojos cerrados, el ritmo alfa se manifiesta a partir de ondas sinusoidales de alrededor de 8 a 13 Hz en la banda de frecuencia. Estas ondas deberían ser regulares y simétricas[7], rasgo que se mantiene a pesar del pronunciado ruido. Además se denota una amplitud relativamente baja en comparación con los otros tipos de actividad cerebral.
 
 ## Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces
 
