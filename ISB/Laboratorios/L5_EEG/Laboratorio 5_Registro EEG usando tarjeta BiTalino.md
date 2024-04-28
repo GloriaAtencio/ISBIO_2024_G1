@@ -310,6 +310,9 @@ Para este caso habría una alternancia en función del estado en el que se encue
 
 </p>
 
+Ánalisis del caso 4 y 5: 
+Durante la resolución de acertijos o la respuesta a preguntas complicadas, la persona puede experimentar un estado de mayor alerta y concentración mental. Esto puede dar lugar a un aumento en la presencia de ondas beta en el EEG[9]. Se puede apreciar la posible presencia de ondas gamma durante la resolución de acertijos o la respuesta a preguntas de encuestas de 100 peruanos dicen. Las ondas gamma son oscilaciones cerebrales de alta frecuencia (aproximadamente 30-200 Hz) que se asocian con procesos cognitivos avanzados, incluyendo la integración sensorial, la percepción consciente, la memoria de trabajo y la atención focalizada[10].
+
 ## Código empleado - Python
 
 ```python
@@ -425,4 +428,11 @@ plt.show()
 </p>
 <p align="justify">
 [8]C. S. Nayak y A. C. Anilkumar, EEG Normal Waveforms. StatPearls Publishing, 2023. 
+</p>
+<p align="justify">
+[9]H. Schmidt, D. Avitabile, E. Montbrió, y A. Roxin, “Network mechanisms underlying the role of oscillations in cognitive tasks”, PLoS Comput. Biol., vol. 14, núm. 9, p. e1006430, 2018.
+</p>
+<p align="justify">
+[10]C. Amo, L. De Santiago, R. Barea, A. López-Dorado, y L. Boquete, “Analysis of gamma-band activity from human EEG using empirical mode decomposition”, Sensors (Basel), vol. 17, núm. 5, p. 989, 2017.
+
 </p>
