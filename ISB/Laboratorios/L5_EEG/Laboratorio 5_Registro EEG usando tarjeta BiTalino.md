@@ -125,7 +125,7 @@ La importancia de establecer una línea base radica en que permite identificar p
 |:------------:|:---------------:|
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/3f7e35cf2eb9920438122a8e60794ad830b08fe0/ISB/Laboratorios/Im%C3%A1genes/EEG/reposo_eeg_1_op.png" alt="fotog" />|<video src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3a96023b-0b57-4392-9a56-2c838ebdad0f" width="300" height="300"></video>|
 </div>
-
+| ![Texto 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/b62345facd59af26b2839f0dbf3b0555c31026a2/ISB/Laboratorios/L5_EEG/EEG_TXT/EEG_reposo_1.txt) |
 
 ## Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces
 
