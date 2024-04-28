@@ -399,6 +399,8 @@ plt.show()
 # 5.Discusión<a name="id5"></a>
 
 <p align="justify">
+La señal EEG adquirida responde a diversos ruidos y artefactos debidos a los movimientos del cuerpo y de los ojos, actividades del corazón, respiración e interferencias en líneas eléctricas.[11]
+El comportamiento de las bandas de la señal EEG tiene características funcionales diferentes. En los adultos, las bandas de frecuencia típicas y sus límites espectrales aproximados son delta (1 a 3 Hz), theta (4 a 7 Hz), alfa (8 a 12 Hz), beta (13 a 30 Hz) y gamma (30 a 100 Hz).[12] En el ritmo Delta se observa fisiológicamente durante el sueño profundo y es prominente en las regiones frontocentrales de la cabeza. En el ritmo Theta, este es el ritmo provocado por la somnolencia y las primeras etapas del sueño. Es más prominente en las regiones frontocentrales de la cabeza y migra lentamente hacia atrás reemplazando el ritmo alfa debido a la somnolencia temprana[8]. El ritmo Alfa refleja funciones relacionadas con la memoria, el motor y los sentidos. Un aumento de la potencia de la banda alfa puede desencadenarse mediante la relajación en estado de vigilia cuando los ojos están cerrados, por ejemplo, durante la  meditación. En comparación, las ondas alfa se suprimen al abrir los ojos y al realizar actividad física o mental. Las ondas Beta se generan en las regiones posterior y frontal. Se correlacionan con el pensamiento activo y la concentración. A mayor concentración, las oscilaciones beta se disparan en una frecuencia más rápida. La banda Gamma, el origen y el reflejo de estas oscilaciones no están muy claros  y diferentes estudios de investigación argumentan información diversa, como el reflejo de los movimientos oculares, y por lo tanto  se prueban en estudios de microsacádicas [3]
 
 </p>
 
@@ -434,5 +436,10 @@ plt.show()
 </p>
 <p align="justify">
 [10]C. Amo, L. De Santiago, R. Barea, A. López-Dorado, y L. Boquete, “Analysis of gamma-band activity from human EEG using empirical mode decomposition”, Sensors (Basel), vol. 17, núm. 5, p. 989, 2017.
-
+</p>
+<p align="justify">
+[11]S. Majumder, B. Guragain, C. Wang, and N. Wilson, “On-board Drowsiness Detection using EEG: Current Status and Future Prospects,” in 2019 IEEE International Conference on Electro Information Technology (EIT), Brookings, SD, USA, 2019, pp. 483-490. doi: 10.1109/EIT.2019.8833866.
+</p>
+<p align="justify">
+[12]J. N. Saby y P. J. Marshall, “The utility of EEG band power analysis in the study of infancy and early childhood”, Dev. Neuropsychol., vol. 37, núm. 3, pp. 253–273, 2012.
 </p>
