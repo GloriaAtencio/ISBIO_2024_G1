@@ -55,12 +55,12 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 
 
 # 3. Aplicación de filtros<a name="id3"></a>
-# 3.1 Señal ECG
+## 3.1 Señal ECG
 
 
-# 3.2 Señal EMG
+## 3.2 Señal EMG
 
-# 3.3 Señal EEG
+## 3.3 Señal EEG
 
 # 4. Imágenes y análisis<a name="id4"></a>
 
