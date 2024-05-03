@@ -4,9 +4,11 @@
 
 # **Tabla de contenidos**
 1. [Introducción](#id1)
-2. [Procesamiento de data](#id2)
-3. [Señales](#id3)
-4. [Ploteos de señales filtradas y análisis](#id4)
+2. [Tipos de filtros](#id2)
+   - [Filtros IIR](#Filtros-IIR)
+   - [Filtros FIR](#Filtros-FIR)
+3. [Aplicación de filtros](#id3)
+4. [Imágenes y análisis](#id4)
 5. [Discusión](#id5)
 6. [Referencias bibliográficas](#id6) 
 
@@ -19,6 +21,7 @@
 
 ## Objetivo:
 
+<p align="justify">
 El objetivo de este laboratorio es comprender y crear los filtros necesarios para filtrar el ruido y otros artefactos comunes en las señales adquiridas.  específicamente, se busca:
 
 - Filtrar las frecuencias altas, que corresponden a ruido, del dataset de  ECG creado en el laboratorio anterior.  
@@ -41,3 +44,28 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 - Forma de onda: La forma de onda de la señal EEG se refiere al patrón de la señal a lo largo del tiempo. La forma de onda de la señal EEG puede variar dependiendo del tipo de actividad cerebral que se esté registrando.[1]
   
 </p>
+
+
+# 2. Tipos de filtros<a name="id2"></a>
+
+## 2.1 Filtros IIR
+
+
+## 2.2 Filtros FIR
+
+
+# 3. Aplicación de filtros<a name="id3"></a>
+# 3.1 Señal ECG
+
+
+# 3.2 Señal EMG
+
+# 3.3 Señal EEG
+
+# 4. Imágenes y análisis<a name="id4"></a>
+
+
+# 5. Discusión<a name="id5"></a>
+
+
+# 6. Referencias bibliográficas<a name="id6"></a>
