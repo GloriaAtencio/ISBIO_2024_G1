@@ -4,9 +4,9 @@
 
 # **Tabla de contenidos**
 1. [Introducción](#id1)
-2. [Procedimiento](#id2)
-3. [Videos](#id3)
-4. [Ploteos y análisis](#id4)
+2. [Procesamiento de data](#id2)
+3. [Señales](#id3)
+4. [Ploteos de señales filtradas y análisis](#id4)
 5. [Discusión](#id5)
 6. [Referencias bibliográficas](#id6) 
 
