@@ -19,10 +19,10 @@
 
 ## Objetivo:
 
-El objetivo de este laboratorio es registrar y analizar la señal electroencefalográfica (EEG) de un sujeto durante diferentes estados de actividad cerebral.  específicamente, se busca:
+El objetivo de este laboratorio es comprender y crear los filtros necesarios para filtrar el ruido y otros artefactos comunes en las señales adquiridas.  específicamente, se busca:
 
--  filtrar las frecuencias altas, que corresponden a ruido, del dataset de  ECG creado en el laboratorio anterior.  
-- diseñar 2 filtros uno IIR y uno FIR, para realizar el filtrado.
+- Filtrar las frecuencias altas, que corresponden a ruido, del dataset de  ECG creado en el laboratorio anterior.  
+- Diseñar 2 filtros uno IIR y uno FIR, para realizar el filtrado.
 </p>
 
   
