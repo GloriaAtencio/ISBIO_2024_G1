@@ -56,7 +56,34 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 
 # 3. Aplicación de filtros<a name="id3"></a>
 ## 3.1 Señal ECG
-
+<table>
+    <caption>Análisis</caption>
+    <tr>
+        <th scope="col">Situación </th>
+        <th scope="col">Señal original</th>
+        <th scope="col">Señal con el filtro FIR</th>
+        <th scope="col">Señal con el filtro IRR</th>
+    </tr>
+    <tr>
+        <th scope="row">EEC en reposo 1</th>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo1.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO1.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/Reposo1.jpg" alt="Forest" style="width:90%"></td>
+    </tr>
+    <tr>
+        <th scope="row">EEC hiperventilación</th>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/norespirar.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO2.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/SinRespirar.jpg" alt="Forest" style="width:90%"></td>
+    </tr>
+    <tr>
+        <th scope="row">EEC después de actividad física</th>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo2.png" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO3.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/Reposo2.jpg" alt="Forest" style="width:90%"></td>
+    </tr>
+ 
+</table>
 
 ## 3.2 Señal EMG
 
