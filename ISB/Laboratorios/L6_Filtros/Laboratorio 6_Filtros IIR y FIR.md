@@ -62,30 +62,59 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
         <th scope="col">Situación </th>
         <th scope="col">Señal original</th>
         <th scope="col">Señal con el filtro FIR</th>
-        <th scope="col">Señal con el filtro IRR</th>
+        <th scope="col">Señal con el filtro IIR</th>
     </tr>
     <tr>
-        <th scope="row">EEC en reposo 1</th>
+        <th scope="row">ECG en reposo </th>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo1.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO1.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/aa2a50d5dd4b7c4feaef72327a62cf266b3dd863/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/filtrado_reposo_ecg.png" alt="Forest" style="width:90%"></td>
+    </tr>
+    <tr>
+        <th scope="row">ECG hiperventilación</th>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/norespirar.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO2.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/aa2a50d5dd4b7c4feaef72327a62cf266b3dd863/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/filtrado_hiperventilaci%C3%B3n_ecg.png" alt="Forest" style="width:90%"></td>
+    </tr>
+    <tr>
+        <th scope="row">ECG después de actividad física</th>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo2.png" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO3.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/aa2a50d5dd4b7c4feaef72327a62cf266b3dd863/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/filtrado_despuesdeactividad_ecg.png" alt="Forest" style="width:90%"></td>
+    </tr>
+ 
+</table>
+
+## 3.2 Señal EMG
+
+<table>
+    <caption>Análisis</caption>
+    <tr>
+        <th scope="col">Situación </th>
+        <th scope="col">Señal original</th>
+        <th scope="col">Señal con el filtro FIR</th>
+        <th scope="col">Señal con el filtro IIR</th>
+    </tr>
+    <tr>
+        <th scope="row">EMG en reposo </th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo1.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO1.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/Reposo1.jpg" alt="Forest" style="width:90%"></td>
     </tr>
     <tr>
-        <th scope="row">EEC hiperventilación</th>
+        <th scope="row">EMG fuerza oponente - Contracción Leve</th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/norespirar.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO2.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/SinRespirar.jpg" alt="Forest" style="width:90%"></td>
     </tr>
     <tr>
-        <th scope="row">EEC después de actividad física</th>
+        <th scope="row">EMG levantando mochila - Contracción Fuerte</th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo2.png" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO3.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/Reposo2.jpg" alt="Forest" style="width:90%"></td>
     </tr>
  
 </table>
-
-## 3.2 Señal EMG
 
 ## 3.3 Señal EEG
 
