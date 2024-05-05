@@ -201,6 +201,14 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 </p>
 <p align="center"><i>Figura 2. Transformada bilineal de H(s) a H(z)</i></p><br>
 
+<div align="center">
+<h2> Señales filtradas - Filtro IIR </h2>
+</div>
+| En reposo | Hiperventilación | Después de actividad física |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3ae92175-1916-4743-b78c-18bcb763659b) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/8f8163cf-d47b-4020-ae2e-e922f1d455de) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/aec405e3-929e-41e8-8a2d-b0f6d1ec218d) |
+
+
 ## 4.2 Señal EMG
 
 ## 4.3 Señal EEG
