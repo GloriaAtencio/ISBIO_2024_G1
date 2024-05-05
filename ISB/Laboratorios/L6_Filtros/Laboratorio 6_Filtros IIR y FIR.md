@@ -173,26 +173,10 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 </div>
 
 <div align="center">
-<h2>DFT de las señales</h2>
+<h2>**DFT de las señales**</h2>
 </div>
 
-<p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/b69d2ae60ad0204982660fd56e9a182efcff241f/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_reposo_original.png" alt="fotog" width="550" height="500"/>
-</p>
-<p align="center"><i>Figura 1. DFT de la señal en reposo - ECG</i></p>
-
-<p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/177af66f-6a87-448c-a8b2-b7b048d18ce0" alt="fotog" width="550" height="500"/>
-</p>
-<p align="center"><i>Figura 2. DFT de la señal en hiperventilación - ECG</i></p>
-
-<p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/c7b0a166-aefd-4334-aed1-4b175c0eae5c" alt="fotog" width="550" height="500"/>
-</p>
-<p align="center"><i>Figura 3. DFT de la señal después de actividad física - ECG</i></p>
-
-
-| Imagen 1 | Imagen 2 | Imagen 3 |
+| En reposo | Hiperventilación | Después de actividad física |
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/b69d2ae60ad0204982660fd56e9a182efcff241f/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_reposo_original.png) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/177af66f-6a87-448c-a8b2-b7b048d18ce0) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/c7b0a166-aefd-4334-aed1-4b175c0eae5c) |
 ## 4.2 Señal EMG
