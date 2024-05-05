@@ -49,10 +49,14 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 # 2. Tipos de filtros<a name="id2"></a>
 
 ## 2.1 Filtros IIR
-
+<p align="justify">
+Los filtros IIR son sistemas de procesamiento de señales que utilizan retroalimentación (realimentación) en su estructura, lo que les permite tener una respuesta de impulso infinita. Esto significa que su respuesta al impulso no se extingue completamente con el tiempo, lo que les permite alcanzar una alta selectividad en la respuesta en frecuencia con un número relativamente pequeño de coeficientes. Los filtros IIR son útiles en aplicaciones donde se requiere una respuesta de frecuencia nítida y una implementación eficiente.z
+</p>
 
 ## 2.2 Filtros FIR
-
+<p align="justify">
+Los filtros FIR son sistemas de procesamiento de señales que tienen una respuesta de impulso finita, lo que significa que su respuesta al impulso se extingue completamente con el tiempo. Los filtros FIR no utilizan retroalimentación en su estructura y son conocidos por tener una respuesta de fase lineal, lo que los hace ideales para aplicaciones donde se necesita preservar la precisión temporal de la señal. Los filtros FIR son útiles cuando se requiere una alta flexibilidad en el diseño de la respuesta en frecuencia y una buena supresión de los lóbulos laterales.
+</p>
 
 # 3. Aplicación de filtros<a name="id3"></a>
 ## 3.1 Señal ECG
