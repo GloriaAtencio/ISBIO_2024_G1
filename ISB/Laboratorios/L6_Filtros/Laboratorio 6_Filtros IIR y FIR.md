@@ -194,12 +194,12 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/02e6ce66-2ad5-4da9-8faa-e4146d26204d" alt="fotog" width="460" height="400"/>
 </p>
-<p align="center"><i>Figura 1. Respuesta en frecuencia del filtro analógico</i></p><br>
+<p align="center"><i>Figura 1. Respuesta en frecuencia del filtro analógico (ECG)</i></p><br>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/99a5e8bffd54e1be043197fde6e694da83a9d4dd/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/transformada_bilineal_ecg.png" alt="fotog" width="460" height="400"/>
 </p>
-<p align="center"><i>Figura 2. Transformada bilineal de H(s) a H(z)</i></p><br>
+<p align="center"><i>Figura 2. Transformada bilineal de H(s) a H(z) (ECG)</i></p><br>
 
 <div align="center">
 <h2> Señales filtradas - Filtro IIR  </h2>
@@ -220,6 +220,40 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 
 
 ## 4.2 Señal EMG
+
+|  **Señales originales - ploteadas por muestra**  | **Señales originales - ploteadas por tiempo** |
+|:------------:|:---------------:|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5450c74e1c7dfc7b50c888294c4ca7917128c0ad/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/se%C3%B1ales_originales_emg.png" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5450c74e1c7dfc7b50c888294c4ca7917128c0ad/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/se%C3%B1ales_originales_emg_same_Axis.png" alt="fotog" />|
+</div>
+
+<div align="center">
+<h2>DFT de las señales </h2>
+</div>
+
+| En reposo | Fuerza oponente | Levantando mochila |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5450c74e1c7dfc7b50c888294c4ca7917128c0ad/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/dft_se%C3%B1al_reposo_original_emg.png) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/c1d1b27b-cd79-466d-bbdd-9c3fee18e0d0) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5450c74e1c7dfc7b50c888294c4ca7917128c0ad/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/dft_se%C3%B1al_mochila_original_emg.png) |
+
+
+<div align="center">
+<h2> Diseño de filtro IIR - Butterworth </h2>
+</div>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/438d275c-b6d4-4811-ac0b-d3335183f6e6" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 3. Respuesta en frecuencia del filtro analógico (EMG)</i></p><br>
+
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5450c74e1c7dfc7b50c888294c4ca7917128c0ad/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/transformada_bilineal_emg.png" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 4. Transformada bilineal de H(s) a H(z) (EMG)</i></p><br>
+
+<div align="center">
+<h2> Señales filtradas - Filtro IIR  </h2>
+</div>
+
+
 
 ## 4.3 Señal EEG
 
