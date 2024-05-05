@@ -145,19 +145,21 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
         <th scope="row">EEG en reposo </th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo1.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO1.jpeg" alt="Forest" style="width:90%"></td>
-        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/e7e7b106ab9d2ef83dfd2fb93792fc8e322b0704/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/filtrado_reposo_emg.png" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/7b4ce5b5-4547-4b6e-b46c-b5f99c3be0a9" alt="Forest" style="width:90%"></td>
     </tr>
+
     <tr>
         <th scope="row">EEG Ciclo ojo abierto - ojo cerrado</th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/norespirar.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO2.jpeg" alt="Forest" style="width:90%"></td>
-        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/e7e7b106ab9d2ef83dfd2fb93792fc8e322b0704/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/filtrado_fuerza_oponente_emg.png" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/900dfe85-73dd-47de-85e5-3694ef7a3192" alt="Forest" style="width:90%"></td>
     </tr>
+
     <tr>
         <th scope="row">EEG Solución a preguntas - 100 peruanos dicen</th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo2.png" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO3.jpeg" alt="Forest" style="width:90%"></td>
-        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/e7e7b106ab9d2ef83dfd2fb93792fc8e322b0704/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/filtrado_mochila_emg.png" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/41324086-cc68-490a-a91e-bb0b71c1842c" alt="Forest" style="width:90%"></td>
     </tr>
  
 </table>
@@ -268,6 +270,65 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 
 
 ## 4.3 Señal EEG
+
+|  **Señales originales - ploteadas por muestra**  | **Señales originales - ploteadas por tiempo** |
+|:------------:|:---------------:|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e8656ae1-165e-4820-a40c-f10b47a7c094" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e5b34c56-d485-468c-ac64-274756b2deea" alt="fotog" />|
+</div>
+
+<div align="center">
+<h2>DFT de las señales </h2>
+</div>
+
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cd918295-9092-4b68-b1a8-195049803148) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d543a01d-9943-4e6b-a3a0-63042d90d0e7) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/955af287-7d5b-4ca1-91c2-cc8fc5020f5c) |
+
+<div align="center">
+<h2> DFT de las señales después de haber aplicado filtro notch </h2>
+</div>
+
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/9dfbbc15-c897-499a-9f22-dadd34046d57) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e047337b-0983-4e84-aa88-88217b9e7934) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/4dc49e37-a6c3-4099-9a78-fd701d52dbca) |
+
+
+<div align="center">
+<h2> Diseño de filtro IIR - Butterworth </h2>
+</div>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/16602be7-305d-450b-8cbe-75d8255465a2" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 1. Respuesta en frecuencia del filtro analógico (EEG)</i></p><br>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/377d9931-b713-4c63-a4f5-6838b8befc98" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 2. Transformada bilineal de H(s) a H(z) (EEG)</i></p><br>
+
+
+<div align="center">
+<h2> Señales filtradas - Filtro IIR  </h2>
+</div>
+
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/26c96685-3ef5-4684-872b-714f4a9f81d6) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/7054d881-dc84-4ff7-a31d-0300a2f6ee56) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/ddee790b-b7a4-47b1-9536-205eb257d6a4) |
+
+
+
+<div align="center">
+<h2> DFT de señales filtradas  - Filtro IIR </h2>
+</div>
+
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/a563965c-a1e5-40c7-8dea-b944fd4f63df) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/90b4448d-30e0-4b7a-a56e-c94638ae5611) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/b31b21cd-d550-4ac5-9291-3cfc9c8f5be2) |
+
+
+
+
 
 # 5. Discusión<a name="id5"></a>
 
