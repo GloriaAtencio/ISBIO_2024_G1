@@ -62,6 +62,7 @@ Tabla 1:  Amplitud y Rango de Frecuencias de algunas señales bioeléctricas tí
 
 ## 2.1 Filtros IIR
 <p align="justify">
+   
 - Los filtros IIR son útiles en aplicaciones donde se requiere una respuesta de frecuencia nítida y una implementación eficiente. [4]
    
 - Requiere menos coeficientes y memoria que los filtros FIR para satisfacer un conjunto similar de especificaciones, es decir, frecuencia de corte y atenuación de banda de parada.[5]
@@ -72,6 +73,7 @@ Tabla 1:  Amplitud y Rango de Frecuencias de algunas señales bioeléctricas tí
 
 ## 2.2 Filtros FIR
 <p align="justify">
+   
 - Los FIR se pueden diseñar fácilmente para que tengan fase lineal. Esto significa que no se introduce distorsión de fase en la señal que se va a filtrar, ya que todas las frecuencias se desplazan en el tiempo en la misma cantidad, manteniendo así sus relaciones armónicas relativas (es decir, retardo de grupo y fase constante).[5]
 
 - Como los FIR no utilizan valores de salida anteriores para calcular su salida actual, es decir, no tienen retroalimentación, nunca pueden volverse inestables para ningún tipo de señal de entrada. [5]
