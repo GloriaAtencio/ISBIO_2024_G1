@@ -257,7 +257,7 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e73a8d6e-263d-438e-835f-fb27a0ba4acd) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/6b15b7b4-2411-4702-b082-f3132a93ccab) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2582c516-7002-4017-afda-e8a28a754588) |
 
-div align="center">
+<div align="center">
 <h2> DFT de señales filtradas  - Filtro IIR </h2>
 </div>
 
