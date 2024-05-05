@@ -255,7 +255,7 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 
 | En reposo | Fuerza oponente | Levantando mochila |
 |----------|----------|----------|
-| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e73a8d6e-263d-438e-835f-fb27a0ba4acd) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/6b15b7b4-2411-4702-b082-f3132a93ccab) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2582c516-7002-4017-afda-e8a28a754588) |
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e73a8d6e-263d-438e-835f-fb27a0ba4acd) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/6b15b7b4-2411-4702-b082-f3132a93ccab) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e9cb0ccf-c870-46a4-ad3d-9457ec10b2fc) |
 
 <div align="center">
 <h2> DFT de señales filtradas  - Filtro IIR </h2>
@@ -263,7 +263,7 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 
 | En reposo | Fuerza oponente | Levantando mochila |
 |----------|----------|----------|
-| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/48f7c59f-7d8f-46bf-8b67-88147374492f) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2708fefa-d864-4c92-a57c-9200677c7b82) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e9cb0ccf-c870-46a4-ad3d-9457ec10b2fc) |
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/48f7c59f-7d8f-46bf-8b67-88147374492f) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2708fefa-d864-4c92-a57c-9200677c7b82) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cabb3f80-035e-480a-9781-2e1d8c1cda0c) |
 
 
 ## 4.3 Señal EEG
