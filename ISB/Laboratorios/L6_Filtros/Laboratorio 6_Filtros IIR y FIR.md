@@ -115,19 +115,19 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
         <th scope="row">EMG en reposo </th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo1.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO1.jpeg" alt="Forest" style="width:90%"></td>
-        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/Reposo1.jpg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/e7e7b106ab9d2ef83dfd2fb93792fc8e322b0704/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/filtrado_reposo_emg.png" alt="Forest" style="width:90%"></td>
     </tr>
     <tr>
         <th scope="row">EMG fuerza oponente - Contracción Leve</th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/norespirar.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO2.jpeg" alt="Forest" style="width:90%"></td>
-        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/SinRespirar.jpg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/e7e7b106ab9d2ef83dfd2fb93792fc8e322b0704/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/filtrado_fuerza_oponente_emg.png" alt="Forest" style="width:90%"></td>
     </tr>
     <tr>
         <th scope="row">EMG levantando mochila - Contracción Fuerte</th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo2.png" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO3.jpeg" alt="Forest" style="width:90%"></td>
-        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/Reposo2.jpg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/e7e7b106ab9d2ef83dfd2fb93792fc8e322b0704/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/filtrado_mochila_emg.png" alt="Forest" style="width:90%"></td>
     </tr>
  
 </table>
