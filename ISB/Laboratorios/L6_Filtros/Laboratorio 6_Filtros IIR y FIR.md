@@ -57,7 +57,7 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
 # 3. Aplicación de filtros<a name="id3"></a>
 ## 3.1 Señal ECG
 <table>
-    <caption>Análisis</caption>
+
     <tr>
         <th scope="col">Situación </th>
         <th scope="col">Señal original</th>
@@ -66,19 +66,19 @@ El electroencefalograma (EEG) es una técnica neurofisiológica que registra la 
     </tr>
     <tr>
         <th scope="row">ECG en reposo </th>
-        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo1.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/01145c07daaa228965788686eb13672d88eddbdf/ISB/Laboratorios/Im%C3%A1genes/FIR/ECG/se%C3%B1al_original_ecg_reposo.png" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO1.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/aa2a50d5dd4b7c4feaef72327a62cf266b3dd863/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/filtrado_reposo_ecg.png" alt="Forest" style="width:90%"></td>
     </tr>
     <tr>
         <th scope="row">ECG hiperventilación</th>
-        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/norespirar.jpeg" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/01145c07daaa228965788686eb13672d88eddbdf/ISB/Laboratorios/Im%C3%A1genes/FIR/ECG/se%C3%B1al_original_ecg_hiperventilacion.png" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO2.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/aa2a50d5dd4b7c4feaef72327a62cf266b3dd863/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/filtrado_hiperventilaci%C3%B3n_ecg.png" alt="Forest" style="width:90%"></td>
     </tr>
     <tr>
         <th scope="row">ECG después de actividad física</th>
-        <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo2.png" alt="Forest" style="width:90%"></td>
+        <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/01145c07daaa228965788686eb13672d88eddbdf/ISB/Laboratorios/Im%C3%A1genes/FIR/ECG/se%C3%B1al_original_ecg_actividad.png" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO3.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/aa2a50d5dd4b7c4feaef72327a62cf266b3dd863/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/filtrado_despuesdeactividad_ecg.png" alt="Forest" style="width:90%"></td>
     </tr>
