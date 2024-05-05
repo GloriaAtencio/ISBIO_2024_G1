@@ -192,7 +192,7 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 <h2> Diseño de filtro IIR - Butterworth </h2>
 </div>
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/02e6ce66-2ad5-4da9-8faa-e4146d26204d" alt="fotog" width="560" height="500"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/02e6ce66-2ad5-4da9-8faa-e4146d26204d" alt="fotog" width="460" height="400"/>
 </p>
 <p align="center"><i>Figura 1. Respuesta en frecuencia del filtro analógico</i></p>
 
