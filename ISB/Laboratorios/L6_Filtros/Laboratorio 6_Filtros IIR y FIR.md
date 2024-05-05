@@ -147,14 +147,12 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO1.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/7b4ce5b5-4547-4b6e-b46c-b5f99c3be0a9" alt="Forest" style="width:90%"></td>
     </tr>
-
     <tr>
         <th scope="row">EEG Ciclo ojo abierto - ojo cerrado</th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/norespirar.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/FILTRO2.jpeg" alt="Forest" style="width:90%"></td>
         <td><img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/900dfe85-73dd-47de-85e5-3694ef7a3192" alt="Forest" style="width:90%"></td>
     </tr>
-
     <tr>
         <th scope="row">EEG Solución a preguntas - 100 peruanos dicen</th>
         <td><img src="https://github.com/Harold01082001/Proyecto_IntroSe-ales/blob/main/Fotos/reposo2.png" alt="Forest" style="width:90%"></td>
