@@ -44,8 +44,9 @@ Objetivos Específicos para EEG:
 ## Marco teórico:
 
 <p align="justify">
-Las señales biomédicas, tales como la cardiaca, la cerebral, la muscular, la respiratoria, la de saturación de oxígeno, entre otras, son de muy bajo potencial eléctrico, del orden de los mV, y están sometidas a muchos tipos de ruido, los que perjudican su observación y presentación en el análisis médico del paciente [1]. En ese sentido, es necesaria una técnica de procesamiento de señales biomédicas y una alternativa sería la aplicación de filtros digitales, que sean  adecuados para reprimir los distintos tipos de ruido, como la desviación de la línea base, la interferencia de la línea eléctrica, el ruido de alta frecuencia, los artefactos fisiológicos, etc. Estos filtros se pueden clasificar en dos tipos: filtros FIR como las técnicas de ventana Rectangular, Hann, Blackman, Hamming y Kaiser y filtros IIR como Butterworth, Chebyshev I, Chebyshev II y elípticos para reducir los artefactos en la señal [2].
-A la hora de diseñar un filtro se debe tener en cuenta las características de frecuencia y amplitud de las mismas, como se aprecia en la Tabla 1 para el ECG, EEG y EMG.[3]
+Las señales biomédicas, tales como la cardiaca, la cerebral, la muscular, la respiratoria, la de saturación de oxígeno, entre otras, son de muy bajo potencial eléctrico, del orden de los mV, y están sometidas a muchos tipos de ruido, los que perjudican su observación y presentación en el análisis médico del paciente [1]. En ese sentido, es necesaria una técnica de procesamiento de señales biomédicas y una alternativa sería la aplicación de filtros digitales, que sean  adecuados para reprimir los distintos tipos de ruido, como la desviación de la línea base, la interferencia de la línea eléctrica, el ruido de alta frecuencia, los artefactos fisiológicos, etc. Los filtros digitales se pueden clasificar en dos categorías principales: filtros de respuesta finita al impulso (FIR) y filtros de respuesta infinita al impulso (IIR). Los filtros FIR se caracterizan por tener una respuesta de impulso finita, lo que significa que su salida depende únicamente de un número finito de entradas pasadas. Algunas técnicas de diseño de filtros FIR incluyen ventanas:  Rectangular, Hann, Blackman, Hamming y Kaiser Por otro lado, los filtros IIR tienen una respuesta de impulso infinita, lo que implica que su salida puede depender de un número infinito de entradas pasadas. Algunos ejemplos de filtros IIR incluyen Butterworth, Chebyshev I, Chebyshev II y filtros elípticos.[2].
+   
+Al diseñar un filtro para el procesamiento de señales biomédicas, es crucial considerar las características específicas de frecuencia y amplitud de la señal de interés. Esto se debe a que diferentes señales biomédicas pueden tener rangos de frecuencia y amplitudes distintas, como se muestra en la Tabla 1 para señales como el electrocardiograma (ECG), electroencefalograma (EEG) y electromiograma (EMG) [3]. Por lo tanto, seleccionar el tipo de filtro adecuado y ajustar sus parámetros en función de estas características es precisa para lograr una supresión efectiva del ruido y preservar la información relevante en las señales biomédicas
 
 </p>
 
@@ -61,12 +62,18 @@ Tabla 1:  Amplitud y Rango de Frecuencias de algunas señales bioeléctricas tí
 
 ## 2.1 Filtros IIR
 <p align="justify">
-Los filtros IIR son sistemas de procesamiento de señales que utilizan retroalimentación (realimentación) en su estructura, lo que les permite tener una respuesta de impulso infinita. Esto significa que su respuesta al impulso no se extingue completamente con el tiempo, lo que les permite alcanzar una alta selectividad en la respuesta en frecuencia con un número relativamente pequeño de coeficientes. Los filtros IIR son útiles en aplicaciones donde se requiere una respuesta de frecuencia nítida y una implementación eficiente.z
+- Los filtros IIR son útiles en aplicaciones donde se requiere una respuesta de frecuencia nítida y una implementación eficiente. [4]
+- Requiere menos coeficientes y memoria que los filtros FIR para satisfacer un conjunto similar de especificaciones, es decir, frecuencia de corte y atenuación de banda de parada.[5]
+- Menos estable numéricamente que sus homólogos FIR (respuesta de impulso finito), debido a las rutas de retroalimentación.[5]
+
 </p>
 
 ## 2.2 Filtros FIR
 <p align="justify">
-Los filtros FIR son sistemas de procesamiento de señales que tienen una respuesta de impulso finita, lo que significa que su respuesta al impulso se extingue completamente con el tiempo. Los filtros FIR no utilizan retroalimentación en su estructura y son conocidos por tener una respuesta de fase lineal, lo que los hace ideales para aplicaciones donde se necesita preservar la precisión temporal de la señal. Los filtros FIR son útiles cuando se requiere una alta flexibilidad en el diseño de la respuesta en frecuencia y una buena supresión de los lóbulos laterales.
+- Los FIR se pueden diseñar fácilmente para que tengan fase lineal. Esto significa que no se introduce distorsión de fase en la señal que se va a filtrar, ya que todas las frecuencias se desplazan en el tiempo en la misma cantidad, manteniendo así sus relaciones armónicas relativas (es decir, retardo de grupo y fase constante).[5]
+- Como los FIR no utilizan valores de salida anteriores para calcular su salida actual, es decir, no tienen retroalimentación, nunca pueden volverse inestables para ningún tipo de señal de entrada. [5]
+- Altos requisitos computacionales y de memoria. [5]
+
 </p>
 
 # 3. Aplicación de filtros<a name="id3"></a>
