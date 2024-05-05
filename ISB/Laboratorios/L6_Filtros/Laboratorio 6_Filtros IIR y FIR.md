@@ -28,9 +28,11 @@ Objetivo General:
 Objetivos Específicos para ECG: 
 - Diseñar  filtros IIR y FIR óptimos, para filtrar las frecuencias altas de dichas
 señales que corresponden a ruido.
+
 Objetivos Específicos para EMG: 
 - Diseñar un filtro FIR para eliminar frecuencias altas que correspondan a ruido eléctrico y artefactos de movimiento.
 - Diseñar un filtro IIR para aislar la banda de frecuencia de interés que corresponde a la actividad muscular.
+
 Objetivos Específicos para EEG: 
 - Diseñar un filtro FIR para suprimir interferencias de  frecuencias altas que correspondan a ruido eléctrico y artefactos de movimientos como el parpadeo de ojos y la actividad muscular .
 - Diseñar un filtro IIR para extraer bandas de frecuencia específicas (alfa, beta, etc.).
