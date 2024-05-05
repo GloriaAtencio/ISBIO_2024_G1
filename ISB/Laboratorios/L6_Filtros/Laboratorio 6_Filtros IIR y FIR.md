@@ -257,6 +257,15 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e73a8d6e-263d-438e-835f-fb27a0ba4acd) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/6b15b7b4-2411-4702-b082-f3132a93ccab) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e9cb0ccf-c870-46a4-ad3d-9457ec10b2fc) |
 
+<div align="center">
+<h2> DFT de señales filtradas  - Filtro IIR </h2>
+</div>
+
+| En reposo | Fuerza oponente | Levantando mochila |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/015e85ed-2f66-4ec8-99dc-3416e22e65ed) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3b119526-383f-4f0a-adcc-2d232f256c9b) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/986c9e47-00ad-4b82-9346-be4c368f3877) |
+
+
 
 
 ## 4.3 Señal EEG
