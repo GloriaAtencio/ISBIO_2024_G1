@@ -194,12 +194,12 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/02e6ce66-2ad5-4da9-8faa-e4146d26204d" alt="fotog" width="460" height="400"/>
 </p>
-<p align="center"><i>Figura 1. Respuesta en frecuencia del filtro analógico</i></p>
+<p align="center"><i>Figura 1. Respuesta en frecuencia del filtro analógico</i><br></p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/99a5e8bffd54e1be043197fde6e694da83a9d4dd/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/transformada_bilineal_ecg.png" alt="fotog" width="460" height="400"/>
 </p>
-<p align="center"><i>Figura 2. Transformada bilineal de H(s) a H(z)</i></p>
+<p align="center"><i>Figura 2. Transformada bilineal de H(s) a H(z)</i><br></p>
 
 ## 4.2 Señal EMG
 
