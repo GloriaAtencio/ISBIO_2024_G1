@@ -44,16 +44,15 @@ Objetivos Específicos para EEG:
 ## Marco teórico:
 
 <p align="justify">
-El electroencefalograma (EEG) es una técnica neurofisiológica que registra la actividad eléctrica del cerebro.  La señal EEG se genera por la despolarización e hiperpolarización de las neuronas corticales.  La actividad EEG se puede analizar en términos de frecuencia, amplitud y forma de onda.
+Las señales biomédicas, tales como la cardiaca, la cerebral, la muscular, la respiratoria, la de saturación de oxígeno, entre otras, son de muy bajo potencial eléctrico, del orden de los mV, y están sometidas a muchos tipos de ruido, los que perjudican su observación y presentación en el análisis médico del paciente [1]. En ese sentido, es necesaria una técnica de procesamiento de señales biomédicas y una alternativa sería la aplicación de filtros digitales, que sean  adecuados para reprimir los distintos tipos de ruido, como la desviación de la línea base, la interferencia de la línea eléctrica, el ruido de alta frecuencia, los artefactos fisiológicos, etc. Estos filtros se pueden clasificar en dos tipos: filtros FIR como las técnicas de ventana Rectangular, Hann, Blackman, Hamming y Kaiser y filtros IIR como Butterworth, Chebyshev I, Chebyshev II y elípticos para reducir los artefactos en la señal [2].
+A la hora de diseñar un filtro se debe tener en cuenta las características de frecuencia y amplitud de las mismas, como se aprecia en la Tabla 1 para el ECG, EEG y EMG.[3]
+
 </p>
 
 <p align="justify">
   
-- Frecuencia: La frecuencia de la señal EEG se mide en hercios (Hz). Las diferentes frecuencias de EEG se asocian con diferentes estados de actividad cerebral. Por ejemplo, las ondas delta (0,5-4 Hz) se asocian con el sueño profundo, mientras que las ondas beta (12-30 Hz) se asocian con la vigilia y la atención. [1]
+Tabla 1:  Amplitud y Rango de Frecuencias de algunas señales bioeléctricas típicas[3]
 
-- Amplitud: La amplitud de la señal EEG se mide en microvoltios (µV). La amplitud de la señal EEG puede variar dependiendo del estado de actividad cerebral y de otros factores, como la edad y el sexo.[1]
-
-- Forma de onda: La forma de onda de la señal EEG se refiere al patrón de la señal a lo largo del tiempo. La forma de onda de la señal EEG puede variar dependiendo del tipo de actividad cerebral que se esté registrando.[1]
   
 </p>
 
