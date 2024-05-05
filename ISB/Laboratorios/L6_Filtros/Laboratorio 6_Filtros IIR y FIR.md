@@ -263,7 +263,8 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 
 | En reposo | Fuerza oponente | Levantando mochila |
 |----------|----------|----------|
-| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/48f7c59f-7d8f-46bf-8b67-88147374492f) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2708fefa-d864-4c92-a57c-9200677c7b82) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cabb3f80-035e-480a-9781-2e1d8c1cda0c) |
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/48f7c59f-7d8f-46bf-8b67-88147374492f) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2708fefa-d864-4c92-a57c-9200677c7b82) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e9cb0ccf-c870-46a4-ad3d-9457ec10b2fc) |
+
 
 ## 4.3 Señal EEG
 
