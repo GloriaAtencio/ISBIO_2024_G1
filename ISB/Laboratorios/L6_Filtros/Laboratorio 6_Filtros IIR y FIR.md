@@ -51,7 +51,10 @@ Al diseñar un filtro para el procesamiento de señales biomédicas, es crucial 
 </p>
 
 <p align="justify">
-  
+<p align="center">
+  <img src="" alt="fotog" width="220" height="300"/>
+</p>  
+
 Tabla 1:  Amplitud y Rango de Frecuencias de algunas señales bioeléctricas típicas[3]
 
   
