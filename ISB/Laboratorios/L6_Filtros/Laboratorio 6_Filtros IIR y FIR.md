@@ -188,6 +188,18 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2e276fb2-2a98-4072-b3d3-f53683f7f6c9) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/364911a1c914ce25a3a5b1a66d9296a9638e789f/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_hiperventilacion_notch.png) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/364911a1c914ce25a3a5b1a66d9296a9638e789f/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_despuesdeactividad_notch.png) |
 
+<div align="center">
+<h2> Diseño de filtro IIR - Butterworth </h2>
+</div>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/02e6ce66-2ad5-4da9-8faa-e4146d26204d" alt="fotog" width="560" height="500"/>
+</p>
+<p align="center"><i>Figura 1. Respuesta en frecuencia del filtro analógico</i></p>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/99a5e8bffd54e1be043197fde6e694da83a9d4dd/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/transformada_bilineal_ecg.png" alt="fotog" width="560" height="500"/>
+</p>
+<p align="center"><i>Figura 2. Transformada bilineal de H(s) a H(z)</i></p>
 
 ## 4.2 Señal EMG
 
