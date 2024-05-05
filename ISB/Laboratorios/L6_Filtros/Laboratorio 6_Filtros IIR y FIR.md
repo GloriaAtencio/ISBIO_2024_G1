@@ -69,6 +69,12 @@ Tabla 1:  Amplitud y Rango de Frecuencias de algunas señales bioeléctricas tí
   
 - Menos estable numéricamente que sus homólogos FIR (respuesta de impulso finito), debido a las rutas de retroalimentación.[5]
 
+Los filtros Butterworth son filtros IIR que tienen una respuesta en frecuencia plana en la banda de paso y una caída suave en la banda de parada. Se utilizan comúnmente en el filtrado de señales de ECG para eliminar ruido de baja frecuencia y de alta frecuencia, así como para enfatizar las componentes de frecuencia de interés en la señal. Con mayor énfasis en el pasa baja, pues crea más distorsión en la señal después de aplicarlo. [6]
+
+Para el caso de señales EMG, dado que las señales pueden contener componentes de alta frecuencia, como los potenciales de acción musculares, así como componentes de baja frecuencia, como el ruido de línea de base y artefactos de movimiento. Se puede aplicar en dirección directa como inversa de las señales para evitar así distorsiones de fase. [7]
+
+En el EEG, las señales de EEG pueden estar contaminadas con una variedad de artefactos, como ruido muscular, movimiento ocular y actividad eléctrica no cerebral[8]. Los filtros Butterworth de paso alto pueden ser útiles para atenuar el ruido de baja frecuencia y los artefactos musculares, mientras que los filtros Butterworth de paso bajo pueden ser utilizados para atenuar el ruido de alta frecuencia y los artefactos de movimiento ocular.[9]
+
 </p>
 
 ## 2.2 Filtros FIR
@@ -79,6 +85,8 @@ Tabla 1:  Amplitud y Rango de Frecuencias de algunas señales bioeléctricas tí
 - Como los FIR no utilizan valores de salida anteriores para calcular su salida actual, es decir, no tienen retroalimentación, nunca pueden volverse inestables para ningún tipo de señal de entrada. [5]
   
 - Altos requisitos computacionales y de memoria. [5]
+  
+La ventana rectangular, también conocida como ventana de caja, es la ventana más simple y básica que se puede utilizar en el diseño de filtros FIR[10]. Sin embargo, la ventana rectangular no proporciona una buena supresión de los lóbulos laterales en la respuesta en frecuencia del filtro, lo que puede provocar una mayor distorsión de la señal y una respuesta en frecuencia menos selectiva en comparación con otras ventanas. La ventana de Hamming es una ventana diseñada para reducir los lóbulos laterales en la respuesta en frecuencia de un filtro FIR, La ventana de Hamming es una opción popular para el diseño de filtros FIR pues se centra en los rangos de menor complejidad.[11]
 
 </p>
 
