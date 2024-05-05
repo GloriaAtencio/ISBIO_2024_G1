@@ -173,7 +173,7 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 </div>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/b69d2ae60ad0204982660fd56e9a182efcff241f/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_reposo_original.png" alt="fotog" width="560" height="300"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/b69d2ae60ad0204982660fd56e9a182efcff241f/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_reposo_original.png" alt="fotog" width="500" height="500"/>
 </p>
 <p align="center"><i>Figura 1. DFT de la señal en reposo ECG</i></p>
 
