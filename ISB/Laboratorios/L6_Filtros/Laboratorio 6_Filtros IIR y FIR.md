@@ -19,10 +19,11 @@
 <p align="justify">
 </p>
 
-## Objetivo:
+## Objetivos:
 
 <p align="justify">
-Objetivo General:   
+Objetivo General: 
+   
 - El objetivo de este laboratorio es comprender y crear los filtros digitales necesarios para filtrar el ruido y otros artefactos comunes en las señales adquiridas del ECG, EMG Y EEG.
 
 Objetivos Específicos para ECG: 
