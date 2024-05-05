@@ -423,3 +423,24 @@ La ventana rectangular, también conocida como ventana de caja, es la ventana m�
 
 
 # 6. Referencias bibliográficas<a name="id6"></a>
+[1]Carlos Sánchez Márquez, "Procesamiento de Señales Biomédicas Mediante Instrumento Virtual Desarrollado con Matlab," Revista de Procesamiento de Señales Biomédicas, vol. 2, no. 1, pp. 23-31, ene.-abr. 2014. [En línea]. Disponible: https://repositorio.upn.edu.pe/bitstream/handle/11537/2996/Procesamiento%20de%20se%C3%B1ales%20biom%C3%A9dicas.pdf?sequence=1&isAllowed=y
+
+[2]K. S. Kumar, B. Yazdanpanah and P. R. Kumar, "Removal of noise from electrocardiogram using digital FIR and IIR filters with various methods," 2015 International Conference on Communications and Signal Processing (ICCSP), Melmaruvathur, India, 2015, pp. 0157-0162, doi: 10.1109/ICCSP.2015.7322780.  
+
+[3]V. Silva and V. G. Rojas, "Diseño e implementación de un sistema electrocardiográfico digital," Rev. Fac. Ing. Univ. Antioquia, no. 55, pp. 99-107, Sept. 2010. [Online]. Available: http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-62302010000500010&lng=en&tlng=es.  
+
+[4]J. G. Proakis and D. G. Manolakis, Digital Signal Processing - Principles, Algorithms, and Applications, 4th ed. New York: Macmillan Publishing Company, 2014. 
+
+[5]S. Sarpal, “Difference between IIR and FIR filters: a practical design guide”, ASN Home, 28-abr-2020. [En línea]. Disponible en: https://www.advsolned.com/difference-between-iir-and-fir-filters-a-practical-design-guide/. 
+
+[6] B. Salsekar and Dr. Wadhwani, "Filtering of ECG signal using Butterworth Filter and its feature extraction," International Journal of Engineering Science and Technology, vol. 4, 2012. 
+
+[7]R. G. Mello, L. F. Oliveira, and J. Nadal, "Digital Butterworth filter for subtracting noise from low magnitude surface electromyogram," Comput Methods Programs Biomed., vol. 87, no. 1, pp. 28-35, Jul. 2007. [Online]. Available: https://pubmed.ncbi.nlm.nih.gov/17548125/.
+
+[8]Jhon Llumiquinga Pachacama, "Eliminación de artefactos oculares en EEG de control," Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicaciones, UPM, Madrid, Spain, [Online]. Available: https://oa.upm.es/67279/1/TFG_JOHN_LLUMIQUINGA_PACHACAMA.pdf.
+
+[9]Kasim, Ö., Tosun, M. Effective removal of eye-blink artifacts in EEG signals with semantic segmentation. SIViP 16, 1289–1295 (2022). https://doi.org/10.1007/s11760-021-02080-4
+
+[10]N. Rashmi, G. Begum and V. Singh, "ECG denoising using wavelet transform and filters," 2017 International Conference on Wireless Communications, Signal Processing and Networking (WiSPNET), Chennai, India, 2017, pp. 2395-2400, doi: 10.1109/WiSPNET.2017.8300189.  
+ 
+[11]S. Shama, A. Kumar and Y. Kumar, "Hamming filter design for ecg signal detection and processing using co-simulation," 2017 International Conference on Computing, Communication and Automation (ICCCA), Greater Noida, India, 2017, pp. 1029-1034, doi: 10.1109/CCAA.2017.8229992.  
