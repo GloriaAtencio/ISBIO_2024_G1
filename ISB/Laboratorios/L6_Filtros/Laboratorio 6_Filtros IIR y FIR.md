@@ -202,12 +202,21 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 <p align="center"><i>Figura 2. Transformada bilineal de H(s) a H(z)</i></p><br>
 
 <div align="center">
-<h2> Señales filtradas - Filtro IIR </h2>
+<h2> Señales filtradas - Filtro IIR  </h2>
 </div>
 
 | En reposo | Hiperventilación | Después de actividad física |
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3ae92175-1916-4743-b78c-18bcb763659b) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/8f8163cf-d47b-4020-ae2e-e922f1d455de) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/aec405e3-929e-41e8-8a2d-b0f6d1ec218d) |
+
+<div align="center">
+<h2> DFT de señales filtradas  - Filtro IIR </h2>
+</div>
+
+| En reposo | Hiperventilación | Después de actividad física |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/b4640b1b-9fde-422a-a5f3-e256c5a45aa4) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/149e2118-69b3-42ed-a6d8-2682c194a253) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0dcebd94-735b-4a15-a71e-9c88af5aaaec) |
+
 
 
 ## 4.2 Señal EMG
