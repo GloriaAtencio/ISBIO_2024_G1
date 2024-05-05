@@ -172,6 +172,12 @@ Los filtros FIR son sistemas de procesamiento de señales que tienen una respues
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/f22c57572b6955f1543d1c9f5b41f9a6f89caac0/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/se%C3%B1ales_originales_ecg.png" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/f22c57572b6955f1543d1c9f5b41f9a6f89caac0/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/se%C3%B1ales_originales_ecg_same_Axis.png" alt="fotog" />|
 </div>
 
+|  **DFT - Señal en reposo**  | **DFT - Señal en hiperventilación** |**DFT - Señal después de actividad física** |
+|:------------:|:---------------:|:---------------:|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/51051c5057f39a6ebc98062486d874ea178d573d/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_reposo_original.png" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/51051c5057f39a6ebc98062486d874ea178d573d/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_hiperventilacion_original.png" alt="fotog" />|
+<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/51051c5057f39a6ebc98062486d874ea178d573d/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/dft_se%C3%B1al_despuesdeactividad_original.png" alt="fotog" />|
+</div>
+
 ## 4.2 Señal EMG
 
 ## 4.3 Señal EEG
