@@ -22,10 +22,19 @@
 ## Objetivo:
 
 <p align="justify">
-El objetivo de este laboratorio es comprender y crear los filtros necesarios para filtrar el ruido y otros artefactos comunes en las señales adquiridas.  específicamente, se busca:
+Objetivo General:   
+El objetivo de este laboratorio es comprender y crear los filtros digitales necesarios para filtrar el ruido y otros artefactos comunes en las señales adquiridas del ECG, EMG Y EEG.
 
-- Filtrar las frecuencias altas, que corresponden a ruido, del dataset de  ECG creado en el laboratorio anterior.  
-- Diseñar 2 filtros uno IIR y uno FIR, para realizar el filtrado.
+Objetivos Específicos para ECG: 
+Diseñar  filtros IIR y FIR óptimos, para filtrar las frecuencias altas de dichas
+señales que corresponden a ruido.
+Objetivos Específicos para EMG: 
+Diseñar un filtro FIR para eliminar frecuencias altas que correspondan a ruido eléctrico y artefactos de movimiento.
+Diseñar un filtro IIR para aislar la banda de frecuencia de interés que corresponde a la actividad muscular.
+Objetivos Específicos para EEG: 
+Diseñar un filtro FIR para suprimir interferencias de  frecuencias altas que correspondan a ruido eléctrico y artefactos de movimientos como el parpadeo de ojos y la actividad muscular .
+Diseñar un filtro IIR para extraer bandas de frecuencia específicas (alfa, beta, etc.).
+
 </p>
 
   
