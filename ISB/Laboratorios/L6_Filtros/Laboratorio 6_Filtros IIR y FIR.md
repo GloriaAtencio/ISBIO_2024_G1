@@ -298,13 +298,13 @@ La ventana rectangular, también conocida como ventana de caja, es la ventana m�
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/438d275c-b6d4-4811-ac0b-d3335183f6e6" alt="fotog" width="460" height="400"/>
 </p>
-<p align="center"><i>Figura 3. Respuesta en frecuencia del filtro analógico (EMG)</i></p><br>
+<p align="center"><i>Figura 5. Respuesta en frecuencia del filtro analógico (EMG)</i></p><br>
 
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/5450c74e1c7dfc7b50c888294c4ca7917128c0ad/ISB/Laboratorios/Im%C3%A1genes/IIR/EMG/transformada_bilineal_emg.png" alt="fotog" width="460" height="400"/>
 </p>
-<p align="center"><i>Figura 4. Transformada bilineal de H(s) a H(z) (EMG)</i></p><br>
+<p align="center"><i>Figura 6. Transformada bilineal de H(s) a H(z) (EMG)</i></p><br>
 
 <div align="center">
 <h2> Señales filtradas - Filtro IIR  </h2>
@@ -321,6 +321,23 @@ La ventana rectangular, también conocida como ventana de caja, es la ventana m�
 | En reposo | Fuerza oponente | Levantando mochila |
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/015e85ed-2f66-4ec8-99dc-3416e22e65ed) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3b119526-383f-4f0a-adcc-2d232f256c9b) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/986c9e47-00ad-4b82-9346-be4c368f3877) |
+
+<div align="center">
+<h2> Diseño de filtro FIR - Hamming </h2>
+</div>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/8e79ca1f-fe83-4521-82ab-68d16d92b127" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 7. Filtro Hamming (EMG)</i></p><br>
+
+
+<div align="center">
+<h2> Señales filtradas - Filtro FIR  </h2>
+</div>
+
+| En reposo | Fuerza oponente | Levantando mochila |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e7547e81-29a1-4493-b67d-b9e2950acaca) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/a449c449-5f4f-4f8e-919d-2b8012c3cad4) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/fe65c73b-c8b4-4498-b9b6-2c63fe4aa125) |
 
 
 
@@ -356,12 +373,12 @@ La ventana rectangular, también conocida como ventana de caja, es la ventana m�
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/16602be7-305d-450b-8cbe-75d8255465a2" alt="fotog" width="460" height="400"/>
 </p>
-<p align="center"><i>Figura 5. Respuesta en frecuencia del filtro analógico (EEG)</i></p><br>
+<p align="center"><i>Figura 8. Respuesta en frecuencia del filtro analógico (EEG)</i></p><br>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/377d9931-b713-4c63-a4f5-6838b8befc98" alt="fotog" width="460" height="400"/>
 </p>
-<p align="center"><i>Figura 6. Transformada bilineal de H(s) a H(z) (EEG)</i></p><br>
+<p align="center"><i>Figura 9. Transformada bilineal de H(s) a H(z) (EEG)</i></p><br>
 
 
 <div align="center">
@@ -382,7 +399,23 @@ La ventana rectangular, también conocida como ventana de caja, es la ventana m�
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/a563965c-a1e5-40c7-8dea-b944fd4f63df) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/90b4448d-30e0-4b7a-a56e-c94638ae5611) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/b31b21cd-d550-4ac5-9291-3cfc9c8f5be2) |
 
+<div align="center">
+<h2> Diseño de filtro FIR - Bartlett </h2>
+</div>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/5ec1993f-754b-4df8-89ce-760846f58281" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 10. Filtro Bartlett (EEG)</i></p><br>
 
+
+
+<div align="center">
+<h2> Señales filtradas - Filtro FIR  </h2>
+</div>
+
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/9de5fe1f-1e6c-4f46-a536-35bff9e79562) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/af9e5229-2f3e-4e76-89c8-5c42c1320bb7) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d0541426-dea6-4108-b30a-d89905527b3b) |
 
 
 
