@@ -24,6 +24,6 @@
 ## 4.2 Filtro ECG<a name="id4.2"></a>
 ## 4.3 Filtro EEG<a name="id4.3"></a>
 # 5.Resultados<a name="id5"></a>
-# 6.Materiales<a name="id6"></a>
-# 7.Materiales<a name="id7"></a>
+# 6.Discusión<a name="id6"></a>
+# 7.Referencias bibliográficas<a name="id7"></a>
 
