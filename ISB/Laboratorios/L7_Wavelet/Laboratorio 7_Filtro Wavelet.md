@@ -155,7 +155,11 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
  |----------|
  | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/66a48a98-7c4b-4d29-8f0f-66197f55207e) |
  </div>
- 
+
+ <div align="center">
+<h2>Coeficientes de detalle</h2>
+</div>
+
 <div align="center">
 <h2>DFT de las señales filtradas - Wavelet </h2>
 </div>
