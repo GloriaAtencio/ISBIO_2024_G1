@@ -174,7 +174,7 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/dd14fae8-2da5-4cf5-8620-5c2a10e545a0" alt="fotog" width="460" height="400"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/dd14fae8-2da5-4cf5-8620-5c2a10e545a0" alt="fotog" width="900" height="200"/>
 </p>
 <p align="center"><i>Figura 2. Coeficiente de aproximación - Ojos abiertos - Ojos cerrados (EEG)</i></p><br>
 
@@ -186,7 +186,7 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 </div>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cb05a47e-189c-49a0-b804-9df28762c623" alt="fotog" width="460" height="400"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cb05a47e-189c-49a0-b804-9df28762c623" alt="fotog" width="900" height="200"/>
 </p>
 <p align="center"><i>Figura 3. Coeficiente de aproximación - Ejercicio mental (EEG)</i></p><br>
 
