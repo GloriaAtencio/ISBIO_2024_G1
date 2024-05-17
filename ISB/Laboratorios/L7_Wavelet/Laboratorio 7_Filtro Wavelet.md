@@ -132,15 +132,23 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cd918295-9092-4b68-b1a8-195049803148) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d543a01d-9943-4e6b-a3a0-63042d90d0e7) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/955af287-7d5b-4ca1-91c2-cc8fc5020f5c) |
 
 <div align="center">
-<h2>Señales filtradas - Filtro Wavelet</h2>
+<h2>Comparación de las señales sin filtro y con filtro</h2>
 </div>
 
-| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
-|----------|----------|----------|
-| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/040cdec3-0a01-404a-8e49-4c879489818a) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/fca204fb-8439-4de1-bd96-da87c1def46b) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/ad00c575-4345-416f-bb8d-aac6e587bf12) |
+| En reposo |
+|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2ddc615e-51f5-470b-9109-264fdd41f9e0) |
 
 
+ | Ojos abiertos - Ojos cerrados |
+ |----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3bd058e1-1853-4959-9dd9-0fa2974c387c) |
 
+
+| Ejercicio mental |
+ |----------|
+ | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/66a48a98-7c4b-4d29-8f0f-66197f55207e) |
+ 
 <div align="center">
 <h2>DFT de las señales filtradas </h2>
 </div>
