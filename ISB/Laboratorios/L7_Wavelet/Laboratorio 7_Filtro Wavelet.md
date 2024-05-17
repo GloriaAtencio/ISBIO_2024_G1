@@ -88,8 +88,11 @@ Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes co
 | Despues de actividad fisica | ![alt text](image-xx.png)| ![alt text](imageXX.png)| 
 
 # 5.Discusión<a name="id6"></a>
+
 ### EMG
 ### ECG
+La transformada wavelet(WT) se ha demostrado como una herramienta eficaz debido a su capacidad de descomponer señales en diferentes escalas, lo que es particularmente útil para el análisis de señales no estacionarias como las de ECG.
+Los resultados experimentales muestran que la aplicación de la transformada wavelet con la onda db5 y el umbral universal mejora significativamente la calidad de las señales de ECG. Las señales adquiridas en diferentes condiciones (reposo, hiperventilación, post-ejercicio) muestran una reducción notable del ruido después del procesamiento. Esto confirma la eficacia del método propuesto para mejorar la claridad y la utilidad de las señales de ECG para el análisis clínico. Además, la correcta elección del número de capas de descomposición es crucial, ya que un número demasiado bajo podría resultar en una insuficiente eliminación de ruido, mientras que un número demasiado alto podría introducir artefactos y pérdida de información. Este balance es esencial para preservar la integridad de la señal de ECG, un aspecto que ha sido resaltado en la literatura como fundamental para el análisis clínico preciso. Una señal de ECG más clara puede facilitar diagnósticos más precisos y confiables, lo que es crucial en contextos clínicos donde las decisiones deben ser rápidas y basadas en datos precisos.
 ### EEG
 # 6.Referencias bibliográficas<a name="id7"></a>
 
