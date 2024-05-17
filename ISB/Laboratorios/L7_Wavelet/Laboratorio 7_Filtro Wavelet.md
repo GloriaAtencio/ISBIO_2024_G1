@@ -96,7 +96,7 @@ Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes co
 |:--------------:|:--------------:|:--------------:|
 | Reposo |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2201f2a6-53d8-4e27-8ce8-b6250f588474" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0ae19515-09c0-479b-b161-3b1d63a717dd" alt="fotog" /> | 
 | Ciclo cerrando y abriendo ojos |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/fd6c11e9-7f5c-45c6-8cc6-757a48c61383" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/fca204fb-8439-4de1-bd96-da87c1def46b" alt="fotog" /> | 
-| 100 peruanos dicen - preguntas |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/bb322eb1-0292-4996-b478-223809a69348" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/ad00c575-4345-416f-bb8d-aac6e587bf12" alt="fotog" /> | 
+| Ejercicio mental |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/bb322eb1-0292-4996-b478-223809a69348" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/ad00c575-4345-416f-bb8d-aac6e587bf12" alt="fotog" /> | 
 
 # 5.Discusión<a name="id6"></a>
 
@@ -121,7 +121,17 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cd918295-9092-4b68-b1a8-195049803148) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d543a01d-9943-4e6b-a3a0-63042d90d0e7) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/955af287-7d5b-4ca1-91c2-cc8fc5020f5c) |
 
 <div align="center">
-<h2>Señales filtrados</h2>
+<h2>Señales filtradas - Filtro Wavelet</h2>
+</div>
+
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/040cdec3-0a01-404a-8e49-4c879489818a) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/fca204fb-8439-4de1-bd96-da87c1def46b) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/ad00c575-4345-416f-bb8d-aac6e587bf12) |
+
+
+
+<div align="center">
+<h2>DFT de las señales filtradas </h2>
 </div>
 
 # 6.Referencias bibliográficas<a name="id7"></a>
