@@ -32,8 +32,8 @@ Tabla 1: Familia Wavelet [4]
 
 
 # 3.Metodología<a name="id4"></a>
-## 3.1 Filtro EMG<a name="id4.1"></a>
-## 3.2 Filtro ECG<a name="id4.2"></a>
+## 3.1 Diseño del filtro para EMG<a name="id4.1"></a>
+## 3.2 Diseño del filtro para ECG<a name="id4.2"></a>
 
 Para aplicar la transformada de wavelet con el objetivo de eliminar ruidos de la señal de ECG, se deben considerar varios aspectos clave. Entre ellos, la determinación del número de capas de descomposición de las ondas influye significativamente en la efectividad de la eliminación del ruido. A continuación, se describen los parámetros esenciales para este proceso: la selección de la onda madre, el nivel de descomposición y el método de umbralización.
 
@@ -42,9 +42,9 @@ Para aplicar la transformada de wavelet con el objetivo de eliminar ruidos de la
 Tabla 2: Comparación de los resultados de eliminación de ruido según varias ondas típicas.
 - Nivel de Descomposición: El número de capas de descomposición también es un factor crítico. Si el número de capas es demasiado pequeño, el efecto de eliminación de ruido será insatisfactorio. Generalmente, para eliminar el ruido de alta frecuencia y extraer componentes de baja frecuencia, el número de capas de descomposición se incrementa hasta cierto punto. Sin embargo, si el número de capas es demasiado alto, el error puede aumentar considerablemente. Esto se debe a que el proceso se centra más en las características de la base wavelet que en la señal que se está analizando, lo que puede resultar en frecuencias falsas y una pérdida significativa de información [2].
 
-- Umbralización: La selección del método de umbralización adecuado es fundamental, independientemente de la función wavelet que se utilice. Existen varias técnicas de umbralización que presentan buenos resultados, como MINMAX, RIGOROUS SURE, UNIVERSAL y HEURISTIC SURE [5]. En este informe, se utilizará el umbral universal dado por `sqrt(2 * log(N)), donde N es la longitud de la señal.
+- Umbralización: La selección del método de umbralización adecuado es fundamental, independientemente de la función wavelet que se utilice. Existen varias técnicas de umbralización que presentan buenos resultados, como MINMAX, RIGOROUS SURE, UNIVERSAL y HEURISTIC SURE [5]. En este informe, se utilizará el umbral universal dado por "sqrt(2 * log(N))", donde N es la longitud de la señal.
 
-## 3.3 Filtro EEG<a name="id4.3"></a>
+## 3.3 Diseño del filtro para EEG<a name="id4.3"></a>
 # 4.Resultados<a name="id5"></a> 
 ### EMG
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
