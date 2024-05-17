@@ -27,7 +27,8 @@ La transformada wavelet (WT) es un método ampliamente utilizado para la supresi
 La metodología de eliminación de ruido mediante la transformada wavelet se basa en la descomposición de señales en una superposición de funciones wavelet. Tras esta descomposición, se generan coeficientes wavelet para cada señal. La distinción entre señal y ruido se realiza mediante ajustes de umbral, donde un umbral adecuado permite conservar los coeficientes de la señal, que son más grandes, y reducir los coeficientes del ruido, que son más pequeños [3].
 
 Actualmente, se han desarrollado muchas bases wavelet, como Haar, Daubechies (Db), Symlet, entre otras, para el análisis y la síntesis de señales. La correcta selección de una función de base wavelet juega un papel crucial en el rendimiento de la eliminación de ruido [2].
-
+ <img src="[https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/f22c57572b6955f1543d1c9f5b41f9a6f89caac0/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/se%C3%B1ales_originales_ecg.png](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/tabla1.jpeg
+)" alt="fotog" />
 Tabla 1: Familia Wavelet [4]
 
 
@@ -38,7 +39,7 @@ Tabla 1: Familia Wavelet [4]
 Para aplicar la transformada de wavelet con el objetivo de eliminar ruidos de la señal de ECG, se deben considerar varios aspectos clave. Entre ellos, la determinación del número de capas de descomposición de las ondas influye significativamente en la efectividad de la eliminación del ruido. A continuación, se describen los parámetros esenciales para este proceso: la selección de la onda madre, el nivel de descomposición y el método de umbralización.
 
 - Onda Madre: La selección correcta de una función de base wavelet es crucial para el rendimiento en la eliminación de ruido. La Tabla 2 muestra la comparación de la relación señal-ruido (SNR) y el error cuadrático medio (MSE) de las señales de ECG sin ruido, procesadas mediante varias ondas típicas. Según esta tabla, la SNR de la wavelet db5 es relativamente alta y el MSE es relativamente bajo [2]. Por lo tanto, basándonos en esta evidencia, seleccionamos db5 como la base wavelet para el proceso de eliminación de ruido de la señal de ECG en este informe.
-
+ <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/tabla2.jpeg" alt="fotog" />
 Tabla 2: Comparación de los resultados de eliminación de ruido según varias ondas típicas.
 - Nivel de Descomposición: El número de capas de descomposición también es un factor crítico. Si el número de capas es demasiado pequeño, el efecto de eliminación de ruido será insatisfactorio. Generalmente, para eliminar el ruido de alta frecuencia y extraer componentes de baja frecuencia, el número de capas de descomposición se incrementa hasta cierto punto. Sin embargo, si el número de capas es demasiado alto, el error puede aumentar considerablemente. Esto se debe a que el proceso se centra más en las características de la base wavelet que en la señal que se está analizando, lo que puede resultar en frecuencias falsas y una pérdida significativa de información [2].
 
