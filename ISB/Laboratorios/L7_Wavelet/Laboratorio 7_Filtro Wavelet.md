@@ -21,13 +21,15 @@
    - Analizar las señales filtradas para evaluar la efectividad de los filtros diseñados.
       
 # 2.Introducción<a name="id3"></a>
-
+<p align="justify">
 La transformada wavelet (WT) es un método ampliamente utilizado para la supresión de ruido y la extracción de características de señales biomédicas [1]. A menudo se emplea para analizar señales instantáneas y variables en el tiempo. Aunque la transformada de Fourier clásica puede reflejar la connotación general de las señales, su expresión normalmente no es lo suficientemente intuitiva. Como alternativa, la transformada wavelet puede descomponer señales en diferentes escalas, permitiendo seleccionar diferentes niveles de descomposición según los objetivos de procesamiento. Además, permite la localización simultánea en los dominios del tiempo y la frecuencia, lo cual es particularmente ventajoso para el análisis de señales no estacionarias [2].
-
+ </p>    
+<p align="justify">
 La metodología de eliminación de ruido mediante la transformada wavelet se basa en la descomposición de señales en una superposición de funciones wavelet. Tras esta descomposición, se generan coeficientes wavelet para cada señal. La distinción entre señal y ruido se realiza mediante ajustes de umbral, donde un umbral adecuado permite conservar los coeficientes de la señal, que son más grandes, y reducir los coeficientes del ruido, que son más pequeños [3].
-
+   </p>  
+<p align="justify">
 Actualmente, se han desarrollado muchas bases wavelet, como Haar, Daubechies (Db), Symlet, entre otras, para el análisis y la síntesis de señales. La correcta selección de una función de base wavelet juega un papel crucial en el rendimiento de la eliminación de ruido [2].
- 
+</p>  
 <p align="justify">
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/tabla1.jpeg" alt="fotog" width="520" height="300"/>
@@ -38,19 +40,23 @@ Tabla 1: Familia Wavelet [4]
 
 # 3.Metodología<a name="id4"></a>
 ## 3.1 Diseño del filtro para EMG<a name="id4.1"></a>
+<p align="justify">
 Onda Madre: Las wavelets Daubechies, como db2, db4, db6 y db8, son comúnmente utilizadas para el procesamiento de señales biomédicas debido a su capacidad para manejar señales no estacionarias y capturar características transitorias de la señal EMG. Estas wavelets tienen formas que son similares a las de los potenciales de acción de unidad motora (MUAP), lo que las hace especialmente adecuadas para este tipo de análisis [6]. Asimismo, al ser ortogonales, lo facilitan la reconstrucción de la señal sin pérdida de información. Para este caso específico se utilizará db8, la mayor longitud de soporte permite a la db8 capturar características más detalladas de la señal EMG, lo cual es beneficioso para el análisis de señales con estructuras complejas y transitorias. Esto resulta en una mejor representación de las variaciones rápidas y detalles finos en la señal.
-
+   </p> 
+<p align="justify">
 Nivel de Descomposición: Para señales EMG, que típicamente tienen frecuencias de muestreo en el rango de kHz, los niveles de descomposición usualmente varían entre 4 y 6. Esto permite capturar tanto los movimientos musculares generales (bajas frecuencias) como los picos de actividad muscular (altas frecuencias). Se trabaja con un nivel 5 estándar a las otras señales, un nivel demasiado bajo podría perder detalles importantes, mientras que un nivel demasiado alto podría introducir ruido [2].
-
+</p> 
+<p align="justify">
 Umbralización: El proceso descrito implica que los coeficientes cuya magnitud está por debajo del umbral se fijan en cero, lo cual es la característica distintiva de la umbralización dura. Se está tomando la forma universal, como tal se describe que este método está diseñado específicamente para manejar situaciones en las que la señal de interés está contaminada con ruido gaussiano, y su principal objetivo es minimizar el error de reconstrucción [6].
-
+</p> 
 
 ## 3.2 Diseño del filtro para ECG<a name="id4.2"></a>
-
+<p align="justify">
 Para aplicar la transformada de wavelet con el objetivo de eliminar ruidos de la señal de ECG, se deben considerar varios aspectos clave. Entre ellos, la determinación del número de capas de descomposición de las ondas influye significativamente en la efectividad de la eliminación del ruido. A continuación, se describen los parámetros esenciales para este proceso: la selección de la onda madre, el nivel de descomposición y el método de umbralización.
-
+</p> 
+<p align="justify">
 - Onda Madre: La selección correcta de una función de base wavelet es crucial para el rendimiento en la eliminación de ruido. La Tabla 2 muestra la comparación de la relación señal-ruido (SNR) y el error cuadrático medio (MSE) de las señales de ECG sin ruido, procesadas mediante varias ondas típicas. Según esta tabla, la SNR de la wavelet db5 es relativamente alta y el MSE es relativamente bajo [2]. Por lo tanto, basándonos en esta evidencia, seleccionamos db5 como la base wavelet para el proceso de eliminación de ruido de la señal de ECG en este informe.
-  
+</p> 
 <p align="justify">
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/tabla2.jpeg" alt="fotog" width="520" height="300"/>
@@ -58,10 +64,12 @@ Para aplicar la transformada de wavelet con el objetivo de eliminar ruidos de la
 <p align="center">
 Tabla 2: Comparación de los resultados de eliminación de ruido según varias ondas típicas.[2]
 </p> 
-
+<p align="justify">
 - Nivel de Descomposición: El número de capas de descomposición también es un factor crítico. Si el número de capas es demasiado pequeño, el efecto de eliminación de ruido será insatisfactorio. Generalmente, para eliminar el ruido de alta frecuencia y extraer componentes de baja frecuencia, el número de capas de descomposición se incrementa hasta cierto punto. Sin embargo, si el número de capas es demasiado alto, el error puede aumentar considerablemente. Esto se debe a que el proceso se centra más en las características de la base wavelet que en la señal que se está analizando, lo que puede resultar en frecuencias falsas y una pérdida significativa de información [2].
-
+</p> 
+<p align="justify">
 - Umbralización: La selección del método de umbralización adecuado es fundamental, independientemente de la función wavelet que se utilice. Existen varias técnicas de umbralización que presentan buenos resultados, como MINMAX, RIGOROUS SURE, UNIVERSAL y HEURISTIC SURE [5]. En este informe, se utilizará el umbral universal dado por "sqrt(2 * log(N))", donde N es la longitud de la señal.
+</p> 
 
 ## 3.3 Diseño del filtro para EEG<a name="id4.3"></a>
 
