@@ -42,6 +42,12 @@ Tabla 1: Familia Wavelet [4]
 | Figura 2. Basal | ![alt text](imagexx.png)|![alt text](imageXX.png)|
 | Figura 3. Levantando Mochila | ![alt text](imagexx.png)| ![alt text](imageXX.png)| 
 | Figura 4. Fuerza oponente | ![alt text](image-xx.png)| ![alt text](imageXX.png)| 
+
+<div align="center">
+<h2> Coeficientes de Detalle EMG </h2>
+</div>
+
+|  ![alt text](imageXX.png) |
 ### ECG
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
 |:--------------:|:--------------:|:--------------:|
@@ -49,6 +55,11 @@ Tabla 1: Familia Wavelet [4]
 | Figura 3. Hiperventilación | ![alt text](imagexx.png)| ![alt text](imageXX.png)| 
 | Figura 4. Despues de actividad fisica | ![alt text](image-xx.png)| ![alt text](imageXX.png)| 
 
+<div align="center">
+<h2> Coeficientes de Detalle EMG </h2>
+</div>
+
+|  ![alt text](imageXX.png) |
 ### EEG
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
 |:--------------:|:--------------:|:--------------:|
@@ -56,6 +67,11 @@ Tabla 1: Familia Wavelet [4]
 | Figura 3. Hiperventilación | ![alt text](imagexx.png)| ![alt text](imageXX.png)| 
 | Figura 4. Despues de actividad fisica | ![alt text](image-xx.png)| ![alt text](imageXX.png)| 
 
+<div align="center">
+<h2> Coeficientes de Detalle EMG </h2>
+</div>
+
+|  ![alt text](imageXX.png) |
 # 5.Discusión<a name="id6"></a>
 # 6.Referencias bibliográficas<a name="id7"></a>
 
