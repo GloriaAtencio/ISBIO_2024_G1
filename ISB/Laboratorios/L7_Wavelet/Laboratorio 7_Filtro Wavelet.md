@@ -62,7 +62,7 @@ Tabla 2: Comparación de los resultados de eliminación de ruido según varias o
 
 ## 3.3 Diseño del filtro para EEG<a name="id4.3"></a>
 # 4.Resultados<a name="id5"></a> 
-### EMG
+## 4.1 Señal EMG
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
 |:--------------:|:--------------:|:--------------:|
 | Basal| <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETB1.png" alt="fotog" width="350" height="270"/> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETB2.png" alt="fotog" width="350" height="270" /> | 
@@ -74,7 +74,8 @@ Tabla 2: Comparación de los resultados de eliminación de ruido según varias o
 </div>
 
 |  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/f22c57572b6955f1543d1c9f5b41f9a6f89caac0/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/se%C3%B1ales_originales_ecg.png" alt="fotog" /> |
-### ECG
+
+## 4.1 Señal ECG
 
 Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes condiciones experimentales: en estado basal (reposo), en estado de hiperventilación y después de ejercicio. A continuación, se presenta la señal cruda para cada uno de estos estados y la señal filtrada para reducir el ruido, utilizando la transformada wavelet previamente parametrizada.
 
@@ -84,7 +85,8 @@ Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes co
 | Hiperventilación | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/hiperventilacion1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/hiperventilacion2.png" alt="fotog" /> |
 | Despues de actividad fisica | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ejercicio1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ejercicio2.png" alt="fotog" /> |
 
-### EEG
+## 4.1 Señal EEG
+
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
 |:--------------:|:--------------:|:--------------:|
 | Reposo |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2201f2a6-53d8-4e27-8ce8-b6250f588474" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0ae19515-09c0-479b-b161-3b1d63a717dd" alt="fotog" /> | 
@@ -97,7 +99,23 @@ Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes co
 ### ECG
 La transformada wavelet(WT) se ha demostrado como una herramienta eficaz debido a su capacidad de descomponer señales en diferentes escalas, lo que es particularmente útil para el análisis de señales no estacionarias como las de ECG.
 Los resultados experimentales muestran que la aplicación de la transformada wavelet con la onda db5 y el umbral universal mejora significativamente la calidad de las señales de ECG. Las señales adquiridas en diferentes condiciones (reposo, hiperventilación, post-ejercicio) muestran una reducción notable del ruido después del procesamiento. Esto confirma la eficacia del método propuesto para mejorar la claridad y la utilidad de las señales de ECG para el análisis clínico. Además, la correcta elección del número de capas de descomposición es crucial, ya que un número demasiado bajo podría resultar en una insuficiente eliminación de ruido, mientras que un número demasiado alto podría introducir artefactos y pérdida de información. Este balance es esencial para preservar la integridad de la señal de ECG, un aspecto que ha sido resaltado en la literatura como fundamental para el análisis clínico preciso. Una señal de ECG más clara puede facilitar diagnósticos más precisos y confiables, lo que es crucial en contextos clínicos donde las decisiones deben ser rápidas y basadas en datos precisos.
-### EEG
+
+## 5.1 Señal EEG
+
+|  **Señales originales - ploteadas por muestra**  | **Señales originales - ploteadas por tiempo** |
+|:------------:|:---------------:|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e8656ae1-165e-4820-a40c-f10b47a7c094" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e5b34c56-d485-468c-ac64-274756b2deea" alt="fotog" />|
+</div>
+
+<div align="center">
+<h2>DFT de las señales </h2>
+</div>
+
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cd918295-9092-4b68-b1a8-195049803148) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d543a01d-9943-4e6b-a3a0-63042d90d0e7) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/955af287-7d5b-4ca1-91c2-cc8fc5020f5c) |
+
+
 # 6.Referencias bibliográficas<a name="id7"></a>
 
 [1] D. Vilimek et al., “Comparative analysis of wavelet transform filtering systems for noise reduction in ultrasound images”, PLOS ONE, vol. 17, n.º 7, julio de 2022, art. n.º e0270745. Accedido el 17 de mayo de 2024.[Online]. Available:  https://doi.org/10.1371/journal.pone.0270745 
