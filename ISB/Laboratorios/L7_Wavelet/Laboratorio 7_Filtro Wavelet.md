@@ -38,9 +38,12 @@ Tabla 1: Familia Wavelet [4]
 
 # 3.Metodología<a name="id4"></a>
 ## 3.1 Diseño del filtro para EMG<a name="id4.1"></a>
-Onda Madre: Las wavelets Daubechies, como db2, db4, db6 y db8, son comúnmente utilizadas para el procesamiento de señales biomédicas debido a su capacidad para manejar señales no estacionarias y capturar características transitorias de la señal EMG. Estas wavelets tienen formas que son similares a las de los potenciales de acción de unidad motora (MUAP), lo que las hace especialmente adecuadas para este tipo de análisis. Asimismo, al ser ortogonales, lo facilitan la reconstrucción de la señal sin pérdida de información. Para este caso específico se utilizará db8, la mayor longitud de soporte permite a la db8 capturar características más detalladas de la señal EMG, lo cual es beneficioso para el análisis de señales con estructuras complejas y transitorias. Esto resulta en una mejor representación de las variaciones rápidas y detalles finos en la señal.
+Onda Madre: Las wavelets Daubechies, como db2, db4, db6 y db8, son comúnmente utilizadas para el procesamiento de señales biomédicas debido a su capacidad para manejar señales no estacionarias y capturar características transitorias de la señal EMG. Estas wavelets tienen formas que son similares a las de los potenciales de acción de unidad motora (MUAP), lo que las hace especialmente adecuadas para este tipo de análisis [6]. Asimismo, al ser ortogonales, lo facilitan la reconstrucción de la señal sin pérdida de información. Para este caso específico se utilizará db8, la mayor longitud de soporte permite a la db8 capturar características más detalladas de la señal EMG, lo cual es beneficioso para el análisis de señales con estructuras complejas y transitorias. Esto resulta en una mejor representación de las variaciones rápidas y detalles finos en la señal.
+
 Nivel de Descomposición: Para señales EMG, que típicamente tienen frecuencias de muestreo en el rango de kHz, los niveles de descomposición usualmente varían entre 4 y 6. Esto permite capturar tanto los movimientos musculares generales (bajas frecuencias) como los picos de actividad muscular (altas frecuencias). Se trabaja con un nivel 5 estándar a las otras señales, un nivel demasiado bajo podría perder detalles importantes, mientras que un nivel demasiado alto podría introducir ruido [2].
-Umbralización: El proceso descrito implica que los coeficientes cuya magnitud está por debajo del umbral se fijan en cero, lo cual es la característica distintiva de la umbralización dura. Se está tomando la forma universal, como tal se describe que este método está diseñado específicamente para manejar situaciones en las que la señal de interés está contaminada con ruido gaussiano, y su principal objetivo es minimizar el error de reconstrucción.
+
+Umbralización: El proceso descrito implica que los coeficientes cuya magnitud está por debajo del umbral se fijan en cero, lo cual es la característica distintiva de la umbralización dura. Se está tomando la forma universal, como tal se describe que este método está diseñado específicamente para manejar situaciones en las que la señal de interés está contaminada con ruido gaussiano, y su principal objetivo es minimizar el error de reconstrucción [6].
+
 
 ## 3.2 Diseño del filtro para ECG<a name="id4.2"></a>
 
@@ -145,3 +148,5 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 [4] D. M., A. E., and L. F., ‘Discrete Wavelet Transform in Compression and Filtering of Biomedical Signals’, Discrete Wavelet Transforms - Biomedical Applications. InTech, Sep. 12, 2011. doi: 10.5772/19529. 
 
 [5] https://ieeexplore.ieee.org/document/5728090
+
+[6] N. Sobahi, “Denoising of EMG Signals Based on Wavelet Transform,” Asian Transactions on Engineering, vol. 01, no. 05, Jan. 2011, [Online]. Available: https://www.researchgate.net/publication/267957236_Denoising_of_EMG_Signals_Based_on_Wavelet_Transform
