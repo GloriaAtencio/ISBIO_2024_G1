@@ -87,9 +87,9 @@ Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes co
 ### EEG
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
 |:--------------:|:--------------:|:--------------:|
-| Reposo | ![alt text](imagexx.png)|![alt text](imageXX.png)|
-| Hiperventilación | ![alt text](imagexx.png)| ![alt text](imageXX.png)| 
-| Despues de actividad fisica | ![alt text](image-xx.png)| ![alt text](imageXX.png)| 
+| Reposo |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2201f2a6-53d8-4e27-8ce8-b6250f588474" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0ae19515-09c0-479b-b161-3b1d63a717dd" alt="fotog" /> | 
+| Ciclo cerrando y abriendo ojos |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/fd6c11e9-7f5c-45c6-8cc6-757a48c61383" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/fca204fb-8439-4de1-bd96-da87c1def46b" alt="fotog" /> | 
+| 100 peruanos dicen - preguntas |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/bb322eb1-0292-4996-b478-223809a69348" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/ad00c575-4345-416f-bb8d-aac6e587bf12" alt="fotog" /> | 
 
 # 5.Discusión<a name="id6"></a>
 
