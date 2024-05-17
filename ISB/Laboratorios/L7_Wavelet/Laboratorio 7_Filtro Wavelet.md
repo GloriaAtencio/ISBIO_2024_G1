@@ -56,7 +56,7 @@ Tabla 1: Familia Wavelet [4]
 | Figura 4. Despues de actividad fisica | ![alt text](image-xx.png)| ![alt text](imageXX.png)| 
 
 <div align="center">
-<h2> Coeficientes de Detalle EMG </h2>
+<h2> Coeficientes de Detalle ECG </h2>
 </div>
 
 |  ![alt text](imageXX.png) |
@@ -68,7 +68,7 @@ Tabla 1: Familia Wavelet [4]
 | Figura 4. Despues de actividad fisica | ![alt text](image-xx.png)| ![alt text](imageXX.png)| 
 
 <div align="center">
-<h2> Coeficientes de Detalle EMG </h2>
+<h2> Coeficientes de Detalle EEG </h2>
 </div>
 
 |  ![alt text](imageXX.png) |
