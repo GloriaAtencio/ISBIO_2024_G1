@@ -60,10 +60,9 @@ Tabla 2: Comparación de los resultados de eliminación de ruido según varias o
 # 4.Resultados<a name="id5"></a> 
 ### EMG
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
-|:--------------:|:--------------:|:--------------:|
-| Basal |  <img src="" alt="fotog" /> | <img src="" alt="fotog" /> |
-| Levantando Mochila |  <img src="" alt="fotog" /> |  <img src="" alt="fotog" /> | 
-| Fuerza oponente |  <img src="" alt="fotog" /> | <img src="" alt="fotog" /> | 
+| Reposo| <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETB1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETB2.png" alt="fotog" /> | 
+| Hiperventilación | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETM1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETM2.png" alt="fotog" /> |
+| Despues de actividad fisica | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETO1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETO2.png" alt="fotog" /> |
 
 <div align="center">
 <h2> Coeficientes de Detalle EMG </h2>
