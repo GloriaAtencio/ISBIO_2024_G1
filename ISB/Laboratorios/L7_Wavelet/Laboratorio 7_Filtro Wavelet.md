@@ -160,6 +160,11 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 <h2>DFT de las señales filtradas </h2>
 </div>
 
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f52e872f-d9f4-4c7a-b486-9a1f49962d72) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0989e51e-0dd5-4736-8576-ac67d0012420) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/342e1807-a5f7-4f06-8a9b-d9ea9b8a6a18) |
+
+
 # 6.Referencias bibliográficas<a name="id7"></a>
 
 [1] D. Vilimek et al., “Comparative analysis of wavelet transform filtering systems for noise reduction in ultrasound images”, PLOS ONE, vol. 17, n.º 7, julio de 2022, art. n.º e0270745. Accedido el 17 de mayo de 2024.[Online]. Available:  https://doi.org/10.1371/journal.pone.0270745 
