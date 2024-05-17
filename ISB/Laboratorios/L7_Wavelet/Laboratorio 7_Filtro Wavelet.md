@@ -71,6 +71,9 @@ Tabla 2: Comparación de los resultados de eliminación de ruido según varias o
 
 |  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/f22c57572b6955f1543d1c9f5b41f9a6f89caac0/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/se%C3%B1ales_originales_ecg.png" alt="fotog" /> |
 ### ECG
+
+Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes condiciones experimentales: en estado basal (reposo), en estado de hiperventilación y después de ejercicio. A continuación, se presenta la señal cruda para cada uno de estos estados y la señal filtrada para reducir el ruido, utilizando la transformada wavelet previamente parametrizada.
+
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
 |:--------------:|:--------------:|:--------------:|
 | Reposo| <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/reposo1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/reposo2.png" alt="fotog" /> | 
