@@ -73,5 +73,8 @@ Tabla 1: Familia Wavelet [4]
 
 |  ![alt text](imageXX.png) |
 # 5.Discusión<a name="id6"></a>
+### EMG
+### ECG
+### EEG
 # 6.Referencias bibliográficas<a name="id7"></a>
 
