@@ -157,12 +157,20 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
  </div>
  
 <div align="center">
-<h2>DFT de las señales filtradas </h2>
+<h2>DFT de las señales filtradas - Wavelet </h2>
 </div>
 
 | En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f52e872f-d9f4-4c7a-b486-9a1f49962d72) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0989e51e-0dd5-4736-8576-ac67d0012420) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/342e1807-a5f7-4f06-8a9b-d9ea9b8a6a18) |
+
+<div align="center">
+<h2>DFT de las señales filtradas - Wavelet y Notch </h2>
+</div>
+
+| En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0b21bb7e-d561-42ea-8084-251638158406) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/5ea2ff99-1264-4a52-ba5f-45b2fa16e700) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/43a3d92b-296a-4c5c-9469-5b95cad0ac8a) |
 
 
 # 6.Referencias bibliográficas<a name="id7"></a>
