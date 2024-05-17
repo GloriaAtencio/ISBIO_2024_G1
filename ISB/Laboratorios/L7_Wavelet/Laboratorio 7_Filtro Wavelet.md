@@ -6,9 +6,9 @@
 1. [Objetivos](#id1)
 2. [Introducción](#id3)
 3. [Metodología](#id4)
-   - [Filtro EMG](#id4.1)
-   - [Filtro ECG](id4.2)
-   - [Filtro EEG](#id4.3)
+   - [Filtro Wavelet - EMG](#id4.1)
+   - [Filtro Wavelet - ECG](id4.2)
+   - [Filtro Wavelet - EEG](#id4.3)
 4. [Resultados](#id5)
 5. [Discusión](#id6)
 6. [Referencias bibliográficas](#id7) 
@@ -61,6 +61,11 @@ Tabla 2: Comparación de los resultados de eliminación de ruido según varias o
 - Umbralización: La selección del método de umbralización adecuado es fundamental, independientemente de la función wavelet que se utilice. Existen varias técnicas de umbralización que presentan buenos resultados, como MINMAX, RIGOROUS SURE, UNIVERSAL y HEURISTIC SURE [5]. En este informe, se utilizará el umbral universal dado por "sqrt(2 * log(N))", donde N es la longitud de la señal.
 
 ## 3.3 Diseño del filtro para EEG<a name="id4.3"></a>
+
+<p align="justify">
+Al hacer el diseño del código en lenguaje python de la transformada wavelet como filtro nos basamos en el paper...
+</p> 
+
 # 4.Resultados<a name="id5"></a> 
 ## 4.1 Señal EMG
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
@@ -115,6 +120,9 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cd918295-9092-4b68-b1a8-195049803148) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d543a01d-9943-4e6b-a3a0-63042d90d0e7) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/955af287-7d5b-4ca1-91c2-cc8fc5020f5c) |
 
+<div align="center">
+<h2>Señales filtrados</h2>
+</div>
 
 # 6.Referencias bibliográficas<a name="id7"></a>
 
