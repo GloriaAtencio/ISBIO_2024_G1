@@ -135,18 +135,26 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 <h2>Comparación de las señales sin filtro y con filtro</h2>
 </div>
 
+<div align="center">
+   
 | En reposo |
 |----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/1364ba08-2a48-4239-81d3-62a1952d1d55) |
+</div>
 
+<div align="center">
+   
  | Ojos abiertos - Ojos cerrados |
  |----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/3bd058e1-1853-4959-9dd9-0fa2974c387c) |
+</div>
 
-
+<div align="center">
+   
 | Ejercicio mental |
  |----------|
  | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/66a48a98-7c4b-4d29-8f0f-66197f55207e) |
+ </div>
  
 <div align="center">
 <h2>DFT de las señales filtradas </h2>
