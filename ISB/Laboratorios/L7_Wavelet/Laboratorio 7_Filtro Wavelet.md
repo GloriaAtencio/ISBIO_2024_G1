@@ -96,3 +96,8 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 ### EEG
 # 6.Referencias bibliográficas<a name="id7"></a>
 
+[1] D. Vilimek et al., “Comparative analysis of wavelet transform filtering systems for noise reduction in ultrasound images”, PLOS ONE, vol. 17, n.º 7, julio de 2022, art. n.º e0270745. Accedido el 17 de mayo de 2024.[Online]. Available:  https://doi.org/10.1371/journal.pone.0270745 
+[2]D. Zhang et al., "An ECG Signal De-Noising Approach Based on Wavelet Energy and Sub-Band Smoothing Filter," Appl. Sci., vol. 9, no. 22, p. 4968, 2019.Accedido el 17 de mayo de 2024 [Online]. Available: https://doi.org/10.3390/app9224968 
+[3]S. Su et al., “An ECG Signal Acquisition and Analysis System Based on Machine Learning with Model Fusion”, Sensors, vol. 23, n.º 17, p. 7643, septiembre de 2023. Accedido el 17 de mayo de 2024. [Online]. Available:https://doi.org/10.3390/s23177643 
+[4] D. M., A. E., and L. F., ‘Discrete Wavelet Transform in Compression and Filtering of Biomedical Signals’, Discrete Wavelet Transforms - Biomedical Applications. InTech, Sep. 12, 2011. doi: 10.5772/19529. 
+[5] https://ieeexplore.ieee.org/document/5728090
