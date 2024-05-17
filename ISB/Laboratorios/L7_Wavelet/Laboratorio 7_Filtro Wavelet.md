@@ -28,10 +28,13 @@ La metodología de eliminación de ruido mediante la transformada wavelet se bas
 
 Actualmente, se han desarrollado muchas bases wavelet, como Haar, Daubechies (Db), Symlet, entre otras, para el análisis y la síntesis de señales. La correcta selección de una función de base wavelet juega un papel crucial en el rendimiento de la eliminación de ruido [2].
  
-<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/tabla1.jpeg" /> 
-
+<p align="justify">
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/tabla1.jpeg" alt="fotog" width="520" height="300"/>
+</p> 
+<p align="center">
 Tabla 1: Familia Wavelet [4]
-
+</p> 
 
 # 3.Metodología<a name="id4"></a>
 ## 3.1 Diseño del filtro para EMG<a name="id4.1"></a>
