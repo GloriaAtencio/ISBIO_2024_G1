@@ -161,7 +161,7 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 </div>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/447e3b8d-863a-40c8-ace1-15de63c16585" alt="fotog" width="460" height="400"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/447e3b8d-863a-40c8-ace1-15de63c16585" alt="fotog" width="1060" height="200"/>
 </p>
 <p align="center"><i>Figura 1. Coeficiente de aproximación - Reposo (EEG)</i></p><br>
 
