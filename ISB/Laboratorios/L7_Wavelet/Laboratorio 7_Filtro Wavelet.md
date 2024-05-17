@@ -157,8 +157,47 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
  </div>
 
  <div align="center">
-<h2>Coeficientes de detalle</h2>
+<h2>Coeficientes de aproximación y detalle</h2>
 </div>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/447e3b8d-863a-40c8-ace1-15de63c16585" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 1. Coeficiente de aproximación - Reposo (EEG)</i></p><br>
+
+<div align="center">
+   
+| Coeficientes de detalle - En reposo |
+|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/7b8e45f3-a784-4bb3-bae8-59e99e0ae297) |
+</div>
+
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/dd14fae8-2da5-4cf5-8620-5c2a10e545a0" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 2. Coeficiente de aproximación - Ojos abiertos - Ojos cerrados (EEG)</i></p><br>
+
+<div align="center">
+   
+ |  Coeficientes de detalle - Ojos abiertos - Ojos cerrados |
+ |----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/8001fd0d-76cf-4215-a86b-3774dab930ae) |
+</div>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cb05a47e-189c-49a0-b804-9df28762c623" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 3. Coeficiente de aproximación - Ejercicio mental (EEG)</i></p><br>
+
+
+
+<div align="center">
+   
+| Ejercicio mental |
+ |----------|
+ | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/a870eba7-13c5-4b59-ad54-7385bb907e27) |
+ </div>
 
 <div align="center">
 <h2>DFT de las señales filtradas - Wavelet </h2>
