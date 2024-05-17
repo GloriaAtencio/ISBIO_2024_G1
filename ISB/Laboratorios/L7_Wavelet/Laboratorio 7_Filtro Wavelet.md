@@ -137,8 +137,7 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 
 | En reposo |
 |----------|
-| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2ddc615e-51f5-470b-9109-264fdd41f9e0) |
-
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/1364ba08-2a48-4239-81d3-62a1952d1d55) |
 
  | Ojos abiertos - Ojos cerrados |
  |----------|
