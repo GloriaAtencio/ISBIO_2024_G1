@@ -119,11 +119,11 @@ filtered_array3 = wavelet_denoise(array3, wavelet, level, threshold3)
 ## 3.3 Diseño del filtro para EEG<a name="id4.3"></a>
 
 <p align="justify">
-Al hacer el diseño del código en lenguaje python de la transformada wavelet como filtro nos basamos en el paper "EEG De-noising using Wavelet Transform and Fast ICA" el cual aborda el uso de la transformada wavelet y el análisis de componentes independientes (ICA) para la eliminación de ruido en señales EEG mediante un método de umbralización de coeficientes de descomposición. La técnica se verifica con señales simuladas y se aplica a señales biomédicas EEG, también útil para imágenes por resonancia magnética con ruido aleatorio adicional.
+Al hacer el diseño del código en lenguaje python de la transformada wavelet como filtro nos basamos en el paper "EEG De-noising using Wavelet Transform and Fast ICA" el cual aborda el uso de la transformada wavelet y el análisis de componentes independientes (ICA) para la eliminación de ruido en señales EEG mediante un método de umbralización de coeficientes de descomposición. La técnica se verifica con señales simuladas y se aplica a señales biomédicas EEG, también útil para imágenes por resonancia magnética con ruido aleatorio adicional.[7]
 </p> 
 
 <p align="justify">
-El diseño de filtro mediante la transformada wavelet (WT) permite el análisis multiresolución de señales no estacionarias, extrayendo información global a bajas frecuencias (altas escalas) mediante la convolución de la señal con una función wavelet escalada. Los coeficientes de wavelet muestran la similitud en el contenido de frecuencia y se interpretan como aproximaciones del filtro pasa banda dilatado.
+El diseño de filtro mediante la transformada wavelet (WT) permite el análisis multiresolución de señales no estacionarias, extrayendo información global a bajas frecuencias (altas escalas) mediante la convolución de la señal con una función wavelet escalada. Los coeficientes de wavelet muestran la similitud en el contenido de frecuencia y se interpretan como aproximaciones del filtro pasa banda dilatado.[7]
 </p> 
 
 <p align="center">
@@ -421,3 +421,7 @@ Tras hallar la DFT de las señales ya filtradas con el wavelet notamos que el ru
 [5] G. Garg, S. Gupta, V. Singh, J. R. P. Gupta and A. P. Mittal, "Identification of optimal wavelet-based algorithm for removal of power line interferences in ECG signals," India International Conference on Power Electronics 2010 (IICPE2010), New Delhi, India, 2011, pp. 1-5, doi: 10.1109/IICPE.2011.5728090.
 
 [6] N. Sobahi, “Denoising of EMG Signals Based on Wavelet Transform,” Asian Transactions on Engineering, vol. 01, no. 05, Jan. 2011, [Online]. Available: https://www.researchgate.net/publication/267957236_Denoising_of_EMG_Signals_Based_on_Wavelet_Transform
+
+[7] S. Borse, «EEG De-noising using Wavelet Transform and Fast ICA», vol. 2, n.º 7, [En línea]. Disponible en: https://ijiset.com/vol2/v2s7/IJISET_V2_I6_25.pdf
+
+
