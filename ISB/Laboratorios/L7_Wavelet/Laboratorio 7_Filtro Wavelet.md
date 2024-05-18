@@ -175,11 +175,17 @@ Las señales EEG que serán procesadas fueron adquiridos en el laboratorio pasad
 # 5.Discusión<a name="id6"></a>
 
 ## 5.1 Señal EMG
+
+<p align="justify">
 En la condición basal, se observó que el filtro wavelet fue efectivo para eliminar el ruido presente en la señal, lo que permitió una mejor visualización de los potenciales de acción muscular asociados con el reposo o la actividad mínima. Se pudo apreciar una reducción significativa en la amplitud de las señales de alta frecuencia, lo que sugiere una disminución del ruido electromagnético y artefactos indeseados. Durante la actividad de oponerse a una fuerza, el filtro wavelet demostró el poder preservar los potenciales de acción musculares relevantes mientras atenuaba el ruido generado por movimientos involuntarios o interferencias externas, inherentes a la EMG superficial. Asimismo, se evidenció la mejora de la relación señal-ruido, donde los picos de actividad muscular se destacaron más sobre el fondo de ruido residual. Al levantar una mochila, las señales EMG se vieron con mayor nivel de interferencias debido a la actividad muscular intensificada y la influencia de la carga adicional. Sin embargo, el filtro wavelet logró mitigar gran parte de estos efectos no deseados al eliminar el ruido de fondo, permitiendo una identificación más precisa de los potenciales de acción muscular asociados con el esfuerzo por la carga.
+</p>
 
 ## 5.2 Señal ECG
+
+<p align="justify">
 La transformada wavelet(WT) se ha demostrado como una herramienta eficaz debido a su capacidad de descomponer señales en diferentes escalas, lo que es particularmente útil para el análisis de señales no estacionarias como las de ECG.
 Los resultados experimentales muestran que la aplicación de la transformada wavelet con la onda db5 y el umbral universal mejora significativamente la calidad de las señales de ECG. Las señales adquiridas en diferentes condiciones (reposo, hiperventilación, post-ejercicio) muestran una reducción notable del ruido después del procesamiento. Esto confirma la eficacia del método propuesto para mejorar la claridad y la utilidad de las señales de ECG para el análisis clínico. Además, la correcta elección del número de capas de descomposición es crucial, ya que un número demasiado bajo podría resultar en una insuficiente eliminación de ruido, mientras que un número demasiado alto podría introducir artefactos y pérdida de información. Este balance es esencial para preservar la integridad de la señal de ECG, un aspecto que ha sido resaltado en la literatura como fundamental para el análisis clínico preciso. Una señal de ECG más clara puede facilitar diagnósticos más precisos y confiables, lo que es crucial en contextos clínicos donde las decisiones deben ser rápidas y basadas en datos precisos.
+</p>
 
 ## 5.3 Señal EEG
 
@@ -229,6 +235,7 @@ Al realizar el DFT de las señales originales EEG , notamos que aparece un pico 
 <h2>Coeficientes de aproximación y detalle</h2>
 </div>
 
+***
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/447e3b8d-863a-40c8-ace1-15de63c16585" alt="fotog" width="900" height="200"/>
 </p>
@@ -240,7 +247,7 @@ Al realizar el DFT de las señales originales EEG , notamos que aparece un pico 
 |----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/7b8e45f3-a784-4bb3-bae8-59e99e0ae297) |
 </div>
-
+***
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/dd14fae8-2da5-4cf5-8620-5c2a10e545a0" alt="fotog" width="900" height="200"/>
@@ -276,6 +283,10 @@ Al realizar el DFT de las señales originales EEG , notamos que aparece un pico 
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f52e872f-d9f4-4c7a-b486-9a1f49962d72) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0989e51e-0dd5-4736-8576-ac67d0012420) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/342e1807-a5f7-4f06-8a9b-d9ea9b8a6a18) |
 
+<p align="justify">
+Tras hallar la DFT de las señales ya filtradas con el wavelet notamos que el ruido eléctrico sigue presente en la señal, así que se optó por realizar un segundo filtrados y le aplicamos el filtro notch a la señal para así poder eliminar el pico en los 60 Hz. 
+</p>
+
 <div align="center">
 <h2>DFT de las señales filtradas - Wavelet y Notch </h2>
 </div>
@@ -283,6 +294,7 @@ Al realizar el DFT de las señales originales EEG , notamos que aparece un pico 
 | En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0b21bb7e-d561-42ea-8084-251638158406) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/5ea2ff99-1264-4a52-ba5f-45b2fa16e700) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/43a3d92b-296a-4c5c-9469-5b95cad0ac8a) |
+
 
 
 # 6.Referencias bibliográficas<a name="id7"></a>
