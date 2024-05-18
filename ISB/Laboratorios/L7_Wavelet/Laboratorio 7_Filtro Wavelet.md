@@ -249,6 +249,12 @@ Para poder evidenciar el proceso de filtrado se graficara las DFTs de las señal
 
 ## 5.3 Señal EEG
 
+<p align="justify">
+La transformada de wavelet (WT) ha demostrado su eficacia en la atenuación del ruido de las señales EEG debido a su capacidad para descomponer las señales en diferentes niveles de resolución, permitiendo la identificación y eliminación del ruido (Mallat, 1989). En este análisis, se utilizó un filtro wavelet db4 con tres niveles de descomposición, obteniendo umbrales de 631.34 para el estado de reposo, 699.33 para la condición de parpadeo y 320.49 durante la resolución de ejercicios. En la condición de reposo, el filtro wavelet eliminó efectivamente el ruido, mejorando la visualización de las ondas cerebrales típicas del estado basal. Durante el parpadeo, se preservaron las características relevantes del EEG mientras se atenuaba el ruido de alta amplitud generado por los movimientos oculares. En la resolución de ejercicios, el filtro mitigó los efectos no deseados, permitiendo una identificación precisa de las ondas cerebrales asociadas con la actividad cognitiva intensa. Estos resultados confirman la capacidad del filtro wavelet para mejorar la claridad y utilidad de las señales EEG, facilitando un análisis más preciso y fiable.
+
+ </p>
+
+
 |  **Señales originales - ploteadas por muestra**  | **Señales originales - ploteadas por tiempo** |
 |:------------:|:---------------:|
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e8656ae1-165e-4820-a40c-f10b47a7c094" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e5b34c56-d485-468c-ac64-274756b2deea" alt="fotog" />|
