@@ -74,8 +74,62 @@ Tabla 2: Comparación de los resultados de eliminación de ruido según varias o
 ## 3.3 Diseño del filtro para EEG<a name="id4.3"></a>
 
 <p align="justify">
-Al hacer el diseño del código en lenguaje python de la transformada wavelet como filtro nos basamos en el paper...
+Las señales EEG que serán procesadas fueron adquiridos en el laboratorio pasado , durante diferentes actividades : Estado basal , ciclo de ojos cerrados y abiertos y finalmente ejercicio mental.Estas señales se almacenaron en formato de texto y se uso una frecuencia de muestreo de 100 Hz
 </p> 
+
+<p align="justify">
+Al hacer el diseño del código en lenguaje python de la transformada wavelet como filtro nos basamos en el paper "EEG De-noising using Wavelet Transform and Fast ICA" el cual aborda el uso de la transformada wavelet y el análisis de componentes independientes (ICA) para la eliminación de ruido en señales EEG mediante un método de umbralización de coeficientes de descomposición. La técnica se verifica con señales simuladas y se aplica a señales biomédicas EEG, también útil para imágenes por resonancia magnética con ruido aleatorio adicional.
+</p> 
+
+<p align="justify">
+El diseño de filtro mediante la transformada wavelet (WT) permite el análisis multiresolución de señales no estacionarias, extrayendo información global a bajas frecuencias (altas escalas) mediante la convolución de la señal con una función wavelet escalada. Los coeficientes de wavelet muestran la similitud en el contenido de frecuencia y se interpretan como aproximaciones del filtro pasa banda dilatado.
+</p> 
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/55bbe7da-bba5-4cdc-a8d8-8e3d8f393090" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 1. La filtración de síntesis consiste en el sobremuestreo por 2 y la filtración.</i></p><br>
+
+<p align="justify">
+Cabe resaltar que en el artículo se utilizó la función sym4 de wavelet y  se utiliza la umbralización de los coeficientes de la DWT hasta el nivel 3 para eliminar el ruido aleatorio. También usaron un umbral del tipo suave. Y nos basamos en el siguiente código proporcionado  en el artículo:
+ </p>
+ 
+```
+eeg=load('EEG01.TXT'); 
+eeg=detrend(eeg); % Remove a linear trend 
+eeg=eeg(100:611);
+ L=length(eeg); 
+eegN=eeg+160*randn(L,1);
+ [THR,SORH,KEEPAPP]=ddencmp('den','wv',eegN); 
+level=3; 
+[eegC,CeegC,LeegC,PERF0,PERFL2]=wdencmp('gbl',eeg N,'sym4',level,THR,SORH,KEEPAPP);
+```
+<p align="justify">
+Como el código proporcionado fue aplicado en matlab , tuvimos que adaptarlo al lenguaje python:
+ </p>
+```
+def apply_wavelet_filter(signal, wavelet='db4', level=3):
+    # Eliminar la tendencia lineal
+    signal_detrended = detrend(signal)
+
+    # Calcular el umbral global
+    sigma = np.median(np.abs(signal_detrended - np.median(signal_detrended))) / 0.6745
+    threshold = sigma * np.sqrt(2 * np.log(len(signal_detrended)))
+
+    # Descomposición wavelet
+    coeffs = pywt.wavedec(signal_detrended, wavelet, level=level)
+
+    # Aplicar umbralización suave
+    coeffs_thresh = [pywt.threshold(c, threshold, mode='soft') if i > 0 else c for i, c in enumerate(coeffs)]
+
+    # Reconstrucción de la señal
+    filtered_signal = pywt.waverec(coeffs_thresh, wavelet)
+    # Asegurarse de que la señal reconstruida tenga la misma longitud que la original
+    filtered_signal = filtered_signal[:len(signal)]
+    return filtered_signal, coeffs, coeffs_thresh
+
+```
+
 
 # 4.Resultados<a name="id5"></a> 
 ## 4.1 Señal EMG
