@@ -182,6 +182,23 @@ Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes co
 | Hiperventilación | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/hiperventilacion1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/hiperventilacion2.png" alt="fotog" /> |
 | Despues de actividad fisica | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ejercicio1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ejercicio2.png" alt="fotog" /> |
 
+| Coeficientes de Detalle EEG REPOSO| 
+|----------|
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE1.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE2.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE3.png" alt="fotog" width="750" height="370" /> |
+
+| Coeficientes de Detalle ECG HIPERVENTILACIÓN| 
+|----------|
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE4.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE5.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE6.png" alt="fotog" width="750" height="370" /> |
+
+| Coeficientes de Detalle EEG DESPUÉS DEL EJERCICIO| 
+|----------|
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE7.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE8.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/DETALLE9.png" alt="fotog" width="750" height="370" /> |
 ## 4.1 Señal EEG
 
 <p align="justify">
