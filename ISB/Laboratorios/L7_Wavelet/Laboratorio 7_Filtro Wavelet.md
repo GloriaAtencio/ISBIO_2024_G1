@@ -247,6 +247,7 @@ Al realizar el DFT de las señales originales EEG , notamos que aparece un pico 
 |----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/7b8e45f3-a784-4bb3-bae8-59e99e0ae297) |
 </div>
+
 ***
 
 <p align="center">
