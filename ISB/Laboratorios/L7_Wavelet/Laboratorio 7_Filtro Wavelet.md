@@ -71,6 +71,28 @@ Tabla 2: Comparación de los resultados de eliminación de ruido según varias o
 - Umbralización: La selección del método de umbralización adecuado es fundamental, independientemente de la función wavelet que se utilice. Existen varias técnicas de umbralización que presentan buenos resultados, como MINMAX, RIGOROUS SURE, UNIVERSAL y HEURISTIC SURE [5]. En este informe, se utilizará el umbral universal dado por "sqrt(2 * log(N))", donde N es la longitud de la señal.
 </p> 
 
+<p align="justify">
+A continuación, se presenta una adaptación del código proporcionado por el profesor. El propósito de esta adaptación es mejorar ciertos aspectos y parametros  específicos para nuestra señal de ECG.
+</p> 
+
+```
+def wavelet_denoise(signal, wavelet, level, threshold):
+    coeffs = pywt.wavedec(signal, wavelet, level=level)
+    for i in range(1, len(coeffs)):
+        coeffs[i] = np.where(np.abs(coeffs[i]) < threshold * np.max(coeffs[i]), 0, coeffs[i])
+    return pywt.waverec(coeffs, wavelet)
+
+# Parámetros de descomposición
+wavelet = 'db5'
+level = 4
+threshold1 = np.sqrt(2 * np.log(len(array1)))
+threshold2 = np.sqrt(2 * np.log(len(array2)))
+threshold3 = np.sqrt(2 * np.log(len(array3)))
+# Filtrar las tres señales
+filtered_array1 = wavelet_denoise(array1, wavelet, level, threshold1)
+filtered_array2 = wavelet_denoise(array2, wavelet, level, threshold2)
+filtered_array3 = wavelet_denoise(array3, wavelet, level, threshold3)
+```
 ## 3.3 Diseño del filtro para EEG<a name="id4.3"></a>
 
 <p align="justify">
