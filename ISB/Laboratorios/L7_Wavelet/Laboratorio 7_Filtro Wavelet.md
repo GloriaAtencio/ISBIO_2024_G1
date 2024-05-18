@@ -104,9 +104,11 @@ eegN=eeg+160*randn(L,1);
 level=3; 
 [eegC,CeegC,LeegC,PERF0,PERFL2]=wdencmp('gbl',eeg N,'sym4',level,THR,SORH,KEEPAPP);
 ```
+
 <p align="justify">
 Como el código proporcionado fue aplicado en matlab , tuvimos que adaptarlo al lenguaje python:
  </p>
+ 
 ```
 def apply_wavelet_filter(signal, wavelet='db4', level=3):
     # Eliminar la tendencia lineal
@@ -127,7 +129,6 @@ def apply_wavelet_filter(signal, wavelet='db4', level=3):
     # Asegurarse de que la señal reconstruida tenga la misma longitud que la original
     filtered_signal = filtered_signal[:len(signal)]
     return filtered_signal, coeffs, coeffs_thresh
-
 ```
 
 
