@@ -74,10 +74,6 @@ Tabla 2: Comparación de los resultados de eliminación de ruido según varias o
 ## 3.3 Diseño del filtro para EEG<a name="id4.3"></a>
 
 <p align="justify">
-Las señales EEG que serán procesadas fueron adquiridos en el laboratorio pasado , durante diferentes actividades : Estado basal , ciclo de ojos cerrados y abiertos y finalmente ejercicio mental.Estas señales se almacenaron en formato de texto y se uso una frecuencia de muestreo de 100 Hz
-</p> 
-
-<p align="justify">
 Al hacer el diseño del código en lenguaje python de la transformada wavelet como filtro nos basamos en el paper "EEG De-noising using Wavelet Transform and Fast ICA" el cual aborda el uso de la transformada wavelet y el análisis de componentes independientes (ICA) para la eliminación de ruido en señales EEG mediante un método de umbralización de coeficientes de descomposición. La técnica se verifica con señales simuladas y se aplica a señales biomédicas EEG, también útil para imágenes por resonancia magnética con ruido aleatorio adicional.
 </p> 
 
@@ -165,6 +161,10 @@ Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes co
 | Despues de actividad fisica | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ejercicio1.png" alt="fotog" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ejercicio2.png" alt="fotog" /> |
 
 ## 4.1 Señal EEG
+
+<p align="justify">
+Las señales EEG que serán procesadas fueron adquiridos en el laboratorio pasado , durante diferentes actividades : Estado basal , ciclo de ojos cerrados y abiertos y finalmente ejercicio mental.Estas señales se almacenaron en formato de texto y se uso una frecuencia de muestreo de 100 Hz
+</p> 
 
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
 |:--------------:|:--------------:|:--------------:|
