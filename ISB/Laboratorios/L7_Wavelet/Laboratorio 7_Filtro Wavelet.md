@@ -163,7 +163,7 @@ Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes co
 ## 4.1 Señal EEG
 
 <p align="justify">
-Las señales EEG que serán procesadas fueron adquiridos en el laboratorio pasado , durante diferentes actividades : Estado basal , ciclo de ojos cerrados y abiertos y finalmente ejercicio mental.Estas señales se almacenaron en formato de texto y se uso una frecuencia de muestreo de 100 Hz
+Las señales EEG que serán procesadas fueron adquiridos en el laboratorio pasado , durante diferentes actividades : Estado basal , ciclo de ojos cerrados y abiertos y finalmente ejercicio mental.Estas señales se almacenaron en formato de texto y se uso una frecuencia de muestreo de 1000 Hz.
 </p> 
 
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
