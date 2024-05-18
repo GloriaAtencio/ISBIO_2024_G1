@@ -226,6 +226,27 @@ La transformada wavelet(WT) se ha demostrado como una herramienta eficaz debido 
 Los resultados experimentales muestran que la aplicación de la transformada wavelet con la onda db5 y el umbral universal mejora significativamente la calidad de las señales de ECG. Las señales adquiridas en diferentes condiciones (reposo, hiperventilación, post-ejercicio) muestran una reducción notable del ruido después del procesamiento. Esto confirma la eficacia del método propuesto para mejorar la claridad y la utilidad de las señales de ECG para el análisis clínico. Además, la correcta elección del número de capas de descomposición es crucial, ya que un número demasiado bajo podría resultar en una insuficiente eliminación de ruido, mientras que un número demasiado alto podría introducir artefactos y pérdida de información. Este balance es esencial para preservar la integridad de la señal de ECG, un aspecto que ha sido resaltado en la literatura como fundamental para el análisis clínico preciso. Una señal de ECG más clara puede facilitar diagnósticos más precisos y confiables, lo que es crucial en contextos clínicos donde las decisiones deben ser rápidas y basadas en datos precisos.
 </p>
 
+<p align="justify">
+Para poder evidenciar el proceso de filtrado se graficara las DFTs de las señales ECG crudas (Reposo, Hiperventilación y Después del ejercicio) y las  DFTs de las señales despues del filtrado.
+</p>
+
+<div align="center">
+<h2>DFT de las señales ECG crudas </h2>
+</div>
+
+| En reposo | Hiperventilación | Después del ejercicio |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftreposo1.png) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ffthiperventilacion1.png) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftejercicio1.png) |
+
+<div align="center">
+<h2>DFT de las señales ECG despues del filtrado </h2>
+</div>
+
+| En reposo | Hiperventilación | Después del ejercicio |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftreposo2.png) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ffthiperventilacion2.png) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftejercicio2.png) |
+
+
 ## 5.3 Señal EEG
 
 |  **Señales originales - ploteadas por muestra**  | **Señales originales - ploteadas por tiempo** |
