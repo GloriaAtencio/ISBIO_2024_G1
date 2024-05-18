@@ -86,7 +86,7 @@ El diseño de filtro mediante la transformada wavelet (WT) permite el análisis 
 </p> 
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/55bbe7da-bba5-4cdc-a8d8-8e3d8f393090" alt="fotog" width="460" height="400"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/55bbe7da-bba5-4cdc-a8d8-8e3d8f393090" alt="fotog" width="960" height="400"/>
 </p>
 <p align="center"><i>Figura 1. La filtración de síntesis consiste en el sobremuestreo por 2 y la filtración.</i></p><br>
 
