@@ -370,6 +370,6 @@ Tras hallar la DFT de las señales ya filtradas con el wavelet notamos que el ru
 
 [4] D. M., A. E., and L. F., ‘Discrete Wavelet Transform in Compression and Filtering of Biomedical Signals’, Discrete Wavelet Transforms - Biomedical Applications. InTech, Sep. 12, 2011. doi: 10.5772/19529. 
 
-[5] https://ieeexplore.ieee.org/document/5728090
+[5] G. Garg, S. Gupta, V. Singh, J. R. P. Gupta and A. P. Mittal, "Identification of optimal wavelet-based algorithm for removal of power line interferences in ECG signals," India International Conference on Power Electronics 2010 (IICPE2010), New Delhi, India, 2011, pp. 1-5, doi: 10.1109/IICPE.2011.5728090.
 
 [6] N. Sobahi, “Denoising of EMG Signals Based on Wavelet Transform,” Asian Transactions on Engineering, vol. 01, no. 05, Jan. 2011, [Online]. Available: https://www.researchgate.net/publication/267957236_Denoising_of_EMG_Signals_Based_on_Wavelet_Transform
