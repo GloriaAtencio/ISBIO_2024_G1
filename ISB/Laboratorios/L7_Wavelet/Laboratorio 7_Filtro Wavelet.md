@@ -174,14 +174,14 @@ Las señales EEG que serán procesadas fueron adquiridos en el laboratorio pasad
 
 # 5.Discusión<a name="id6"></a>
 
-### EMG
+## 5.1 Señal EMG
 En la condición basal, se observó que el filtro wavelet fue efectivo para eliminar el ruido presente en la señal, lo que permitió una mejor visualización de los potenciales de acción muscular asociados con el reposo o la actividad mínima. Se pudo apreciar una reducción significativa en la amplitud de las señales de alta frecuencia, lo que sugiere una disminución del ruido electromagnético y artefactos indeseados. Durante la actividad de oponerse a una fuerza, el filtro wavelet demostró el poder preservar los potenciales de acción musculares relevantes mientras atenuaba el ruido generado por movimientos involuntarios o interferencias externas, inherentes a la EMG superficial. Asimismo, se evidenció la mejora de la relación señal-ruido, donde los picos de actividad muscular se destacaron más sobre el fondo de ruido residual. Al levantar una mochila, las señales EMG se vieron con mayor nivel de interferencias debido a la actividad muscular intensificada y la influencia de la carga adicional. Sin embargo, el filtro wavelet logró mitigar gran parte de estos efectos no deseados al eliminar el ruido de fondo, permitiendo una identificación más precisa de los potenciales de acción muscular asociados con el esfuerzo por la carga.
 
-### ECG
+## 5.2 Señal ECG
 La transformada wavelet(WT) se ha demostrado como una herramienta eficaz debido a su capacidad de descomponer señales en diferentes escalas, lo que es particularmente útil para el análisis de señales no estacionarias como las de ECG.
 Los resultados experimentales muestran que la aplicación de la transformada wavelet con la onda db5 y el umbral universal mejora significativamente la calidad de las señales de ECG. Las señales adquiridas en diferentes condiciones (reposo, hiperventilación, post-ejercicio) muestran una reducción notable del ruido después del procesamiento. Esto confirma la eficacia del método propuesto para mejorar la claridad y la utilidad de las señales de ECG para el análisis clínico. Además, la correcta elección del número de capas de descomposición es crucial, ya que un número demasiado bajo podría resultar en una insuficiente eliminación de ruido, mientras que un número demasiado alto podría introducir artefactos y pérdida de información. Este balance es esencial para preservar la integridad de la señal de ECG, un aspecto que ha sido resaltado en la literatura como fundamental para el análisis clínico preciso. Una señal de ECG más clara puede facilitar diagnósticos más precisos y confiables, lo que es crucial en contextos clínicos donde las decisiones deben ser rápidas y basadas en datos precisos.
 
-## 5.1 Señal EEG
+## 5.3 Señal EEG
 
 |  **Señales originales - ploteadas por muestra**  | **Señales originales - ploteadas por tiempo** |
 |:------------:|:---------------:|
@@ -195,6 +195,10 @@ Los resultados experimentales muestran que la aplicación de la transformada wav
 | En reposo | Ojos abiertos - Ojos cerrados | Ejercicio mental |
 |----------|----------|----------|
 | ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/cd918295-9092-4b68-b1a8-195049803148) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d543a01d-9943-4e6b-a3a0-63042d90d0e7) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/955af287-7d5b-4ca1-91c2-cc8fc5020f5c) |
+
+<p align="justify">
+Al realizar el DFT de las señales originales EEG , notamos que aparece un pico en la frecuencia de 60 Hz , dicho pico nos da la información de la presencia de ruido eléctrico en las señales. Generalmente, para atenuar o eliminar dicho pico se aplica un filtro notch pero en este caso al usar un filtro fino como lo es el wavelet se espera que tras haber pasado por el filtro wavelet la DFT de la señal ya filtrada no tenga el pico en los 60 Hz. 
+</p>
 
 <div align="center">
 <h2>Comparación de las señales sin filtro y con filtro</h2>
