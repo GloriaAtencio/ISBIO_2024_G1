@@ -85,12 +85,20 @@ Al hacer el diseño del código en lenguaje python de la transformada wavelet co
 |Levantando mochila | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETM1.png" alt="fotog" width="350" height="270" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETM2.png" alt="fotog" width="350" height="270" /> |
 | Fuerza oponente | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETO1.png" alt="fotog" width="350" height="270" /> | <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/EMGWAVELETO2.png" alt="fotog" width="350" height="270" /> |
 
-<div align="center">
-<h2> Coeficientes de Detalle EMG </h2>
-</div>
+| Coeficientes de Detalle EMG BASAL| 
+|----------|
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/emg11.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/emg12.png" alt="fotog" width="750" height="370" /> |
 
-|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/f22c57572b6955f1543d1c9f5b41f9a6f89caac0/ISB/Laboratorios/Im%C3%A1genes/IIR/ECG/se%C3%B1ales_originales_ecg.png" alt="fotog" /> |
+| Coeficientes de Detalle EMG LEVANTANDO MOCHILA| 
+|----------|
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/emg21.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/emg22.png" alt="fotog" width="750" height="370" /> |
 
+| Coeficientes de Detalle EMG FUERZA OPONENTE| 
+|----------|
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/emg31.png" alt="fotog" width="750" height="370" /> |
+|  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/emg32.png" alt="fotog" width="750" height="370" /> |
 ## 4.1 Señal ECG
 
 Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes condiciones experimentales: en estado basal (reposo), en estado de hiperventilación y después de ejercicio. A continuación, se presenta la señal cruda para cada uno de estos estados y la señal filtrada para reducir el ruido, utilizando la transformada wavelet previamente parametrizada.
