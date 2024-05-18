@@ -50,6 +50,29 @@ Nivel de Descomposición: Para señales EMG, que típicamente tienen frecuencias
 Umbralización: El proceso descrito implica que los coeficientes cuya magnitud está por debajo del umbral se fijan en cero, lo cual es la característica distintiva de la umbralización dura. Se está tomando la forma universal, como tal se describe que este método está diseñado específicamente para manejar situaciones en las que la señal de interés está contaminada con ruido gaussiano, y su principal objetivo es minimizar el error de reconstrucción [6].
 </p> 
 
+<p align="justify">
+A continuación, se presenta una adaptación del código. El propósito de esta adaptación es mejorar ciertos aspectos y parametros  específicos para nuestra señal de EMG.
+</p> 
+
+```
+Descomposición wavelet
+wavelet = 'db8'
+level = 5
+coeffs = pywt.wavedec(emg_reposo_filtrada, wavelet, level=level)
+coeffs2 = pywt.wavedec(emg_lm_filtrada, wavelet, level=level)
+coeffs3 = pywt.wavedec(emg_oponente_filtrada, wavelet, level=level)
+threshold = 0.303  # Ajusta este valor según tus necesidades
+for i in range(1, len(coeffs)):
+    coeffs[i] = np.where(np.abs(coeffs[i]) < threshold * np.max(coeffs[i]), 0, coeffs[i])
+for i in range(1, len(coeffs2)):
+    coeffs2[i] = np.where(np.abs(coeffs2[i]) < threshold * np.max(coeffs2[i]), 0, coeffs2[i])
+for i in range(1, len(coeffs3)):
+    coeffs3[i] = np.where(np.abs(coeffs3[i]) < threshold * np.max(coeffs3[i]), 0, coeffs3[i])
+Reconstrucción de la señal filtrada
+filtered_data1 = pywt.waverec(coeffs, wavelet)
+filtered_data2 = pywt.waverec(coeffs2, wavelet)
+filtered_data3 = pywt.waverec(coeffs3, wavelet)
+```
 ## 3.2 Diseño del filtro para ECG<a name="id4.2"></a>
 <p align="justify">
 Para aplicar la transformada de wavelet con el objetivo de eliminar ruidos de la señal de ECG, se deben considerar varios aspectos clave. Entre ellos, la determinación del número de capas de descomposición de las ondas influye significativamente en la efectividad de la eliminación del ruido. A continuación, se describen los parámetros esenciales para este proceso: la selección de la onda madre, el nivel de descomposición y el método de umbralización.
