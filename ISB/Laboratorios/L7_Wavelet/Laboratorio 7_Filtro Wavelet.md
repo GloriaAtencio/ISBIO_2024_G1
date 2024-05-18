@@ -218,6 +218,25 @@ Las señales EEG que serán procesadas fueron adquiridos en el laboratorio pasad
 <p align="justify">
 En la condición basal, se observó que el filtro wavelet fue efectivo para eliminar el ruido presente en la señal, lo que permitió una mejor visualización de los potenciales de acción muscular asociados con el reposo o la actividad mínima. Se pudo apreciar una reducción significativa en la amplitud de las señales de alta frecuencia, lo que sugiere una disminución del ruido electromagnético y artefactos indeseados. Durante la actividad de oponerse a una fuerza, el filtro wavelet demostró el poder preservar los potenciales de acción musculares relevantes mientras atenuaba el ruido generado por movimientos involuntarios o interferencias externas, inherentes a la EMG superficial. Asimismo, se evidenció la mejora de la relación señal-ruido, donde los picos de actividad muscular se destacaron más sobre el fondo de ruido residual. Al levantar una mochila, las señales EMG se vieron con mayor nivel de interferencias debido a la actividad muscular intensificada y la influencia de la carga adicional. Sin embargo, el filtro wavelet logró mitigar gran parte de estos efectos no deseados al eliminar el ruido de fondo, permitiendo una identificación más precisa de los potenciales de acción muscular asociados con el esfuerzo por la carga.
 </p>
+<p align="justify">
+Para poder evidenciar el proceso de filtrado se graficara las DFTs de las señales ECG crudas (Reposo, Hiperventilación y Después del ejercicio) y las  DFTs de las señales despues del filtrado.
+</p>
+
+<div align="center">
+<h2>DFT de las señales EMG crudas </h2>
+</div>
+
+| Basal |Levantando Mochila | Fuerza oponente |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftb.png) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftm.png) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/ffto.png) |
+
+<div align="center">
+<h2>DFT de las señales EMG despues del filtrado </h2>
+</div>
+
+| Basal |Levantando Mochila | Fuerza oponente |
+|----------|----------|----------|
+| ![Imagen 1](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftbasal.png) | ![Imagen 2](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftmochila.png) | ![Imagen 3](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/WAVELET/fftoponente.png) |
 
 ## 5.2 Señal ECG
 
