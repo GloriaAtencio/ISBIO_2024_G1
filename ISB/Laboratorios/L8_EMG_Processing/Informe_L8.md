@@ -28,12 +28,13 @@ En nuestro caso decidimos utilizar el filtro Wavelet que se encarga de darnos un
 </p> 
 
 <div align="center">
-<h2>Filtro Wavelet db8:</h2>
+<h2>Filtro Wavelet db8</h2>
 </div>
 
 <p align="justify">
 Conocida como db8 , la wavelet Daubechies 8 (db8), forma parte de una de las tantas wavelets que normalmente son aplicadas para quitar ruido en señales biomédicas entre ellas se encuentran : db2,db8 y db6.
 </p> 
+
 <p align="justify">
 
 La denoising de señales electromiográficas de superficie (sEMG) es crucial para mejorar la precisión y la interpretación de los datos recogidos. Uno de los métodos más eficaces para este propósito es el uso de la Transformada de Wavelet Discreta (DWT) junto con un método de umbral..
@@ -43,6 +44,7 @@ La denoising de señales electromiográficas de superficie (sEMG) es crucial par
 <p align="justify">
 
  En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La función wavelet utilizada actúa como un filtro, determinando la resolución y la escala de los componentes descompuestos mediante operaciones de submuestreo y sobremuestreo.. Asimismo, se usa el método del umbral que es aplicado a la transformada de la señal. Los valores de la transformada de la señal original, cuya magnitud es mayor que un umbral ( Ts) , capturan efectivamente la energía de la señal. En contraste, los valores de la transformada del ruido, cuya magnitud es inferior a un umbral de ruido (Tn) , se reducen a cero. Esto permite eliminar el ruido de la señal transformada al aplicar el umbral adecuado.
+
 </p> 
 
 
