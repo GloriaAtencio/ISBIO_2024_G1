@@ -1,4 +1,5 @@
 # LABORATORIO 8 - PROCESAMIENTO DE EMG
+
 ## TABLA DE CONTENIDO
 
 1. [Objetivos](#id1)
@@ -15,13 +16,15 @@
    - Aplicar técnicas de filtrado para limpiar y preparar las señales EMG obtenidas en el laboratorio.
    - Implementar un proceso de segmentación de las señales EMG en diferentes estados musculares: reposo, tensión y Fuerza oponente.
    - Extraer y analizar características relevantes de las señales EMG
+     
 # 2. Introducción<a name="id2"></a>
    
 
 # 3. Metodología <a name="id3"></a>
+
 ## 3.1 Filtrado <a name="id4"></a>
 
-##Elección de filtrado de la señal EMG:
+## Elección de filtrado de la señal EMG:
 
 <p align="justify">
 En nuestro caso decidimos utilizar el filtro Wavelet que se encarga de darnos una versión menos ruidosa de la señal , en este caso el filtro wavelet aplicado fue el db8.
@@ -36,15 +39,11 @@ Conocida como db8 , la wavelet Daubechies 8 (db8), forma parte de una de las tan
 </p> 
 
 <p align="justify">
-
 La denoising de señales electromiográficas de superficie (sEMG) es crucial para mejorar la precisión y la interpretación de los datos recogidos. Uno de los métodos más eficaces para este propósito es el uso de la Transformada de Wavelet Discreta (DWT) junto con un método de umbral..
-
 </p> 
 
 <p align="justify">
-
- En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La función wavelet utilizada actúa como un filtro, determinando la resolución y la escala de los componentes descompuestos mediante operaciones de submuestreo y sobremuestreo.. Asimismo, se usa el método del umbral que es aplicado a la transformada de la señal. Los valores de la transformada de la señal original, cuya magnitud es mayor que un umbral ( Ts) , capturan efectivamente la energía de la señal. En contraste, los valores de la transformada del ruido, cuya magnitud es inferior a un umbral de ruido (Tn) , se reducen a cero. Esto permite eliminar el ruido de la señal transformada al aplicar el umbral adecuado.
-
+En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La función wavelet utilizada actúa como un filtro, determinando la resolución y la escala de los componentes descompuestos mediante operaciones de submuestreo y sobremuestreo.. Asimismo, se usa el método del umbral que es aplicado a la transformada de la señal. Los valores de la transformada de la señal original, cuya magnitud es mayor que un umbral ( Ts) , capturan efectivamente la energía de la señal. En contraste, los valores de la transformada del ruido, cuya magnitud es inferior a un umbral de ruido (Tn) , se reducen a cero. Esto permite eliminar el ruido de la señal transformada al aplicar el umbral adecuado.
 </p> 
 
 
