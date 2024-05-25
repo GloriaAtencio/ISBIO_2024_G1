@@ -11,8 +11,10 @@
 5. [Bibliografía](#id8)
 
 # 1. Objetivos <a name="id1"></a>
-   - Realizar busqueda de literatura sobre el procesamiento de la señal de EMG.
-   - Extraer características de la señal EMG adquirida en el laboratorio
+   - Investigar y recopilar literatura científica sobre técnicas y métodos utilizados en el procesamiento de señales electromiográficas (EMG).
+   - Aplicar técnicas de filtrado para limpiar y preparar las señales EMG obtenidas en el laboratorio.
+   - Implementar un proceso de segmentación de las señales EMG en diferentes estados musculares: reposo, tensión y Fuerza oponente.
+   - Extraer y analizar características relevantes de las señales EMG
 # 2. Introducción<a name="id2"></a>
    
 
@@ -27,7 +29,7 @@ Para el filtrado, se hizo uso de la Transformada Wavelet
 
 ### Tensión
 
-### Oposición
+### Fuerza oponente
 
 ## 3.3 Extracción de características <a name="id6"></a>
 
