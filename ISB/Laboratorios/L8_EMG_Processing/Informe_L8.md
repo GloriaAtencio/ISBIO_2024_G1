@@ -21,7 +21,7 @@
 # 3. Metodología <a name="id3"></a>
 ## 3.1 Filtrado <a name="id4"></a>
 
-Para el filtrado, se hizo uso de la Transformada Wavelet
+Para el filtrado, 
 
 ## 3.2 Segmentación <a name="id5"></a>
 
@@ -37,7 +37,7 @@ Para el filtrado, se hizo uso de la Transformada Wavelet
 
 ### Tensión
 
-### Oposición
+### Fuerza oponente
 
 # 4. Discusiones <a name="id7"></a>
 
