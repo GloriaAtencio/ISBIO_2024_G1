@@ -59,6 +59,10 @@ En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La funci
 Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Parámetros de EMG  y obtuvimos lo siguiente:
 </p> 
 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d4c04c08-effd-4eec-a06f-6fd4b4f42bdd" alt="fotog" width="900" height="200"/>
+</p>
+<p align="center"><i>Figura 1. Detección y contabilidad de activaciones musculares</i></p><br>
 
 ## 3.3 Extracción de características <a name="id6"></a>
 
