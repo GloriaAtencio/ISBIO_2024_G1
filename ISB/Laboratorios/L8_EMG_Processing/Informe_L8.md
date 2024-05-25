@@ -55,6 +55,11 @@ En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La funci
 
 ### Fuerza oponente
 
+<p align="justify">
+Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Parámetros de EMG  y obtuvimos lo siguiente:
+</p> 
+
+
 ## 3.3 Extracción de características <a name="id6"></a>
 
 ### Reposo
