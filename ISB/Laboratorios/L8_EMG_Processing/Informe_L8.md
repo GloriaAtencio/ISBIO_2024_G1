@@ -66,3 +66,7 @@ En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La funci
 # 4. Discusiones <a name="id7"></a>
 
 # 5. Bibliografía <a name="id8"></a>
+
+<p align="justify">
+1. N. Sobahi, «Denoising of EMG Signals Based on Wavelet Transform», 2011. Accedido: 25 de mayo de 2024. [En línea]. Disponible en: https://www.semanticscholar.org/paper/Denoising-of-EMG-Signals-Based-on-Wavelet-Transform-Sobahi/8cb86bc29345a607cbef72460464b86f26d4868a
+</p> 
