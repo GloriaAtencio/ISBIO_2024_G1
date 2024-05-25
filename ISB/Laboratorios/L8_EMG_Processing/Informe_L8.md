@@ -64,6 +64,10 @@ Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Paráme
 </p>
 <p align="center"><i>Figura 1. Detección y contabilidad de activaciones musculares</i></p><br>
 
+<p align="justify">
+En la gráfica podemos observar que el número de activaciones musculares fue de 3 veces.
+</p>
+
 ## 3.3 Extracción de características <a name="id6"></a>
 
 ### Reposo
