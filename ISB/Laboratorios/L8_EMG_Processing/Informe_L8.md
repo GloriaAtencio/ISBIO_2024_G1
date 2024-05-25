@@ -10,11 +10,11 @@
 4. [Discusiones](#id7)
 5. [Bibliografía](#id8)
 
-# 1. Introducción <a name="id1"></a>
-
-# 2. Objetivos <a name="id2"></a>
-
-* Extraer características de la señal EMG adquirida en el laboratorio
+# 1. Objetivos <a name="id1"></a>
+   - Realizar busqueda de literatura sobre el procesamiento de la señal de EMG.
+   - Extraer características de la señal EMG adquirida en el laboratorio
+# 2. Introducción<a name="id2"></a>
+   
 
 # 3. Metodología <a name="id3"></a>
 ## 3.1 Filtrado <a name="id4"></a>
