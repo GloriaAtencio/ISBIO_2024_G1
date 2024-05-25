@@ -43,7 +43,7 @@ La denoising de señales electromiográficas de superficie (sEMG) es crucial par
 </p> 
 
 <p align="justify">
-En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La función wavelet utilizada actúa como un filtro, determinando la resolución y la escala de los componentes descompuestos mediante operaciones de submuestreo y sobremuestreo.. Asimismo, se usa el método del umbral que es aplicado a la transformada de la señal. Los valores de la transformada de la señal original, cuya magnitud es mayor que un umbral ( Ts) , capturan efectivamente la energía de la señal. En contraste, los valores de la transformada del ruido, cuya magnitud es inferior a un umbral de ruido (Tn) , se reducen a cero. Esto permite eliminar el ruido de la señal transformada al aplicar el umbral adecuado.
+En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La función wavelet utilizada actúa como un filtro, determinando la resolución y la escala de los componentes descompuestos mediante operaciones de submuestreo y sobremuestreo.. Asimismo, se usa el método del umbral que es aplicado a la transformada de la señal. Los valores de la transformada de la señal original, cuya magnitud es mayor que un umbral ( Ts) , capturan efectivamente la energía de la señal. En contraste, los valores de la transformada del ruido, cuya magnitud es inferior a un umbral de ruido (Tn) , se reducen a cero. Esto permite eliminar el ruido de la señal transformada al aplicar el umbral adecuado.[1]
 </p> 
 
 
