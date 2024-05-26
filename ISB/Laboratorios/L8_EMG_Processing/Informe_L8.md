@@ -40,34 +40,56 @@ Es importante conocer las fuentes de ruido que afectan la señal sEMG, las cuale
 1. Interferencia (Cross Talk): Señal no deseada generada por un músculo activo que está cerca del músculo esquelético deseado (músculo objetivo).
 1. Ruido Interno: Está relacionado principalmente con la estructura del cuerpo humano, que involucra la profundidad y ubicación de la fibra muscular entre los electrodos de superficie y el músculo activo, así como la cantidad de grasa corporal que aumenta la distancia o separación entre los electrodos de superficie y la fibra muscular activa.
 
+## 2.2.Procesamiento de la Señal
+<p align="justify">
+Como se mencionó anteriormente  ruido que afectan la señal sEMG, por lo que requiere adecuación antes de ser tratada. Por lo que primero la señal debe pasar por una etapa de amplificación Después de esta amplificación, se siguen los siguientes pasos[4]:
+</p> 
+
+## Pre-procesamiento de la Señal:
+
+## Filtro
+<p align="justify">
+Es esencial comenzar con una etapa de filtrado para reducir los artefactos en las señales EMG. Usualmente, se emplea un filtro pasa alto para disminuir los efectos de movimiento y la inestabilidad entre los electrodos de superficie y la piel. También se utilizan filtros pasa bajo para registrar datos de estimulación muscular y eliminar interferencias de alta frecuencia. Incluso se puede emplear un filtro pasa banda para optimizar el proceso [4].
+</p> 
+
+## Segmentación
+
+<p align="justify">
+La segmentación de una señal EMG implica dividir la señal en segmentos más pequeños y manejables para su análisis detallado. Este proceso es esencial para identificar los puntos de inicio y fin de la actividad muscular, y para distinguir entre diferentes estados musculares como contracciones y relajaciones. Los métodos de segmentación pueden variar, utilizando técnicas basadas en el tiempo (como ventanas deslizantes de longitud fija) o en la frecuencia (como transformadas de Fourier) para asegurar que las características importantes de la señal se capturen con precisión​ [5].
+</p> 
+
 # 3. Metodología <a name="id3"></a>
 
-## 3.1 Filtrado <a name="id4"></a>
+## 3.1 Materiales y Equipos <a name="id4"></a>
 
+## 3.2 Procedimiento <a name="id4"></a>
+## Señales Adquiridas:
+<p align="justify">
+En este laboratorio, se emplearán datos de señales EMG recolectados en sesiones previas. La adquisición de estos datos se realizó siguiendo un protocolo estándar utilizando el dispositivo BITalino y el software OpenSignal. Primero, se estableció la conexión entre BITalino y OpenSignal vía Bluetooth para permitir la visualización en tiempo real de las señales. Posteriormente, se conectó el sensor EMG de tres electrodos al BITalino para iniciar la recolección de las señales.
+</p> 
+
+<p align="justify">
+Estos datos fueron capturados de la señal proveniente de la contracción del músculo  biceps , se evaluaron 3 casos : 
+</p> 
+
+2. Caso 1: Brazo en reposo
+2.Caso 2:Levantando una mochila
+2.Caso 3:Soportando una fuerza oponente
+
+## Pre-procesamiento de la Señal:
 ## Elección de filtrado de la señal EMG:
 
 <p align="justify">
-En nuestro caso decidimos utilizar el filtro Wavelet que se encarga de darnos una versión menos ruidosa de la señal , en este caso el filtro wavelet aplicado fue el db8.
+El filtrado es esencial para reducir los artefactos en las señales de sEMG. En el curso, se han compararán filtros FIR, IIR y se ha demostrado la efectividad del filtro Wavelet. Sin embargo usando de base el trabajo de, se recomienda el uso de filtros butterworth(n=4) en conjunto a un notch. El filtro pasa-banda de 5-500 Hz y el filtro de Notch de 60 Hz, la combinación de un filtro pasa-banda Butterworth y un filtro notch es altamente efectiva para el procesamiento de señales EMG, centrandonos en eliminar las fuentes de ruido más comunes (artefactos de movimiento, interferencia de línea eléctrica y ruido de alta frecuencia) mientras preservan las características importantes de la señal EMG.
 </p> 
 
-<div align="center">
-<h2>Filtro Wavelet db8</h2>
-</div>
+## Segmentación:
 
 <p align="justify">
-Conocida como db8 , la wavelet Daubechies 8 (db8), forma parte de una de las tantas wavelets que normalmente son aplicadas para quitar ruido en señales biomédicas entre ellas se encuentran : db2,db8 y db6.
-</p> 
-
-<p align="justify">
-La denoising de señales electromiográficas de superficie (sEMG) es crucial para mejorar la precisión y la interpretación de los datos recogidos. Uno de los métodos más eficaces para este propósito es el uso de la Transformada de Wavelet Discreta (DWT) junto con un método de umbral..
-</p> 
-
-<p align="justify">
-En el paper “Denoising of EMG Signals Based on Wavelet Transform” , La función wavelet utilizada actúa como un filtro, determinando la resolución y la escala de los componentes descompuestos mediante operaciones de submuestreo y sobremuestreo.. Asimismo, se usa el método del umbral que es aplicado a la transformada de la señal. Los valores de la transformada de la señal original, cuya magnitud es mayor que un umbral ( Ts) , capturan efectivamente la energía de la señal. En contraste, los valores de la transformada del ruido, cuya magnitud es inferior a un umbral de ruido (Tn) , se reducen a cero. Esto permite eliminar el ruido de la señal transformada al aplicar el umbral adecuado.[1]
+En el estudio se especifica que el tamaño de la ventana se estableció en 200 ms con un solapamiento del 50%. Esto significa que si la ventana inicial cubre desde el tiempo t0 hasta t0+200 ms, la siguiente ventana comenzará en t0+100 ms y terminará en t0​+300 ms, y así sucesivamente.
 </p> 
 
 
-## 3.2 Segmentación <a name="id5"></a>
 
 ### Reposo
 
@@ -102,4 +124,13 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 
 <p align="justify">
 1. N. Sobahi, «Denoising of EMG Signals Based on Wavelet Transform», 2011. Accedido: 25 de mayo de 2024. [En línea]. Disponible en: https://www.semanticscholar.org/paper/Denoising-of-EMG-Signals-Based-on-Wavelet-Transform-Sobahi/8cb86bc29345a607cbef72460464b86f26d4868a
+
+2. M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing Noise, Artifacts and Interference in Single-Channel EMG Signals: A Review,” Sensors, vol. 23, no. 6, p. 2927, Jan. 2023, doi: https://doi.org/10.3390/s23062927.
+
+3. M. Prabhashankar, “Impact of Yoga and Meditation on Health,” International Journal of Advanced Research in Science, Communication and Technology (IJARSCT), vol. 11, no. 1, p. 2581, 2020, doi: https://doi.org/10.48175/568.
+
+4. A. Moreno Sanz, “Procesado Avanzado De Señal EMG,” thesis, Universidad Carlos III De Madrid, Escuela Politécnica superior, Madrid, 2017.” https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content (accessed Sep. 2017).
+
+
+5. F. D. Farfán, J. C. Politti, and C. J. Felice, “Evaluation of EMG processing techniques using Information Theory,” BioMedical Engineering OnLine, vol. 9, no. 1, p. 72, 2010, doi: https://doi.org/10.1186/1475-925x-9-72.
 </p> 
