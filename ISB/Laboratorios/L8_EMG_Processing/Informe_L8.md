@@ -135,7 +135,7 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 </p>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/360929db-2f1f-4a8b-815d-f3e77c2570fa" alt="fotog" width="900" height="200"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/360929db-2f1f-4a8b-815d-f3e77c2570fa" alt="fotog" width="700" height="300"/>
 </p>
 <p align="center"><i>Figura 2. Duración Máxima, Mínima y Media de los periodos de activación muscular - Reposo</i></p><br>
 
