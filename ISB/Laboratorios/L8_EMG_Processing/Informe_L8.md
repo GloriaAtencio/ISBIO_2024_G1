@@ -62,6 +62,13 @@ La segmentación de una señal EMG implica dividir la señal en segmentos más p
 
 ## 3.1 Materiales y Equipos <a name="id4"></a>
 
+
+|     Modelo       |                  Descripción                  |   Cantidad    |
+|  :-------------: |:--------------------------------------------: |:-------------:|
+| (R)EVOLUTION     | Kit BITalino                                  | 1             |
+| -                | Laptop                                        | 1             |
+
+
 ## 3.2 Procedimiento <a name="id4"></a>
 ## Señales Adquiridas:
 <p align="justify">
