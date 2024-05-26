@@ -70,7 +70,7 @@ Durante la extracción, el objetivo es obtener información significativa de la 
 Para en el proceso de procesamiento de señales EMG, se uso el paper 'Comparison of machine learning algorithms and feature extraction techniques for the automatic detection of surface EMG activation timing'[7].
 </p> 
 
-## 3.1 Materiales y Equipos <a name="id4"></a>
+## 3.1 Materiales y Equipos
 
 
 |     Modelo       |                  Descripción                  |   Cantidad    |
