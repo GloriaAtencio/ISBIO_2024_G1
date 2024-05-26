@@ -131,11 +131,20 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 
 <p align="justify">
 1. N. Sobahi, «Denoising of EMG Signals Based on Wavelet Transform», 2011. Accedido: 25 de mayo de 2024. [En línea]. Disponible en: https://www.semanticscholar.org/paper/Denoising-of-EMG-Signals-Based-on-Wavelet-Transform-Sobahi/8cb86bc29345a607cbef72460464b86f26d4868a.
+</p> 
+<p align="justify">
 2. M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing Noise, Artifacts and Interference in Single-Channel EMG Signals: A Review,” Sensors, vol. 23, no. 6, p. 2927, Jan. 2023, doi: https://doi.org/10.3390/s23062927.
+</p> 
 
+<p align="justify">
 3. M. Prabhashankar, “Impact of Yoga and Meditation on Health,” International Journal of Advanced Research in Science, Communication and Technology (IJARSCT), vol. 11, no. 1, p. 2581, 2020, doi: https://doi.org/10.48175/568.
+</p> 
 
+<p align="justify">
 4. A. Moreno Sanz, “Procesado Avanzado De Señal EMG,” thesis, Universidad Carlos III De Madrid, Escuela Politécnica superior, Madrid, 2017.” https://e-archivo.uc3m.es/rest/api/core/bitstreams/73de4212-e068-4610-9dca-4cf450e3fd9e/content (accessed Sep. 2017).
 
+</p> 
+
+<p align="justify">
 5. F. D. Farfán, J. C. Politti, and C. J. Felice, “Evaluation of EMG processing techniques using Information Theory,” BioMedical Engineering OnLine, vol. 9, no. 1, p. 72, 2010, doi: https://doi.org/10.1186/1475-925x-9-72.
 </p> 
