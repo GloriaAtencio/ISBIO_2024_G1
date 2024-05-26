@@ -116,6 +116,40 @@ En este informe se extraerán parámetros de EMG, tanto del dominio del tiempo c
 
 ### Reposo
 
+<div align="center">
+<h2>Señal sin filtro </h2>
+</div>
+
+<p align="justify">
+Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Parámetros de EMG  y obtuvimos lo siguiente:
+</p> 
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/00042809-7b14-4520-af41-9aaf494c4a59" alt="fotog" width="900" height="200"/>
+</p>
+<p align="center"><i>Figura 1. Detección y contabilidad de activaciones musculares - Reposo</i></p><br>
+
+
+<p align="justify">
+En la gráfica podemos observar que el número de activaciones musculares fue de 3 veces.
+</p>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/360929db-2f1f-4a8b-815d-f3e77c2570fa" alt="fotog" width="900" height="200"/>
+</p>
+<p align="center"><i>Figura 2. Duración Máxima, Mínima y Media de los periodos de activación muscular - Reposo</i></p><br>
+
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/56f65996-f970-4c06-ae72-378b59fef6d8" alt="fotog" width="900" height="200"/>
+</p>
+<p align="center"><i>Figura 3. Desviación máxima, mínima, media y estándar de los valores de muestra de EMG - Reposo</i></p><br>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f46e90c5-a16e-400f-b1e1-169020e30661" alt="fotog" width="900" height="200"/>
+</p>
+<p align="center"><i>Figura 4. Potencia total y algunos puntos de referencia en el dominio de la frecuencia - Reposo</i></p><br>
+
 ### Tensión
 
 ### Fuerza oponente
@@ -131,7 +165,7 @@ Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Paráme
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d4c04c08-effd-4eec-a06f-6fd4b4f42bdd" alt="fotog" width="900" height="200"/>
 </p>
-<p align="center"><i>Figura 1. Detección y contabilidad de activaciones musculares</i></p><br>
+<p align="center"><i>Figura 9. Detección y contabilidad de activaciones musculares</i></p><br>
 
 <p align="justify">
 En la gráfica podemos observar que el número de activaciones musculares fue de 3 veces.
@@ -140,18 +174,18 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d69964a8-cafb-49ca-832c-1148ac2a48f2" alt="fotog" width="900" height="200"/>
 </p>
-<p align="center"><i>Figura 2. Duración Máxima, Mínima y Media de los periodos de activación muscular</i></p><br>
+<p align="center"><i>Figura 10. Duración Máxima, Mínima y Media de los periodos de activación muscular</i></p><br>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f929ba65-e541-43cd-a485-09e694122e92" alt="fotog" width="900" height="200"/>
 </p>
-<p align="center"><i>Figura 3. Desviación máxima, mínima, media y estándar de los valores de muestra de EMG</i></p><br>
+<p align="center"><i>Figura 11. Desviación máxima, mínima, media y estándar de los valores de muestra de EMG</i></p><br>
 
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/5a9ce3de-81ad-4aa2-9fb0-bd535d8e0438" alt="fotog" width="900" height="200"/>
 </p>
-<p align="center"><i>Figura 4. Potencia total y algunos puntos de referencia en el dominio de la frecuencia</i></p><br>
+<p align="center"><i>Figura 12. Potencia total y algunos puntos de referencia en el dominio de la frecuencia</i></p><br>
 
 
 ## 3.3 Extracción de características <a name="id6"></a>
