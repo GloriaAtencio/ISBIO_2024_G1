@@ -79,9 +79,9 @@ En este laboratorio, se emplearán datos de señales EMG recolectados en sesione
 Estos datos fueron capturados de la señal proveniente de la contracción del músculo  biceps , se evaluaron 3 casos : 
 </p> 
 
-2. Caso 1: Brazo en reposo
-2.Caso 2:Levantando una mochila
-2.Caso 3:Soportando una fuerza oponente
+- Caso 1: Brazo en reposo
+- Caso 2:Levantando una mochila
+- Caso 3:Soportando una fuerza oponente
 
 ## Pre-procesamiento de la Señal:
 ## Elección de filtrado de la señal EMG:
