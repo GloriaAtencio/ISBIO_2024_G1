@@ -94,7 +94,7 @@ Estos datos fueron capturados de la señal proveniente de la contracción del m�
 - Caso 3: Soportando una fuerza oponente
 
 ### Pre-procesamiento de la Señal:
-#### Elección de filtrado de la señal EMG:
+#### Elección de filtrado de la señal EMG:  <a name="id4"></a>
 
 <p align="justify">
 El filtrado es esencial para reducir los artefactos en las señales de sEMG. En el curso, se han compararán filtros FIR, IIR y se ha demostrado la efectividad del filtro Wavelet. Sin embargo usando de base el trabajo de, se recomienda el uso de filtros butterworth(n=4) en conjunto a un notch. El filtro pasa-banda de 5-500 Hz y el filtro de Notch de 60 Hz, la combinación de un filtro pasa-banda Butterworth y un filtro notch es altamente efectiva para el procesamiento de señales EMG, centrandonos en eliminar las fuentes de ruido más comunes (artefactos de movimiento, interferencia de línea eléctrica y ruido de alta frecuencia) mientras preservan las características importantes de la señal EMG.
@@ -110,14 +110,14 @@ El filtrado es esencial para reducir los artefactos en las señales de sEMG. En 
 </p>
 <p align="center"><i> Espectro de la señal filtrada</i></p><br>
 
-#### Segmentación:
+#### Segmentación: <a name="id5"></a>
 
 <p align="justify">
 En el estudio se especifica que el tamaño de la ventana se estableció en 200 ms con un solapamiento del 50%. Esto significa que si la ventana inicial cubre desde el tiempo t0 hasta t0+200 ms, la siguiente ventana comenzará en t0+100 ms y terminará en t0​+300 ms, y así sucesivamente.
 </p> 
 
 ### Procesamiento de la Señal:
-#### Extracción de características:
+#### Extracción de características: <a name="id6"></a>
 <p align="justify">
 Identificar el mejor conjunto de características puede mejorar el rendimiento de la clasificación y reducir el tiempo necesario para la extracción y clasificación de características. Entre las técnicas comúnmente utilizadas, las que se centran en capturar las principales características de la señal EMG se pueden clasificar en tres tipos: dominio del tiempo, dominio de la frecuencia y una combinación de ambos [7]
 En este informe se extraerán parámetros de EMG, tanto del dominio del tiempo como de la frecuencia.
@@ -233,13 +233,6 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 <p align="center"><i>Figura 12. Potencia total y algunos puntos de referencia en el dominio de la frecuencia- Fuerza oponente</i></p><br>
 
 
-## 3.3 Extracción de características <a name="id6"></a>
-
-### Reposo
-
-### Tensión
-
-### Fuerza oponente
 
 # 4. Discusiones <a name="id7"></a>
 
