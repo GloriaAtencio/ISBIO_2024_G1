@@ -235,6 +235,17 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 
 
 # 4. Discusiones <a name="id7"></a>
+El procesamiento y la extracción de características de las señales de electromiografía (EMG) son cruciales para el análisis y la interpretación de la actividad muscular. En este informe, se evaluaron varios parámetros fundamentales para proporcionar una visión comprensiva del comportamiento muscular. 
+
+Tensión:
+
+1. Número de Activaciones Musculares
+El número de activaciones musculares se refiere a la cantidad de veces que los músculos se contraen durante la tarea de cargar una mochila. Este parámetro es fundamental para entender la frecuencia de la actividad muscular y puede indicar el nivel de esfuerzo requerido. En este análisis, se ha utilizado una única ventana para evaluar el número de activaciones, lo que implica que todas las contracciones se contabilizan en el período definido.
+2. Duración de las Activaciones Musculares
+La duración máxima, mínima y media de las activaciones musculares proporciona información sobre cuánto tiempo permanecen activos los músculos durante cada contracción. En la tarea de cargar una mochila, estos valores pueden indicar la intensidad y la sostenibilidad del esfuerzo muscular:
+Duración máxima: ,que refleja el período de alta carga muscular.
+Duración mínima: ,nos indica varias activaciones que pueden estar relacionadas con ajustes posturales o cambios de posición.
+Duración media: ,hay un nivel sostenido prolongado de esfuerzo durante la actividad.
 
 # 5. Bibliografía <a name="id8"></a>
 
