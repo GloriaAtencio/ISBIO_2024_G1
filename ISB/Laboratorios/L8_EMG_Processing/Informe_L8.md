@@ -120,6 +120,10 @@ En este informe se extraerán parámetros de EMG, tanto del dominio del tiempo c
 
 ### Fuerza oponente
 
+<div align="center">
+<h2>Señal sin filtro </h2>
+</div>
+
 <p align="justify">
 Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Parámetros de EMG  y obtuvimos lo siguiente:
 </p> 
@@ -132,6 +136,22 @@ Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Paráme
 <p align="justify">
 En la gráfica podemos observar que el número de activaciones musculares fue de 3 veces.
 </p>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d69964a8-cafb-49ca-832c-1148ac2a48f2" alt="fotog" width="900" height="200"/>
+</p>
+<p align="center"><i>Figura 2. Duración Máxima, Mínima y Media de los periodos de activación muscular</i></p><br>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f929ba65-e541-43cd-a485-09e694122e92" alt="fotog" width="900" height="200"/>
+</p>
+<p align="center"><i>Figura 3. Desviación máxima, mínima, media y estándar de los valores de muestra de EMG</i></p><br>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e7e51f0c-aef3-4b9b-ae2c-f2396f338e5" alt="fotog" width="900" height="200"/>
+</p>
+<p align="center"><i>Figura 4. Potencia total y algunos puntos de referencia en el dominio de la frecuencia</i></p><br>
+
 
 ## 3.3 Extracción de características <a name="id6"></a>
 
