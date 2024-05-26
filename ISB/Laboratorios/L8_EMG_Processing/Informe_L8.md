@@ -114,7 +114,10 @@ En este informe se extraerán parámetros de EMG, tanto del dominio del tiempo c
 
 </p> 
 
-### Reposo
+## Reposo
+<div align="center">
+<h1>**Reposo**</h1>
+</div>
 
 <div align="center">
 <h2>Señal sin filtro </h2>
