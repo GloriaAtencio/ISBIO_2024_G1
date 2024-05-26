@@ -236,7 +236,6 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 
 # 4. Discusiones <a name="id7"></a>
 El procesamiento y la extracción de características de las señales de electromiografía (EMG) son cruciales para el análisis y la interpretación de la actividad muscular. En este informe, se evaluaron varios parámetros fundamentales para proporcionar una visión comprensiva del comportamiento muscular. 
-- Reposo:
 - Tensión:
    1. Número de Activaciones Musculares
 El número de activaciones musculares se refiere a la cantidad de veces que los músculos se contraen durante la tarea de cargar una mochila. Este parámetro es fundamental para entender la frecuencia de la actividad muscular y puede indicar el nivel de esfuerzo requerido. En este análisis, se ha utilizado una única ventana para evaluar el número de activaciones, lo que implica que todas las contracciones se contabilizan en el período definido.
@@ -262,10 +261,8 @@ La duración máxima, mínima y media de las activaciones musculares proporciona
 
   Frecuencia Mediana (82 Hz): Una frecuencia mediana más alta que la frecuencia máxima, esto sugiere una distribución de energía que está concentrada en frecuencias más altas, implicando el reclutamiento de fibras musculares rápidas para momentos especfificos.
       
-
-
 - Fuerza oponente:
-- 
+  
 # 5. Bibliografía <a name="id8"></a>
 
 <p align="justify">
