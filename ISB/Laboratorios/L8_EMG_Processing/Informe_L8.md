@@ -125,7 +125,7 @@ Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Paráme
 </p> 
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/00042809-7b14-4520-af41-9aaf494c4a59" alt="fotog" width="900" height="200"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/00042809-7b14-4520-af41-9aaf494c4a59" alt="fotog" width="700" height="300"/>
 </p>
 <p align="center"><i>Figura 1. Detección y contabilidad de activaciones musculares - Reposo</i></p><br>
 
