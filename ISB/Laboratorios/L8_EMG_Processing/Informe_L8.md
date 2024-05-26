@@ -62,9 +62,9 @@ La segmentación de una señal EMG implica dividir la señal en segmentos más p
 ### Extracción de características:
 <p align="justify">
 Durante la extracción, el objetivo es obtener información significativa de la señal EMG para su análisis mediante la modificación de los datos originales, lo que resulta en la generación de un vector de características. Este proceso no solo mejora el desempeño del clasificador, sino que también puede disminuir la dimensionalidad, lo que facilita el procesamiento y la clasificación. [6]
-
 </p> 
-# 3. Metodología <a name="id3"></a>
+
+## 3.Metodología <a name="id3"></a>
 
 <p align="justify">
 Para en el proceso de procesamiento de señales EMG, se uso el paper 'Comparison of machine learning algorithms and feature extraction techniques for the automatic detection of surface EMG activation timing'[7].
