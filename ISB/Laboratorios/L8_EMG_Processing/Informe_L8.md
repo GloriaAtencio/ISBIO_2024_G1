@@ -18,7 +18,17 @@
    - Extraer y analizar características relevantes de las señales EMG
      
 # 2. Introducción<a name="id2"></a>
-   
+
+## 2.1.Contexto
+
+<p align="justify">
+La electromiografía (EMG) es una técnica  que permite captar las señales eléctricas que son obtenidas de las actividades neuromusculares..Estas se pueden recolectar a en la superficie de la piel , debajo de la piel y dentro del músculo [1].
+En la actualidad , el EMG se utiliza para diagnóstico  y  monitoreo de lesiones musculares, daños a los nervios y disfunciones musculares que se pueden producir a trastornos neurológicos y musculares, con fines de investigación, para el análisis de la biomecánica de diversos movimientos y el análisis de la marcha, entre otros. [1]
+</p> 
+
+<p align="justify">
+La electromiografía (EMG) necesita un procesamiento de señal previo a su análisis.Debido a que durante su recorrido a través de diversos tejidos, la señal EMG  adquiere ruido.[2] Además, si la EMG se toma desde la superficie de la piel, puede captar señales de diferentes unidades motoras simultáneamente. Por tanto, un adecuado procesamiento de la señal EMG es crucial para su análisis preciso.
+</p> 
 
 # 3. Metodología <a name="id3"></a>
 
