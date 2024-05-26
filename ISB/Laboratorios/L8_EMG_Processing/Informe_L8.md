@@ -149,7 +149,7 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e7e51f0c-aef3-4b9b-ae2c-f2396f338e5" alt="fotog" width="900" height="200"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/5a9ce3de-81ad-4aa2-9fb0-bd535d8e0438" alt="fotog" width="900" height="200"/>
 </p>
 <p align="center"><i>Figura 4. Potencia total y algunos puntos de referencia en el dominio de la frecuencia</i></p><br>
 
