@@ -249,7 +249,7 @@ La duración máxima, mínima y media de las activaciones musculares proporciona
    
    Duración media: ,hay un nivel sostenido prolongado de esfuerzo durante la actividad.
 
-   4. Valores Estadísticos de las Muestras de EMG
+   3. Valores Estadísticos de las Muestras de EMG
   Amplitud media (100 mV): Indica un nivel moderado de actividad muscular, los músculos no están en un estado de esfuerzo extremo pero     sí verifica el trabajo constante al cual esta sometido.
 
   Amplitud máxima (140 mV): Los picos de alta actividad muscular probablemente ocurren durante momentos clave, como el levantamiento o ajustes de la carga.
