@@ -79,7 +79,7 @@ Para en el proceso de procesamiento de señales EMG, se uso el paper 'Comparison
 | -                | Laptop                                        | 1             |
 
 
-## 3.2 Procedimiento <a name="id4"></a>
+## 3.2 Procedimiento 
 ### Señales Adquiridas:
 <p align="justify">
 En este laboratorio, se emplearán datos de señales EMG recolectados en sesiones previas. La adquisición de estos datos se realizó siguiendo un protocolo estándar utilizando el dispositivo BITalino y el software OpenSignal. Primero, se estableció la conexión entre BITalino y OpenSignal vía Bluetooth para permitir la visualización en tiempo real de las señales. Posteriormente, se conectó el sensor EMG de tres electrodos al BITalino para iniciar la recolección de las señales.
