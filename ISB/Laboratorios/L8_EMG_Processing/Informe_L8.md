@@ -99,6 +99,16 @@ Estos datos fueron capturados de la señal proveniente de la contracción del m�
 <p align="justify">
 El filtrado es esencial para reducir los artefactos en las señales de sEMG. En el curso, se han compararán filtros FIR, IIR y se ha demostrado la efectividad del filtro Wavelet. Sin embargo usando de base el trabajo de, se recomienda el uso de filtros butterworth(n=4) en conjunto a un notch. El filtro pasa-banda de 5-500 Hz y el filtro de Notch de 60 Hz, la combinación de un filtro pasa-banda Butterworth y un filtro notch es altamente efectiva para el procesamiento de señales EMG, centrandonos en eliminar las fuentes de ruido más comunes (artefactos de movimiento, interferencia de línea eléctrica y ruido de alta frecuencia) mientras preservan las características importantes de la señal EMG.
 </p> 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/espectro_se%C3%B1al_original.png" alt="fotog" width="700" height="300"/>
+</p>
+<p align="center"><i> Espectro de la señal original</i></p><br>
+
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/espectro_se%C3%B1al_filtrada.png" alt="fotog" width="700" height="300"/>
+</p>
+<p align="center"><i> Espectro de la señal filtrada</i></p><br>
 
 #### Segmentación:
 
