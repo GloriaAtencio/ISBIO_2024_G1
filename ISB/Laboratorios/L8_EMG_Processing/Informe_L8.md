@@ -241,9 +241,15 @@ El procesamiento y la extracción de características de las señales de electro
    1. Número de Activaciones Musculares
 El número de activaciones musculares se refiere a la cantidad de veces que los músculos se contraen durante la tarea de cargar una mochila. Este parámetro es fundamental para entender la frecuencia de la actividad muscular y puede indicar el nivel de esfuerzo requerido. En este análisis, se ha utilizado una única ventana para evaluar el número de activaciones, lo que implica que todas las contracciones se contabilizan en el período definido.
    2. Duración de las Activaciones Musculares
-La duración máxima, mínima y media de las activaciones musculares proporciona información sobre cuánto tiempo permanecen activos los músculos durante cada contracción. En la tarea de cargar una mochila, estos valores pueden indicar la intensidad y la sostenibilidad del esfuerzo muscular:
+La duración máxima, mínima y media de las activaciones musculares proporciona información sobre cuánto tiempo permanecen activos los músculos durante cada contracción. En la tarea de cargar una mochila, estos valores pueden indicar la intensidad y la sostenibilidad del esfuerzo muscular:[9]
 
-   3. Valores Estadísticos de las Muestras de EMG
+   Duración máxima: ,que refleja el período de alta carga muscular.
+   
+   Duración mínima: ,nos indica varias activaciones que pueden estar relacionadas con ajustes posturales o cambios de posición.
+   
+   Duración media: ,hay un nivel sostenido prolongado de esfuerzo durante la actividad.
+
+   4. Valores Estadísticos de las Muestras de EMG
   Amplitud media (100 mV): Indica un nivel moderado de actividad muscular, los músculos no están en un estado de esfuerzo extremo pero     sí verifica el trabajo constante al cual esta sometido.
 
   Amplitud máxima (140 mV): Los picos de alta actividad muscular probablemente ocurren durante momentos clave, como el levantamiento o ajustes de la carga.
@@ -252,15 +258,11 @@ La duración máxima, mínima y media de las activaciones musculares proporciona
   
    4. Potencia Total y Espectro de Frecuencia
    Potencia Total: Potencia variable, que nos sugiere un nivel intermitente y eficiente de esfuerzo muscular.
-  Frecuencia Máxima (66 Hz): Una frecuencia máxima relativamente baja puede indicar que los músculos están trabajando en un rango de frecuencia que no es extremadamente alto, lo que puede ser típico de actividades sostenidas en lugar de movimientos rápidos y potentes.
+  Frecuencia Máxima (66 Hz): Una frecuencia máxima relativamente baja puede indicar que los músculos están trabajando en un rango de frecuencia que no es extremadamente alto, lo que puede ser típico de actividades sostenidas en lugar de movimientos rápidos y potentes.[9]
 
   Frecuencia Mediana (82 Hz): Una frecuencia mediana más alta que la frecuencia máxima, esto sugiere una distribución de energía que está concentrada en frecuencias más altas, implicando el reclutamiento de fibras musculares rápidas para momentos especfificos.
       
-   Duración máxima: ,que refleja el período de alta carga muscular.
-   
-   Duración mínima: ,nos indica varias activaciones que pueden estar relacionadas con ajustes posturales o cambios de posición.
-   
-   Duración media: ,hay un nivel sostenido prolongado de esfuerzo durante la actividad.
+
 
 - Fuerza oponente:
 - 
@@ -300,4 +302,7 @@ La duración máxima, mínima y media de las activaciones musculares proporciona
 8.«emg_parameters». Accedido: 25 de mayo de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/emg_parameters_rev.html 
 </p> 
 
+<p align="justify">
+9.G. Kamen and D. A. Gabriel, Essentials of electromyography. Champaign, Il: Human Kinetics, 2010.
+</p> 
 
