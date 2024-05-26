@@ -147,6 +147,7 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 </p>
 <p align="center"><i>Figura 3. Desviación máxima, mínima, media y estándar de los valores de muestra de EMG</i></p><br>
 
+
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/e7e51f0c-aef3-4b9b-ae2c-f2396f338e5" alt="fotog" width="900" height="200"/>
 </p>
