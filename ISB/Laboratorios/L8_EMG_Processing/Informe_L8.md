@@ -114,13 +114,11 @@ En este informe se extraerán parámetros de EMG, tanto del dominio del tiempo c
 
 </p> 
 
-***
 
 <div align="center">
 <h1>Reposo</h1>
 </div>
 
-***
 <div align="center">
 <h2>Señal sin filtro </h2>
 </div>
@@ -151,7 +149,11 @@ Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Paráme
 </p>
 <p align="center"><i>Figura 4. Potencia total y algunos puntos de referencia en el dominio de la frecuencia - Reposo</i></p><br>
 
-### Tensión
+
+<div align="center">
+<h1>Tensión</h1>
+</div>
+
 
 <div align="center">
 <h2>Señal sin filtro </h2>
@@ -182,7 +184,10 @@ Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Paráme
 </p>
 <p align="center"><i>Figura 8. Potencia total y algunos puntos de referencia en el dominio de la frecuencia - Levantando mochila</i></p><br>
 
-### Fuerza oponente
+
+<div align="center">
+<h1>Fuerza oponente</h1>
+</div>
 
 <div align="center">
 <h2>Señal sin filtro </h2>
