@@ -58,10 +58,16 @@ Es esencial comenzar con una etapa de filtrado para reducir los artefactos en la
 La segmentación de una señal EMG implica dividir la señal en segmentos más pequeños y manejables para su análisis detallado. Este proceso es esencial para identificar los puntos de inicio y fin de la actividad muscular, y para distinguir entre diferentes estados musculares como contracciones y relajaciones. Los métodos de segmentación pueden variar, utilizando técnicas basadas en el tiempo (como ventanas deslizantes de longitud fija) o en la frecuencia (como transformadas de Fourier) para asegurar que las características importantes de la señal se capturen con precisión​ [5].
 </p> 
 
+## 2.2.1 Procesamiento de la Señal:
+### Extracción de características:
+<p align="justify">
+Durante la extracción, el objetivo es obtener información significativa de la señal EMG para su análisis mediante la modificación de los datos originales, lo que resulta en la generación de un vector de características. Este proceso no solo mejora el desempeño del clasificador, sino que también puede disminuir la dimensionalidad, lo que facilita el procesamiento y la clasificación. [6]
+
+</p> 
 # 3. Metodología <a name="id3"></a>
 
 <p align="justify">
-Para en el proceso de procesamiento de señales EMG, se uso el paper 'Comparison of machine learning algorithms and feature extraction techniques for the automatic detection of surface EMG activation timing'[6].
+Para en el proceso de procesamiento de señales EMG, se uso el paper 'Comparison of machine learning algorithms and feature extraction techniques for the automatic detection of surface EMG activation timing'[7].
 </p> 
 
 ## 3.1 Materiales y Equipos <a name="id4"></a>
@@ -100,7 +106,13 @@ El filtrado es esencial para reducir los artefactos en las señales de sEMG. En 
 En el estudio se especifica que el tamaño de la ventana se estableció en 200 ms con un solapamiento del 50%. Esto significa que si la ventana inicial cubre desde el tiempo t0 hasta t0+200 ms, la siguiente ventana comenzará en t0+100 ms y terminará en t0​+300 ms, y así sucesivamente.
 </p> 
 
+### Procesamiento de la Señal:
+#### Extracción de características:
+<p align="justify">
+Identificar el mejor conjunto de características puede mejorar el rendimiento de la clasificación y reducir el tiempo necesario para la extracción y clasificación de características. Entre las técnicas comúnmente utilizadas, las que se centran en capturar las principales características de la señal EMG se pueden clasificar en tres tipos: dominio del tiempo, dominio de la frecuencia y una combinación de ambos [7]
+En este informe se extraerán parámetros de EMG, tanto del dominio del tiempo como de la frecuencia.
 
+</p> 
 
 ### Reposo
 
@@ -154,7 +166,17 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 </p> 
 
 <p align="justify">
-6. <p align="justify">
-5. F. D. Farfán, J. C. Politti, and C. J. Felice, “Evaluation of EMG processing techniques using Information Theory,” BioMedical Engineering OnLine, vol. 9, no. 1, p. 72, 2010, doi: https://doi.org/10.1186/1475-925x-9-72.
+6. A. M. Moslhi, H. H. Aly, and M. ElMessiery, “The Impact of Feature Extraction on Classification Accuracy Examined by Employing a Signal Transformer to Classify Hand Gestures Using Surface Electromyography Signals,” Sensors, vol. 24, no. 4, p. 1259, Jan. 2024, doi: https://doi.org/10.3390/s24041259.
 </p> 
+
+
+<p align="justify">
+7. Valentina Mejía Gallón, Stirley Madrid Vélez, J. Ramírez, and F. Bolaños, “Comparison of machine learning algorithms and feature extraction techniques for the automatic detection of surface EMG activation timing,” Biomedical signal processing and control, vol. 94, pp. 106266–106266, Aug. 2024, doi: https://doi.org/10.1016/j.bspc.2024.106266.
 </p> 
+
+
+<p align="justify">
+8. «emg_parameters». Accedido: 25 de mayo de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/emg_parameters_rev.html 
+</p> 
+
+
