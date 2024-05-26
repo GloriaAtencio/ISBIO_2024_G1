@@ -130,10 +130,6 @@ Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Paráme
 <p align="center"><i>Figura 1. Detección y contabilidad de activaciones musculares - Reposo</i></p><br>
 
 
-<p align="justify">
-En la gráfica podemos observar que el número de activaciones musculares fue de 3 veces.
-</p>
-
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/360929db-2f1f-4a8b-815d-f3e77c2570fa" alt="fotog" width="700" height="300"/>
 </p>
@@ -156,6 +152,31 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 <h2>Señal sin filtro </h2>
 </div>
 
+<p align="justify">
+Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Parámetros de EMG  y obtuvimos lo siguiente:
+</p> 
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/dc12b8d5-3223-4e6f-873f-ea0449229709" alt="fotog" width="700" height="300"/>
+</p>
+<p align="center"><i>Figura 5. Detección y contabilidad de activaciones musculares - Levantando mochila</i></p><br>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/899f872b-4c7d-4418-9cf9-3cb91763572c" alt="fotog" width="700" height="300"/>
+</p>
+<p align="center"><i>Figura 6. Duración Máxima, Mínima y Media de los periodos de activación muscular - Levantando mochila</i></p><br>
+
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/a79bd13c-4493-425f-a7c3-7c5b8ab04231" alt="fotog" width="700" height="300"/>
+</p>
+<p align="center"><i>Figura 7. Desviación máxima, mínima, media y estándar de los valores de muestra de EMG - Levantando mochila</i></p><br>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/91c94f75-5871-4462-b4e4-e063d9cf9e37" alt="fotog" width="700" height="300"/>
+</p>
+<p align="center"><i>Figura 8. Potencia total y algunos puntos de referencia en el dominio de la frecuencia - Levantando mochila</i></p><br>
+
 ### Fuerza oponente
 
 <div align="center">
@@ -169,7 +190,7 @@ Basándonos en los Notebooks de Biosignals, seguimos la guía denominada Paráme
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d4c04c08-effd-4eec-a06f-6fd4b4f42bdd" alt="fotog" width="700" height="300"/>
 </p>
-<p align="center"><i>Figura 9. Detección y contabilidad de activaciones musculares</i></p><br>
+<p align="center"><i>Figura 9. Detección y contabilidad de activaciones musculares - Fuerza oponente</i></p><br>
 
 <p align="justify">
 En la gráfica podemos observar que el número de activaciones musculares fue de 3 veces.
@@ -178,18 +199,18 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d69964a8-cafb-49ca-832c-1148ac2a48f2" alt="fotog" width="700" height="300"/>
 </p>
-<p align="center"><i>Figura 10. Duración Máxima, Mínima y Media de los periodos de activación muscular</i></p><br>
+<p align="center"><i>Figura 10. Duración Máxima, Mínima y Media de los periodos de activación muscular- Fuerza oponente</i></p><br>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/f929ba65-e541-43cd-a485-09e694122e92" alt="fotog" width="700" height="300"/>
 </p>
-<p align="center"><i>Figura 11. Desviación máxima, mínima, media y estándar de los valores de muestra de EMG</i></p><br>
+<p align="center"><i>Figura 11. Desviación máxima, mínima, media y estándar de los valores de muestra de EMG- Fuerza oponente</i></p><br>
 
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/5a9ce3de-81ad-4aa2-9fb0-bd535d8e0438" alt="fotog" width="700" height="300"/>
 </p>
-<p align="center"><i>Figura 12. Potencia total y algunos puntos de referencia en el dominio de la frecuencia</i></p><br>
+<p align="center"><i>Figura 12. Potencia total y algunos puntos de referencia en el dominio de la frecuencia- Fuerza oponente</i></p><br>
 
 
 ## 3.3 Extracción de características <a name="id6"></a>
