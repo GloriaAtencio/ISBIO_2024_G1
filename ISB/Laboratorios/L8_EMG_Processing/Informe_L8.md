@@ -47,18 +47,22 @@ Como se mencionó anteriormente  ruido que afectan la señal sEMG, por lo que re
 
 ## 2.2.1 Pre-procesamiento de la Señal:
 
-## Filtro
+### Filtro
 <p align="justify">
 Es esencial comenzar con una etapa de filtrado para reducir los artefactos en las señales EMG. Usualmente, se emplea un filtro pasa alto para disminuir los efectos de movimiento y la inestabilidad entre los electrodos de superficie y la piel. También se utilizan filtros pasa bajo para registrar datos de estimulación muscular y eliminar interferencias de alta frecuencia. Incluso se puede emplear un filtro pasa banda para optimizar el proceso [4].
 </p> 
 
-## Segmentación
+### Segmentación
 
 <p align="justify">
 La segmentación de una señal EMG implica dividir la señal en segmentos más pequeños y manejables para su análisis detallado. Este proceso es esencial para identificar los puntos de inicio y fin de la actividad muscular, y para distinguir entre diferentes estados musculares como contracciones y relajaciones. Los métodos de segmentación pueden variar, utilizando técnicas basadas en el tiempo (como ventanas deslizantes de longitud fija) o en la frecuencia (como transformadas de Fourier) para asegurar que las características importantes de la señal se capturen con precisión​ [5].
 </p> 
 
 # 3. Metodología <a name="id3"></a>
+
+<p align="justify">
+Para en el proceso de procesamiento de señales EMG, se uso el paper 'Comparison of machine learning algorithms and feature extraction techniques for the automatic detection of surface EMG activation timing'[6].
+</p> 
 
 ## 3.1 Materiales y Equipos <a name="id4"></a>
 
@@ -70,7 +74,7 @@ La segmentación de una señal EMG implica dividir la señal en segmentos más p
 
 
 ## 3.2 Procedimiento <a name="id4"></a>
-## Señales Adquiridas:
+### Señales Adquiridas:
 <p align="justify">
 En este laboratorio, se emplearán datos de señales EMG recolectados en sesiones previas. La adquisición de estos datos se realizó siguiendo un protocolo estándar utilizando el dispositivo BITalino y el software OpenSignal. Primero, se estableció la conexión entre BITalino y OpenSignal vía Bluetooth para permitir la visualización en tiempo real de las señales. Posteriormente, se conectó el sensor EMG de tres electrodos al BITalino para iniciar la recolección de las señales.
 </p> 
@@ -83,14 +87,14 @@ Estos datos fueron capturados de la señal proveniente de la contracción del m�
 - Caso 2:Levantando una mochila
 - Caso 3:Soportando una fuerza oponente
 
-## Pre-procesamiento de la Señal:
-## Elección de filtrado de la señal EMG:
+### Pre-procesamiento de la Señal:
+#### Elección de filtrado de la señal EMG:
 
 <p align="justify">
 El filtrado es esencial para reducir los artefactos en las señales de sEMG. En el curso, se han compararán filtros FIR, IIR y se ha demostrado la efectividad del filtro Wavelet. Sin embargo usando de base el trabajo de, se recomienda el uso de filtros butterworth(n=4) en conjunto a un notch. El filtro pasa-banda de 5-500 Hz y el filtro de Notch de 60 Hz, la combinación de un filtro pasa-banda Butterworth y un filtro notch es altamente efectiva para el procesamiento de señales EMG, centrandonos en eliminar las fuentes de ruido más comunes (artefactos de movimiento, interferencia de línea eléctrica y ruido de alta frecuencia) mientras preservan las características importantes de la señal EMG.
 </p> 
 
-## Segmentación:
+#### Segmentación:
 
 <p align="justify">
 En el estudio se especifica que el tamaño de la ventana se estableció en 200 ms con un solapamiento del 50%. Esto significa que si la ventana inicial cubre desde el tiempo t0 hasta t0+200 ms, la siguiente ventana comenzará en t0+100 ms y terminará en t0​+300 ms, y así sucesivamente.
@@ -147,4 +151,10 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 
 <p align="justify">
 5. F. D. Farfán, J. C. Politti, and C. J. Felice, “Evaluation of EMG processing techniques using Information Theory,” BioMedical Engineering OnLine, vol. 9, no. 1, p. 72, 2010, doi: https://doi.org/10.1186/1475-925x-9-72.
+</p> 
+
+<p align="justify">
+6. <p align="justify">
+5. F. D. Farfán, J. C. Politti, and C. J. Felice, “Evaluation of EMG processing techniques using Information Theory,” BioMedical Engineering OnLine, vol. 9, no. 1, p. 72, 2010, doi: https://doi.org/10.1186/1475-925x-9-72.
+</p> 
 </p> 
