@@ -90,8 +90,8 @@ Estos datos fueron capturados de la señal proveniente de la contracción del m�
 </p> 
 
 - Caso 1: Brazo en reposo
-- Caso 2:Levantando una mochila
-- Caso 3:Soportando una fuerza oponente
+- Caso 2: Levantando una mochila
+- Caso 3: Soportando una fuerza oponente
 
 ### Pre-procesamiento de la Señal:
 #### Elección de filtrado de la señal EMG:
@@ -176,7 +176,7 @@ En la gráfica podemos observar que el número de activaciones musculares fue de
 
 
 <p align="justify">
-8. «emg_parameters». Accedido: 25 de mayo de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/emg_parameters_rev.html 
+8.«emg_parameters». Accedido: 25 de mayo de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/emg_parameters_rev.html 
 </p> 
 
 
