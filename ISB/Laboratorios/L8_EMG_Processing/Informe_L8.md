@@ -27,8 +27,18 @@ En la actualidad , el EMG se utiliza para diagnóstico  y  monitoreo de lesiones
 </p> 
 
 <p align="justify">
-La electromiografía (EMG) necesita un procesamiento de señal previo a su análisis.Debido a que durante su recorrido a través de diversos tejidos, la señal EMG  adquiere ruido.[2] Además, si la EMG se toma desde la superficie de la piel, puede captar señales de diferentes unidades motoras simultáneamente. Por tanto, un adecuado procesamiento de la señal EMG es crucial para su análisis preciso.
+La electromiografía (EMG) necesita un procesamiento de señal previo a su análisis.Debido a que durante su recorrido a través de diversos tejidos, la señal EMG  adquiere ruido[2]. Además, si la EMG se toma desde la superficie de la piel, puede captar señales de diferentes unidades motoras simultáneamente. Por tanto, un adecuado procesamiento de la señal EMG es crucial para su análisis preciso.
 </p> 
+
+<p align="justify">
+Es importante conocer las fuentes de ruido que afectan la señal sEMG, las cuales se pueden categorizar en cuatro tipos: ruido inherente, ruido ambiental, artefacto de movimiento, interferencia y ruido interno. [3]   
+</p>
+
+1. Ruido Inherente: Este ruido proviene del equipo electrónico, ya que cada equipo electrónico produce ruido.
+1. Ruido Ambiental: Este ruido es generado por radiación electromagnética, como la transmisión de televisión, los cables de energía eléctrica y la radio.
+1. Artefacto de Movimiento: Este ruido es causado por el movimiento del cable que conecta los electrodos con el circuito amplificador.
+1. Interferencia (Cross Talk): Señal no deseada generada por un músculo activo que está cerca del músculo esquelético deseado (músculo objetivo).
+1. Ruido Interno: Está relacionado principalmente con la estructura del cuerpo humano, que involucra la profundidad y ubicación de la fibra muscular entre los electrodos de superficie y el músculo activo, así como la cantidad de grasa corporal que aumenta la distancia o separación entre los electrodos de superficie y la fibra muscular activa.
 
 # 3. Metodología <a name="id3"></a>
 
