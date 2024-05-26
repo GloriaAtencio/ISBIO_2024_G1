@@ -40,7 +40,7 @@ Es importante conocer las fuentes de ruido que afectan la señal sEMG, las cuale
 1. Interferencia (Cross Talk): Señal no deseada generada por un músculo activo que está cerca del músculo esquelético deseado (músculo objetivo).
 1. Ruido Interno: Está relacionado principalmente con la estructura del cuerpo humano, que involucra la profundidad y ubicación de la fibra muscular entre los electrodos de superficie y el músculo activo, así como la cantidad de grasa corporal que aumenta la distancia o separación entre los electrodos de superficie y la fibra muscular activa.
 
-## 2.2.Procesamiento de la Señal
+## 2.2.Tratamiento de la Señal
 <p align="justify">
 Como se mencionó anteriormente  ruido que afectan la señal sEMG, por lo que requiere adecuación antes de ser tratada. Por lo que primero la señal debe pasar por una etapa de amplificación Después de esta amplificación, se siguen los siguientes pasos[4]:
 </p> 
@@ -58,7 +58,7 @@ Es esencial comenzar con una etapa de filtrado para reducir los artefactos en la
 La segmentación de una señal EMG implica dividir la señal en segmentos más pequeños y manejables para su análisis detallado. Este proceso es esencial para identificar los puntos de inicio y fin de la actividad muscular, y para distinguir entre diferentes estados musculares como contracciones y relajaciones. Los métodos de segmentación pueden variar, utilizando técnicas basadas en el tiempo (como ventanas deslizantes de longitud fija) o en la frecuencia (como transformadas de Fourier) para asegurar que las características importantes de la señal se capturen con precisión​ [5].
 </p> 
 
-## 2.2.1 Procesamiento de la Señal:
+## 2.2.2 Procesamiento de la Señal:
 ### Extracción de características:
 <p align="justify">
 Durante la extracción, el objetivo es obtener información significativa de la señal EMG para su análisis mediante la modificación de los datos originales, lo que resulta en la generación de un vector de características. Este proceso no solo mejora el desempeño del clasificador, sino que también puede disminuir la dimensionalidad, lo que facilita el procesamiento y la clasificación. [6]
