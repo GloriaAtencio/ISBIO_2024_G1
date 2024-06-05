@@ -30,10 +30,17 @@
  
 # 2.Introducción<a name="id2"></a>
 
+<div align="center">
+<h2> Electrocardiograma  </h2>
+</div>
+
 <p align="justify">
 El electrocardiograma (ECG) es una prueba médica que registra la actividad eléctrica del corazón a lo largo del tiempo. Utiliza electrodos colocados en la piel para captar las señales eléctricas generadas por el corazón. Estas señales se representan gráficamente, lo que permite a los profesionales de la salud evaluar el ritmo cardíaco, detectar irregularidades y diagnosticar diversas afecciones cardíacas. Es una herramienta crucial en cardiología y se utiliza tanto para diagnósticos rutinarios como en situaciones de emergencia.
 </p> 
 
+<div align="center">
+<h2> Pico R  </h2>
+</div>
 
 <p align="justify">
 El pico R en el electrocardiograma (ECG) es un punto clave en la evaluación de la actividad eléctrica del corazón, específicamente en la medición del tiempo de activación ventricular (TAV) o tiempo al pico R. Este intervalo se mide desde el inicio del complejo QRS hasta el pico máximo de la onda R o R', y refleja el tiempo necesario para la activación eléctrica desde el endocardio hasta el epicardio. En condiciones normales, el tiempo al pico R varía según la pared ventricular y el tipo de derivación utilizada: para el ventrículo derecho, se mide en las derivaciones V1 o V2 con un límite superior de 35 ms, mientras que para el ventrículo izquierdo, se mide en las derivaciones V5 o V6 con un límite de 45 ms. Esta medición es esencial para el diagnóstico de diversas condiciones cardíacas y proporciona información crítica sobre la conducción eléctrica del corazón.[1]
