@@ -46,12 +46,18 @@ El electrocardiograma (ECG) es una prueba médica que registra la actividad elé
 El pico R en el electrocardiograma (ECG) es un punto clave en la evaluación de la actividad eléctrica del corazón, específicamente en la medición del tiempo de activación ventricular (TAV) o tiempo al pico R. Este intervalo se mide desde el inicio del complejo QRS hasta el pico máximo de la onda R o R', y refleja el tiempo necesario para la activación eléctrica desde el endocardio hasta el epicardio. En condiciones normales, el tiempo al pico R varía según la pared ventricular y el tipo de derivación utilizada: para el ventrículo derecho, se mide en las derivaciones V1 o V2 con un límite superior de 35 ms, mientras que para el ventrículo izquierdo, se mide en las derivaciones V5 o V6 con un límite de 45 ms. Esta medición es esencial para el diagnóstico de diversas condiciones cardíacas y proporciona información crítica sobre la conducción eléctrica del corazón.[1]
 </p> 
 
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/8f3df861-76be-40f3-86c8-333396259770" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 1. Forma de un electrocardiograma (ECG) en un paciente normal[2]</i></p><br>
+
 <div align="center">
 <h2> HRV  </h2>
 </div>
 
 <p align="justify">
-La variabilidad de la frecuencia cardíaca (HRV) es la variación fisiológica del intervalo entre latidos consecutivos del corazón, influenciada por la actividad del sistema nervioso autónomo. La HRV se ha convertido en una herramienta diagnóstica crucial en la última década, permitiendo la evaluación de diversas condiciones clínicas y funcionales. Tradicionalmente, el análisis de la HRV se realiza mediante los intervalos entre latidos obtenidos a partir de las ondas R en electrocardiogramas (ECG). Esta técnica proporciona información valiosa sobre el estado del sistema nervioso autónomo y la salud cardiovascular, siendo utilizada en la detección de arritmias, la evaluación del estrés y la predicción de eventos cardíacos adversos. La creciente precisión y accesibilidad de los sensores ha ampliado su aplicación, consolidándose como un componente esencial en la cardiología moderna.[2]
+La variabilidad de la frecuencia cardíaca (HRV) es la variación fisiológica del intervalo entre latidos consecutivos del corazón, influenciada por la actividad del sistema nervioso autónomo. La HRV se ha convertido en una herramienta diagnóstica crucial en la última década, permitiendo la evaluación de diversas condiciones clínicas y funcionales. Tradicionalmente, el análisis de la HRV se realiza mediante los intervalos entre latidos obtenidos a partir de las ondas R en electrocardiogramas (ECG). Esta técnica proporciona información valiosa sobre el estado del sistema nervioso autónomo y la salud cardiovascular, siendo utilizada en la detección de arritmias, la evaluación del estrés y la predicción de eventos cardíacos adversos. La creciente precisión y accesibilidad de los sensores ha ampliado su aplicación, consolidándose como un componente esencial en la cardiología moderna.[3]
 </p> 
 
 # 3.Metodología<a name="id3"></a>
@@ -74,5 +80,9 @@ La variabilidad de la frecuencia cardíaca (HRV) es la variación fisiológica d
 </p> 
 
 <p align="justify">
-[2] S. Sieciński, P. S. Kostka, y E. J. Tkacz, «Heart Rate Variability Analysis on Electrocardiograms, Seismocardiograms and Gyrocardiograms on Healthy Volunteers», Sensors (Basel), vol. 20, n.º 16, p. 4522, ago. 2020, doi: 10.3390/s20164522.
+[2] U. Zalabarria, E. Irigoyen, R. Martinez, y A. Lowe, «Online robust R-peaks detection in noisy electrocardiograms using a novel iterative smart processing algorithm», Applied Mathematics and Computation, vol. 369, p. 124839, mar. 2020, doi: 10.1016/j.amc.2019.124839.
+</p> 
+   
+<p align="justify">
+[3] S. Sieciński, P. S. Kostka, y E. J. Tkacz, «Heart Rate Variability Analysis on Electrocardiograms, Seismocardiograms and Gyrocardiograms on Healthy Volunteers», Sensors (Basel), vol. 20, n.º 16, p. 4522, ago. 2020, doi: 10.3390/s20164522.
 </p> 
