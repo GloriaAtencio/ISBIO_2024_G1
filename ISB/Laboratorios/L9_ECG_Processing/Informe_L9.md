@@ -16,8 +16,20 @@
 ***
 
 # 1.Objetivos<a name="id1"></a>
+<p align="justify">
+- Detectar los picos de la onda R que se encuentran en las señales ECG obtenidas previamente.
+ </p>
 
+ <p align="justify">
+- Elaborar gráfica que permita visualizar todos los picos encontrados y hacer una discusión respecto la aparición de estos.
+ </p>
+
+ <p align="justify">
+- Hallar la variabilidad del ritmo cardíaco (HRV) basandonos en un artículo base de nuestra elección.
+ </p> 
+ 
 # 2.Introducción<a name="id2"></a>
+
 
 # 3.Metodología<a name="id3"></a>
 
