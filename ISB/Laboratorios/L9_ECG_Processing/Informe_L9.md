@@ -64,6 +64,14 @@ La variabilidad de la frecuencia cardíaca (HRV) es la variación fisiológica d
 
 ## 3.1. Aplicación de filtro<a name="id3.1"></a>
 
+<p align="justify">
+En la señal de electrocardiograma (ECG), la aplicación de filtros es una etapa crucial para la eliminación de ruido y la mejora de la calidad de la señal antes del análisis. Tradicionalmente, se utilizan filtros pasa banda como los filtros Chebyshev tipo I y Butterworth para este propósito. Sin embargo, en métodos más avanzados, la transformada wavelet discreta (DWT) se emplea para una compresión y reducción de ruido más efectiva.
+</p> 
+
+<p align="justify">
+La DWT descompone la señal ECG en componentes de detalle y aproximación, aplicando un umbral suave para eliminar el ruido en los coeficientes de detalle y luego reconstruir la señal limpia. Este proceso no solo reduce el tamaño de la señal, sino que también mejora la precisión y eficiencia en la detección de picos R, fundamentales para el análisis de la variabilidad de la frecuencia cardíaca y otras características cardíacas.[4]
+</p>
+
 ## 3.2. Detección de picos<a name="id3.2"></a>
 
 ## 3.3. Análisis de Threshold<a name="id3.3"></a>
@@ -86,3 +94,5 @@ La variabilidad de la frecuencia cardíaca (HRV) es la variación fisiológica d
 <p align="justify">
 [3] S. Sieciński, P. S. Kostka, y E. J. Tkacz, «Heart Rate Variability Analysis on Electrocardiograms, Seismocardiograms and Gyrocardiograms on Healthy Volunteers», Sensors (Basel), vol. 20, n.º 16, p. 4522, ago. 2020, doi: 10.3390/s20164522.
 </p> 
+
+[4] A. R. Pérez-Riera, L. C. de Abreu, R. Barbosa-Barros, K. C. Nikus, y A. Baranchuk, «R-Peak Time: An Electrocardiographic Parameter with Multiple Clinical Applications», Ann Noninvasive Electrocardiol, vol. 21, n.º 1, pp. 10-19, ene. 2016, doi: 10.1111/anec.12323.
