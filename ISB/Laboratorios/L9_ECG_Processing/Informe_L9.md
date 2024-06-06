@@ -103,7 +103,7 @@ Los picos R se detectan mediante la identificación de los picos ascendentes en 
 
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/b4287e51-96ef-429a-90a7-8f2ad1cb9553" alt="fotog" width="260" height="200"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/b4287e51-96ef-429a-90a7-8f2ad1cb9553" alt="fotog" width="160" height="100"/>
 </p>
 <p align="center"><i>Figura 2.Función de búsqueda de picos a partir de PEE [5]</i></p><br>
 
