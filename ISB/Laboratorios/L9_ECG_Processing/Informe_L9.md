@@ -8,7 +8,7 @@
 3. [Metodología](#id4)
    - [Aplicación de filtro](#id3.1)
    - [Detección de picos](id3.2)
-   - [Análisis de Threshold](#id3.3)
+   - [Análisis de HRV](#id3.3)
 4. [Resultados](#id4)
 5. [Discusión](#id5)
 6. [Referencias bibliográficas](#id6) 
