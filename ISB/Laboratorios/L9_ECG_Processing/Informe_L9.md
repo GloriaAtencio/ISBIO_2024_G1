@@ -78,7 +78,7 @@ Nosotros nos basaremos en el paper titulado "R Peak Detection Method Using Wavel
 </p>
 
 <p align="justify">
-El procedimiento comienza aplicando la DWT a la señal de ECG utilizando la wavelet Symlet 5 (sym5). Esta elección permite una descomposición efectiva de la señal en coeficientes de aproximación (AC) y coeficientes de detalle (DC). Luego, se aplica un umbral suave a los coeficientes de detalle para eliminar el ruido, utilizando un valor de umbral calculado según la fórmula t=σ*2log(n), donde σ es la desviación estándar del ruido y n es el número total de coeficientes wavelet.[5]
+El procedimiento comienza aplicando la DWT a la señal de ECG utilizando la wavelet Symlet 5 (sym5). Esta elección permite una descomposición efectiva de la señal en coeficientes de aproximación (AC) y coeficientes de detalle (DC). Luego, se aplica un umbral suave a los coeficientes de detalle para eliminar el ruido, utilizando un valor de umbral calculado según la fórmula t=σ*(√(2log(n))/n), donde σ es la desviación estándar del ruido y n es el número total de coeficientes wavelet.[5]
 </p>
 
 <p align="justify">
