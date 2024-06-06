@@ -112,7 +112,7 @@ Los picos R se detectan mediante la identificación de los picos ascendentes en 
 Finalmente, los picos R detectados se validan y actualizan en función de los intervalos RR entre picos vecinos. Este procedimiento asegura la detección precisa de los picos R verdaderos, equilibrando los intervalos RR y eliminando posibles falsos positivos o negativos. Este enfoque basado en la transformada wavelet y la envolvente de energía de Shannon modificada permite una detección robusta y precisa de los picos R en señales de ECG ruidosas.[5]
 </p>
 
-## 3.3. Análisis de Threshold<a name="id3.3"></a>
+## 3.3. Análisis de HRV<a name="id3.3"></a>
 
 
 # 4.Resultados<a name="id4"></a>
