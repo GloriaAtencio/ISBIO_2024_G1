@@ -85,7 +85,25 @@ El procedimiento comienza aplicando la DWT a la señal de ECG utilizando la wave
 La Symlet 5 (sym5) es una wavelet perteneciente a la familia de las Symlets, que son una modificación de las wavelets Daubechies, diseñadas por Ingrid Daubechies para mejorar ciertas características de simetría. Las wavelets Symlets son conocidas por su capacidad para proporcionar una reconstrucción precisa de la señal y por su forma casi simétrica, lo que reduce los artefactos en el procesamiento de señales. La sym5, en particular, es ampliamente utilizada en la descomposición y reconstrucción de señales debido a su capacidad para capturar tanto las características de alta como de baja frecuencia en la señal original, lo que la hace ideal para aplicaciones como la eliminación de ruido en señales electrocardiográficas (ECG). Al equilibrar la complejidad computacional con la precisión en la representación de la señal, la sym5 se posiciona como una herramienta valiosa en el procesamiento avanzado de señales, permitiendo una análisis más claro y preciso de los datos adquiridos de forma natural.[6]
 </p>
 
+
+
 ## 3.2. Detección de picos<a name="id3.2"></a>
+
+<p align="justify">
+En el paper seleccionado se explica que el proceso de detección de picos R comienza con la transformada wavelet para reducir el tamaño y el ruido de las señales de ECG. Luego, se aplica una diferenciación de primer orden y una normalización de amplitud para calcular la energía de Shannon (SE). Posteriormente, la envolvente de energía de Shannon (SEE) se extrae mediante un filtro de media móvil, lo que suaviza la señal y elimina los picos no deseados.[5]
+</p>
+
+<p align="justify">
+Una vez obtenida la SEE, se realiza una diferenciación y normalización adicional, seguida de una operación de cuadratura para amplificar los picos verdaderos y atenuar los picos falsos. La señal resultante pasa nuevamente por un filtro de media móvil para obtener una envolvente de energía máxima (PEE) más clara.[5]
+</p>
+
+<p align="justify">
+Los picos R se detectan mediante la identificación de los picos ascendentes en la PEE, sin necesidad de umbrales de amplitud específicos. Se aplica un algoritmo de búsqueda de picos para localizar los picos estimados y ajustar sus posiciones buscando la máxima amplitud dentro de un rango de ±25 muestras en la señal de ECG original.[5]
+</p>
+
+<p align="justify">
+Finalmente, los picos R detectados se validan y actualizan en función de los intervalos RR entre picos vecinos. Este procedimiento asegura la detección precisa de los picos R verdaderos, equilibrando los intervalos RR y eliminando posibles falsos positivos o negativos. Este enfoque basado en la transformada wavelet y la envolvente de energía de Shannon modificada permite una detección robusta y precisa de los picos R en señales de ECG ruidosas.[5]
+</p>
 
 ## 3.3. Análisis de Threshold<a name="id3.3"></a>
 
