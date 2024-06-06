@@ -72,6 +72,10 @@ En la señal de electrocardiograma (ECG), la aplicación de filtros es una etapa
 La DWT descompone la señal ECG en componentes de detalle y aproximación, aplicando un umbral suave para eliminar el ruido en los coeficientes de detalle y luego reconstruir la señal limpia. Este proceso no solo reduce el tamaño de la señal, sino que también mejora la precisión y eficiencia en la detección de picos R, fundamentales para el análisis de la variabilidad de la frecuencia cardíaca y otras características cardíacas.[4]
 </p>
 
+<p align="justify">
+La Symlet 5 (sym5) es una wavelet perteneciente a la familia de las Symlets, que son una modificación de las wavelets Daubechies, diseñadas por Ingrid Daubechies para mejorar ciertas características de simetría. Las wavelets Symlets son conocidas por su capacidad para proporcionar una reconstrucción precisa de la señal y por su forma casi simétrica, lo que reduce los artefactos en el procesamiento de señales. La sym5, en particular, es ampliamente utilizada en la descomposición y reconstrucción de señales debido a su capacidad para capturar tanto las características de alta como de baja frecuencia en la señal original, lo que la hace ideal para aplicaciones como la eliminación de ruido en señales electrocardiográficas (ECG). Al equilibrar la complejidad computacional con la precisión en la representación de la señal, la sym5 se posiciona como una herramienta valiosa en el procesamiento avanzado de señales, permitiendo una análisis más claro y preciso de los datos adquiridos de forma natural.[5]
+</p>
+
 ## 3.2. Detección de picos<a name="id3.2"></a>
 
 ## 3.3. Análisis de Threshold<a name="id3.3"></a>
@@ -95,4 +99,10 @@ La DWT descompone la señal ECG en componentes de detalle y aproximación, aplic
 [3] S. Sieciński, P. S. Kostka, y E. J. Tkacz, «Heart Rate Variability Analysis on Electrocardiograms, Seismocardiograms and Gyrocardiograms on Healthy Volunteers», Sensors (Basel), vol. 20, n.º 16, p. 4522, ago. 2020, doi: 10.3390/s20164522.
 </p> 
 
+<p align="justify">
 [4] A. R. Pérez-Riera, L. C. de Abreu, R. Barbosa-Barros, K. C. Nikus, y A. Baranchuk, «R-Peak Time: An Electrocardiographic Parameter with Multiple Clinical Applications», Ann Noninvasive Electrocardiol, vol. 21, n.º 1, pp. 10-19, ene. 2016, doi: 10.1111/anec.12323.
+</p>
+
+<p align="justify">
+[5] A. S. S. Ahmad, M. S. Matti, O. A. M. ALhabib, y S. K. Shaikhow, «Denoising of Arrhythmia ECG Signals», International Journal of Medical Research and Health Sciences, 2018, Accedido: 5 de junio de 2024. [En línea]. Disponible en: https://www.semanticscholar.org/paper/Denoising-of-Arrhythmia-ECG-Signals-Ahmad-Matti/81bac4f91badd916d73f161eabbe8cf0eaf77a2a
+</p>
