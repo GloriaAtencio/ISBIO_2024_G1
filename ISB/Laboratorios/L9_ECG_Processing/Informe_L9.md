@@ -132,7 +132,7 @@ Se aplicó el filtro wavelet Sym5 y se halló el umbral a partir de la siguiente
 
 
 <p align="justify">
-Donde N es el número total de coeficientes wavelet y σ se calcula como la mediana de ∣DC(j)∣ dividida por 0.6745, representando así la desviación estándar del ruido.
+Donde N es el número total de coeficientes wavelet y σ se calcula como la mediana del valor absoluto de los coeficientes de detalle dividida por 0.6745, representando así la desviación estándar del ruido.
 </p>
 
 <div align="center">
@@ -143,7 +143,14 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 |:------------:|:---------------:|
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/1fb6ebae-bb4f-43aa-b60a-ff129f483141" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/b39a229b-149b-42e7-982f-a7ee9746bfd8" alt="fotog" />|
 
+<div align="center">
+<h2> ECG - Hiperventilación </h2>
+</div>
 
+
+<div align="center">
+<h2> ECG - Después de actividad física </h2>
+</div>
 
 <p align="justify">
 
