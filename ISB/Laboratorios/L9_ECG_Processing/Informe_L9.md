@@ -139,6 +139,12 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 <h2> ECG - Reposo </h2>
 </div>
 
+|  **Señal original - ploteada por tiempo**  | **Señal filtrada - ploteada por tiempo** |
+|:------------:|:---------------:|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/1fb6ebae-bb4f-43aa-b60a-ff129f483141" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/b39a229b-149b-42e7-982f-a7ee9746bfd8" alt="fotog" />|
+
+
+
 <p align="justify">
 
 </p>
