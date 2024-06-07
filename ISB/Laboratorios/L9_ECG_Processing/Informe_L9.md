@@ -126,9 +126,10 @@ Se aplicó el filtro wavelet Sym5 y se halló el umbral a partir de la siguiente
 </p>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d94bf2a0-d671-47c1-ade7-f258568eb352" alt="fotog" width="180" height="80"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/48183e7a-319d-4ed1-b6f9-bd022b2c2124" alt="fotog" width="180" height="100"/>
 </p>
 <p align="center"><i>Figura 3.Método de selección de umbral universal [5]</i></p><br>
+
 
 <p align="justify">
 Donde N es el número total de coeficientes wavelet y σ se calcula como la mediana de ∣DC(j)∣ dividida por 0.6745, representando así la desviación estándar del ruido.
