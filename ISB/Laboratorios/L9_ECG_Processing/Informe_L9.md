@@ -156,6 +156,11 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 <h2> ECG - Después de actividad física </h2>
 </div>
 
+|  **Señal original - ploteada por tiempo**  | **Señal filtrada - ploteada por tiempo** |
+|:------------:|:---------------:|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/eef7f25f-f61a-4c1d-a881-0d25e2a4bfa5" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/4789fa85-cb57-45b9-b03e-131779ecb7f6" alt="fotog" />|
+
+
 <p align="justify">
 
 </p>
