@@ -10,8 +10,10 @@
    - [Detección de picos](id3.2)
    - [Análisis de HRV](#id3.3)
 4. [Resultados](#id4)
-5. [Discusión](#id5)
-6. [Referencias bibliográficas](#id6) 
+    - [Aplicación de filtro wavelet Sym5](#id4.1)
+   
+6. [Discusión](#id5)
+7. [Referencias bibliográficas](#id6) 
 
 ***
 
@@ -116,6 +118,30 @@ Finalmente, los picos R detectados se validan y actualizan en función de los in
 
 
 # 4.Resultados<a name="id4"></a>
+
+## 4.1. Aplicación de filtro wavelet Sym5<a name="id4.1"></a>
+
+<p align="justify">
+Se aplicó el filtro wavelet Sym5 y se halló el umbral a partir de la siguiente ecuación:
+</p>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d94bf2a0-d671-47c1-ade7-f258568eb352" alt="fotog" width="180" height="80"/>
+</p>
+<p align="center"><i>Figura 3.Método de selección de umbral universal [5]</i></p><br>
+
+<p align="justify">
+Donde N es el número total de coeficientes wavelet y σ se calcula como la mediana de ∣DC(j)∣ dividida por 0.6745, representando así la desviación estándar del ruido.
+</p>
+
+<div align="center">
+<h2> ECG - Reposo </h2>
+</div>
+
+<p align="justify">
+
+</p>
+
 
 # 5.Discusión<a name="id5"></a>
 
