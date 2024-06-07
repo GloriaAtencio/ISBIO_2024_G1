@@ -147,6 +147,10 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 <h2> ECG - Hiperventilación </h2>
 </div>
 
+|  **Señal original - ploteada por tiempo**  | **Señal filtrada - ploteada por tiempo** |
+|:------------:|:---------------:|
+|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/7e74de21-2581-4374-9c5f-a3591c34fe4a" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/fa1c7227-1a40-4a47-be4b-a076dbe7edb3" alt="fotog" />|
+
 
 <div align="center">
 <h2> ECG - Después de actividad física </h2>
