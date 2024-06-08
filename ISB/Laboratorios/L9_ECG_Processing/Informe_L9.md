@@ -11,6 +11,7 @@
    - [Análisis de HRV](#id3.3)
 4. [Resultados](#id4)
     - [Aplicación de filtro wavelet Sym5](#id4.1)
+    - [Detección de picos R](#id4.2)
    
 6. [Discusión](#id5)
 7. [Referencias bibliográficas](#id6) 
@@ -113,8 +114,10 @@ Finalmente, los picos R detectados se validan y actualizan en función de los in
 </p>
 
 <p align="justify">
-Para este laboratorio, decicidimos inicialmente guiarnos por el paper menconado pero tuvimos que adaptarlo al lenguaje python para poder seguir todos los pasos. Es por ello que no se usó la función findPeaks porque esta solo podía ser usada en MATLAB.
+Para este laboratorio, decicidimos inicialmente guiarnos por el paper menconado pero tuvimos que adaptarlo al lenguaje python para poder seguir todos los pasos. Es por ello que no se usó la función findPeaks porque esta solo podía ser usada en MATLAB.Asimismo, decidimos complementar la detección de los picos usando como guía alterna el notebook "Event Detection - R Peaks (ECG)" de biosignals.
 </p>
+
+
 
 ## 3.3. Análisis de HRV<a name="id3.3"></a>
 
@@ -162,10 +165,39 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 |:------------:|:---------------:|
 |<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/eef7f25f-f61a-4c1d-a881-0d25e2a4bfa5" alt="fotog" />|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/4789fa85-cb57-45b9-b03e-131779ecb7f6" alt="fotog" />|
 
+## 4.2. Detección de picos R<a name="id4.2"></a>
 
 <p align="justify">
 
 </p>
+
+<div align="center">
+<h2> ECG - Reposo </h2>
+</div>
+ 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/bb4ab336-4d4f-4c88-93e7-57aff5d1ed18" alt="fotog" width="180" height="100"/>
+</p>
+<p align="center"><i>Figura 4.Detección de picos R usando detect_r_peaks en la señal ECG durante reposo</i></p><br>
+
+<div align="center">
+<h2> ECG - Hiperventilación </h2>
+</div>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/936c8145-52d9-4e83-8010-b7607925ac15" alt="fotog" width="180" height="100"/>
+</p>
+<p align="center"><i>Figura 5.Detección de picos R usando detect_r_peaks en la señal ECG durante hiperventilación</i></p><br>
+
+
+<div align="center">
+<h2> ECG - Después de actividad física </h2>
+</div>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/14de0865-275d-4155-9560-3853db794a6e" alt="fotog" width="180" height="100"/>
+</p>
+<p align="center"><i>Figura 6.Detección de picos R usando detect_r_peaks en la señal ECG después de actividad física</i></p><br>
 
 
 # 5.Discusión<a name="id5"></a>
