@@ -168,14 +168,14 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 ## 4.2. Detección de picos R<a name="id4.2"></a>
 
 <p align="justify">
-Al principio se propusó detectar los picos mediante la identificación de los picos ascendentes en la envolvente de energía máxima (PEE), en la cual los picos con menor amplitud representabn a los picos R falsos y los picos con una amplitud mucho mayor representarían los picos R verdaderos. No obstante, al aplicar todo el procedimiento que se realizó en el paper y adaptarlo al código en lenguaje Python; se obtuvieron resultados poco deseables que no detectaban los pico de nuestro interés. Debido a esto decidimos guiarnos por el notebook biosignals y usamos la función detect_r_peaks para hallar los picos R presentes en la señal ECG filtrada.
+Al principio se propusó detectar los picos mediante la identificación de los picos ascendentes en la envolvente de energía máxima (PEE), en la cual los picos con menor amplitud representabn a los picos R falsos y los picos con una amplitud mucho mayor representarían los picos R verdaderos. No obstante, al aplicar todo el procedimiento que se realizó en el paper y adaptarlo al código en lenguaje Python; se obtuvieron resultados poco deseables que no detectaban los pico de nuestro interés(observar Figura 4). Debido a esto decidimos guiarnos por el notebook biosignals y usamos la función detect_r_peaks para hallar los picos R presentes en la señal ECG filtrada.
 
 </p>
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d4c685f8-df46-4b3c-89a6-f205f21b770b" alt="fotog" width="600" height="350"/>
 </p>
-<p align="center"><i>Figura 4.Detección de picos R usando mediante el PEE en la señal ECG durante hiperventilación</i></p><br>
+<p align="center"><i>Figura 4. Detección de picos R usando mediante el PEE en la señal ECG durante hiperventilación</i></p><br>
 
 
 
