@@ -114,13 +114,32 @@ Finalmente, los picos R detectados se validan y actualizan en función de los in
 </p>
 
 <p align="justify">
-Para este laboratorio, decicidimos inicialmente guiarnos por el paper menconado pero tuvimos que adaptarlo al lenguaje python para poder seguir todos los pasos. Es por ello que no se usó la función findPeaks porque esta solo podía ser usada en MATLAB.Asimismo, decidimos complementar la detección de los picos usando como guía alterna el notebook "Event Detection - R Peaks (ECG)" de biosignals.
+Para este laboratorio, decicidimos inicialmente guiarnos por el paper menconado pero tuvimos que adaptarlo al lenguaje python para poder seguir todos los pasos. Es por ello que no se usó la función findPeaks porque esta solo podía ser usada en MATLAB.Asimismo, decidimos complementar la detección de los picos usando como guía alterna el notebook "Event Detection - R Peaks (ECG)" de biosignals.[7]
 </p>
 
 
 
 ## 3.3. Análisis de HRV<a name="id3.3"></a>
 
+<p align="justify">
+Para analizar la variabilidad de la frecuencia cardíaca (HRV) a partir de señales de ECG, se siguió un enfoque sistemático utilizando el paquete biosignalsnotebooks junto con otras bibliotecas científicas. El primer paso fue la importación de los paquetes necesarios para la manipulación y procesamiento de los datos de señal, tales como biosignalsnotebooks para la carga de datos y bibliotecas como numpy y scipy para operaciones matemáticas y estadísticas.
+</p>
+
+<p align="justify">
+Una vez importados los paquetes, se procedió a cargar los datos de ECG adquiridos, obteniendo tanto la señal como el encabezado que contiene información crucial como la frecuencia de muestreo. Identificamos el canal utilizado durante la adquisición para asegurarnos de que los datos procesados sean los correctos.Luego, almacenamos la frecuencia de muestreo y los datos de la señal en variables específicas para facilitar su manipulación posterior. Se generó un tacograma, que constituye la estructura fundamental desde donde se extraerán todos los parámetros de HRV.
+</p>
+
+<p align="justify">
+Se realizó una limpieza de los datos removiendo los latidos ectópicos, que se definen como ciclos cardíacos cuya duración difiere en al menos un 20% del ciclo anterior. Esto garantiza la precisión de los análisis posteriores.Para la extracción de los parámetros de HRV, se calcularon primero los parámetros de tiempo, como los intervalos RR máximos, mínimos y promedio, así como la frecuencia cardíaca máxima, mínima y promedio. También se calculó la desviación estándar de los intervalos RR (SDNN), un indicador clave de la variabilidad de la frecuencia cardíaca.
+</p>
+
+<p align="justify">
+En cuanto a los parámetros de Poincaré, se calcularon SD1 y SD2, que se derivan de la desviación estándar de las diferencias entre intervalos RR consecutivos, proporcionando una visión más profunda de la variabilidad y complejidad de la frecuencia cardíaca.Para los parámetros de frecuencia, se utilizó el espectro de potencia para calcular la potencia en diferentes bandas de frecuencia (ULF, VLF, LF, y HF). Este análisis permite entender cómo se distribuye la energía de la variabilidad de la frecuencia cardíaca en diferentes rangos de frecuencia.
+</p>
+
+<p align="justify">
+Finalmente, se calcularon parámetros adicionales como NN20, pNN20, NN50 y pNN50, que representan la cantidad y porcentaje de intervalos RR que difieren del anterior en al menos 20 ms y 50 ms, respectivamente. Esto proporciona información adicional sobre la regularidad y estabilidad de los intervalos cardíacos.Para simplificar y automatizar el proceso, se utilizó la función hrv_parameters del módulo extract de biosignalsnotebooks, que realiza la extracción de todos estos parámetros de manera eficiente. Este enfoque metodológico nos permitió obtener una visión integral y detallada de la variabilidad de la frecuencia cardíaca a partir de señales de ECG, sentando las bases para análisis más profundos y aplicaciones clínicas.
+</p>
 
 # 4.Resultados<a name="id4"></a>
 
@@ -236,3 +255,8 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p align="justify">
 [6] A. S. S. Ahmad, M. S. Matti, O. A. M. ALhabib, y S. K. Shaikhow, «Denoising of Arrhythmia ECG Signals», International Journal of Medical Research and Health Sciences, 2018, Accedido: 5 de junio de 2024. [En línea]. Disponible en: https://www.semanticscholar.org/paper/Denoising-of-Arrhythmia-ECG-Signals-Ahmad-Matti/81bac4f91badd916d73f161eabbe8cf0eaf77a2a
 </p>
+
+<p align="justify">
+[7] «r_peaks». Accedido: 7 de junio de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Detect/r_peaks_rev.html
+</p>
+
