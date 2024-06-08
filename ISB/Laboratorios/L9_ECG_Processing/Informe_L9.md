@@ -228,9 +228,9 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 ## 4.3. Parámetros HRV<a name="id4.3"></a>
 
 # 5.Discusión<a name="id5"></a>
-<p > 
-   Análisis de Filtrado Wavelet Sym5 /Gráficas de ECG Original y Filtrada:
-</p>
+
+## Análisis de Filtrado Wavelet Sym5 /Gráficas de ECG Original y Filtrada:
+
 - ECG en Reposo: La gráfica muestra una señal ECG en reposo con ruido base. Al aplicar el filtro wavelet Sym5, la señal resultante es más limpia, con los picos R (QRS) claramente definidos, lo que facilita su análisis.
 <p > 
 - ECG en Hiperventilación: En esta condición, la señal ECG presenta mayor ruido y variabilidad debido al ritmo respiratorio elevado. El filtro wavelet Sym5 sigue demostrando una eficiencia notable en la limpieza de la señal, permitiendo una mejor observación de los picos R.
@@ -239,6 +239,42 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p > 
 - ECG Después de Actividad Física: La señal ECG post-ejercicio es más ruidosa y muestra una mayor frecuencia de picos R. El filtrado wavelet Sym5 reduce significativamente el ruido, resaltando los picos R pese al aumento de la actividad.
 </p>
+
+# Discusión de las Gráficas del Informe L9 de Procesamiento de ECG
+
+En base al informe actualizado, se ha agregado una serie de nuevas gráficas que amplían y detallan el análisis del procesamiento de señales ECG bajo diversas condiciones. A continuación se presenta una discusión de estos nuevos gráficos:
+
+## Análisis de Filtrado Wavelet Sym5
+
+### Gráficas de ECG Original y Filtrada:
+- **ECG en Reposo:** La gráfica muestra una señal ECG en reposo con ruido base. Al aplicar el filtro wavelet Sym5, la señal resultante es más limpia, con los picos R (QRS) claramente definidos, lo que facilita su análisis.
+- **ECG en Hiperventilación:** En esta condición, la señal ECG presenta mayor ruido y variabilidad debido al ritmo respiratorio elevado. El filtro wavelet Sym5 sigue demostrando una eficiencia notable en la limpieza de la señal, permitiendo una mejor observación de los picos R.
+- **ECG Después de Actividad Física:** La señal ECG post-ejercicio es más ruidosa y muestra una mayor frecuencia de picos R. El filtrado wavelet Sym5 reduce significativamente el ruido, resaltando los picos R pese al aumento de la actividad.
+
+## Detección de Picos R
+
+### Gráficas de Detección de Picos R:
+- **ECG en Reposo:** La detección de picos R se presenta con alta precisión, identificando correctamente los picos R y minimizando los falsos positivos.
+- **ECG en Hiperventilación:** La gráfica de detección de picos R durante la hiperventilación muestra un aumento en la frecuencia cardíaca, con detecciones consistentes y precisas.
+- **ECG Después de Actividad Física:** Tras la actividad física, la detección de picos R muestra un ritmo cardíaco acelerado. La metodología empleada sigue siendo eficaz, mostrando la capacidad del algoritmo para manejar condiciones de alta variabilidad y ruido.
+
+## Análisis Espectral
+
+### Análisis de Frecuencia:
+- **Espectrograma en Reposo:** El espectrograma de la señal ECG en reposo muestra una distribución de frecuencia predominante en rangos bajos, correspondiente al ritmo cardíaco en reposo.
+- **Espectrograma en Hiperventilación:** Durante la hiperventilación, el espectrograma muestra un incremento en las frecuencias debido al aumento en el ritmo respiratorio y cardíaco.
+- **Espectrograma Post-Ejercicio:** La gráfica espectral post-ejercicio muestra una amplia distribución de frecuencias, reflejando la variabilidad y la alta frecuencia del ritmo cardíaco tras la actividad física.
+
+## Nuevas Contribuciones
+
+Las nuevas gráficas incluidas en el informe aportan valiosa información adicional:
+- **Claridad en la Señal Filtrada:** Demuestran la eficacia del filtro wavelet Sym5 en diferentes condiciones fisiológicas, asegurando la claridad de la señal ECG para análisis posteriores.
+- **Precisión en la Detección de Picos R:** Refuerzan la precisión del algoritmo en la detección de picos R, crucial para el análisis de la variabilidad del ritmo cardíaco (HRV).
+- **Análisis Espectral:** Añaden una dimensión adicional al análisis de la señal ECG, permitiendo observar cómo las diferentes condiciones afectan la distribución de frecuencias de la señal.
+
+## Conclusión
+
+Las nuevas gráficas incluidas en el informe L9 de procesamiento de ECG validan y extienden los hallazgos anteriores, mostrando una robustez en la metodología aplicada. La combinación de filtrado wavelet Sym5 y el análisis espectral proporciona un enfoque comprensivo para la mejora y análisis de señales ECG, crucial para aplicaciones clínicas y de investigación en el monitoreo de la salud cardíaca.
 
 # 6.Referencias bibliográficas<a name="id6"></a>
 <p align="justify">
