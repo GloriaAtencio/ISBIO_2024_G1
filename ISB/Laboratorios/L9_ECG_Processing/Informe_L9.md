@@ -176,7 +176,7 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 </div>
  
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/bb4ab336-4d4f-4c88-93e7-57aff5d1ed18" alt="fotog" width="180" height="100"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/bb4ab336-4d4f-4c88-93e7-57aff5d1ed18" alt="fotog" width="400" height="350"/>
 </p>
 <p align="center"><i>Figura 4.Detección de picos R usando detect_r_peaks en la señal ECG durante reposo</i></p><br>
 
