@@ -256,10 +256,9 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 [6] A. S. S. Ahmad, M. S. Matti, O. A. M. ALhabib, y S. K. Shaikhow, «Denoising of Arrhythmia ECG Signals», International Journal of Medical Research and Health Sciences, 2018, Accedido: 5 de junio de 2024. [En línea]. Disponible en: https://www.semanticscholar.org/paper/Denoising-of-Arrhythmia-ECG-Signals-Ahmad-Matti/81bac4f91badd916d73f161eabbe8cf0eaf77a2a
 </p>
 
-<p align="justify">
-[7] «r_peaks». Accedido: 7 de junio de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Detect/r_peaks_rev.html
-</p>
 
-<p align="justify">
+[7] «r_peaks». Accedido: 7 de junio de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Detect/r_peaks_rev.html
+
+
 [8] «hrv_parameters». Accedido: 7 de junio de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html
-</p>
+
