@@ -241,11 +241,11 @@ Al principio se propusó detectar los picos mediante la identificación de los p
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/7f34a1b2-63c4-4e70-8750-4fc954f46538" alt="fotog" width="600" height="350"/>
 </p>
 <p align="center"><i>Figura 10. Tacograma con parámetros de calculados en la señal ECG después de actividad física</i></p><br>
-<p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/1a2d58d2-5eff-4c64-a9b7-12880b68e63b" alt="fotog" width="600" height="350"/>
 <div align="center">
 <h2> BPM con parámetros de calculados en la señal ECG durante reposo, hiperventilación y despues de la actividad </h2>
 </div>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/1a2d58d2-5eff-4c64-a9b7-12880b68e63b" alt="fotog" width="600" height="350"/>
 </p>
 <p align="center"><i>Figura 11. BPM con parámetros de calculados en la señal ECG durante reposo</i></p><br>
 <p align="center">
