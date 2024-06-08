@@ -228,7 +228,17 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 ## 4.3. Parámetros HRV<a name="id4.3"></a>
 
 # 5.Discusión<a name="id5"></a>
+<p > 
+   Análisis de Filtrado Wavelet Sym5 /Gráficas de ECG Original y Filtrada:
+</p>
+- ECG en Reposo: La gráfica muestra una señal ECG en reposo con ruido base. Al aplicar el filtro wavelet Sym5, la señal resultante es más limpia, con los picos R (QRS) claramente definidos, lo que facilita su análisis.
+<p > 
+- ECG en Hiperventilación: En esta condición, la señal ECG presenta mayor ruido y variabilidad debido al ritmo respiratorio elevado. El filtro wavelet Sym5 sigue demostrando una eficiencia notable en la limpieza de la señal, permitiendo una mejor observación de los picos R.
+</p>
 
+<p > 
+- ECG Después de Actividad Física: La señal ECG post-ejercicio es más ruidosa y muestra una mayor frecuencia de picos R. El filtrado wavelet Sym5 reduce significativamente el ruido, resaltando los picos R pese al aumento de la actividad.
+</p>
 
 # 6.Referencias bibliográficas<a name="id6"></a>
 <p align="justify">
