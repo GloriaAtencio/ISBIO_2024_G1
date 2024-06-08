@@ -12,6 +12,7 @@
 4. [Resultados](#id4)
     - [Aplicación de filtro wavelet Sym5](#id4.1)
     - [Detección de picos R](#id4.2)
+    - [Parámetros HRV](#id4.3)
    
 6. [Discusión](#id5)
 7. [Referencias bibliográficas](#id6) 
@@ -196,8 +197,6 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 </p>
 <p align="center"><i>Figura 4. Detección de picos R usando mediante el PEE en la señal ECG durante hiperventilación</i></p><br>
 
-
-
 <div align="center">
 <h2> ECG - Reposo </h2>
 </div>
@@ -226,6 +225,7 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 </p>
 <p align="center"><i>Figura 7. Detección de picos R usando detect_r_peaks en la señal ECG después de actividad física</i></p><br>
 
+## 4.3. Parámetros HRV<a name="id4.3"></a>
 
 # 5.Discusión<a name="id5"></a>
 
