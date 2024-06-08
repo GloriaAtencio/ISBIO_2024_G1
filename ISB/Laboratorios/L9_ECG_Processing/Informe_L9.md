@@ -226,8 +226,33 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p align="center"><i>Figura 7. Detección de picos R usando detect_r_peaks en la señal ECG después de actividad física</i></p><br>
 
 ## 4.3. Parámetros HRV<a name="id4.3"></a>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/f9b349a8-c4d6-44fd-be9a-0525752e78aa" alt="fotog" width="600" height="350"/>
+</p>
+<p align="center"><i>Figura 8. Tacograma con parámetros de calculados en la señal ECG durante reposo</i></p><br>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/676db3f3-03f2-4aef-977e-dd11c28faac3" alt="fotog" width="600" height="350"/>
+</p>
+<p align="center"><i>Figura 9. Tacograma con parámetros de calculados en la señal ECG durante hiperventilación</i></p><br>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/7f34a1b2-63c4-4e70-8750-4fc954f46538" alt="fotog" width="600" height="350"/>
+</p>
+<p align="center"><i>Figura 10. Tacograma con parámetros de calculados en la señal ECG después de actividad física</i></p><br>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/1a2d58d2-5eff-4c64-a9b7-12880b68e63b" alt="fotog" width="600" height="350"/>
+</p>
+<p align="center"><i>Figura 11. BPM con parámetros de calculados en la señal ECG durante reposo</i></p><br>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/8058e5c6-c8c9-4dbc-aa5e-b7f111fab348" alt="fotog" width="600" height="350"/>
+</p>
+<p align="center"><i>Figura 12. BPM con parámetros de calculados en la señal ECG durante hiperventilación</i></p><br>
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/50dc1534-7373-4b32-97cc-4e5c774acbdb" alt="fotog" width="600" height="350"/>
+</p>
+<p align="center"><i>Figura 13. BPM con parámetros de calculados en la señal ECG después de actividad física</i></p><br>
 
 # 5.Discusión<a name="id5"></a>
+
 
 ## Análisis de Filtrado Wavelet Sym5 /Gráficas de ECG Original y Filtrada:
 
