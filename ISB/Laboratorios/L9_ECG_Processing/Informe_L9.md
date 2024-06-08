@@ -226,6 +226,9 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p align="center"><i>Figura 7. Detección de picos R usando detect_r_peaks en la señal ECG después de actividad física</i></p><br>
 
 ## 4.3. Parámetros HRV<a name="id4.3"></a>
+<div align="center">
+<h2> Tacograma con parámetros de calculados en la señal ECG durante reposo, hiperventilación y despues de la actividad </h2>
+</div>
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/f9b349a8-c4d6-44fd-be9a-0525752e78aa" alt="fotog" width="600" height="350"/>
 </p>
@@ -240,6 +243,9 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p align="center"><i>Figura 10. Tacograma con parámetros de calculados en la señal ECG después de actividad física</i></p><br>
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/89539957/1a2d58d2-5eff-4c64-a9b7-12880b68e63b" alt="fotog" width="600" height="350"/>
+<div align="center">
+<h2> BPM con parámetros de calculados en la señal ECG durante reposo, hiperventilación y despues de la actividad </h2>
+</div>
 </p>
 <p align="center"><i>Figura 11. BPM con parámetros de calculados en la señal ECG durante reposo</i></p><br>
 <p align="center">
