@@ -103,15 +103,17 @@ Una vez obtenida la SEE, se realiza una diferenciación y normalización adicion
 Los picos R se detectan mediante la identificación de los picos ascendentes en la PEE, sin necesidad de umbrales de amplitud específicos. Se aplica un algoritmo de búsqueda de picos para localizar los picos estimados y ajustar sus posiciones buscando la máxima amplitud dentro de un rango de ±25 muestras en la señal de ECG original.[5]
 </p>
 
-
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/b4287e51-96ef-429a-90a7-8f2ad1cb9553" alt="fotog" width="180" height="80"/>
 </p>
 <p align="center"><i>Figura 2.Función de búsqueda de picos a partir de PEE [5]</i></p><br>
 
-
 <p align="justify">
 Finalmente, los picos R detectados se validan y actualizan en función de los intervalos RR entre picos vecinos. Este procedimiento asegura la detección precisa de los picos R verdaderos, equilibrando los intervalos RR y eliminando posibles falsos positivos o negativos. Este enfoque basado en la transformada wavelet y la envolvente de energía de Shannon modificada permite una detección robusta y precisa de los picos R en señales de ECG ruidosas.[5]
+</p>
+
+<p align="justify">
+Para este laboratorio, decicidimos inicialmente guiarnos por el paper menconado pero tuvimos que adaptarlo al lenguaje python para poder seguir todos los pasos. Es por ello que no se usó la función findPeaks porque esta solo podía ser usada en MATLAB.
 </p>
 
 ## 3.3. Análisis de HRV<a name="id3.3"></a>
