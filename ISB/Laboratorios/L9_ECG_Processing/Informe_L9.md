@@ -169,7 +169,15 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 
 <p align="justify">
 Al principio se propusó detectar los picos mediante la identificación de los picos ascendentes en la envolvente de energía máxima (PEE), en la cual los picos con menor amplitud representabn a los picos R falsos y los picos con una amplitud mucho mayor representarían los picos R verdaderos. No obstante, al aplicar todo el procedimiento que se realizó en el paper y adaptarlo al código en lenguaje Python; se obtuvieron resultados poco deseables que no detectaban los pico de nuestro interés. Debido a esto decidimos guiarnos por el notebook biosignals y usamos la función detect_r_peaks para hallar los picos R presentes en la señal ECG filtrada.
+
 </p>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/d4c685f8-df46-4b3c-89a6-f205f21b770b" alt="fotog" width="600" height="350"/>
+</p>
+<p align="center"><i>Figura 4.Detección de picos R usando mediante el PEE en la señal ECG durante hiperventilación</i></p><br>
+
+
 
 <div align="center">
 <h2> ECG - Reposo </h2>
@@ -178,7 +186,7 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/bb4ab336-4d4f-4c88-93e7-57aff5d1ed18" alt="fotog" width="600" height="350"/>
 </p>
-<p align="center"><i>Figura 4.Detección de picos R usando detect_r_peaks en la señal ECG durante reposo</i></p><br>
+<p align="center"><i>Figura 5. Detección de picos R usando detect_r_peaks en la señal ECG durante reposo</i></p><br>
 
 <div align="center">
 <h2> ECG - Hiperventilación </h2>
@@ -187,7 +195,7 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/936c8145-52d9-4e83-8010-b7607925ac15" alt="fotog" width="600" height="350"/>
 </p>
-<p align="center"><i>Figura 5.Detección de picos R usando detect_r_peaks en la señal ECG durante hiperventilación</i></p><br>
+<p align="center"><i>Figura 6. Detección de picos R usando detect_r_peaks en la señal ECG durante hiperventilación</i></p><br>
 
 
 <div align="center">
@@ -197,7 +205,7 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/14de0865-275d-4155-9560-3853db794a6e" alt="fotog" width="600" height="350"/>
 </p>
-<p align="center"><i>Figura 6.Detección de picos R usando detect_r_peaks en la señal ECG después de actividad física</i></p><br>
+<p align="center"><i>Figura 7. Detección de picos R usando detect_r_peaks en la señal ECG después de actividad física</i></p><br>
 
 
 # 5.Discusión<a name="id5"></a>
