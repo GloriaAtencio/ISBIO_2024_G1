@@ -168,7 +168,7 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 ## 4.2. Detección de picos R<a name="id4.2"></a>
 
 <p align="justify">
-Al principio se propusó detectar los picos mediante la identificación de los picos ascendentes en la envolvente de energía máxima (PEE), en la cual los picos con menor amplitud representabn a los picos R falsos y los picos con una amplitud mucho mayor representarían los picos R verdaderos. 
+Al principio se propusó detectar los picos mediante la identificación de los picos ascendentes en la envolvente de energía máxima (PEE), en la cual los picos con menor amplitud representabn a los picos R falsos y los picos con una amplitud mucho mayor representarían los picos R verdaderos. No obstante, al aplicar todo el procedimiento que se realizó en el paper y adaptarlo al código en lenguaje Python; se obtuvieron resultados poco deseables que no detectaban los pico de nuestro interés. Debido a esto decidimos guiarnos por el notebook biosignals y usamos la función detect_r_peaks para hallar los picos R presentes en la señal ECG filtrada.
 </p>
 
 <div align="center">
