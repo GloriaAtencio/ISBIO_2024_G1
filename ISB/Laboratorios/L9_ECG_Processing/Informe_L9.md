@@ -226,6 +226,28 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 <p align="center"><i>Figura 7. Detección de picos R usando detect_r_peaks en la señal ECG después de actividad física</i></p><br>
 
 ## 4.3. Parámetros HRV<a name="id4.3"></a>
+A continuación, se presentan algunos de los parámetros extraídos del electrocardiograma (ECG) que se utilizan comúnmente para el análisis de la variabilidad de la frecuencia cardíaca (VFC):
+
+Intervalo RR mínimo, máximo y promedio:
+
+- Intervalo RR mínimo: El intervalo RR más corto registrado entre dos latidos consecutivos.
+  
+- Intervalo RR máximo: El intervalo RR más largo registrado entre dos latidos consecutivos.
+  
+- Intervalo RR promedio: El promedio de todos los intervalos RR registrados durante el período de análisis.
+  
+Frecuencia Cardíaca (FC) mínima, máxima y promedio (BPM):
+
+- Frecuencia Cardíaca Mínima (BPM): La frecuencia cardíaca más baja registrada durante el período de análisis, medida en latidos por minuto (BPM).
+  
+- Frecuencia Cardíaca Máxima (BPM): La frecuencia cardíaca más alta registrada durante el período de análisis, medida en latidos por minuto (BPM).
+  
+- Frecuencia Cardíaca Promedio (BPM): El promedio de todas las frecuencias cardíacas registradas durante el período de análisis, medida en latidos por minuto (BPM).
+  
+SDNN (Desviación Estándar de los Intervalos RR Normalizados):
+
+SDNN: Es una medida de la variabilidad total de la frecuencia cardíaca, representando la desviación estándar de los intervalos RR. Un mayor valor de SDNN indica una mayor variabilidad, lo cual generalmente se asocia con una mejor capacidad del sistema nervioso autónomo para adaptarse a los cambios en el entorno y las demandas fisiológicas.
+
 <div align="center">
 <h2> Tacograma con parámetros calculados en la señal ECG durante reposo, hiperventilación y despues de la actividad </h2>
 </div>
