@@ -168,7 +168,7 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 ## 4.2. Detección de picos R<a name="id4.2"></a>
 
 <p align="justify">
-
+Al principio se propusó detectar los picos mediante la identificación de los picos ascendentes en la envolvente de energía máxima (PEE), en la cual los picos con menor amplitud representabn a los picos R falsos y los picos con una amplitud mucho mayor representarían los picos R verdaderos. 
 </p>
 
 <div align="center">
@@ -185,7 +185,7 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 </div>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/936c8145-52d9-4e83-8010-b7607925ac15" alt="fotog" width="180" height="100"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/936c8145-52d9-4e83-8010-b7607925ac15" alt="fotog" width="600" height="350"/>
 </p>
 <p align="center"><i>Figura 5.Detección de picos R usando detect_r_peaks en la señal ECG durante hiperventilación</i></p><br>
 
@@ -195,7 +195,7 @@ Donde N es el número total de coeficientes wavelet y σ se calcula como la medi
 </div>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/14de0865-275d-4155-9560-3853db794a6e" alt="fotog" width="180" height="100"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/14de0865-275d-4155-9560-3853db794a6e" alt="fotog" width="600" height="350"/>
 </p>
 <p align="center"><i>Figura 6.Detección de picos R usando detect_r_peaks en la señal ECG después de actividad física</i></p><br>
 
