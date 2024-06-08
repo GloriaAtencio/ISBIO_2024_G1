@@ -126,19 +126,19 @@ Para analizar la variabilidad de la frecuencia cardíaca (HRV) a partir de seña
 </p>
 
 <p align="justify">
-Una vez importados los paquetes, se procedió a cargar los datos de ECG adquiridos, obteniendo tanto la señal como el encabezado que contiene información crucial como la frecuencia de muestreo. Identificamos el canal utilizado durante la adquisición para asegurarnos de que los datos procesados sean los correctos.Luego, almacenamos la frecuencia de muestreo y los datos de la señal en variables específicas para facilitar su manipulación posterior. Se generó un tacograma, que constituye la estructura fundamental desde donde se extraerán todos los parámetros de HRV.
+Una vez importados los paquetes, se procedió a cargar los datos de ECG adquiridos, obteniendo tanto la señal como el encabezado que contiene información crucial como la frecuencia de muestreo. Identificamos el canal utilizado durante la adquisición para asegurarnos de que los datos procesados sean los correctos.Luego, almacenamos la frecuencia de muestreo y los datos de la señal en variables específicas para facilitar su manipulación posterior. Se generó un tacograma, que constituye la estructura fundamental desde donde se extraerán todos los parámetros de HRV.[8]
 </p>
 
 <p align="justify">
-Se realizó una limpieza de los datos removiendo los latidos ectópicos, que se definen como ciclos cardíacos cuya duración difiere en al menos un 20% del ciclo anterior. Esto garantiza la precisión de los análisis posteriores.Para la extracción de los parámetros de HRV, se calcularon primero los parámetros de tiempo, como los intervalos RR máximos, mínimos y promedio, así como la frecuencia cardíaca máxima, mínima y promedio. También se calculó la desviación estándar de los intervalos RR (SDNN), un indicador clave de la variabilidad de la frecuencia cardíaca.
+Se realizó una limpieza de los datos removiendo los latidos ectópicos, que se definen como ciclos cardíacos cuya duración difiere en al menos un 20% del ciclo anterior. Esto garantiza la precisión de los análisis posteriores.Para la extracción de los parámetros de HRV, se calcularon primero los parámetros de tiempo, como los intervalos RR máximos, mínimos y promedio, así como la frecuencia cardíaca máxima, mínima y promedio. También se calculó la desviación estándar de los intervalos RR (SDNN), un indicador clave de la variabilidad de la frecuencia cardíaca.[8]
 </p>
 
 <p align="justify">
-En cuanto a los parámetros de Poincaré, se calcularon SD1 y SD2, que se derivan de la desviación estándar de las diferencias entre intervalos RR consecutivos, proporcionando una visión más profunda de la variabilidad y complejidad de la frecuencia cardíaca.Para los parámetros de frecuencia, se utilizó el espectro de potencia para calcular la potencia en diferentes bandas de frecuencia (ULF, VLF, LF, y HF). Este análisis permite entender cómo se distribuye la energía de la variabilidad de la frecuencia cardíaca en diferentes rangos de frecuencia.
+En cuanto a los parámetros de Poincaré, se calcularon SD1 y SD2, que se derivan de la desviación estándar de las diferencias entre intervalos RR consecutivos, proporcionando una visión más profunda de la variabilidad y complejidad de la frecuencia cardíaca.Para los parámetros de frecuencia, se utilizó el espectro de potencia para calcular la potencia en diferentes bandas de frecuencia (ULF, VLF, LF, y HF). Este análisis permite entender cómo se distribuye la energía de la variabilidad de la frecuencia cardíaca en diferentes rangos de frecuencia.[8]
 </p>
 
 <p align="justify">
-Finalmente, se calcularon parámetros adicionales como NN20, pNN20, NN50 y pNN50, que representan la cantidad y porcentaje de intervalos RR que difieren del anterior en al menos 20 ms y 50 ms, respectivamente. Esto proporciona información adicional sobre la regularidad y estabilidad de los intervalos cardíacos.Para simplificar y automatizar el proceso, se utilizó la función hrv_parameters del módulo extract de biosignalsnotebooks, que realiza la extracción de todos estos parámetros de manera eficiente. Este enfoque metodológico nos permitió obtener una visión integral y detallada de la variabilidad de la frecuencia cardíaca a partir de señales de ECG, sentando las bases para análisis más profundos y aplicaciones clínicas.
+Finalmente, se calcularon parámetros adicionales como NN20, pNN20, NN50 y pNN50, que representan la cantidad y porcentaje de intervalos RR que difieren del anterior en al menos 20 ms y 50 ms, respectivamente. Esto proporciona información adicional sobre la regularidad y estabilidad de los intervalos cardíacos.Para simplificar y automatizar el proceso, se utilizó la función hrv_parameters del módulo extract de biosignalsnotebooks, que realiza la extracción de todos estos parámetros de manera eficiente. Este enfoque metodológico nos permitió obtener una visión integral y detallada de la variabilidad de la frecuencia cardíaca a partir de señales de ECG, sentando las bases para análisis más profundos y aplicaciones clínicas.[8]
 </p>
 
 # 4.Resultados<a name="id4"></a>
@@ -260,3 +260,6 @@ Al principio se propusó detectar los picos mediante la identificación de los p
 [7] «r_peaks». Accedido: 7 de junio de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Detect/r_peaks_rev.html
 </p>
 
+<p align="justify">
+[8] «hrv_parameters». Accedido: 7 de junio de 2024. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html
+</p>
