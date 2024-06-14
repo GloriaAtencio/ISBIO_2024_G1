@@ -20,7 +20,7 @@
 # 1.Objetivos<a name="id1"></a>
    - Descargar bases de datos relevantes de PhysioNet que contengan señales EEG.
    - Filtrar y limpiar las señales EEG para eliminar artefactos y ruido.
-   - Aplicar filtros ICA para separar las fuentes de actividad cerebral.
+   - Aplicar filtros ICA para separar las fuentes de actividad cerebral, como movimientos oculares, músculos y ruido ambiental.
    - Extraer características relevantes de las señales EEG preprocesadas
 # 2.Introducción<a name="id2"></a>
 
