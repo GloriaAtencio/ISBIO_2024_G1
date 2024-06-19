@@ -41,7 +41,7 @@ La descomposición de datos de EEG mediante ICA (Análisis de Componentes Indepe
 </p>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/EEG/ICA.jpeg" alt="fotog" width="600" height="700"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/EEG/ICA.jpeg" alt="fotog" width="600" height="500"/>
 </p>
 <p align="center"><i> Figura1: Descomposición de EEG mediante ICA para Identificar Fuentes Independientes [2]</i></p>
 
