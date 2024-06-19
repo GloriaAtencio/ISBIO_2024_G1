@@ -53,17 +53,17 @@ La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el
 # 4.Resultados<a name="id4"></a>
 ## 4.1. Aplicación de Filtro Butterworth e ICA
 
+| **EEG Filtrada** | **EEG Filtrada + ICA** |
+|:----------------:|:---------------------:|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/fe90f1e3-df4f-4fd0-8090-39e4b67d7dcd)
+|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/b5bd8ecc-8389-47af-9e52-885eedaaacd6)
+|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/1c8b5fad-8a54-4abc-8545-08983251e673)
+|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/3cc76a0f-be2a-4d95-b6dd-7d20779a6daa)
+|
 
-|  **EEG Filtrada**  | **EEG Filtrada + ICA** |
-|:------------:||:------------:|
-|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/cba3e301-eb5c-46ab-bdaf-11db85612e7f)
-|
-|![WhatsApp Image 2024-06-19 at 12 22 04 AM](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/cb8b9c36-310b-42a7-b0a2-db47ee591bca)
-|
-|:------------:|
-|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/1fb6ebae-bb4f-43aa-b60a-ff129f483141" alt="fotog" />|
-|:------------:|
-|<img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/1fb6ebae-bb4f-43aa-b60a-ff129f483141" alt="fotog" />|
 
 ## 4.2. PSD de la señal cruda y la señal filtrada + ICA
 ## 4.2. Wavelet - Extracción de Caraterísticas
