@@ -40,17 +40,11 @@ La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el
 La descomposición de datos de EEG mediante ICA (Análisis de Componentes Independientes) transforma los registros de canales de cuero cabelludo en canales virtuales espacialmente transformados, produciendo señales temporalmente independientes. Este método aplica filtros espaciales a los datos multicanal para revelar fuentes de información subyacentes, que pueden ser actividades corticales sincrónicas o no corticales, como movimientos oculares y ruido de línea. ICA separa estas fuentes de las mezclas registradas, permitiendo un análisis más claro y detallado de las distintas actividades cerebrales y extracerebrales presentes en los datos de EEG.[2].
 </p>
 
-<div align="center">
-![WhatsApp Image 2024-06-19 at 1 57 46 AM](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/08027f77-1182-4a0d-bd07 7c3a56b7a206)
-</div>
+<p align="center">
+  <img src="![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/07b01f7f-d5d1-4d61-bf33-8cc406238eef)" alt="fotog" width="500" height="300"/>
+</p>
+<p align="center"><i> Figura1: Descomposición de EEG mediante ICA para Identificar Fuentes Independientes [2]</i></p>
 
-<div align="center">
-![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/07b01f7f-d5d1-4d61-bf33-8cc406238eef)
-</div>
-
-<div align="center">
- Figura1: Descomposición de EEG mediante ICA para Identificar Fuentes Independientes [2]
-</div>
 
 # 3.Metodologia<a name="id3"></a>
 
