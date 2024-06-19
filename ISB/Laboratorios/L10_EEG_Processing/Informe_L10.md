@@ -76,8 +76,8 @@ A continuación, se muestra una vista previa de las señales segmentadas:
 
 # 4.Resultados<a name="id4"></a>
 
-## 4.1. Obtencion de la data segmentada
-|  **Señales Segmentadas**  |
+## 4.1. Obtención de la data segmentada
+|  **Señales Segmentadas - raw**  |
 |:------------:|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/6a697a00-504c-424a-a119-f5cd8bbd62c9)|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/1190cfd0-7285-4b18-ab2a-21e8eb33f686)|
