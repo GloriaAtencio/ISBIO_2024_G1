@@ -49,6 +49,21 @@ La descomposición de datos de EEG mediante ICA (Análisis de Componentes Indepe
 # 3.Metodologia<a name="id3"></a>
 
 ## 3.1. Base de datos Physionet<a name="id3.1"></a>
+<p align="justify">
+Para este estudio, se utilizará el conjunto de datos "Auditory evoked potential EEG-Biometric dataset" proporcionado por PhysioNet [3]. Este conjunto de datos incluye más de 240 grabaciones de EEG de dos minutos obtenidas de 20 voluntarios, con experimentos de estado de reposo y estímulos auditivos.
+ </p>
+<p align="justify">
+En este laboratorio, nos centraremos únicamente en la data de una persona al que corresponde "s01_ex01_s01.csv"  que contiene los datos segmentados de EEG obtenidos durante el estado de reposo con los ojos abiertos de un sujeto. Estos datos segmentados fueron seleccionados debido a su idoneidad para el análisis y procesamiento de señales EEG. El archivo contiene información registrada mediante cuatro canales: T7, F8, Cz y P4.
+</p>
+<p align="justify">
+A continuación, se muestra una vista previa de las señales segmentadas:
+</p>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/EEG/tablalab10.png" alt="fotog" width="600" height="500"/>
+</p>
+<p align="center"><i> Tabla 1:  Vista previa de las datos segmentadas (4 canales) </i></p>
+
 ## 3.2. Filtro Butterworth <a name="id3.2"></a>
 ## 3.3. Filtro por Análisis de Componentes Independientes (ICA) <a name="id3.3"></a>
 ## 3.4. Normalización y Alinemamiento <a name="id3.4"></a>
@@ -60,7 +75,16 @@ La descomposición de datos de EEG mediante ICA (Análisis de Componentes Indepe
 
 
 # 4.Resultados<a name="id4"></a>
-## 4.1. Aplicación de Filtro Butterworth e ICA
+
+## 4.1. Obtencion de la data segmentada
+|  **Señales Segmentadas**  |
+|:------------:|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/6a697a00-504c-424a-a119-f5cd8bbd62c9)|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/1190cfd0-7285-4b18-ab2a-21e8eb33f686)|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/16be61b0-c4d2-44a8-a9a7-5f622e3d3c11)|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/56bb6390-9167-4acf-8e27-389208e99a0d)|
+
+## 4.2. Aplicación de Filtro Butterworth e ICA
 
 |  **EEG Filtrada      -       EEG Filtrada + ICA**  |
 |:------------:|
@@ -70,13 +94,13 @@ La descomposición de datos de EEG mediante ICA (Análisis de Componentes Indepe
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/3cc76a0f-be2a-4d95-b6dd-7d20779a6daa)|
 
 
-## 4.2. PSD de la señal cruda y la señal filtrada + ICA
+## 4.3. PSD de la señal cruda y la señal filtrada + ICA
 
 |  Power Spectral Density(PSD) del canal (F8)|
 |:------------:|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/c1251884-cf4d-4b06-a1b5-0967e0f51a89)|
 
-## 4.2. Wavelet - Extracción de Caraterísticas
+## 4.4. Wavelet - Extracción de Caraterísticas
 
 |  **Extracción de Caraterísticas - Daubechies wavelet de orden 4**  |
 |:------------:|
