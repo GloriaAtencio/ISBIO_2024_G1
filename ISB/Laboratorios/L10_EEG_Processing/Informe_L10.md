@@ -59,7 +59,6 @@ La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el
 
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/cba3e301-eb5c-46ab-bdaf-11db85612e7f)
 |
-|:------------:|
 |![WhatsApp Image 2024-06-19 at 12 22 04 AM](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/cb8b9c36-310b-42a7-b0a2-db47ee591bca)
 |
 |:------------:|
