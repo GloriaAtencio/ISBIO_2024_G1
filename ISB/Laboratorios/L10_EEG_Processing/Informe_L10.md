@@ -53,7 +53,7 @@ La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el
 # 4.Resultados<a name="id4"></a>
 ## 4.1. Aplicación de Filtro Butterworth e ICA
 
-|  **EEG Filtrada  - EEG Filtrada + ICA **|
+|  **EEG Filtrada ** |** EEG Filtrada + ICA **|
 |:----------------:|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/fe90f1e3-df4f-4fd0-8090-39e4b67d7dcd)|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/b5bd8ecc-8389-47af-9e52-885eedaaacd6)|
