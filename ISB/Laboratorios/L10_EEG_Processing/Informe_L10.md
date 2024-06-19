@@ -62,7 +62,19 @@ La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el
 
 
 ## 4.2. PSD de la señal cruda y la señal filtrada + ICA
+
+|  Power Spectral Density(PSD) del canal (F8)|
+|:------------:|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/c1251884-cf4d-4b06-a1b5-0967e0f51a89)|
+
 ## 4.2. Wavelet - Extracción de Caraterísticas
+
+|  **Extracción de Caraterísticas - Daubechies wavelet de orden 4**  |
+|:------------:|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/1e4f2fec-4100-4128-a4ed-6738576da799)|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/43c57ab4-bb37-447b-bac1-fffb7ea25dc6)|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/09bbc5e0-62d0-4632-8733-a03e9942c298)|
+|![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/6eed3db4-17b9-4413-bc8f-ff208e6bb6c0)|
 # 5.Discusión<a name="id5"></a>
 
 # 6.Referencias bibliográficas<a name="id6"></a>
