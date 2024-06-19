@@ -25,7 +25,7 @@
 # 2.Introducción<a name="id2"></a>
 
 <p align="justify">
-La actividad neuronal en el cerebro humano se manifiesta entre las semanas 17 y 23 del desarrollo prenatal. Desde esta etapa temprana y a lo largo de toda la vida, las señales eléctricas generadas por el cerebro no solo reflejan su función, sino también el estado del cuerpo en su conjunto. Esta premisa impulsa la aplicación de métodos avanzados de procesamiento de señales digitales a los electroencefalogramas (EEG) obtenidos del cerebro humano.
+La actividad neuronal en el cerebro humano se manifiesta entre las semanas 17 y 23 del desarrollo prenatal. Desde esta etapa temprana y a lo largo de toda la vida, las señales eléctricas generadas por el cerebro no solo reflejan su función, sino también el estado del cuerpo en su conjunto. Esta premisa impulsa la aplicación de métodos avanzados de procesamiento de señales digitales a los electroencefalogramas (EEG) obtenidos del cerebro humano [1].
  </p>
 
 <p align="justify">
@@ -33,10 +33,20 @@ El camino que va desde las neuronas, actuando como fuentes de señal, hasta los 
  </p>
 
 <p align="justify">
-La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el cráneo, el cerebro y numerosas capas delgadas entre ellos. El cráneo atenúa las señales aproximadamente cien veces más que el tejido blando, mientras que la mayor parte del ruido se genera dentro del cerebro (ruido interno) o sobre el cuero cabelludo (ruido del sistema o ruido externo).
+La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el cráneo, el cerebro y numerosas capas delgadas entre ellos. El cráneo atenúa las señales aproximadamente cien veces más que el tejido blando, mientras que la mayor parte del ruido se genera dentro del cerebro (ruido interno) o sobre el cuero cabelludo (ruido del sistema o ruido externo)[1].
 </p>
 
+<p align="justify">
+La descomposición de datos de EEG mediante ICA (Análisis de Componentes Independientes) transforma los registros de canales de cuero cabelludo en canales virtuales espacialmente transformados, produciendo señales temporalmente independientes. Este método aplica filtros espaciales a los datos multicanal para revelar fuentes de información subyacentes, que pueden ser actividades corticales sincrónicas o no corticales, como movimientos oculares y ruido de línea. ICA separa estas fuentes de las mezclas registradas, permitiendo un análisis más claro y detallado de las distintas actividades cerebrales y extracerebrales presentes en los datos de EEG.[2].
+</p>
 
+<div align="center">
+<h2> ![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/7cf5029e-901c-4eff-80b4-a17b1552c9b1)  </h2>
+</div>
+
+<div align="center">
+ Figura1: Descomposición de EEG mediante ICA para Identificar Fuentes Independientes [2]
+</div>
 # 3.Metodologia<a name="id3"></a>
 
 ## 3.1. Base de datos Physionet<a name="id3.1"></a>
