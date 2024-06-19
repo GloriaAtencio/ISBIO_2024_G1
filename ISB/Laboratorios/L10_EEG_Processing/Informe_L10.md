@@ -50,7 +50,7 @@ La descomposición de datos de EEG mediante ICA (Análisis de Componentes Indepe
 
 ## 3.1. Base de datos Physionet<a name="id3.1"></a>
 <p align="justify">
-Para este estudio, se utilizará el conjunto de datos "Auditory evoked potential EEG-Biometric dataset" proporcionado por PhysioNet [3]. Este conjunto de datos incluye más de 240 grabaciones de EEG de dos minutos obtenidas de 20 voluntarios, con experimentos de estado de reposo y estímulos auditivos.
+Para este informe, se utilizará el conjunto de datos "Auditory evoked potential EEG-Biometric dataset" proporcionado por PhysioNet [3]. Este conjunto de datos incluye más de 240 grabaciones de EEG de dos minutos obtenidas de 20 voluntarios, con experimentos de estado de reposo y estímulos auditivos.
  </p>
 <p align="justify">
 En este laboratorio, nos centraremos únicamente en la data de una persona al que corresponde "s01_ex01_s01.csv"  que contiene los datos segmentados de EEG obtenidos durante el estado de reposo con los ojos abiertos de un sujeto. Estos datos segmentados fueron seleccionados debido a su idoneidad para el análisis y procesamiento de señales EEG. El archivo contiene información registrada mediante cuatro canales: T7, F8, Cz y P4.
@@ -60,7 +60,7 @@ A continuación, se muestra una vista previa de las señales segmentadas:
 </p>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/EEG/tablalab10.png" alt="fotog" width="600" height="500"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/Im%C3%A1genes/EEG/tablalab10.png" alt="fotog" width="400" height="200"/>
 </p>
 <p align="center"><i> Tabla 1:  Vista previa de las datos segmentadas (4 canales) </i></p>
 
@@ -111,3 +111,8 @@ A continuación, se muestra una vista previa de las señales segmentadas:
 # 5.Discusión<a name="id5"></a>
 
 # 6.Referencias bibliográficas<a name="id6"></a>
+[1]	S. Sanei y J. Chambers, «EEG Signal Processing».
+
+[2]	«Indep. Comp. Analysis», EEGLAB Wiki. Accedido: 19 de junio de 2024. [En línea]. Disponible en: https://just-the-docs.github.io/tutorials/ConceptsGuide/ICA_background.html
+
+[3]A. Goldberger et al., "PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals," Circulation [Online], vol. 101, no. 23, pp. e215–e220, 2000. 
