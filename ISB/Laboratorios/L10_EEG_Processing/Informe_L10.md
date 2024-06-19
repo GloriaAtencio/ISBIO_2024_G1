@@ -39,7 +39,11 @@ La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el
 
 # 3.Metodologia<a name="id3"></a>
 
-## 3.1. Aplicación de filtro<a name="id3.1"></a>
+## 3.1. Base de datos Physionet<a name="id3.1"></a>
+## 3.2. Filtro Butterworth <a name="id3.2"></a>
+## 3.3. Filtro por Análisis de Componentes Independientes (ICA) <a name="id3.3"></a>
+## 3.4. Normalización y Alinemamiento <a name="id3.4"></a>
+## 3.5. Extracción de Características <a name="id3.5"></a>
 
 <p align="justify">
 
@@ -47,7 +51,9 @@ La cabeza humana consta de diferentes capas, que incluyen el cuero cabelludo, el
 
 
 # 4.Resultados<a name="id4"></a>
-
+## 4.1. Aplicación de Filtro Butterworth e ICA
+## 4.2. PSD de la señal cruda y la señal filtrada + ICA
+## 4.2. Wavelet - Extracción de Caraterísticas
 # 5.Discusión<a name="id5"></a>
 
 # 6.Referencias bibliográficas<a name="id6"></a>
