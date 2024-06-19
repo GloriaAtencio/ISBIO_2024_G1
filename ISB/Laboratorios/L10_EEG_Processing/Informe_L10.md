@@ -41,7 +41,8 @@ La descomposición de datos de EEG mediante ICA (Análisis de Componentes Indepe
 </p>
 
 <div align="center">
-<h2> ![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/7cf5029e-901c-4eff-80b4-a17b1552c9b1)  </h2>
+<h2> ![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/9d7ba930-cdfb-4ab0-9a47-47304c98e9eb)
+  </h2>
 </div>
 
 <div align="center">
