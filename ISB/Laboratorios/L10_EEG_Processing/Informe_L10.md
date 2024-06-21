@@ -195,6 +195,28 @@ Finalmente, graficamos los coeficientes wavelet para cada canal y nivel, visuali
 
 # 5.Discusión<a name="id5"></a>
 
+<div align="center">
+<h2> Análisis de la gráfica PSD de la señal cruda y la señal filtrada + ICA</h2>
+</div>
+
+ <p align="justify">
+El gráfico presentado muestra la densidad espectral de potencia (PSD) tanto de la señal bruta como de la señal filtrada por ICA. La señal cruda tiene una PSD más alta que la señal filtrada por ICA. La señal filtrada por ICA tiene una PSD más baja que la señal cruda. La señal cruda tiene una PSD más alta que la señal filtrada por ICA. La señal filtrada por ICA tiene una PSD más baja que la señal filtrada por ICA.
+ </p>
+
+ <p align="justify">
+Interpretación:
+  
+La PSD es una medida de la potencia de una señal en diferentes frecuencias. Una PSD más alta indica que se concentra más potencia en una frecuencia particular. En este caso, la señal bruta tiene una PSD más alta en todas las frecuencias en comparación con la señal filtrada por ICA. Esto sugiere que la señal bruta contiene un rango más amplio de frecuencias y más potencia general en comparación con la señal filtrada por ICA.
+ </p>
+ 
+ <p align="justify">
+El proceso de filtrado, que incluye los filtros de banda pasante y de muesca, probablemente eliminó parte del ruido y las frecuencias no deseadas de la señal bruta. Esto se refleja en la PSD más baja de la señal filtrada por ICA, particularmente en el rango de frecuencias más bajas. El filtro de muesca eliminó eficazmente el ruido de la línea eléctrica de 50 Hz, lo que es evidente en la PSD reducida alrededor de esa frecuencia.
+ </p>
+ 
+ <p align="justify">
+La ICA refinó aún más la señal separando componentes independientes, eliminando potencialmente artefactos y aislando la actividad de las ondas cerebrales. La señal filtrada por ICA tiene una PSD incluso más baja que la señal filtrada, lo que indica que la ICA puede haber reducido aún más el ruido y los componentes no deseados.
+ </p>
+
 # 6.Referencias bibliográficas<a name="id6"></a>
 [1]	S. Sanei y J. Chambers, «EEG Signal Processing».
 
