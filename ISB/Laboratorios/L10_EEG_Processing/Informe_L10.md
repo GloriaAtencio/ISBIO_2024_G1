@@ -136,12 +136,15 @@ Finalmente, graficamos los coeficientes wavelet para cada canal y nivel, visuali
 # 4.Resultados<a name="id4"></a>
 
 ## 4.1. Obtención de la data segmentada
+
+<div align="center">
 |  **Señales Segmentadas - raw**  |
 |:------------:|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/6a697a00-504c-424a-a119-f5cd8bbd62c9)|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/1190cfd0-7285-4b18-ab2a-21e8eb33f686)|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/16be61b0-c4d2-44a8-a9a7-5f622e3d3c11)|
 |![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/56bb6390-9167-4acf-8e27-389208e99a0d)|
+</div>
 
 ## 4.2. Aplicación de Filtro Butterworth e ICA
 
