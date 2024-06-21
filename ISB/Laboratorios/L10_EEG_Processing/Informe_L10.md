@@ -210,12 +210,16 @@ La PSD es una medida de la potencia de una señal en diferentes frecuencias. Una
  </p>
  
  <p align="justify">
-El proceso de filtrado, que incluye los filtros de banda pasante y de muesca, probablemente eliminó parte del ruido y las frecuencias no deseadas de la señal bruta. Esto se refleja en la PSD más baja de la señal filtrada por ICA, particularmente en el rango de frecuencias más bajas. El filtro de muesca eliminó eficazmente el ruido de la línea eléctrica de 50 Hz, lo que es evidente en la PSD reducida alrededor de esa frecuencia.
+El proceso de filtrado, que incluye los filtros pasabanda y notch, probablemente eliminó parte del ruido y las frecuencias no deseadas de la señal bruta. Esto se refleja en la PSD más baja de la señal filtrada por ICA, particularmente en el rango de frecuencias más bajas. El filtro notch eliminó eficazmente el ruido de la línea eléctrica de 50 Hz, lo que es evidente en la PSD reducida alrededor de esa frecuencia.
  </p>
  
  <p align="justify">
 La ICA refinó aún más la señal separando componentes independientes, eliminando potencialmente artefactos y aislando la actividad de las ondas cerebrales. La señal filtrada por ICA tiene una PSD incluso más baja que la señal filtrada, lo que indica que la ICA puede haber reducido aún más el ruido y los componentes no deseados.
  </p>
+
+<div align="center">
+<h2> Análisis de la gráfica PSD de la señal cruda y la señal filtrada + ICA</h2>
+</div>
 
 # 6.Referencias bibliográficas<a name="id6"></a>
 [1]	S. Sanei y J. Chambers, «EEG Signal Processing».
