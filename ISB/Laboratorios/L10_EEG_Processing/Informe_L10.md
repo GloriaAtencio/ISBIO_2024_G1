@@ -218,9 +218,26 @@ La ICA refinó aún más la señal separando componentes independientes, elimina
  </p>
 
 <div align="center">
-<h2> Análisis de la gráfica PSD de la señal cruda y la señal filtrada + ICA</h2>
+<h2> Análisis de la gráfica de extracción de caraterísticas</h2>
 </div>
 
+ <p align="justify">
+La imagen muestra una serie de gráficos obtenidos de un análisis wavelet de datos de ondas cerebrales. El análisis se realizó utilizando la wavelet de Daubechies de orden 4 y los datos se descompusieron en cuatro niveles. Cada gráfico muestra los coeficientes wavelet para un canal y nivel específicos.
+  </p>
+
+ <p align="justify">
+El análisis wavelet proporciona una representación tiempo-frecuencia de los datos de ondas cerebrales. Esto significa que nos permite ver cómo se distribuye la potencia de la señal en diferentes frecuencias y períodos de tiempo. Esto puede ser útil para identificar patrones y cambios en la actividad de las ondas cerebrales.
+  </p>
+
+ <p align="justify">
+En la imagen, podemos observar que los coeficientes wavelet son más altos en las frecuencias más bajas y en los períodos de tiempo más tempranos. Esto sugiere que la actividad de las ondas cerebrales es más prominente en estos rangos. También podemos ver que los coeficientes wavelet son más variables en las frecuencias más altas y en los períodos de tiempo posteriores. Esto sugiere que la actividad de las ondas cerebrales es menos consistente en estos rangos.
+  </p>
+
+ <p align="justify">
+El análisis wavelet también se puede utilizar para extraer características de los datos de ondas cerebrales. Estas características pueden luego usarse para clasificar diferentes tipos de actividad de ondas cerebrales o para rastrear cambios en la actividad de ondas cerebrales a lo largo del tiempo.
+  </p>
+
+  
 # 6.Referencias bibliográficas<a name="id6"></a>
 [1]	S. Sanei y J. Chambers, «EEG Signal Processing».
 
