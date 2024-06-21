@@ -72,6 +72,8 @@ Primero, definimos las funciones para crear y aplicar estos filtros usando scipy
 
 <p align="justify">
 - Filtro Butterworth de Banda: Este filtro se utiliza para permitir el paso de señales dentro de un rango de frecuencia específico, mientras atenúa las señales fuera de este rango.
+  </p>
+ <p align="justify">
 - Filtro de Muesca: Este filtro es eficaz para eliminar una frecuencia específica y sus armónicos, como el ruido de la red eléctrica.
  </p>
 
