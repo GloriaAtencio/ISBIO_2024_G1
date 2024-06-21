@@ -66,7 +66,7 @@ A continuación, se muestra una vista previa de las señales segmentadas:
 
 ## 3.2. Filtro Butterworth <a name="id3.2"></a>
 <p align="justify">
-En esta sección, aplicamos un filtro Butterworth de banda para eliminar las frecuencias no deseadas y mantener las componentes de interés en el rango de 1 a 40 Hz. Además, utilizamos un filtro de muesca para eliminar el ruido de frecuencia de la red eléctrica (50 Hz). 
+En esta sección, aplicamos un filtro Butterworth de banda para eliminar las frecuencias no deseadas y mantener las componentes de interés en el rango de 1 a 40 Hz. Además, utilizamos un filtro Notch para eliminar el ruido de frecuencia de la red eléctrica (50 - 60 Hz). 
 Primero, definimos las funciones para crear y aplicar estos filtros usando scipy.signal:
  </p>
 
@@ -74,7 +74,7 @@ Primero, definimos las funciones para crear y aplicar estos filtros usando scipy
 - Filtro Butterworth de Banda: Este filtro se utiliza para permitir el paso de señales dentro de un rango de frecuencia específico, mientras atenúa las señales fuera de este rango.
   </p>
  <p align="justify">
-- Filtro de Muesca: Este filtro es eficaz para eliminar una frecuencia específica y sus armónicos, como el ruido de la red eléctrica.
+- Filtro Notch: Este filtro es eficaz para eliminar una frecuencia específica y sus armónicos, como el ruido de la red eléctrica.
  </p>
 
  <p align="justify">
