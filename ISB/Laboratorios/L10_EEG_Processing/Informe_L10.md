@@ -135,7 +135,9 @@ Finalmente, graficamos los coeficientes wavelet para cada canal y nivel, visuali
 
 # 4.Resultados<a name="id4"></a>
 
-## 4.1. Obtención de la data segmentada
+<div align="center">
+<h2>Obtención de la data segmentada </h2>
+</div>
 
 <div align="center">
  
