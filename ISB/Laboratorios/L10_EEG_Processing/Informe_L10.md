@@ -65,14 +65,71 @@ A continuación, se muestra una vista previa de las señales segmentadas:
 <p align="center"><i> Tabla 1:  Vista previa de las datos segmentadas (4 canales) </i></p>
 
 ## 3.2. Filtro Butterworth <a name="id3.2"></a>
-## 3.3. Filtro por Análisis de Componentes Independientes (ICA) <a name="id3.3"></a>
-## 3.4. Normalización y Alinemamiento <a name="id3.4"></a>
-## 3.5. Extracción de Características <a name="id3.5"></a>
-
 <p align="justify">
-
+En esta sección, aplicamos un filtro Butterworth de banda para eliminar las frecuencias no deseadas y mantener las componentes de interés en el rango de 1 a 40 Hz. Además, utilizamos un filtro de muesca para eliminar el ruido de frecuencia de la red eléctrica (50 Hz). 
+Primero, definimos las funciones para crear y aplicar estos filtros usando scipy.signal:
  </p>
 
+<p align="justify">
+- Filtro Butterworth de Banda: Este filtro se utiliza para permitir el paso de señales dentro de un rango de frecuencia específico, mientras atenúa las señales fuera de este rango.
+- Filtro de Muesca: Este filtro es eficaz para eliminar una frecuencia específica y sus armónicos, como el ruido de la red eléctrica.
+ </p>
+
+ <p align="justify">
+Luego, aplicamos estos filtros a cada una de las señales EEG. Los parámetros del filtro incluyen la frecuencia de muestreo (200 Hz), los límites del filtro de banda (1-40 Hz), y la frecuencia del filtro de muesca (50 Hz) con un factor de calidad de 30.
+ </p>
+ 
+## 3.3. Filtro por Análisis de Componentes Independientes (ICA) <a name="id3.3"></a>
+<p align="justify">
+El Análisis de Componentes Independientes (ICA) es una técnica utilizada para separar señales en sus componentes independientes. En el contexto de EEG, ICA se usa para identificar y eliminar artefactos como el ruido ocular o muscular.
+ </p>
+
+<p align="justify">
+Para aplicar ICA:
+
+1. Preparación de Datos: Transformamos los datos filtrados en un formato adecuado para MNE, una biblioteca especializada en el análisis de EEG.
+1. Creación de RawArray: Creamos un objeto RawArray en MNE que contiene nuestras señales EEG y la información de los canales.
+1. Filtrado High-Pass: Aplicamos un filtro de alta frecuencia para eliminar componentes de baja frecuencia.
+1. Ajuste del ICA: Aplicamos el algoritmo ICA para separar las señales en componentes independientes.
+1. Aplicación del ICA: Removemos los componentes no deseados y convertimos los datos de vuelta a un DataFrame para visualización.
+ </p>
+
+ <p align="justify">
+Finalmente, graficamos las señales antes y después de aplicar ICA para comparar y observar la eliminación de artefactos.
+ </p>
+ 
+## 3.4. Normalización y Alinemamiento <a name="id3.4"></a>
+<p align="justify">
+La normalización y alineamiento de las señales EEG son pasos cruciales para preparar los datos antes del análisis o extracción de características.
+ </p>
+<p align="justify">
+- Normalización: Este proceso ajusta la amplitud de las señales EEG para que todas las señales tengan el mismo rango, facilitando la comparación y análisis entre ellas. Normalizamos cada canal dividiendo por su valor absoluto máximo.
+- Alineamiento: Alinear las señales EEG es esencial para sincronizar los eventos en todas las señales. Utilizamos la correlación cruzada para calcular el desfase temporal entre cada canal y un canal de referencia (en este caso, 'T7'), ajustando las señales en consecuencia para sincronizarlas.
+</p>
+
+<p align="justify">
+Estos pasos aseguran que las señales estén en el mismo rango de amplitud y alineadas temporalmente, mejorando la precisión del análisis posterior.
+ </p>
+
+ 
+## 3.5. Extracción de Características <a name="id3.5"></a>
+
+
+<p align="justify">
+La extracción de características es una etapa crucial en el procesamiento de señales EEG, que permite obtener información relevante de las señales.
+ </p>
+
+<p align="justify">
+- Transformada Wavelet: Utilizamos la transformada wavelet para descomponer las señales EEG en diferentes bandas de frecuencia. Empleamos la wavelet Daubechies de orden 4 (db4) y descomponemos las señales en 4 niveles. Esta técnica permite analizar las señales en el dominio del tiempo-frecuencia, proporcionando una representación detallada de las características de las señales.
+ </p>
+
+<p align="justify">
+Para cada canal, aplicamos la transformada wavelet y extraemos los coeficientes en diferentes niveles. Estos coeficientes representan la energía de las señales en diferentes bandas de frecuencia y son útiles para identificar patrones específicos en las señales EEG.
+ </p>
+
+<p align="justify">
+Finalmente, graficamos los coeficientes wavelet para cada canal y nivel, visualizando las características extraídas y facilitando la interpretación de los datos.
+ </p>
 
 # 4.Resultados<a name="id4"></a>
 
