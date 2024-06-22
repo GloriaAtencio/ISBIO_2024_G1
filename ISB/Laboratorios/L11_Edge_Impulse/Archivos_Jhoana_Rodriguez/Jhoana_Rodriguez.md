@@ -9,7 +9,7 @@
 ### Imágenes de prueba 
 
 <p align="center">
-  <img src="ISB/Laboratorios/L11_Edge_Impulse/Archivos_Jhoana_Rodriguez/EEG/eeg_reposo.PNG" alt="fotog" width="960" height="450"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7e8c5b9eaabb2f977d846f804367eb1b91609fa8/ISB/Laboratorios/L11_Edge_Impulse/Archivos_Jhoana_Rodriguez/EEG/eeg_reposo.PNG" alt="fotog" width="960" height="450"/>
 </p>
 <p align="center"><i>Figura 1. Proyecto EEG .</i></p><br>
 
@@ -19,7 +19,7 @@
 <p align="center"><i>Figura 2. Proyecto ECG .</i></p><br>
 
 <p align="center">
-  <img src="ISB/Laboratorios/L11_Edge_Impulse/Archivos_Jhoana_Rodriguez/EMG/Fuerza_oponente.PNG" alt="fotog" width="960" height="450"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7e8c5b9eaabb2f977d846f804367eb1b91609fa8/ISB/Laboratorios/L11_Edge_Impulse/Archivos_Jhoana_Rodriguez/EMG/Fuerza_oponente.PNG" alt="fotog" width="960" height="450"/>
 </p>
 <p align="center"><i>Figura 3. Proyecto EMG .</i></p><br>
 
