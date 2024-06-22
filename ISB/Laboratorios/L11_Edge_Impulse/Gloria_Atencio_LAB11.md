@@ -16,3 +16,5 @@
 
 ![image](https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164552077/5b8bac7d-dee4-4c4d-a35d-b9498e53c6a3)
 <p align="center"><i>Figura 3. Proyecto EEG .</i></p><br>
+
+[codigo](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/L11_Edge_Impulse/Gloria_Atencio_Lab11.ipynb)
