@@ -23,3 +23,4 @@
 </p>
 <p align="center"><i>Figura 3. Proyecto EMG .</i></p><br>
 
+[codigo](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/main/ISB/Laboratorios/L11_Edge_Impulse/ei-upload_data_Jennyer_Arismendiz.ipynb)
