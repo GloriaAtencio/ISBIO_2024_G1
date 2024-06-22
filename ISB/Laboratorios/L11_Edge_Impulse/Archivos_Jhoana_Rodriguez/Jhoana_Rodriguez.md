@@ -14,7 +14,7 @@
 <p align="center"><i>Figura 1. Proyecto EEG .</i></p><br>
 
 <p align="center">
-  <img src="ISB/Laboratorios/L11_Edge_Impulse/Archivos_Jhoana_Rodriguez/ECG/hiperventilacion.PNG" alt="fotog" width="960" height="450"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/561e1ebc76e35a613a7ddc8f30053db1e730cb12/ISB/Laboratorios/L11_Edge_Impulse/Archivos_Jhoana_Rodriguez/ECG/Hiperventilacion.PNG" alt="fotog" width="960" height="450"/>
 </p>
 <p align="center"><i>Figura 2. Proyecto ECG .</i></p><br>
 
