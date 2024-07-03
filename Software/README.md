@@ -238,14 +238,14 @@ Finalmente, todos los BPMs calculados se escriben en una hoja de cálculo 'BPM-C
 </div>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/630cc2e8-1536-4d8e-8fe7-aa2dd0424c59" alt="fotog" width="460" height="400"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/630cc2e8-1536-4d8e-8fe7-aa2dd0424c59" alt="fotog" width="860" height="400"/>
 </p>
 <p align="center"><i>Figura 1. Plot ECG del CLIP-1 VP02 (ECG)</i></p><br>
 
 - Señal ECG Filtrada: La señal ECG después de aplicar el filtrado wavelet (db5).
 - Tiempo en Segundos: Eje x que representa el tiempo transcurrido en segundos.
 - BPM: El valor de los latidos por minuto calculado, mostrado como un texto en el gráfico.
-- 
+  
 Cada clip de ECG tiene su propio gráfico que se guarda en un archivo PNG. Estos gráficos proporcionan una visualización clara de la señal ECG filtrada junto con el BPM, facilitando el análisis y la interpretación de los datos.
 
 # 4.Resultados<a name="id4"></a>
