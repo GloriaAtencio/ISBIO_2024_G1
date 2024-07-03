@@ -37,8 +37,8 @@ Los trastornos de ansiedad, incluidos los específicos como la aracnofobia, repr
 <strong>Enlaces de interés:</strong>
 </p>
 
-- [Entregable 1 - Información del equipo](#)
-- [Enlace a PapersWithCode](https://paperswithcode.com/)
+- [Entregable 1 - Información del equipo](ISB)
+- [Enlace a PapersWithCode]([https://paperswithcode.com/](https://paperswithcode.com/paper/classification-of-phobia-levels-in-patients))
 
 
 
