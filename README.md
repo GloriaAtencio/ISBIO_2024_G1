@@ -3,7 +3,7 @@
 <h1 align="center">Classification of Phobia Levels in Patients with Arachnophobia Using BPM Analysis of ECG Signals / Clasificación de Niveles de Fobia en Pacientes con Aracnofobia mediante Análisis de BPM de Señales ECG</h1>
 
 <p align="justify">
-## Resumen
+#**Resumen**
 
 Este estudio propone un método para clasificar con precisión los niveles de fobia en pacientes con aracnofobia mediante análisis de señales de electrocardiograma (ECG). Se utilizaron indicadores clave como la frecuencia cardíaca (BPM) y la variabilidad de la frecuencia cardíaca (HRV) para medir objetivamente las respuestas de fobia. Se analizaron datos de 80 sujetos expuestos a videoclips que inducían una respuesta fisiológica, lo que demuestra el potencial de las señales de ECG para la evaluación cuantitativa de los niveles de fobia. Los análisis estadísticos, incluidos ANOVA y diagramas de caja, revelaron diferencias significativas en BPM entre distintos niveles de fobia, lo que sugiere la eficacia de intervenciones terapéuticas personalizadas.
 </p>
