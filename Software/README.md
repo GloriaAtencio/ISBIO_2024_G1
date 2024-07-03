@@ -118,6 +118,43 @@ def calculate_bpm(ecg_signal, fs):
 
 ```
 <div align="center">
+<h2> Clasificación de nivel de fobia mediante BPM </h2>
+</div> 
+
+<p align="justify">
+La función classify_bpm clasifica los valores de BPM (latidos por minuto) en categorías basadas en los umbrales de BPM alto y bajo. La función inicia calculando estos umbrales ordenando los valores de BPM de menor a mayor. Luego, se calcula el promedio de los tres valores más altos para establecer el umbral alto, y el promedio de los tres valores más bajos para establecer el umbral bajo.
+</p>
+
+<p align="justify">
+Una vez definidos los umbrales, la función procede a clasificar cada valor de BPM. Para ello, se itera sobre los valores de BPM y los IDs de los clips de manera simultánea. Si el ID del clip es 'BIOFEEDBACK-REST', se clasifica como fobia nula detectada. Si el BPM es mayor o igual al umbral alto, se clasifica como alta fobia detectada. Si el BPM es menor o igual al umbral bajo, se clasifica como baja fobia detectada. Si el BPM se encuentra entre los umbrales alto y bajo, se clasifica como fobia moderada detectada.
+</p>
+
+<p align="justify">
+Finalmente, la función retorna una lista que contiene la categoría correspondiente a cada BPM, basada en los umbrales calculados y el ID del clip. Por ejemplo, si se tienen una lista de valores de BPM y un DataFrame de triggers con los IDs de los clips, la función podría ser usada para clasificar los BPMs en categorías como alta fobia detectada, baja fobia detectada, fobia moderada detectada, y fobia nula detectada, proporcionando una herramienta útil para analizar los niveles de fobia basados en los latidos por minuto.
+</p>
+
+```python
+def classify_bpm(bpm_values, triggers_df):
+    # Calculate thresholds
+    sorted_bpms = sorted(bpm_values)
+    high_threshold = np.mean(sorted_bpms[-3:])  # Average of top 3 highest BPMs
+    low_threshold = np.mean(sorted_bpms[:3])    # Average of bottom 3 lowest BPMs
+
+    # Classify based on thresholds
+    categories = []
+    for bpm, clip_id in zip(bpm_values, triggers_df['ClipID']):
+        if clip_id == 'BIOFEEDBACK-REST':
+            categories.append('fobia nula detectada')
+        elif bpm >= high_threshold:
+            categories.append('alta fobia detectada')
+        elif bpm <= low_threshold:
+            categories.append('baja fobia detectada')
+        else:
+            categories.append('fobia moderada detectada')
+    return categories
+```
+
+<div align="center">
 <h2> Visualización y Guardado de Gráficos </h2>
 </div>
 
