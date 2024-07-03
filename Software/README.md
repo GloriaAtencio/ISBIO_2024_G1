@@ -317,3 +317,7 @@ La integración de FigureCanvasTkAgg permite que las figuras generadas por matpl
 <p align="center"><i>Figura 3. Test de interfaz de usuario </i></p><br>
 
 # 5.Referencias bibliográficas<a name="id5"></a>
+<p align="justify">
+
+1. «Papers with Code - Classification of Phobia Levels in Patients with Arachnophobia Using BPM Analysis of ECG Signals». Accedido: 2 de julio de 2024. [En línea]. Disponible en: https://paperswithcode.com/paper/classification-of-phobia-levels-in-patients
+ </p>
