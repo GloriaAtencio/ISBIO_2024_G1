@@ -305,7 +305,7 @@ La integración de FigureCanvasTkAgg permite que las figuras generadas por matpl
 </p>
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2c6b6b20-29d8-4446-bd55-f66102bb8fa9" alt="fotog" width="660" height="400"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2c6b6b20-29d8-4446-bd55-f66102bb8fa9" alt="fotog" width="760" height="300"/>
 </p>
 <p align="center"><i>Figura 2. Interfaz de usuario </i></p><br>
 
