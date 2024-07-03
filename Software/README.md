@@ -27,10 +27,9 @@
 
 ### Materiales
 
-<p align="justify">
-- Anaconda 
-- Visual Studio Code
-</p>
+
+1. Anaconda 
+1. Visual Studio Code
 
 Bibliotecas usadas:
 - numpy
