@@ -1,3 +1,4 @@
+<img src="https://img.freepik.com/free-vector/medical-science-healthcare-background-with-heartbeat-line_1017-26361.jpg?w=1060" alt="img principal" width="900" height="150"/>
 
 <h1 align="center">Classification of Phobia Levels in Patients with Arachnophobia Using BPM Analysis of ECG Signals / Clasificación de Niveles de Fobia en Pacientes con Aracnofobia mediante Análisis de BPM de Señales ECG</h1>
 
