@@ -53,6 +53,10 @@ Al haber un total de 57 personas que son tomadas como la muestra, todas los arch
 - Triggers.txt: ID de disparador utilizando CLIP-1 a CLIP-16 como videoclips que estimulan la ansiedad (columna 1) y BIOFEEDBACK-REST para la fase de descanso; marca de tiempo con formato hhmmss para el inicio (columna 2) y el final (columna 3) del videoclip o fase de descanso.
 </p>
 
+<p align="justify">
+Entonces para empezar el proyecto se creó un entorno virtual de Python versión 3.9.16 en Anaconda, y se optó por almacenar todas las carpetas VP en una sola carpeta denominada "ECG". Con la finalidad de acceder a los archivos txt se realizó un for que leyera cada carpeta de los sujetos.
+</p>
+
 # 3.Ploteos y análisis<a name="id3"></a>
 
 ## Código empleado - Python
