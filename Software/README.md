@@ -57,6 +57,23 @@ Al haber un total de 57 personas que son tomadas como la muestra, todas los arch
 Entonces para empezar el proyecto se creó un entorno virtual de Python versión 3.9.16 en Anaconda, y se optó por almacenar todas las carpetas VP en una sola carpeta denominada "ECG". Con la finalidad de acceder a los archivos txt se realizó un for que leyera cada carpeta de los sujetos.
 </p>
 
+#### Configuración de Directorios y Archivos
+
+- Definición de Directorios: base_dir y output_dir son definidos para especificar las ubicaciones de los datos de ECG de entrada y donde se guardarán los resultados, respectivamente.
+- Obtención de Carpetas de VP: Se utilizan glob.glob y os.path.join para obtener todas las carpetas de los sujetos VP (por ejemplo, VP01, VP02, etc.) dentro de base_dir.
+
+
+### Procesamiento de Datos por VP
+
+Iteración sobre Carpetas VP: Para cada carpeta VP:
+
+- Creación de Archivo Excel: Se crea un archivo Excel usando pd.ExcelWriter donde se almacenarán los resultados para ese VP específico.
+
+- Lectura de Datos ECG y Triggers: Los datos de la señal ECG (BitalinoECG.txt) y los disparadores (Triggers.txt) se leen en pandas DataFrames. Los datos de ECG se filtran para cada clip definido por los disparadores.
+
+- Creación de Directorios de Salida: Se crea un directorio de salida específico para cada VP dentro de output_dir.
+
+
 # 3.Ploteos y análisis<a name="id3"></a>
 
 ## Código empleado - Python
