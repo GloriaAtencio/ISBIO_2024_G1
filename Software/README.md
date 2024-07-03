@@ -39,7 +39,7 @@ Bibliotecas usadas:
 - Matplotlib
 - PyWavelets
 
-### 2.1. Organización de archivos en VSC 
+### 2.1. Organización y lectura de archivos en VSC 
 
 <p align="justify">
 Al haber un total de 57 personas que son tomadas como la muestra, todas los archivos fueron obtenidos de PhysioNet y al descargarlos se obtuvieron 57 carpetas denominadas VP.Dentro de ellas se encontraban dos archivos txt: BitalinoECG.txt y Triggers.txt. 
@@ -63,7 +63,7 @@ Entonces para empezar el proyecto se creó un entorno virtual de Python versión
 - Obtención de Carpetas de VP: Se utilizan glob.glob y os.path.join para obtener todas las carpetas de los sujetos VP (por ejemplo, VP01, VP02, etc.) dentro de base_dir.
 
 
-### Procesamiento de Datos por VP
+#### Procesamiento de Clips Individuales
 
 Iteración sobre Carpetas VP: Para cada carpeta VP:
 
@@ -73,7 +73,35 @@ Iteración sobre Carpetas VP: Para cada carpeta VP:
 
 - Creación de Directorios de Salida: Se crea un directorio de salida específico para cada VP dentro de output_dir.
 
+### 2.2. Organización y lectura de archivos en VSC
 
+#### Procesamiento de Datos de ECG para Cada Clip (Triggers.txt): 
+
+Filtrado de la Señal ECG: 
+
+Se filtra la señal ECG utilizando la wavelet 'db5' y se reconstruye la señal filtrada. Y para ello se empleó el siguiente código:
+
+```python
+# Apply wavelet filtering with db5
+                signal = clip_data['ECG'].values
+                max_level = pywt.dwt_max_level(len(signal), 'db5')
+                level = min(5, max_level)
+                if len(signal) > 0:
+                    coeffs = pywt.wavedec(signal, 'db5', level=level)
+                    reconstructed_signal = pywt.waverec(coeffs, 'db5')
+                    clip_data['Filtered_ECG'] = reconstructed_signal[:len(signal)]
+
+```
+
+Cálculo del BPM: Utilizando la función calculate_bpm, se calcula el BPM para la señal ECG filtrada.
+
+Visualización y Guardado de Gráficos: Se genera un gráfico de la señal ECG filtrada con el valor de BPM mostrado, y se guarda como una imagen PNG en el directorio de salida del VP.
+
+Almacenamiento en Excel: La señal ECG filtrada se guarda como una hoja de datos en el archivo Excel del VP.
+
+Recopilación de BPMs: Los valores de BPM calculados se agregan a una lista bpm_list junto con el ID del clip.
+
+Cálculo de Métricas de HRV: Se calculan métricas de HRV utilizando los intervalos RR obtenidos del cálculo del BPM.
 # 3.Ploteos y análisis<a name="id3"></a>
 
 ## Código empleado - Python
