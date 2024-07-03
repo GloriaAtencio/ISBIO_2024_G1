@@ -219,6 +219,14 @@ def calculate_hrv_metrics(rr_intervals):
 
 ```
 
+<div align="center">
+<h2> Finalización del Procesamiento </h2>
+</div>
+
+<p align="justify">
+Finalmente, todos los BPMs calculados se escriben en una hoja de cálculo 'BPM-CLIPS', se clasifican en categorías de fobia, y se agregan métricas de HRV en hojas de cálculo separadas dentro del archivo Excel del VP.Y se imprime un mensaje indicando la finalización del procesamiento para cada VP y al final se indica que todos los VPs han sido procesados. 
+</p>
+
 # 3.Ploteos y análisis<a name="id3"></a>
 
 ## Código empleado - Python
