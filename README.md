@@ -3,7 +3,7 @@
 <h1 align="center">Classification of Phobia Levels in Patients with Arachnophobia Using BPM Analysis of ECG Signals / Clasificación de Niveles de Fobia en Pacientes con Aracnofobia mediante Análisis de BPM de Señales ECG</h1>
 
 <p align="justify">
-<strong>Resumen</strong>
+<strong>Resumen:</strong>
 </p>
 
 <p align="justify">
@@ -11,7 +11,7 @@ Este estudio propone un método para clasificar con precisión los niveles de fo
 </p>
 
 <p align="justify">
-<strong>Motivación</strong>
+<strong>Motivación:</strong>
 </p>
 
 <p align="justify">
@@ -19,7 +19,7 @@ Los trastornos de ansiedad, incluidos los específicos como la aracnofobia, repr
 </p>
 
 <p align="justify">
-<strong>Principales hallazgos</strong>
+<strong>Principales hallazgos:</strong>
 </p>
 
 <p align="justify">
@@ -34,10 +34,11 @@ Los trastornos de ansiedad, incluidos los específicos como la aracnofobia, repr
 </p>
 
 <p align="justify">
-<strong>Enlaces de interés</strong>
+<strong>Enlaces de interés:</strong>
 </p>
 
-
+- [Entregable 1 - Información del equipo](#)
+- [Enlace a PapersWithCode](https://paperswithcode.com/)
 
 
 
