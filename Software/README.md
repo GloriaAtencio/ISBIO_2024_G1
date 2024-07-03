@@ -141,7 +141,42 @@ Se genera un gráfico de la señal ECG filtrada con el valor de BPM mostrado, y 
 La señal ECG filtrada se guarda como una hoja de datos en el archivo Excel del VP correspondiente. Simultáneamente, los valores de BPM calculados para cada clip se agregan a una lista denominada bpm_list, acompañados del ID del clip respectivo, para un seguimiento organizado y para facilitar la clasificación posterior.
 </p>
 
-Cálculo de Métricas de HRV: Se calculan métricas de HRV utilizando los intervalos RR obtenidos del cálculo del BPM.
+<div align="center">
+<h2> Cálculo de Métricas de HRV </h2>
+</div>
+
+<p align="justify">
+En el paso de calcular métricas HRV (variabilidad de la frecuencia cardíaca), se siguen los siguientes procedimientos:
+</p>
+
+
+<p align="justify">
+- Filtrado de Intervalos RR: Los intervalos RR (intervalos de tiempo entre latidos consecutivos) se convierten a un array de NumPy para facilitar el cálculo. Luego, se eliminan los intervalos RR que son cero o negativos, ya que estos valores no son válidos para el análisis de HRV.
+</p>
+
+
+### Cálculo de Métricas Básicas:
+
+<p align="justify">
+- Intervalos NN: Se consideran los intervalos RR como intervalos NN (normal a normal).
+</p>
+
+<p align="justify">
+- Media y Desviación Estándar de los Intervalos RR: Se calcula la media (rr_mean) y la desviación estándar (rr_std) de los intervalos RR.
+</p>
+
+<p align="justify">
+- Media y Desviación Estándar de la Frecuencia Cardíaca: La frecuencia cardíaca media (hr_mean) se calcula como 60 dividido por la media de los intervalos RR (esto convierte los intervalos en frecuencia en latidos por minuto). La desviación estándar de la frecuencia cardíaca (hr_std) se obtiene calculando la frecuencia cardíaca para cada intervalo RR y luego hallando su desviación estándar.
+</p>
+
+<p align="justify">
+- Cálculo del RMSSD: La raíz cuadrada de la media de las diferencias cuadráticas sucesivas (rmssd) se calcula a partir de las diferencias entre intervalos RR consecutivos. Este es un indicador común de la variabilidad de la frecuencia cardíaca.
+</p>
+
+<p align="justify">
+Las métricas calculadas (intervalos NN, media y desviación estándar de los intervalos RR, media y desviación estándar de la frecuencia cardíaca, y RMSSD) se devuelven como un diccionario.
+</p>
+
 # 3.Ploteos y análisis<a name="id3"></a>
 
 ## Código empleado - Python
