@@ -73,9 +73,7 @@ Iteración sobre Carpetas VP: Para cada carpeta VP:
 
 - Creación de Directorios de Salida: Se crea un directorio de salida específico para cada VP dentro de output_dir.
 
-### 2.2. Organización y lectura de archivos en VSC
-
-#### Procesamiento de Datos de ECG para Cada Clip (Triggers.txt): 
+### 2.2. Procesamiento de Datos de ECG para Cada Clip (Triggers.txt)
 
 <div align="center">
 <h2> Filtrado de la Señal ECG </h2>
