@@ -6,7 +6,7 @@
 1. [Introducción](#id1)
 2. [Procedimiento](#id2)
 3. [Ploteos y análisis](#id3)
-4. [Resultados](#id5)
+4. [Resultados](#id4)
 5. [Referencias bibliográficas](#id6) 
 
 ***
@@ -17,3 +17,29 @@
 
 ## Objetivo:
 
+
+</p>
+
+# 2.Procedimiento<a name="id2"></a>
+
+### Materiales
+
+
+# 3.Ploteos y análisis<a name="id3"></a>
+
+## Código empleado - Python
+
+```python
+
+
+
+
+
+```
+
+# 4.Resultados<a name="id4"></a>
+
+
+
+
+# 5.Referencias bibliográficas<a name="id5"></a>
