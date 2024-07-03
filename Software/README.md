@@ -77,8 +77,9 @@ Iteración sobre Carpetas VP: Para cada carpeta VP:
 
 #### Procesamiento de Datos de ECG para Cada Clip (Triggers.txt): 
 
-Filtrado de la Señal ECG: 
-
+<div align="center">
+<h2> Filtrado de la Señal ECG </h2>
+</div>
 Se filtra la señal ECG utilizando la wavelet 'db5' y se reconstruye la señal filtrada. Y para ello se empleó el siguiente código:
 
 ```python
