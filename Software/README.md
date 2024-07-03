@@ -6,7 +6,7 @@
 1. [Introducción](#id1)
 2. [Procedimiento](#id2)
 3. [Ploteos](#id3)
-4. [Resultados](#id4)
+4. [Interfaz](#id4)
 5. [Referencias bibliográficas](#id6) 
 
 ***
@@ -276,7 +276,7 @@ Finalmente, todos los BPMs calculados se escriben en una hoja de cálculo 'BPM-C
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/630cc2e8-1536-4d8e-8fe7-aa2dd0424c59" alt="fotog" width="860" height="400"/>
 </p>
-<p align="center"><i>Figura 1. Plot ECG del CLIP-1 VP02 (ECG)</i></p><br>
+<p align="center"><i>Figura 1. Plot ECG del CLIP-1 VP02 </i></p><br>
 
 - Señal ECG Filtrada: La señal ECG después de aplicar el filtrado wavelet (db5).
 - Tiempo en Segundos: Eje x que representa el tiempo transcurrido en segundos.
@@ -284,9 +284,30 @@ Finalmente, todos los BPMs calculados se escriben en una hoja de cálculo 'BPM-C
   
 Cada clip de ECG tiene su propio gráfico que se guarda en un archivo PNG. Estos gráficos proporcionan una visualización clara de la señal ECG filtrada junto con el BPM, facilitando el análisis y la interpretación de los datos.
 
-# 4.Resultados<a name="id4"></a>
+# 4.Interfaz<a name="id4"></a>
 
+<p align="justify">
+La interfaz de usuario, desarrollada utilizando tkinter, proporciona una plataforma interactiva para que los usuarios seleccionen un participante (VP) y un ID de clip, y realicen diferentes acciones:
+</p>
 
+- Selección de Participante (VP): Un cuadro de selección permite al usuario elegir un VP de una lista de carpetas de participantes disponibles.
+- Selección de Clip: Basado en el VP seleccionado, otro cuadro de selección se actualiza para mostrar los IDs de clips disponibles para ese VP.
+
+### Botones de Acción:
+  
+1. Plot ECG: Visualiza la señal de ECG filtrada para el clip seleccionado.
+1. Plot BPM: Muestra la gráfica de BPM versus ID de clip para el VP seleccionado.
+1. Clasificación: Muestra la clasificación de fobia para el clip seleccionado en un cuadro de texto.
+1. HRV Metrics: Presenta las métricas de HRV para el VP seleccionado.
+
+<p align="justify">
+La integración de FigureCanvasTkAgg permite que las figuras generadas por matplotlib se muestren dentro de la interfaz de tkinter, proporcionando una experiencia de usuario cohesiva y fácil de usar.
+</p>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2c6b6b20-29d8-4446-bd55-f66102bb8fa9" alt="fotog" width="860" height="400"/>
+</p>
+<p align="center"><i>Figura 2. Interfaz de usuario </i></p><br>
 
 
 # 5.Referencias bibliográficas<a name="id5"></a>
