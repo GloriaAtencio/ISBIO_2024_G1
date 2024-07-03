@@ -91,14 +91,55 @@ Se filtra la señal ECG utilizando la wavelet 'db5' y se reconstruye la señal f
                     clip_data['Filtered_ECG'] = reconstructed_signal[:len(signal)]
 
 ```
+<div align="center">
+<h2> Cálculo del BPM </h2>
+</div> 
 
-Cálculo del BPM: Utilizando la función calculate_bpm, se calcula el BPM para la señal ECG filtrada.
+Se utilizó la función calculate_bpm que nos permitió calcular el BPM para la señal ECG filtrada.
 
-Visualización y Guardado de Gráficos: Se genera un gráfico de la señal ECG filtrada con el valor de BPM mostrado, y se guarda como una imagen PNG en el directorio de salida del VP.
+```python
+def calculate_bpm(ecg_signal, fs):
+    # Normalización de la señal ECG (opcional)
+    ecg_signal_norm = (ecg_signal - np.mean(ecg_signal)) / np.std(ecg_signal)
 
-Almacenamiento en Excel: La señal ECG filtrada se guarda como una hoja de datos en el archivo Excel del VP.
+    # Detección de picos R usando find_peaks
+    peaks, _ = find_peaks(ecg_signal_norm, distance=int(fs * 0.6))
 
-Recopilación de BPMs: Los valores de BPM calculados se agregan a una lista bpm_list junto con el ID del clip.
+    # Calcular intervalos RR (en segundos)
+    rr_intervals = np.diff(peaks) / fs
+
+    # Calcular el promedio de los intervalos RR
+    mean_rr_interval = np.mean(rr_intervals)
+
+    # Calcular el BPM
+    bpm = 60 / mean_rr_interval
+
+    return bpm, rr_intervals
+
+```
+<div align="center">
+<h2> Visualización y Guardado de Gráficos </h2>
+</div>
+
+Se genera un gráfico de la señal ECG filtrada con el valor de BPM mostrado, y se guarda como una imagen PNG en el directorio de salida del VP.
+
+```python
+                    plt.figure(figsize=(10, 4))
+                    plt.plot(clip_data['Seconds'], clip_data['Filtered_ECG'], label='Filtered ECG (db5)')
+                    plt.xlabel('Time (s)')
+                    plt.ylabel('ECG (mV)')
+                    plt.title(f'ECG Signal with db5 Wavelet Filter for {clip_id}')
+                    plt.legend()
+                    plt.grid(True)
+                    plt.text(0.95, 0.95, f'BPM: {float(bpm):.2f}', transform=plt.gca().transAxes, fontsize=14, ha='right', va='top',
+                             bbox=dict(facecolor='white', edgecolor='black', boxstyle='round,pad=0.5'))
+                    output_file = os.path.join(vp_output_dir, f'{clip_id}_ecg_plot_with_db5_filter.png')
+                    plt.savefig(output_file)
+                    plt.close()
+```
+<p align="justify">
+La señal ECG filtrada se guarda como una hoja de datos en el archivo Excel del VP correspondiente. Simultáneamente, los valores de BPM calculados para cada clip se agregan a una lista denominada bpm_list, acompañados del ID del clip respectivo, para un seguimiento organizado y para facilitar la clasificación posterior.
+</p>
 
 Cálculo de Métricas de HRV: Se calculan métricas de HRV utilizando los intervalos RR obtenidos del cálculo del BPM.
 # 3.Ploteos y análisis<a name="id3"></a>
