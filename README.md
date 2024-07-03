@@ -4,57 +4,24 @@
 
 # Classification of Phobia Levels in Patients with Arachnophobia Using BPM Analysis of ECG Signals / Clasificación de Niveles de Fobia en Pacientes con Aracnofobia mediante Análisis de BPM de Señales ECG
 
-**Repositorio del curso**
-**Integrantes:**
+<h1 align="center">Classification of Phobia Levels in Patients with Arachnophobia Using BPM Analysis of ECG Signals / Clasificación de Niveles de Fobia en Pacientes con Aracnofobia mediante Análisis de BPM de Señales ECG</h1>
 
-- Jennyfer Arantxa Arismendiz Millones(colaborador)- jennyfer.arismendiz@upch.pe
-- Gloria Elvira Atencio Inga (colaborador) - gloria.atencio@upch.pe
-- Raul Ricardo Gonzales Rodriguez (colaborador) - raul.gonzales@upch.pe
-- Jhoana Olenka Rodriguez Diaz (colaborador)- jhoana.rodriguez@upch.pe
+## Resumen (español)
 
-¡Bienvenidos! Somos el Grupo 1 del curso de Introducción a Señales Biomédicas. Nos apasiona el estudio de las señales EKG y estamos emocionados de compartir nuestro proyecto, 
-donde exploramos en profundidad este fascinante campo. ¡Acompáñennos en este viaje hacia el corazón de la investigación biomédica! 
-# **Tabla de Contenidos**
+Este estudio propone un método para clasificar con precisión los niveles de fobia en pacientes con aracnofobia mediante análisis de señales de electrocardiograma (ECG). Se utilizaron indicadores clave como la frecuencia cardíaca (BPM) y la variabilidad de la frecuencia cardíaca (HRV) para medir objetivamente las respuestas de fobia. Se analizaron datos de 80 sujetos expuestos a videoclips que inducían una respuesta fisiológica, lo que demuestra el potencial de las señales de ECG para la evaluación cuantitativa de los niveles de fobia. Los análisis estadísticos, incluidos ANOVA y diagramas de caja, revelaron diferencias significativas en BPM entre distintos niveles de fobia, lo que sugiere la eficacia de intervenciones terapéuticas personalizadas.
 
-- [Software](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/3468bb7de931ad5452c2d849ad1b59235bf833e9/Software/README.md)
-- [Hardware](https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/88ea285f55a6b83c64fac522f264f6dcfba4500a/Hardware/README.md)
-- [Laboratorios](https://github.com/GloriaAtencio/ISBIO_2024_G1/tree/8082ee20b9bea70a50004c766c3942b715403986/ISB/Laboratorios)
+## Motivación (español)
 
-  
+Los trastornos de ansiedad, incluidos los específicos como la aracnofobia, representan un desafío significativo para la salud mental a nivel global. Las técnicas actuales de evaluación y tratamiento dependen principalmente de autorreportes y observación conductual, lo que puede limitar la precisión y objetividad en la medición de las respuestas de ansiedad. Este proyecto busca abordar estas limitaciones mediante el uso de señales de ECG para proporcionar una evaluación cuantitativa y objetiva de los niveles de fobia. La capacidad de medir con precisión la respuesta fisiológica al estrés puede mejorar significativamente la personalización y eficacia de las intervenciones terapéuticas.
 
-# Acerca de nosotros:
-# **Gloria Elvira Atencio Inga**
-Estudiante de 8vo ciclo de la carrera de Ingeniería Biomédica PUCP-UPCH, mi área de interes es la ingenieria clínica y la ingeniería de tejidos.  Mi pasión por este campo se centra en la creación y ejecución de soluciones innovadoras que puedan mejorar la atención médica y contribuir al avance tecnológico en el sector de la salud. Correo personal: gloria.atencio@upch.pe
+## Principales hallazgos (español)
 
-<p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7695003f7c5745627517a70e5f102b08bc000a73/ISB/Laboratorios/Im%C3%A1genes/gloria.jpeg" alt="fotog" width="220" height="300"/>
-</p>
+- Se desarrolló un método analítico basado en el análisis de señales ECG para la detección precisa del nivel de fobia en pacientes con aracnofobia.
+- Indicadores clave como la frecuencia cardíaca (BPM) y la variabilidad de la frecuencia cardíaca (HRV) demostraron ser efectivos para medir objetivamente las respuestas de fobia.
+- Análisis estadísticos como ANOVA y diagramas de caja revelaron diferencias significativas en BPM entre los distintos niveles de fobia.
+- Los hallazgos sugieren que el uso de señales ECG puede mejorar la precisión y personalización de las intervenciones terapéuticas para pacientes con fobias específicas.
 
-# **Jennyfer Arantxa Arismendiz Millones**
-Estudiante del 7mo ciclo de la carrera de Ingeniería Biomédica PUCP-UCH, mis principales enfoques son las ramas de biomateriales e ingeniería clínica. Asimismo, muestro gran interés en el proceso de creación junto con desarrollo de proyectos innovadores que apoyan el campo médico.Correo personal: jennyfer.arismendiz@upch.pe
-
-<p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/c75a93dcae04ca98859a32ce6607a687367f8f1c/ISB/Laboratorios/Im%C3%A1genes/jennyfer.jfif" alt="fotoj" width="220" height="300"/>
-</p>
-
-
-
-# **Jhoana Olenka Rodriguez Diaz**
-Estudiante de la carrera de Ingeniería Biomédica que cursa su octavo ciclo y desea especializarse en las ramas de Ingeniería clínica e Imagenes.Me gusta la planificación de proyectos relacionados a los temas mencionados y también he sido partícipe sobre la creación de plantillas para pacientes de pie Diabetico Correo personal: rodriguezjhoana2802@gmail.com
-<p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7c46f4abf9e440b3e63399c05ce4b10e6d902a62/ISB/Laboratorios/Im%C3%A1genes/jhoana.jpg" alt="fotog" width="220" height="300"/>
-</p>
-
-
-# **Raul Ricardo Gonzales Rodriguez**
-Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se centra en aplicar los principios de la ingeniería , sobretodo en mi área de interés en Ingeniería Clinica; particularmente en investigación en gestión tecnológica y  metrología biomédica. Considero tener habilidades analíticas y críticas al momento de trabajar en equipo. Correo personal: raul.gonzales@upch.pe
-<p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/blob/7c46f4abf9e440b3e63399c05ce4b10e6d902a62/ISB/Laboratorios/Im%C3%A1genes/raul.jpg" alt="fotog" width="220" height="300"/>
-</p>
-
-**Referencia de la imagen:**
-- [1]starline, Medical science and healthcare background with heartbeat line. Accessed: Apr. 03, 2024. [Online]. Disponible en: https://img.freepik.com/free-vector/medical-science-healthcare-background-with-heartbeat-line_1017-26361.jpg?w=1060&t=st=1712145478~exp=1712146078~hmac=18057428fc7c94b25f3669be26afe4de9e927771881bbda487511c12e3dec01d
-
+## Enlaces de interés
   
 
 
