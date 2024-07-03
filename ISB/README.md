@@ -77,6 +77,6 @@ Estudiante de 7mo ciclo de la carrera de Ingeniería Biomédica. Mi enfoque se c
 ## Jefes de Prácticas
 - Julissa Elvira Venancio Huerta (julissa.venancio@upch.pe)
 - Jose Alonso Cáceres del Aguila (jose.caceres.d@upch.pe)
-=======
+
 
 
