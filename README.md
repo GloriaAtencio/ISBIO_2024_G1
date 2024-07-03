@@ -23,6 +23,7 @@ Los trastornos de ansiedad, incluidos los específicos como la aracnofobia, repr
 </p>
 
 <p align="justify">
+  
 - Se desarrolló un método analítico basado en el análisis de señales ECG para la detección precisa del nivel de fobia en pacientes con aracnofobia.
   
 - Indicadores clave como la frecuencia cardíaca (BPM) y la variabilidad de la frecuencia cardíaca (HRV) demostraron ser efectivos para medir objetivamente las respuestas de fobia.
