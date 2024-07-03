@@ -177,6 +177,48 @@ En el paso de calcular métricas HRV (variabilidad de la frecuencia cardíaca), 
 Las métricas calculadas (intervalos NN, media y desviación estándar de los intervalos RR, media y desviación estándar de la frecuencia cardíaca, y RMSSD) se devuelven como un diccionario.
 </p>
 
+```python
+
+def calculate_hrv_metrics(rr_intervals):
+    rr_intervals = np.array(rr_intervals)
+    
+    # Filter out zero or negative RR intervals
+    rr_intervals = rr_intervals[rr_intervals > 0]
+    
+    if len(rr_intervals) == 0:
+        raise ValueError("RR intervals contain zero or negative values only.")
+    
+    # NN (Normal-to-Normal) intervals
+    nn_intervals = rr_intervals
+    
+    # Mean of RR intervals
+    rr_mean = np.mean(rr_intervals)
+    
+    # Standard deviation of RR intervals
+    rr_std = np.std(rr_intervals)
+    
+    # Heart rate mean (HR mean)
+    hr_mean = 60 / rr_mean if rr_mean != 0 else np.nan  # HR mean in beats per minute (1/min)
+    
+    # Heart rate standard deviation (HR std)
+    hr_values = 60 / rr_intervals
+    hr_std = np.std(hr_values)
+    
+    # RMSSD (Root Mean Square of Successive Differences)
+    diff_intervals = np.diff(rr_intervals)
+    rmssd = np.sqrt(np.mean(diff_intervals ** 2))
+
+    return {
+        'NN': nn_intervals,
+        'RR mean': rr_mean,
+        'RR std': rr_std,
+        'HR mean': hr_mean,
+        'HR std': hr_std,
+        'RMSSD': rmssd,
+    }
+
+```
+
 # 3.Ploteos y análisis<a name="id3"></a>
 
 ## Código empleado - Python
