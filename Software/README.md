@@ -5,7 +5,7 @@
 # **Tabla de contenidos**
 1. [Introducción](#id1)
 2. [Procedimiento](#id2)
-3. [Ploteos y análisis](#id3)
+3. [Ploteos](#id3)
 4. [Resultados](#id4)
 5. [Referencias bibliográficas](#id6) 
 
@@ -227,17 +227,26 @@ def calculate_hrv_metrics(rr_intervals):
 Finalmente, todos los BPMs calculados se escriben en una hoja de cálculo 'BPM-CLIPS', se clasifican en categorías de fobia, y se agregan métricas de HRV en hojas de cálculo separadas dentro del archivo Excel del VP.Y se imprime un mensaje indicando la finalización del procesamiento para cada VP y al final se indica que todos los VPs han sido procesados. 
 </p>
 
-# 3.Ploteos y análisis<a name="id3"></a>
+# 3.Ploteos <a name="id3"></a>
 
-## Código empleado - Python
+<p align="justify">
+ Se realizan varios ploteos específicos de la señal ECG filtrada, incluyendo los valores de BPM y los intervalos de tiempo correspondientes a cada clip.
+</p>
 
-```python
+<div align="center">
+<h2> Ploteo de la señal ECG filtrada de cada Clip por cada sujeto</h2>
+</div>
 
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/630cc2e8-1536-4d8e-8fe7-aa2dd0424c59" alt="fotog" width="460" height="400"/>
+</p>
+<p align="center"><i>Figura 1. Plot ECG del CLIP-1 VP02 (ECG)</i></p><br>
 
-
-
-
-```
+- Señal ECG Filtrada: La señal ECG después de aplicar el filtrado wavelet (db5).
+- Tiempo en Segundos: Eje x que representa el tiempo transcurrido en segundos.
+- BPM: El valor de los latidos por minuto calculado, mostrado como un texto en el gráfico.
+- 
+Cada clip de ECG tiene su propio gráfico que se guarda en un archivo PNG. Estos gráficos proporcionan una visualización clara de la señal ECG filtrada junto con el BPM, facilitando el análisis y la interpretación de los datos.
 
 # 4.Resultados<a name="id4"></a>
 
