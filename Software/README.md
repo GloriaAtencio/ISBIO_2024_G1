@@ -136,7 +136,7 @@ def calculate_bpm(ecg_signal, fs):
 ```
 
 <p align="center">
-  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0095d72b-c9ad-4d40-b474-c39394e717cf" alt="fotog" width="860" height="900"/>
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0095d72b-c9ad-4d40-b474-c39394e717cf" alt="fotog" width="860" height="400"/>
 </p>
 <p align="center"><i>Figura 3. Picos R detectados </i></p><br>
 
