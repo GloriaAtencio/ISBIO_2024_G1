@@ -134,6 +134,13 @@ def calculate_bpm(ecg_signal, fs):
     return bpm, rr_intervals
 
 ```
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/0095d72b-c9ad-4d40-b474-c39394e717cf" alt="fotog" width="860" height="900"/>
+</p>
+<p align="center"><i>Figura 3. Picos R detectados </i></p><br>
+
+
 <div align="center">
 <h2> Clasificación de nivel de fobia mediante BPM </h2>
 </div> 
@@ -294,7 +301,7 @@ Finalmente, todos los BPMs calculados se escriben en una hoja de cálculo 'BPM-C
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/630cc2e8-1536-4d8e-8fe7-aa2dd0424c59" alt="fotog" width="860" height="400"/>
 </p>
-<p align="center"><i>Figura 1. Plot ECG del CLIP-1 VP02 </i></p><br>
+<p align="center"><i>Figura 4. Plot ECG del CLIP-1 VP02 </i></p><br>
 
 - Señal ECG Filtrada: La señal ECG después de aplicar el filtrado wavelet (db5).
 - Tiempo en Segundos: Eje x que representa el tiempo transcurrido en segundos.
@@ -325,14 +332,14 @@ La integración de FigureCanvasTkAgg permite que las figuras generadas por matpl
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/2c6b6b20-29d8-4446-bd55-f66102bb8fa9" alt="fotog" width="760" height="300"/>
 </p>
-<p align="center"><i>Figura 2. Interfaz de usuario </i></p><br>
+<p align="center"><i>Figura 5. Interfaz de usuario </i></p><br>
 
 
 
 <p align="center">
   <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/837872f6-1ae6-4b0e-a975-c749c9bdb872" alt="fotog" width="760" height="500"/>
 </p>
-<p align="center"><i>Figura 3. Test de interfaz de usuario </i></p><br>
+<p align="center"><i>Figura 6. Test de interfaz de usuario </i></p><br>
 
 # 5.Referencias bibliográficas<a name="id5"></a>
 <p align="justify">
