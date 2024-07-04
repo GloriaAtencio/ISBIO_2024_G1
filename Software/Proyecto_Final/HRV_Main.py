@@ -12,30 +12,21 @@ plt.switch_backend('Agg')
 
 # Base directory where VP folders are located
 base_dir = r'C:\Proyecto final\ECG'  # Usar r'' para raw strings para evitar problemas con las barras invertidas
-output_dir = r'C:\Proyecto final\RESULTADOS_COMPLETOS'
+output_dir = r'C:\Proyecto final\RESULTADOS_CORREGIDOS'
 
 # Get all VP folders
 vp_folders = glob.glob(os.path.join(base_dir, 'VP*'))
 
-# Function to classify BPM into categories
-def classify_bpm(bpm_values, triggers_df):
-    # Calculate thresholds
-    sorted_bpms = sorted(bpm_values)
-    high_threshold = np.mean(sorted_bpms[-3:])  # Average of top 3 highest BPMs
-    low_threshold = np.mean(sorted_bpms[:3])    # Average of bottom 3 lowest BPMs
-
-    # Classify based on thresholds
-    categories = []
-    for bpm, clip_id in zip(bpm_values, triggers_df['ClipID']):
-        if clip_id == 'BIOFEEDBACK-REST':
-            categories.append('fobia nula detectada')
-        elif bpm >= high_threshold:
-            categories.append('alta fobia detectada')
-        elif bpm <= low_threshold:
-            categories.append('baja fobia detectada')
-        else:
-            categories.append('fobia moderada detectada')
-    return categories
+# Function to classify based on HR and HRV
+def classify_fobia(hr, hrv, clip_id):
+    if clip_id == 'BIOFEEDBACK-REST':
+        return 'fobia nula detectada'
+    elif hr > high_threshold_hr and hrv < low_threshold_hrv:
+        return 'alta fobia detectada'
+    elif hr < low_threshold_hr and hrv > high_threshold_hrv:
+        return 'baja fobia detectada'
+    else:
+        return 'fobia moderada detectada'
 
 # Function to calculate HRV metrics
 def calculate_hrv_metrics(rr_intervals):
@@ -76,6 +67,12 @@ def calculate_hrv_metrics(rr_intervals):
         'RMSSD': rmssd,
     }
 
+
+high_threshold_hr = 80  # threshold for high HR
+low_threshold_hr = 75   #  threshold for low HR
+high_threshold_hrv = 100  # threshold for high HRV
+low_threshold_hrv = 50    # threshold for low HRV
+
 # Iterate over each VP folder
 for vp_folder in vp_folders:
     output_excel = os.path.join(output_dir, f'ECG_Clips_{os.path.basename(vp_folder)}.xlsx')
@@ -99,11 +96,9 @@ for vp_folder in vp_folders:
             vp_output_dir = os.path.join(output_dir, vp_id)
             os.makedirs(vp_output_dir, exist_ok=True)
 
-            # List to store all BPMs
+            # List to store all BPMs and HRV metrics
             bpm_list = []
-
-            # List to store highest BPM and its Clip ID
-            highest_bpm_clip = {'BPM': -1, 'ClipID': None}
+            hrv_list = []
 
             # Processing ECG data for each clip and saving in Excel
             for idx, row in triggers.iterrows():
@@ -127,6 +122,25 @@ for vp_folder in vp_folders:
                     # Calculate BPM using calculate_bpm function
                     bpm, rr_intervals = calculate_bpm(clip_data['Filtered_ECG'].values, fs=100)
 
+                    # Calculate HRV metrics using the rr_intervals from calculate_bpm
+                    hrv_metrics = calculate_hrv_metrics(rr_intervals)
+
+                    # Separate NN intervals from other HRV metrics
+                    nn_intervals = hrv_metrics.pop('NN')
+
+                    # Classify fobia level based on HR and HRV
+                    fobia_level = classify_fobia(hrv_metrics['HR mean'], hrv_metrics['RMSSD'], clip_id)
+
+                    # Add BPM and HRV metrics to lists
+                    bpm_list.append({'ClipID': clip_id, 'BPM': bpm})
+                    hrv_list.append({
+                        'ClipID': clip_id,
+                        'HR mean': hrv_metrics['HR mean'],
+                        'HR std': hrv_metrics['HR std'],
+                        'RMSSD': hrv_metrics['RMSSD'],
+                        'Fobia Categoría': fobia_level
+                    })
+
                     # Plot data with BPM value
                     plt.figure(figsize=(10, 4))
                     plt.plot(clip_data['Seconds'], clip_data['Filtered_ECG'], label='Filtered ECG (db5)')
@@ -145,23 +159,6 @@ for vp_folder in vp_folders:
                     sheet_name = f'{clip_id}_filtered'
                     clip_data[['Filtered_ECG', 'Seconds']].to_excel(writer, sheet_name=sheet_name[:31], index=False)
 
-                    # Add BPM to list
-                    bpm_list.append({'ClipID': clip_id, 'BPM': bpm})
-
-                    # Check and update highest BPM
-                    if bpm > highest_bpm_clip['BPM']:
-                        highest_bpm_clip['BPM'] = bpm
-                        highest_bpm_clip['ClipID'] = clip_id
-
-                    print(f"Processing, plotting, and Excel file with db5 filter for {clip_id} completed and saved.")
-                    print(f"BPM calculated for {clip_id}: {bpm}")
-
-                    # Calculate HRV metrics using the rr_intervals from calculate_bpm
-                    hrv_metrics = calculate_hrv_metrics(rr_intervals)
-
-                    # Separate NN intervals from other HRV metrics
-                    nn_intervals = hrv_metrics.pop('NN')
-
                     # Add HRV metrics to a new sheet in Excel
                     hrv_df = pd.DataFrame(hrv_metrics, index=[0])
                     hrv_df.to_excel(writer, sheet_name=f'HRV-Metrics-{clip_id[:31]}', index=False)
@@ -177,13 +174,10 @@ for vp_folder in vp_folders:
                 bpm_df = pd.DataFrame(bpm_list)
                 bpm_df.to_excel(writer, sheet_name='BPM-CLIPS', index=False)
 
-                # Classify BPMs into categories
-                bpm_values = bpm_df['BPM'].tolist()
-                categories = classify_bpm(bpm_values, triggers)  # Pass triggers dataframe to classify_bpm
-
-                # Add categories to a new sheet in Excel
-                category_data = pd.DataFrame({'ClipID': bpm_df['ClipID'], 'Fobia Categoría': categories})
-                category_data.to_excel(writer, sheet_name='Fobia-Categoría', index=False)
+            # Write all HRV metrics in HRV-CLIPS sheet
+            if hrv_list:
+                hrv_df = pd.DataFrame(hrv_list)
+                hrv_df.to_excel(writer, sheet_name='HRV-CLIPS', index=False)
 
             print(f"Processing complete for {vp_id}.")
 
