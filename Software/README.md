@@ -101,6 +101,13 @@ Se filtra la señal ECG utilizando la wavelet 'db5' y se reconstruye la señal f
                     clip_data['Filtered_ECG'] = reconstructed_signal[:len(signal)]
 
 ```
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/9545dc2e-cd62-4d6f-bf0f-4356629535bb" alt="fotog" width="860" height="900"/>
+</p>
+<p align="center"><i>Figura 2. Niveles de detalle y aproximación </i></p><br>
+
+
 <div align="center">
 <h2> Cálculo del BPM </h2>
 </div> 
