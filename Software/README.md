@@ -77,6 +77,17 @@ Iteración sobre Carpetas VP: Para cada carpeta VP:
 <div align="center">
 <h2> Filtrado de la Señal ECG </h2>
 </div>
+
+<p align="justify">
+Con la finalidad de saber si sería necesario aplicar un filtro notch se realizó el ploteo de la DFT de las señales para verificar si había ruido eléctrico presente en las señales, lo cual al observar el plot concluímos que no había ruido eléctrico y es por ello que no se aplicó  un filtro notch.
+</p>
+
+<p align="center">
+  <img src="https://github.com/GloriaAtencio/ISBIO_2024_G1/assets/164522281/97cd7dd7-748b-4d54-8653-4f171e0c881e" alt="fotog" width="860" height="400"/>
+</p>
+<p align="center"><i>Figura 1. DFT de la señal ECG del CLIP-1 VP02 </i></p><br>
+
+
 Se filtra la señal ECG utilizando la wavelet 'db5' y se reconstruye la señal filtrada. Y para ello se empleó el siguiente código:
 
 ```python
