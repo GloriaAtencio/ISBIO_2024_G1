@@ -12,7 +12,7 @@ plt.switch_backend('Agg')
 
 # Base directory where VP folders are located
 base_dir = r'C:\Proyecto final\ECG'  # Usar r'' para raw strings para evitar problemas con las barras invertidas
-output_dir = r'C:\Proyecto final\RESULTADOS_CORREGIDOS'
+output_dir = r'C:\Proyecto final\Final Results'
 
 # Get all VP folders
 vp_folders = glob.glob(os.path.join(base_dir, 'VP*'))
@@ -58,20 +58,23 @@ def calculate_hrv_metrics(rr_intervals):
     diff_intervals = np.diff(rr_intervals)
     rmssd = np.sqrt(np.mean(diff_intervals ** 2))
 
+    # Convert RMSSD to milliseconds
+    rmssd_ms = rmssd * 1000
+
     return {
         'NN': nn_intervals,
         'RR mean': rr_mean,
         'RR std': rr_std,
         'HR mean': hr_mean,
         'HR std': hr_std,
-        'RMSSD': rmssd,
+        'RMSSD': rmssd_ms,  # Return RMSSD in milliseconds
     }
 
-
+# Thresholds for HR and HRV
 high_threshold_hr = 80  # threshold for high HR
-low_threshold_hr = 75   #  threshold for low HR
-high_threshold_hrv = 100  # threshold for high HRV
-low_threshold_hrv = 50    # threshold for low HRV
+low_threshold_hr = 75   # threshold for low HR
+high_threshold_hrv = 60  # threshold for high HRV
+low_threshold_hrv = 30   # threshold for low HRV
 
 # Iterate over each VP folder
 for vp_folder in vp_folders:
@@ -166,6 +169,10 @@ for vp_folder in vp_folders:
                     # Add NN intervals to a separate sheet
                     nn_df = pd.DataFrame({'NN intervals': nn_intervals})
                     nn_df.to_excel(writer, sheet_name=f'NN-Intervals-{clip_id[:31]}', index=False)
+
+                    # Print RMSSD for verification
+                    print(f"RMSSD (ms) for {clip_id}: {hrv_metrics['RMSSD']:.2f} ms")
+
                 else:
                     print(f"Empty ECG signal for clip {clip_id}, skipping processing.")
 
